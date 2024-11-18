@@ -1,0 +1,1288 @@
+{
+  "contact": {
+    "title": "Contact Us",
+    "name": "Your Name",
+    "namePlaceholder": "Enter your name",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email address",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+90",
+    "project": "Which project are you interested in?",
+    "projectPlaceholder": "Select a project",
+    "unitType": "Preferred Unit Type",
+    "unitTypePlaceholder": "Select a unit type",
+    "message": "Your Message",
+    "messagePlaceholder": "Enter your question or comment",
+    "languageSelect": "Select your preferred languages:",
+    "english": "English",
+    "turkish": "Turkish",
+    "arabic": "Arabic",
+    "appointment": "I would like to book a consultation appointment (optional)",
+    "appointmentDate": "Select Appointment Date and Time",
+    "selectDate": "Choose Date and Time",
+    "acceptMarketing": "I agree to receive marketing messages (optional)",
+    "privacyPolicy": "I accept the Privacy Policy",
+    "submit": "Send Message",
+    "phoneError": "Please enter a valid phone number.",
+    "languageError": "Please select at least one language.",
+    "submissionError": "An error occurred while submitting the form. Please try again.",
+    "noAppointment": "No Appointment",
+    "other": "Other"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "What types of housing are available at Afra Park Bahçeşehir?",
+        "answer": "Afra Park Bahçeşehir consists of 177 units, including 49 two-bedroom, 28 three-bedroom, 79 three-bedroom with a maid’s room, and 21 four-bedroom units. Additionally, the project offers 2 four-bedroom villas with maid's rooms."
+      },
+      {
+        "question": "What is the total land area of Afra Park Bahçeşehir?",
+        "answer": "Afra Park is built on a total area of 24,976.71 square meters, offering residents spacious living, outdoor activities, and social areas."
+      },
+      {
+        "question": "What key social amenities are offered at Afra Park?",
+        "answer": "Afra Park offers a wide range of social amenities, including private parking, a large swimming pool, children's pool, barbecue areas, playgrounds, a multi-purpose field, outdoor chess and table tennis areas, a pet area, bike paths, shaded seating areas, a gym, steam and sauna rooms, and meeting rooms."
+      },
+      {
+        "question": "What parking options are available for residents at Afra Park?",
+        "answer": "Each unit at Afra Park Bahçeşehir has a designated private parking space, with visitor parking also available within the community."
+      },
+      {
+        "question": "How far is Afra Park Bahçeşehir from key locations in Istanbul?",
+        "answer": "Afra Park is located 4 minutes from Millet Park, 10 minutes from Bahçeşehir Train Station, 10 minutes from Akbatı Mall, and 40 minutes from Istanbul Airport."
+      },
+      {
+        "question": "Does owning property in Afra Park qualify for Turkish citizenship?",
+        "answer": "By purchasing property worth at least $400,000 in Afra Park Bahçeşehir, investors may qualify for Turkish citizenship, allowing them and their families to enjoy the benefits of Turkish citizenship."
+      },
+      {
+        "question": "What open spaces are available at Afra Park Bahçeşehir?",
+        "answer": "The project is designed with large green spaces and landscaping. Residents can enjoy private balconies, terraces, front, and backyards depending on the unit plan. Outdoor areas include barbecue zones, playgrounds, and shaded seating for relaxation and socializing."
+      },
+      {
+        "question": "Are there entertainment areas for children at Afra Park?",
+        "answer": "Yes, Afra Park offers various entertainment areas for children, including a swimming pool, playgrounds, and ample spaces for outdoor activities, providing a safe and enjoyable environment for families."
+      },
+      {
+        "question": "Can I customize my unit at Afra Park or Sylvana Istanbul?",
+        "answer": "Yes, both projects offer interior customization options. You can choose details like flooring, kitchen designs, and bathroom fixtures. Our team can provide more information on available customization packages."
+      },
+      {
+        "question": "Is there a social center or club at Afra Park Bahçeşehir?",
+        "answer": "Afra Park features a social center equipped with a gym, steam rooms, sauna rooms, and meeting rooms, designed to offer residents a comfortable and luxurious living experience."
+      },
+      {
+        "question": "How can I schedule a visit or tour of the Afra Park and Sylvana Istanbul projects?",
+        "answer": "You can schedule a visit or tour by contacting our sales team via the contact form on our website or by phone. Appointments are available between 08:00 - 20:00. Fill out the form below to have our team reach out to you."
+      },
+      {
+        "question": "What are the layout plans for the units in Afra Park and Sylvana Istanbul?",
+        "answer": "Units in both projects are designed with spacious living areas, large bedrooms, and open spaces such as balconies and terraces. The layout is optimized for family living, providing privacy, luxury, and functionality."
+      },
+      {
+        "question": "What makes Afra Park Bahçeşehir an eco-friendly project?",
+        "answer": "Afra Park is designed with eco-friendly features, including extensive landscaping, shaded areas, and bike paths, emphasizing a clean and green environment, aligning with Reportage Türkiye's sustainability commitment."
+      },
+      {
+        "question": "Are there educational institutions near Afra Park?",
+        "answer": "Yes, reputable schools such as Bilfen Schools and Istanbul Leader Russian School (both within a 10-minute distance) are nearby. Additionally, Beykent University and Istanbul University’s Büyükçekmece Campus are also close."
+      }
+    ]
+  },
+  
+    "about": {
+      "title": "About Reportage",
+      "description": "Since 2014, Reportage Properties has been a major player in the global real estate development sector, operating with Europe-based investments and international partnerships across four continents. Known for its innovative, luxurious, and modern residential projects, Reportage Properties continues to set industry standards.",
+      "expertiseTitle": "Global Real Estate Development Expert",
+      "expertiseDescription": "Since 2014, Reportage Properties has operated in the real estate development sector with Europe-based investments and international partnerships in countries such as Italy, USA, UK, France, Albania, Russia, Pakistan, India, Uganda, Morocco, Egypt, Rwanda, Kenya, Iraq, UAE, and Saudi Arabia. Recognized for its innovative, luxurious, and modern residential projects, Reportage Properties is regarded as a leading brand in global real estate development.",
+      "luxuryTitle": "Luxury residential projects at international standards.",
+      "partnershipsTitle": "Strong partnerships and international collaborations in real estate.",
+      "innovativeTitle": "Offering innovative and affordable housing solutions."
+    },
+    "hero": {
+      "logoAlt": "Reportage Logo",
+      "title": "Reportage Türkiye",
+      "description": "Since 2014, Reportage Properties has been active across multiple continents, known for luxurious residential projects and regarded as one of the most reliable brands in the sector.",
+      "moreInfo": "More Information",
+      "whoWeAre": "Who We Are",
+      "aboutTitle": "About Reportage",
+      "reportageTurkey": "Reportage Türkiye",
+      "watchVideo": "Watch the Introduction Video",
+      "globalExpertTitle": "Global Real Estate Development Expert",
+      "globalExpertDescription": "Since 2014, Reportage Properties has been operating with Europe-based investments and international partnerships in countries like Italy, USA, UK, France, Albania, Russia, Pakistan, India, Uganda, Morocco, Egypt, Rwanda, Kenya, Iraq, UAE, and Saudi Arabia, leading the sector with luxurious and modern residential projects."
+    },
+    "projelerPage": {
+      "pageTitle": "Luxury Villas and Residences",
+      "pageDescription": "Discover luxury villas and residences in Istanbul and Baku developed by Reportage Türkiye.",
+      "heroTitle": "Our Projects",
+      "heroSubtitle": "Explore our luxury projects in Istanbul and Azerbaijan.",
+      "sylvana": {
+        "title": "Sylvana Istanbul - Bahçeşehir",
+        "description": "Sylvana Istanbul offers modern luxury living in the heart of Bahçeşehir...",
+        "virtualTourTitle": "Sylvana Istanbul Virtual Tour",
+        "seeProjectButton": "See Sylvana Istanbul Project",
+        "moreInfo": "More Information"
+      },
+      "afraPark": {
+        "title": "Afra Park - Bahçeşehir",
+        "description": "Afra Park offers spacious villas for luxury family living in Bahçeşehir...",
+        "virtualTourTitle": "4+1 House - Type A Virtual Tour",
+        "seeProjectButton": "See Afra Park Project",
+        "moreInfo": "More Information"
+      },
+      "arabianRanches": {
+        "title": "Arabian Ranches - Azerbaijan",
+        "description": "Arabian Ranches combines Eastern elegance with modern luxury along the Caspian Sea...",
+        "virtualTourTitle": "Arabian Ranches Virtual Tour",
+        "seeProjectButton": "See Arabian Ranches Project",
+        "moreInfo": "More Information"
+      }
+    },
+    "community": {
+      "title": "Our Community",
+      "locations": [
+        {
+          "flagCode": "TR",
+          "name": "Turkey",
+          "description": "In the heart of Istanbul, with modern residential projects and more."
+        },
+        {
+          "flagCode": "AE",
+          "name": "Abu Dhabi",
+          "description": "Exclusive events and luxury residential projects."
+        },
+        {
+          "flagCode": "AE",
+          "name": "Dubai",
+          "description": "Top-tier luxury residential projects in Dubai."
+        },
+        {
+          "flagCode": "EG",
+          "name": "Cairo",
+          "description": "Modern infrastructure, luxury properties, and urban development."
+        },
+        {
+          "flagCode": "MA",
+          "name": "Morocco",
+          "description": "Luxury residential options in Morocco with modern designs."
+        },
+        {
+          "flagCode": "SA",
+          "name": "Saudi Arabia",
+          "description": "Modern and luxurious living spaces."
+        },
+        {
+          "flagCode": "RU",
+          "name": "Russia",
+          "description": "Innovative real estate projects across Russia."
+        },
+        {
+          "flagCode": "PK",
+          "name": "Pakistan",
+          "description": "Vibrant and modern residential projects."
+        },
+        {
+          "flagCode": "UG",
+          "name": "Uganda",
+          "description": "Expanding real estate opportunities in Uganda."
+        },
+        {
+          "flagCode": "RW",
+          "name": "Rwanda",
+          "description": "Innovative residential projects in Rwanda."
+        }
+      ]
+    },
+    
+      "arabianRanches": {
+        "title": "Arabian Ranches",
+        "description": "Developed by RMS Capital Investment, Arabian Ranches is an exclusive residential complex located in the prestigious Sea Breeze area near the Caspian Sea. This project blends the elegance of Eastern architecture with coastal living, offering a unique combination of luxury and tranquility.",
+        "details": "Arabian Ranches represents Azerbaijan's growing significance on the global stage. This residential complex invites international investors to become part of Azerbaijan's expanding real estate sector.",
+        "moreInfo": "More About Arabian Ranches"
+      },
+      "hero_title": {
+        "title": "Leading Real Estate Projects in Turkey",
+        "subtitle": "Discover our projects at the heart of modern living.",
+        "explore_designs": "Architectural Designs of Our Projects",
+        "afra_park": "Afra Park Istanbul Bahçeşehir",
+        "sylvana_istanbul": "Sylvana Istanbul Bahçeşehir",
+        "interior_designs": "Interior Designs",
+        "exterior_designs": "Exterior Designs",
+        "show_all": "Show All",
+        "explore_description": "Discover the stunning architectural designs of Afra Park Istanbul Bahçeşehir and Sylvana Istanbul Bahçeşehir projects. Explore the interior and exterior designs that define modern luxury living.",
+        "contact_us": "Contact Us"
+      },
+      "projeler": {
+        "title": "Our Projects",
+        "pageTitle": "Luxury Villas and Residences",
+        "pageDescription": "Explore luxury villas and residences in Istanbul and Baku developed by Reportage Türkiye.",
+        "sylvana": {
+          "title": "Sylvana Istanbul - Bahçeşehir",
+          "description": "Sylvana Istanbul offers modern luxury living in the heart of Bahçeşehir...",
+          "virtualTourTitle": "Sylvana Istanbul Virtual Tour",
+          "seeProjectButton": "See Sylvana Istanbul Project",
+          "moreInfo": "More Information"
+        },
+        "afraPark": {
+          "title": "Afra Park - Bahçeşehir",
+          "description": "Afra Park offers spacious villas for luxury family living in Bahçeşehir...",
+          "virtualTourTitle": "4+1 Townhouse - Type A Virtual Tour",
+          "seeProjectButton": "See Afra Park Project",
+          "moreInfo": "More Information"
+        },
+        "arabianRanches": {
+          "title": "Arabian Ranches - Azerbaijan",
+          "description": "Arabian Ranches combines Eastern elegance with modern luxury along the Caspian Sea...",
+          "virtualTourTitle": "Arabian Ranches Virtual Tour",
+          "seeProjectButton": "See Arabian Ranches Project"
+        }
+      },
+      "afraDocuments": {
+        "title": "Afra Park Project Documents",
+        "description": "Below, you can find all necessary materials related to the Afra Park project, including the catalog, brochure, and a detailed unit type chart.",
+        "catalog": "Catalog",
+        "infoSheet": "Information Sheet",
+        "unitTypes": "Unit Type Chart",
+        "brochure": "Brochure",
+        "viewDocument": "View Document"
+      },
+      "sylvanaDocuments": {
+        "title": "Sylvana Istanbul Project Documents",
+        "description": "Below, you can find all necessary materials related to the Sylvana Istanbul project, including the catalog, brochure, and a detailed unit type page.",
+        "catalog": "Catalog",
+        "infoSheet": "Information Page",
+        "unitTypes": "Unit Type Page",
+        "brochure": "Brochure",
+        "viewDocument": "View Document"
+      },
+      "sylvanaRenderImages": {
+        "exteriorTitle": "Sylvana Istanbul Project Exteriors",
+        "exteriorDescription": "Italian design and aesthetic beauty are felt in every area, providing green spaces that meet European and international standards.",
+        "interiorTitle": "Sylvana Istanbul Project Interiors",
+        "interiorDescription": "Sylvana villas are designed with four main bedrooms and a closed kitchen to meet elegant tastes and maintain privacy.",
+        "expandedViewAlt": "Expanded View",
+        "gridView": "Grid View",
+        "sliderView": "Slider View",
+        "modernDesign": "Modern Design",
+        "openSpaces": "Open Spaces",
+        "scenicView": "Scenic View",
+        "mainBedrooms": "4 Main Bedrooms",
+        "closedKitchen": "Closed Kitchen",
+        "luxuryBathrooms": "Luxury Bathrooms",
+        "elegantFinishes": "Elegant Finishes"
+      },
+      "afraRenderImages": {
+        "exteriorTitle": "Afra Park Project Exteriors",
+        "exteriorDescription": "Aesthetic details are masterfully crafted in every area with Italian design and high-quality facades.",
+        "interiorTitle": "Afra Park Project Interiors",
+        "interiorDescription": "Afra Park residences feature high-quality interiors designed for elegance and luxury.",
+        "expandedViewAlt": "Expanded View",
+        "gridView": "Grid View",
+        "sliderView": "Slider View",
+        "modernDesign": "Modern Design",
+        "openSpaces": "Open Spaces",
+        "scenicView": "Scenic View",
+        "spaciousBedrooms": "Spacious Bedrooms",
+        "modernKitchen": "Modern Kitchen",
+        "luxuryBathrooms": "Luxury Bathrooms",
+        "artisticFinishes": "Artistic Finishes",
+        "thumbnailAlt": "Thumbnail"
+      },
+      "arabianRanchesDocuments": {
+        "title": "Arabian Ranches Project Documents",
+        "description": "Below, you can find all necessary documents related to the Arabian Ranches project, including the master plan, catalog, floor plans, and presentation.",
+        "masterPlan": "Master Plan",
+        "catalog": "Catalog",
+        "floorPlans": "Floor Plans",
+        "presentation": "Sea Breeze Presentation",
+        "viewDocument": "View Document"
+      },
+      "arabianRanchesRenderImages": {
+        "galleryTitle": "Arabian Ranches Image Gallery",
+        "expandedViewAlt": "Expanded View",
+        "gridView": "Grid View",
+        "sliderView": "Slider View",
+        "imageAlt": "Image",
+        "thumbnailAlt": "Thumbnail"
+      },
+      "ArabianRanchesPage": {
+        "title": "Arabian Ranches - Azerbaijan | Sea Breeze Luxury Living",
+        "metaDescription": "Arabian Ranches combines Eastern elegance and modern luxury near the Caspian Sea. Discover townhouses and apartments in a serene setting.",
+        "metaKeywords": "Arabian Ranches, luxury living, Sea Breeze, Azerbaijan real estate, townhouses, apartments, RMS Capital Investment",
+        "ogTitle": "Arabian Ranches - Sea Breeze Luxury Living",
+        "ogDescription": "Discover the elegance of Arabian Ranches, a premier residential complex offering luxury townhouses and apartments near the Caspian Sea.",
+        "heroTitle": "Arabian Ranches",
+        "heroSubtitle": "Luxury living inspired by Eastern heritage, located in the prestigious Sea Breeze area.",
+        "aboutTitle": "About Arabian Ranches",
+        "aboutLocation": "Azerbaijan - Sea Breeze",
+        "aboutDescription": "Arabian Ranches offers exclusive townhouses and apartments designed for peaceful living by the Caspian Sea, combining Eastern heritage with modern luxury. Just steps away from the beach, this VIP location provides a unique lifestyle with access to the beauty of nature.",
+        "virtualToursTitle": "Virtual Tours",
+        "virtualToursSubtitle": "Explore our virtual tours of Arabian Ranches"
+      },
+      "ArabianRanchesLocationFeatures": {
+        "title": "Featured Locations Near Arabian Ranches",
+        "description": "Arabian Ranches offers luxury townhouses near the Caspian Sea in Baku, Azerbaijan. This exclusive location is surrounded by prestigious schools, hospitals, shopping malls, and recreational areas.",
+        "mapTitle": "Arabian Ranches Location",
+        "locations": {
+          "bakuBoulevard": "Baku Boulevard",
+          "bakuInternationalSchool": "Baku International School",
+          "europeAzerbaijanSchool": "European Azerbaijan School",
+          "ganjlikMall": "Ganjlik Mall",
+          "heydarAliyevCenter": "Heydar Aliyev Center",
+          "mall28": "Mall 28",
+          "oilWorkersHospital": "Oil Workers' Central Hospital",
+          "bakuStateUniversity": "Baku State University",
+          "adaUniversity": "ADA University",
+          "parkBoulevardMall": "Park Boulevard Mall",
+          "bakuOlympicStadium": "Baku Olympic Stadium",
+          "absheronNationalPark": "Absheron National Park",
+          "dalgaBeachResort": "Dalga Beach Aquapark Resort",
+          "heydarAliyevAirport": "Heydar Aliyev International Airport"
+        },
+        "times": {
+          "15min": "15 min",
+          "12min": "12 min",
+          "18min": "18 min",
+          "20min": "20 min",
+          "25min": "25 min",
+          "22min": "22 min",
+          "17min": "17 min",
+          "30min": "30 min",
+          "40min": "40 min",
+          "35min": "35 min"
+        }
+      },
+      "ArabianRanchesSocialAmenities": {
+        "title": "Arabian Ranches Social Amenities",
+        "description": "Arabian Ranches offers luxury social spaces that combine relaxation, entertainment, and sports facilities. Located in the prestigious Sea Breeze area, this project allows you to experience the elegance of Middle Eastern design with modern amenities.",
+        "closeButton": "Close",
+        "icons": {
+          "swimming": "Swimming",
+          "parking": "Parking",
+          "fitness": "Fitness",
+          "nature": "Nature",
+          "sport": "Sports",
+          "petArea": "Pet Area",
+          "chess": "Chess",
+          "bbq": "BBQ"
+        },
+        "amenities": {
+          "swimmingPool": {
+            "label": "Swimming Pool",
+            "description": "Arabian Ranches offers a luxurious swimming pool with views of the Caspian Sea, providing a relaxing space for residents to unwind."
+          },
+          "bbq": {
+            "label": "BBQ Areas",
+            "description": "Enjoy spacious BBQ areas ideal for social gatherings and outdoor dining near the sea breeze."
+          },
+          "parking": {
+            "label": "Parking Area",
+            "description": "Secure parking facilities for residents and guests, providing convenience and peace of mind."
+          },
+          "kidsPlay": {
+            "label": "Children's Play Area",
+            "description": "A dedicated play area designed for children to enjoy and have fun in a safe environment."
+          },
+          "chess": {
+            "label": "Giant Chess Area",
+            "description": "An outdoor giant chess set where residents can enjoy fun and mind-stimulating games."
+          },
+          "gym": {
+            "label": "Gym",
+            "description": "A fully equipped fitness center designed for residents to maintain their health and wellness."
+          },
+          "petArea": {
+            "label": "Pet Area",
+            "description": "A pet-friendly environment with a designated area for pets to play and exercise."
+          },
+          "seating": {
+            "label": "Seating Areas",
+            "description": "Scenic seating areas where you can enjoy the surrounding beauty."
+          },
+          "tennis": {
+            "label": "Tennis Courts",
+            "description": "Professional tennis courts where residents can enjoy friendly matches in a scenic setting."
+          }
+        }
+      },
+      
+        "SylvanaPage": {
+          "title": "Sylvana Istanbul - Bahçeşehir | Modern 4+1 Triplex Villas",
+          "metaDescription": "Sylvana Istanbul offers modern 4+1 triplex villas in Bahçeşehir, ideal for family living and investment opportunities.",
+          "keywords": "triplex villa, Sylvana Istanbul, detached villa, 4+1 villa, Bahçeşehir villa, villa for sale, villa Istanbul, Bahçeşehir villa for sale, modern villa",
+          "ogTitle": "Sylvana Istanbul - 4+1 Modern Triplex Villas",
+          "ogDescription": "Discover luxurious 4+1 triplex villas at Sylvana Istanbul in Bahçeşehir, ideal for investors and family living.",
+          "heroTitle": "Sylvana Istanbul",
+          "heroSubtitle": "Luxury 4+1 villas located in the heart of Bahçeşehir.",
+          "aboutTitle": "About Sylvana Istanbul",
+          "aboutLocation": "Istanbul - Bahçeşehir",
+          "aboutDescription": "Modern and luxurious living experience in Bahçeşehir with spacious 4+1 triplex villas.",
+          "virtualToursTitle": "Virtual Tours",
+          "virtualToursSubtitle": "Explore our virtual tours of Sylvana Istanbul"
+        },
+        "SylvanaAmenities": {
+          "title": "Social Amenities",
+          "description": "Sylvana Istanbul offers luxurious amenities that combine comfort, entertainment, and family living for its residents. Enjoy a modern lifestyle with landscaped gardens, BBQ areas, and pet-friendly spaces.",
+          "landscapeGarden": "Landscaped Garden",
+          "landscapeGardenDesc": "Sylvana Istanbul features landscaped gardens designed to let you experience the beauty and tranquility of nature.",
+          "bbqAreas": "BBQ Areas",
+          "bbqAreasDesc": "Offers spacious BBQ areas for enjoying outdoor dining with family and friends.",
+          "parkingArea": "Parking Area",
+          "parkingAreaDesc": "Secure and easily accessible parking areas for residents and guests.",
+          "kidsPlayArea": "Children's Play Area",
+          "kidsPlayAreaDesc": "A safe and fun play area for children.",
+          "chessArea": "Giant Chess Area",
+          "chessAreaDesc": "An outdoor giant chess area that provides fun and intellectual challenges for residents of all ages.",
+          "seatingAreas": "Seating Areas",
+          "seatingAreasDesc": "Offers various seating areas for relaxation, reading, or chatting with neighbors.",
+          "petFriendlyAreas": "Pet-Friendly Areas",
+          "petFriendlyAreasDesc": "Special areas for your pets to enjoy nature.",
+          "gym": "Gym",
+          "gymDesc": "A gym equipped with the latest fitness equipment, ideal for maintaining a healthy and active lifestyle.",
+          "closeButton": "Close"
+        },
+        "ArabianRanchesAvailability": {
+          "title": "Arabian Ranches Unit Availability",
+          "totalUnits": "Total Units",
+          "soldOutUnits": "Sold Out Units",
+          "availableUnits": "Available Units",
+          "total": "Total",
+          "sold": "Sold",
+          "available": "Available"
+        },
+        "SylvanaLocation": {
+          "title": "Featured Locations Near Sylvana Istanbul",
+          "description": "Located in the heart of Bahçeşehir, Sylvana Istanbul offers luxurious townhouses that combine the beauty of nature with modern family living. This exclusive location is surrounded by world-class amenities such as high-quality schools, healthcare facilities, shopping centers, and entertainment areas. Ideal for families seeking modern amenities and a peaceful environment, Sylvana Istanbul also presents an excellent investment opportunity in the rapidly growing Istanbul real estate market.",
+          "mapTitle": "Sylvana Istanbul Location",
+          "features": {
+            "bahcesehirPark": "Bahçeşehir Gölet Park",
+            "bilfenSchool": "Bilfen School",
+            "leaderRussianSchool": "Istanbul Leader Russian School",
+            "bahcesehirFitness": "Bahçeşehir Fitness Center",
+            "bahcesehirTrainStation": "Bahçeşehir Train Station",
+            "prestigeMallPark": "Prestige Mall Park",
+            "istinyeHospital": "Istinye Hospital",
+            "istanbulUniversity": "Istanbul University",
+            "ataturkOlympicStadium": "Ataturk Olympic Stadium",
+            "aquaClubDolphin": "Aqua Club Dolphin",
+            "istanbulAirport": "Istanbul Airport"
+          },
+          "times": {
+            "10min": "10 min",
+            "11min": "11 min",
+            "15min": "15 min",
+            "17min": "17 min",
+            "25min": "25 min",
+            "30min": "30 min"
+          }
+        },
+        "SylvanaAvailability": {
+          "title": "Sylvana Istanbul Availability Status",
+          "totalUnits": "Total Units",
+          "soldUnits": "Sold Units",
+          "availableUnits": "Available Units",
+          "total": "Total: 244",
+          "sold": "Sold: 160",
+          "available": "Available: 84"
+        },
+        "AfraPage": {
+          "title": "Afra Park Istanbul - Bahçeşehir",
+          "metaDescription": "Discover the modern Afra Park projects in Bahçeşehir.",
+          "keywords": "Afra Park, Bahçeşehir, residential projects, real estate, Istanbul",
+          "ogTitle": "Afra Park Istanbul - Bahçeşehir",
+          "ogDescription": "Offering a variety of villas and apartments with modern designs at Afra Park in Bahçeşehir.",
+          "heroTitle": "Welcome to the Afra Park Project",
+          "heroSubtitle": "Luxury villas and apartments in the heart of Bahçeşehir",
+          "aboutTitle": "About Afra Park",
+          "aboutLocation": "Afra Park Location",
+          "aboutDescription": "Afra Park offers a luxurious living experience that combines the beauty of nature with a modern lifestyle for its residents.",
+          "virtualToursTitle": "Virtual Tours",
+          "virtualToursSubtitle": "Explore the virtual tours of our projects.",
+          "closeButton": "Close"
+        },
+        "AfraVirtualTours": {
+          "typeA": "2 + 1 TOWNHOUSE - TYPE A",
+          "typeB": "2 + 1 TOWNHOUSE - TYPE B",
+          "typeC": "2 + 1 TOWNHOUSE - TYPE C",
+          "typeWithMaid": "3 + 1 TOWNHOUSE (WITH MAID) - TYPE A",
+          "typeB3": "3 + 1 TOWNHOUSE - TYPE B",
+          "typeC3": "3 + 1 TOWNHOUSE - TYPE C",
+          "typeA3_5": "3.5 + 1 TOWNHOUSE - TYPE A",
+          "typeD3_5": "3.5 + 1 TOWNHOUSE - TYPE D",
+          "typeA4": "4 + 1 TOWNHOUSE - TYPE A",
+          "typeB4": "4 + 1 TOWNHOUSE - TYPE B",
+          "typeC4_5": "4.5 + 1 TOWNHOUSE - TYPE C"
+        },
+        "locationFeatures": {
+          "title": "Discover Prominent Locations Near Afra Park",
+          "description": "Afra Park, located in Bahçeşehir, Istanbul, offers luxurious townhouses combining the beauty of nature with modern family living. This prime location is surrounded by top schools, healthcare facilities, shopping centers, and recreational areas.",
+          "features": {
+            "park": "Bahçeşehir Gölet Park",
+            "bilfenSchool": "Bilfen School",
+            "leaderRussianSchool": "Istanbul Leader Russian School",
+            "fitnessCenter": "Bahçeşehir Fitness Center",
+            "trainStation": "Bahçeşehir Train Station",
+            "mallPark": "Prestige Mall Park",
+            "istinyeHospital": "Istinye Hospital",
+            "istanbulUniversity": "Istanbul University Büyükçekmece Campus",
+            "beykentUniversity": "Beykent University",
+            "mallOfIstanbul": "Mall of Istanbul",
+            "olympicStadium": "Ataturk Olympic Stadium",
+            "naturePark": "Samlar Nature Park",
+            "aquaClub": "Aqua Club Dolphin",
+            "istanbulAirport": "Istanbul Airport"
+          },
+          "times": {
+            "9min": "9 min",
+            "10min": "10 min",
+            "11min": "11 min",
+            "15min": "15 min",
+            "17min": "17 min",
+            "18min": "18 min",
+            "25min": "25 min",
+            "30min": "30 min",
+            "40min": "40 min"
+          }
+        },
+        
+          "blogPage": {
+            "title": "Blog & News",
+            "pageDescription": "Discover the latest news and trends in the real estate market in Istanbul and Turkey.",
+            "keywords": "Istanbul, real estate, investment, Turkey",
+            "popularTopics": "Popular Blog Topics",
+            "latestNews": "Latest Real Estate News",
+            "istanbulInvestment": {
+              "title": "Investing in Istanbul's Real Estate Market",
+              "description": "Discover why Istanbul has become a hub for investment."
+            },
+            "reportageTurkey": {
+              "title": "Reportage Turkey: Redefining Luxury in Istanbul",
+              "description": "Learn how Reportage Turkey is redefining standards of luxury living."
+            },
+            "benefitsTurkeyInvestment": {
+              "title": "Benefits of Investing in Turkish Real Estate",
+              "description": "From citizenship opportunities to ROI, explore the advantages of investing in Turkey."
+            },
+            "afraParkBahcesehir": {
+              "title": "Afra Park Bahçeşehir: A Haven Amidst Nature",
+              "description": "Discover the unique harmony of urban life and nature at Afra Park Bahçeşehir."
+            },
+            "sylvanaIstanbul": {
+              "title": "Sylvana Istanbul: A New Vision for Modern Living",
+              "description": "Learn about the Sylvana Istanbul project and its future-ready amenities."
+            },
+            "turkeyRealEstateGrowth": {
+              "title": "Real Estate Growth in Turkey",
+              "description": "Explore how Turkey's real estate market is expanding and attracting global investors."
+            },
+            "istanbulInvestmentParadise": {
+              "title": "Why is Istanbul an Investment Paradise?",
+              "description": "Discover what makes Istanbul attractive for real estate investors."
+            },
+            "reportageFutureVision": {
+              "title": "Future Vision of Reportage Turkey",
+              "description": "Get insights into the future projects and vision of Reportage Turkey."
+            },
+            "realEstateForecast2024": {
+              "title": "Real Estate Investment Forecast for 2024",
+              "description": "Key predictions for real estate investments in the coming year."
+            },
+            "sustainableLivingIstanbul": {
+              "title": "Sustainable Living in Istanbul: A New Trend",
+              "description": "Learn how sustainable living trends are shaping new real estate projects in Turkey."
+            }
+          },
+          "common": {
+            "readMore": "Read More",
+            "backToHome": "Back to Home",
+            "loading": "Loading..."
+          },
+          "investmentInsights": {
+            "heading": "2024 Investment Insights: Emerging Trends in Istanbul's Real Estate Market",
+            "mainImageAlt": "2024 Investment Insights",
+            "introduction": "As Istanbul continues to grow as a hub for business and culture, connecting Europe and Asia, investors are showing increasing interest in its real estate market.",
+            "whyInvestTitle": "Why Invest in Istanbul's Real Estate Market?",
+            "whyInvestText": "Istanbul's real estate sector has shown significant growth in recent years. Key advantages include:",
+            "advantages": {
+              "location": { "title": "Strategic Location", "description": "Istanbul's location makes it an ideal center for global trade and business." },
+              "economy": { "title": "Growing Economy", "description": "With Turkey's economic growth, property values in Istanbul continue to rise steadily." },
+              "incentives": { "title": "Investment Incentives", "description": "Foreign investors with qualifying real estate investments can obtain citizenship." },
+              "urbanDemand": { "title": "Urban Living Demand", "description": "Istanbul’s population continues to grow, increasing demand for residential and commercial properties." }
+            },
+            "trendsTitle": "Investment Trends to Watch in 2024",
+            "trends": {
+              "luxuryResidential": { "title": "Luxury Residential Projects", "description": "Areas like Bebek and Nişantaşı attract investors seeking luxury living." },
+              "urbanExpansion": { "title": "Urban Expansion Areas", "description": "Developing areas such as Bahçeşehir and Beylikdüzü offer attractive investment opportunities." },
+              "commercialRealEstate": { "title": "Commercial Real Estate", "description": "Business hubs are in high demand with increasing corporate offices and startups in Istanbul." },
+              "highROIRentals": { "title": "High ROI Rental Properties", "description": "Short-term rentals are in high demand among tourists and expats." },
+              "greenprojeler": { "title": "Sustainable Green Projects", "description": "Eco-friendly projects attract investors focused on sustainability." },
+              "infrastructure": { "title": "Infrastructure Developments", "description": "New airports and metro expansions in Istanbul are raising property values nearby." }
+            },
+            "considerationsTitle": "Key Considerations for Investors",
+            "considerationsText": "While Istanbul’s real estate market offers attractive opportunities, investors should be mindful of market fluctuations.",
+            "share": {
+              "twitter": "Share on Twitter",
+              "facebook": "Share on Facebook",
+              "linkedin": "Share on LinkedIn"
+            },
+            "shareText": "Discover 2024 investment trends in Istanbul’s real estate market!"
+          },
+          "afraPark": {
+            "title": "Afra Park Bahçeşehir: Luxury Living in Istanbul's Green Space",
+            "mainImageAlt": "Afra Park Bahçeşehir",
+            "description": "Located in the heart of Bahçeşehir, Istanbul, Afra Park Bahçeşehir is a prestigious residential project offering a unique lifestyle.",
+            "whyChoose": "Why Choose Afra Park Bahçeşehir?",
+            "whyChooseText": "Afra Park Bahçeşehir offers a unique blend of nature and luxury...",
+            "features": {
+              "greenSpaces": "Green Spaces",
+              "greenSpacesDescription": "Surrounded by beautiful gardens and parks, ideal for relaxation and family activities.",
+              "privateAmenities": "Private Amenities",
+              "privateAmenitiesDescription": "Features luxurious amenities such as swimming pools, gyms, and children's play areas.",
+              "security": "24/7 Security",
+              "securityDescription": "Provides top-level security services to ensure a safe living environment for all residents."
+            },
+            "investmentPotentialTitle": "Investment Potential:",
+            "investmentPotentialText": "Located in a rapidly developing area, Afra Park Bahçeşehir is an attractive investment opportunity...",
+            "communityImageAlt": "Bahçeşehir Community",
+            "lifestyleTitle": "Lifestyle and Community",
+            "lifestyleText": "The Bahçeşehir area is known for its family-friendly community, renowned schools, and expansive green spaces...",
+            "nearbyAttractionsTitle": "Nearby Landmarks and Accessibility",
+            "nearbyAttractionsText": "Afra Park Bahçeşehir offers easy access to major roads and good connections to Istanbul city center...",
+            "resourcesTitle": "Trusted Resources for Investment Information",
+            "resources": {
+              "propertyTurkey": "Property Turkey",
+              "propertyTurkeyDescription": "Information about Turkey's real estate market and top investment areas.",
+              "investTurkey": "Invest in Turkey",
+              "investTurkeyDescription": "Official investment information and market data.",
+              "turkeyHomes": "Turkey Homes",
+              "turkeyHomesDescription": "Guides and resources for investors in Turkey."
+            },
+            "share": {
+              "twitter": "Share on Twitter",
+              "facebook": "Share on Facebook",
+              "linkedin": "Share on LinkedIn"
+            },
+            "shareText": "Discover luxury living at Afra Park Bahçeşehir in Istanbul!"
+          },
+          "investing": {
+            "title": "Investing in Istanbul’s Real Estate Market",
+            "mainImageAlt": "Istanbul Real Estate",
+            "description": "Istanbul’s real estate market is a highly attractive destination for investors, thanks to its unique geographic location, dynamic economy, and diverse real estate opportunities...",
+            "whyInvestTitle": "Why Invest in Istanbul?",
+            "whyInvestText": "Located at the intersection of Europe and Asia, Istanbul is a cultural and economic hub...",
+            "investInTurkeyInfoTitle": "Insights from Invest in Turkey",
+            "investInTurkeyInfoText1": "According to Invest in Turkey, Turkey’s economy has shown remarkable resilience...",
+            "investInTurkeyInfoText2": "The Turkish government also offers tax incentives and legal support to foreign property buyers...",
+            "keyAreasTitle": "Key Investment Areas",
+            "bosphorus": "Bosphorus Shoreline",
+            "bosphorusDesc": "Luxury properties with stunning views and high ROI.",
+            "bahcesehirBeylikduzu": "Bahçeşehir and Beylikdüzü",
+            "bahcesehirBeylikduzuDesc": "Affordable and family-friendly areas with strong growth potential.",
+            "cityCenter": "City Center",
+            "cityCenterDesc": "Nişantaşı and Taksim attract young professionals and tourists with high rental yields.",
+            "secondaryImageAlt": "Istanbul Investment Potential",
+            "trendsTitle": "Trends in Istanbul’s Real Estate Market",
+            "trendsText": "The Istanbul real estate market has shown steady value appreciation in recent years, with strong demand in urban, suburban, and luxury properties...",
+            "resourcesTitle": "Resources for Investors",
+            "resources": {
+              "propertyTurkey": "Property Turkey",
+              "propertyTurkeyDescription": "Guides on real estate investment, popular locations, and market information in Turkey.",
+              "investTurkey": "Invest in Turkey",
+              "investTurkeyDescription": "Official information on investment opportunities and economic data from the Turkish government.",
+              "turkeyHomes": "Turkey Homes",
+              "turkeyHomesDescription": "Expert advice on properties and profitable real estate investments in Turkey."
+            },
+            "share": {
+              "twitter": "Share on Twitter",
+              "facebook": "Share on Facebook",
+              "linkedin": "Share on LinkedIn"
+            },
+            "shareText": "Check out this informative article on investing in Istanbul real estate!"
+          },
+          "whyInvestIstanbul": {
+            "title": "Investing in Istanbul: A Global Investment Hub",
+            "mainImageAlt": "Why Invest in Istanbul?",
+            "description": "Connecting two continents, Istanbul has become one of the world's most attractive investment destinations...",
+            "reasonsTitle": "Top Reasons to Invest in Istanbul",
+            "reasons": {
+              "strategicLocation": "Strategic Location",
+              "strategicLocationDesc": "Located at the crossroads of Europe and Asia, Istanbul provides access to both Eastern and Western markets, making it ideal for global business.",
+              "growingEconomy": "Growing Economy",
+              "growingEconomyDesc": "Istanbul’s economy is one of the fastest-growing in the region, with major contributions from the real estate, tourism, and finance sectors.",
+              "culturalAttractions": "Cultural and Historical Appeal",
+              "culturalAttractionsDesc": "Landmarks like Hagia Sophia and the Bosphorus attract millions of tourists, creating a continuous demand for tourism and retail investments.",
+              "realEstateMarket": "Strong Real Estate Market",
+              "realEstateMarketDesc": "Istanbul's real estate market offers high returns with a range of options, from luxury homes to commercial spaces in prime locations.",
+              "investmentIncentives": "Investment Incentives",
+              "investmentIncentivesDesc": "The Turkish government offers various incentives to foreign investors, including tax benefits and citizenship through investment.",
+              "globalConnectivity": "Global Connectivity",
+              "globalConnectivityDesc": "Istanbul Airport, one of the largest in the world, connects Istanbul to over 300 destinations, supporting business and tourism."
+            },
+            "realEstateInfoTitle": "Real Estate Investment Information",
+            "realEstateInfoDesc": "Istanbul's real estate sector is rapidly expanding, with growing demand for both residential and commercial properties.",
+            "secondaryImageAlt": "Istanbul Real Estate Investment",
+            "sourcesTitle": "Trusted Resources for Investors",
+            "sources": {
+              "investTurkey": "Invest in Turkey",
+              "investTurkeyDesc": "Official information on investment opportunities and incentives.",
+              "propertyTurkey": "Property Turkey",
+              "propertyTurkeyDesc": "Listings and resources for real estate investment in Istanbul.",
+              "turkeyHomes": "Turkey Homes",
+              "turkeyHomesDesc": "Expert advice on buying property and investing in Turkey."
+            },
+            "share": {
+              "twitter": "Share on Twitter",
+              "facebook": "Share on Facebook",
+              "linkedin": "Share on LinkedIn"
+            },
+            "shareText": "Discover why Istanbul is an investment hub!"
+          },
+          "reportageTurkiyeLuxury": {
+    "title": "Reportage Turkey: Redefining Luxury Real Estate in Istanbul",
+    "mainImageAlt": "Reportage Turkey Luxury Real Estate",
+    "intro": "As a leading name in luxury real estate, Reportage Turkey combines Istanbul's rich cultural heritage with modern living to introduce a new approach to luxury residences. Known for its projects that blend elegance, comfort, and innovation, Reportage Turkey redefines high-end living standards in Istanbul.",
+    "featuresTitle": "What Sets Reportage Turkey Apart",
+    "featuresText": "Reportage Turkey is known for its commitment to quality, attention to detail, and unique architectural approach. Each project reflects a fusion of modern aesthetics and cultural impact, offering residents elegance, comfort, and luxury.",
+    "projelerTitle": "Our Exclusive Projects in Istanbul",
+    "projelerText": "Reportage Turkey offers comfort and luxury in prestigious projects such as <strong>Afra Park Bahçeşehir</strong> and <strong>Sylvana Istanbul</strong>. These projects stand out for their spacious living areas, high-quality amenities, and proximity to Istanbul's cultural and social venues.",
+    "secondaryImageAlt": "Reportage Turkey Investment Opportunity",
+    "lifestyleTitle": "A Lifestyle Filled with Splendor and Convenience",
+    "lifestyleText": "Reportage Turkey provides not only luxury residences but also a complete lifestyle experience. With amenities such as modern gyms, terraces overlooking the Bosphorus, lush gardens, and private pools, each residence offers peace and tranquility.",
+    "investmentTitle": "Real Estate Investment Opportunities in Istanbul",
+    "investmentText": "Istanbul’s real estate market continues to attract investors from around the world. Choosing Reportage Turkey means investing not only in a property but also in an exclusive and elegant lifestyle.",
+    "exploreMoreTitle": "Discover More and Join the Luxury Revolution",
+    "exploreMoreText": "For more information about our projects and to explore opportunities redefining luxury real estate in Istanbul, visit",
+    "investTurkey": "Invest in Turkey",
+    "share": {
+      "twitter": "Share on X",
+      "facebook": "Share on Facebook",
+      "linkedin": "Share on LinkedIn"
+    },
+    "shareText": "Explore luxury real estate options with Reportage Turkey in Istanbul!"
+  },
+  "reportageTurkiyeVision": {
+    "title": "Reportage Turkey's Vision: Shaping the Future of Real Estate in Turkey",
+    "mainImageAlt": "Reportage Turkey Vision",
+    "intro": "At Reportage Turkey, our vision is to redefine the real estate sector in Turkey by creating innovative, sustainable, and community-focused projects...",
+    "missionTitle": "Our Vision and Mission",
+    "vision": "Our Vision",
+    "visionDesc": "To become a leading force in the real estate sector in Turkey by setting new standards in quality, design, and customer experience.",
+    "mission": "Our Mission",
+    "missionDesc": "To contribute to community development by delivering high-quality projects.",
+    "valuesTitle": "Our Core Values",
+    "innovation": "Innovation",
+    "innovationDesc": "Innovative solutions for modern communities.",
+    "integrity": "Integrity",
+    "integrityDesc": "Building trust through transparency and honesty.",
+    "sustainability": "Sustainability",
+    "sustainabilityDesc": "Eco-friendly solutions.",
+    "futureGoals": "Our Future Goals",
+    "futureGoalsText": "At Reportage Turkey, we aim to create iconic structures in Turkey with projects dedicated to high quality.",
+    "futureImageAlt": "The Future of Reportage Turkey",
+    "moreInfo": "Learn More About Reportage Turkey",
+    "officialSite": "Reportage Turkey Official Website",
+    "officialSiteDesc": "Get information about our projects.",
+    "investTurkey": "Invest in Turkey",
+    "investTurkeyDesc": "Discover investment opportunities in Turkey.",
+    "propertyTurkey": "Property Turkey",
+    "propertyTurkeyDesc": "Learn about real estate investments in Turkey.",
+    "share": {
+      "twitter": "Share on Twitter",
+      "facebook": "Share on Facebook",
+      "linkedin": "Share on LinkedIn"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy"
+  },
+  "sustainableLiving": {
+    "title": "Sustainable Living in Istanbul",
+    "mainImageAlt": "Sustainable Living in Istanbul",
+    "intro": "As Istanbul continues to grow as a global city, sustainable living practices are becoming increasingly important for fostering an environmentally conscious lifestyle.",
+    "coreElementsTitle": "Core Elements of Sustainable Living in Istanbul",
+    "features": {
+      "greenHomes": "Eco-Friendly Homes",
+      "greenHomesDesc": "New homes in Istanbul support green living with energy efficiency and sustainable materials.",
+      "renewableEnergy": "Renewable Energy",
+      "renewableEnergyDesc": "Investments in solar and wind energy are making Istanbul focus on sustainable energy sources.",
+      "waterConservation": "Water Conservation",
+      "waterConservationDesc": "Istanbul preserves its water resources through conservation campaigns.",
+      "wasteManagement": "Waste Management",
+      "wasteManagementDesc": "Recycling programs aim to create a circular economy in Istanbul.",
+      "urbanGreenSpaces": "Urban Green Spaces",
+      "urbanGreenSpacesDesc": "Parks and gardens in Istanbul support biodiversity.",
+      "smartInfrastructure": "Smart City Infrastructure",
+      "smartInfrastructureDesc": "Istanbul adopts smart city technologies to enhance energy efficiency."
+    },
+    "benefitsTitle": "Why Sustainable Living is Important",
+    "benefitsText": "Sustainable living practices protect the environment while also improving the quality of life in Istanbul.",
+    "caseStudyTitle": "Case Study: Istanbul's Green Projects",
+    "caseStudyText": "Istanbul's new projects aim to expand urban green spaces and enhance environmental sustainability.",
+    "share": {
+      "twitter": "Share on Twitter",
+      "facebook": "Share on Facebook",
+      "linkedin": "Share on LinkedIn"
+    },
+    "shareText": "Explore sustainable living opportunities in Istanbul!"
+  },
+  "sylvanaModernLiving": {
+    "title": "Sylvana Istanbul: Modern Living in the Heart of Turkey",
+    "mainImageAlt": "Sylvana Istanbul Modern Living",
+    "intro": "Sylvana Istanbul combines luxury, modern architecture, and natural beauty with Istanbul's vibrant lifestyle. Immersed in the city’s rich culture and history, this living space brings together comfort and elegance.",
+    "elegantLifestyleTitle": "A Lifestyle Defined by Elegance and Comfort",
+    "elegantLifestyleText": "With spacious interiors and lush gardens, Sylvana Istanbul offers a blend of style, comfort, and tranquility.",
+    "features": {
+      "greenSpaces": "Green Spaces",
+      "greenSpacesDesc": "Beautiful green areas for relaxation and outdoor activities.",
+      "luxuryInteriors": "Luxury Interiors",
+      "luxuryInteriorsDesc": "Comfortable and stylish designs with high-quality materials.",
+      "security": "High-Level Security",
+      "securityDesc": "24-hour security and advanced security systems."
+    },
+    "modernConvenienceTitle": "Modern Convenience",
+    "modernConvenienceText": "Sylvana Istanbul provides easy access to major roads and public transport, making it simple to stay connected to the city.",
+    "communityImageAlt": "Sylvana Istanbul Community",
+    "whyChooseTitle": "Why Choose Sylvana Istanbul?",
+    "whyChooseText": "Sylvana Istanbul offers a quality living space for families, professionals, and investors alike.",
+    "nearbyLandmarksTitle": "Nearby Key Landmarks and Accessibility",
+    "nearbyLandmarksText": "The project is conveniently located near shopping centers, restaurants, educational institutions, and healthcare facilities.",
+    "reliableResourcesTitle": "Trusted Resources for Investment",
+    "resources": {
+      "investTurkey": "Invest in Turkey",
+      "investTurkeyDesc": "Learn about investment opportunities in Turkey.",
+      "propertyTurkey": "Property Turkey",
+      "propertyTurkeyDesc": "Guides on real estate investment in Istanbul.",
+      "turkeyHomes": "Turkey Homes",
+      "turkeyHomesDesc": "Advice on purchasing property and investing in Turkey."
+    },
+    "share": {
+      "twitter": "Share on Twitter",
+      "facebook": "Share on Facebook",
+      "linkedin": "Share on LinkedIn"
+    },
+    "shareText": "Discover modern living at Sylvana Istanbul!"
+  },
+  
+    "growthRealEstateTurkey": {
+      "title": "Real Estate Growth in Turkey: A Growing Market for Investors",
+      "mainImageAlt": "Real Estate Growth in Turkey",
+      "intro": "Turkey’s real estate market presents an attractive option for both local and foreign investors. With its strategic location and diversity, Turkey offers high return potential in residential and commercial properties.",
+      "keyDriversTitle": "Key Drivers of Real Estate Growth in Turkey",
+      "features": {
+        "strategicLocation": "Strategic Location",
+        "strategicLocationDesc": "Turkey sits at the intersection of Asia and Europe, making it an ideal hub for business and trade.",
+        "modernInfrastructure": "Modern Infrastructure",
+        "modernInfrastructureDesc": "Turkey's advanced infrastructure enhances transportation and living standards.",
+        "highReturnPotential": "High Return Potential",
+        "highReturnPotentialDesc": "Property values in Turkey are rising, offering profitable opportunities for investors.",
+        "qualityEducationHealthcare": "Quality Education and Healthcare",
+        "qualityEducationHealthcareDesc": "High-quality education and healthcare services add long-term value for residential buyers.",
+        "citizenshipInvestment": "Citizenship by Investment",
+        "citizenshipInvestmentDesc": "Offering citizenship to investors makes Turkey an attractive choice.",
+        "spectacularViews": "Spectacular Views",
+        "spectacularViewsDesc": "Turkey’s scenic landscapes add natural beauty to living spaces."
+      },
+      "investmentOpportunitiesTitle": "Investment Opportunities Across Turkey",
+      "investmentOpportunitiesText": "Turkey’s real estate market offers a wide range of investment options.",
+      "locations": {
+        "istanbul": "Istanbul",
+        "istanbulDesc": "Offers luxury residential and commercial spaces.",
+        "antalya": "Antalya",
+        "antalyaDesc": "A popular region for seaside holiday properties.",
+        "ankara": "Ankara",
+        "ankaraDesc": "Ideal for commercial investments as the capital city."
+      },
+      "supportingImageAlt": "Real Estate Investments in Turkey",
+      "resourcesTitle": "Resources for Real Estate Investors",
+      "resources": {
+        "investTurkey": "Invest in Turkey",
+        "investTurkeyDesc": "Provides information and support for investments.",
+        "propertyTurkey": "Property Turkey",
+        "propertyTurkeyDesc": "Offers property listings and investment advice.",
+        "turkeyHomes": "Turkey Homes",
+        "turkeyHomesDesc": "A guide for investors."
+      },
+      "share": {
+        "twitter": "Share on Twitter",
+        "facebook": "Share on Facebook",
+        "linkedin": "Share on LinkedIn"
+      },
+      "shareText": "Discover Turkey's growing real estate market!"
+    },
+    "realEstateInvestmentTurkey": {
+      "title": "Real Estate Growth in Turkey",
+      "mainImageAlt": "Turkish Real Estate Growth Image",
+      "intro": "Turkey’s real estate market offers great growth potential with increasing demand...",
+      "keyDriversTitle": "Key Drivers of Growth",
+      "features": {
+        "strategicLocation": "Strategic Location",
+        "strategicLocationDesc": "Located at the crossroads of Europe and Asia, Turkey is a hub for trade and tourism...",
+        "modernInfrastructure": "Modern Infrastructure",
+        "modernInfrastructureDesc": "With its investments in modern infrastructure, Turkey is attractive for real estate growth...",
+        "highReturnPotential": "High Return Potential",
+        "highReturnPotentialDesc": "Turkey's rising real estate market, particularly in major cities, offers high returns...",
+        "qualityEducationHealthcare": "Quality Education and Healthcare",
+        "qualityEducationHealthcareDesc": "Access to high-quality education and healthcare...",
+        "citizenshipInvestment": "Citizenship by Investment",
+        "citizenshipInvestmentDesc": "Eligible investors can obtain Turkish citizenship through real estate investment...",
+        "spectacularViews": "Breathtaking Views",
+        "spectacularViewsDesc": "Turkey offers natural beauty from coastal to mountainous areas, adding appeal..."
+      },
+      "investmentOpportunitiesTitle": "Investment Opportunities",
+      "investmentOpportunitiesText": "Turkey offers profitable investment opportunities in sectors with high growth potential...",
+      "locations": {
+        "istanbul": "Istanbul",
+        "istanbulDesc": "The heart of Turkey's real estate market...",
+        "antalya": "Antalya",
+        "antalyaDesc": "A vibrant coastal area popular for tourism...",
+        "ankara": "Ankara",
+        "ankaraDesc": "The capital with a stable real estate market and increasing..."
+      },
+      "supportingImageAlt": "Turkish Real Estate Supporting Image",
+      "resourcesTitle": "Resources for Investors",
+      "resources": {
+        "investTurkey": "Invest in Turkey",
+        "investTurkeyDesc": "Official information on investment opportunities and economic data...",
+        "propertyTurkey": "Property Turkey",
+        "propertyTurkeyDesc": "Comprehensive guides on real estate investment in Turkey...",
+        "turkeyHomes": "Turkey Homes",
+        "turkeyHomesDesc": "Expert advice on purchasing property and profitable investments in Turkey..."
+      }
+    },
+    "afraConstructionUpdateCharts": {
+      "afraParkConstructionProgress": "Afra Park Construction Progress",
+      "realTimeAfraParkProgress": "Real-Time Afra Park Progress",
+      "constructionProgress": "Construction Progress",
+      "completed": "Completed"
+    },
+    "sylvanaConstructionUpdateCharts": {
+      "sylvanaConstructionProgress": "Sylvana Construction Progress",
+      "realTimeSylvanaProgress": "Real-Time Sylvana Progress",
+      "constructionProgress": "Construction Progress",
+      "completed": "Completed"
+    },
+    "arabianRanchesConstructionUpdates": {
+      "constructionProgress": "Construction Progress",
+      "completed": "Coming Soon",
+      "arabianRanchesConstructionProgress": "Arabian Ranches Construction Progress",
+      "realTimeArabianRanchesProgress": "Real-Time Arabian Ranches Progress"
+    },
+    "constructionUpdates": {
+      "pageTitle": "Construction Updates",
+      "metaDescription": "Follow the latest construction updates for Reportage Turkey projects.",
+      "keywords": "Afra Park, Sylvana Istanbul, Arabian Ranches, construction updates",
+      "introText": "Track the progress of our prestigious real estate projects.",
+      "motivationalText": "Witness the future of modern living unfold.",
+      "monthlyUpdatesTitle": "Monthly Video Updates",
+      "videoTitle1": "January 2024 Update",
+      "videoTitle2": "February 2024 Update",
+      "videoTitle3": "March 2024 Update",
+      "sylvanaTitle": "Sylvana Istanbul Construction Progress",
+      "sylvanaDescription": "Explore the latest updates for the Sylvana Istanbul project.",
+      "afraTitle": "Afra Park Construction Progress",
+      "afraDescription": "Follow the development stages of Afra Park.",
+      "arabianTitle": "Arabian Ranches Construction Progress",
+      "arabianDescription": "Check out the latest updates on Arabian Ranches.",
+      "conclusionTitle": "Our Commitment to Quality",
+      "conclusionText": "We ensure that each project meets the highest standards of quality and excellence.",
+      "conclusionMotivation": "Stay tuned for more updates as we build the future."
+    },
+    
+      "mainLayout": {
+        "brandName": "Reportage Turkey",
+        "termsOfUseLink": "Terms of Use",
+        "privacyPolicy": "Privacy Policy",
+        "home": "Home",
+        "projeler": "Projects",
+        "projelerylvana": "Sylvana Istanbul",
+        "projectAfra": "Afra Park",
+        "projectArabian": "Arabian Ranches",
+        "blog": "Blog",
+        "constructionUpdates": "Construction Updates",
+        "offers": "Offers",
+        "contactUs": "Contact Us",
+        "blogAfraPark": "Afra Park Bahçeşehir",
+        "blogGayrimenkulYatirim2024": "Real Estate Investment 2024",
+        "blogIstanbulGayrimenkulYatirim": "Istanbul Real Estate Investment",
+        "blogIstanbulYatirimCenneti": "Istanbul Investment Paradise",
+        "blogReportageTurkiyeLuks": "Reportage Turkey Luxury",
+        "blogReportageTurkiyeVizyon": "Reportage Turkey Vision",
+        "blogSurdurulebilirYasamIstanbul": "Sustainable Living in Istanbul",
+        "blogSylvanaIstanbulModernYasam": "Sylvana Istanbul Modern Living",
+        "blogTurkiyeGayrimenkulBuyumesi": "Turkey Real Estate Growth",
+        "blogTurkiyeGayrimenkulYatirim": "Turkey Real Estate Investment"
+      },
+      "offers": {
+        "title": "Don't Miss Our Offers!"
+      },
+      "footer": {
+        "about": "About Us",
+        "projects": "Projects",
+        "legal": "Legal"
+      },
+      "afraUnitTypes": {
+        "title": "Apartment Types",
+        "description": "Select an apartment type below and click on the image for a detailed view.",
+        "closeButton": "Close",
+        "unitType2A": "2 + 1 Apartment - Type A",
+        "unitType2B": "2 + 1 Apartment - Type B",
+        "unitType2C": "2 + 1 Apartment - Type C",
+        "unitType3AWithMaid": "3 + 1 Apartment - Type A (With Maid Room)",
+        "unitType3B": "3 + 1 Apartment - Type B",
+        "unitType4A": "4 + 1 Apartment - Type A",
+        "unitType4B": "4 + 1 Apartment - Type B"
+      },
+      "afraSocialAmenities": {
+        "title": "Social Amenities",
+        "description": "Afra Park, located in Bahçeşehir, Istanbul, offers a living space filled with modern facilities and beautiful scenery, providing relaxation, entertainment, and fitness amenities.",
+        "closeButton": "Close",
+        "swimmingPool": "Swimming Pool",
+        "swimmingPoolDescription": "Afra Park offers a perfect swimming pool amidst Bahçeşehir's natural beauty for relaxation or enjoyment.",
+        "bbqArea": "BBQ Areas",
+        "bbqAreaDescription": "Spacious BBQ areas close to nature, ideal for enjoying outdoor dining with family and friends.",
+        "parking": "Parking",
+        "parkingDescription": "Afra Park provides secure parking for residents and visitors, ensuring safety and convenience in this peaceful Istanbul community.",
+        "kidsPlayArea": "Children's Play Area",
+        "kidsPlayAreaDescription": "A fun and safe play area for children to enjoy their time in the heart of Bahçeşehir.",
+        "chessArea": "Giant Chess Area",
+        "chessAreaDescription": "A unique outdoor chess area offering an enjoyable intellectual challenge for all ages.",
+        "gym": "Fitness Center",
+        "gymDescription": "A modern fitness center equipped with the latest exercise equipment to help residents achieve their health and fitness goals.",
+        "petArea": "Pet Area",
+        "petAreaDescription": "A pet-friendly space where pet owners can enjoy quality time with their furry friends.",
+        "seatingArea": "Seating Areas",
+        "seatingAreaDescription": "Numerous seating areas throughout Afra Park offer quiet spaces for relaxation, reading, or socializing with neighbors.",
+        "tennisCourt": "Tennis Courts",
+        "tennisCourtDescription": "Professional-standard tennis courts for sports enthusiasts to enjoy friendly matches."
+      },
+      "afraAvailability": {
+        "title": "Afra Park Availability",
+        "totalUnits": "Total Units",
+        "soldUnits": "Sold Units",
+        "availableUnits": "Available Units"
+      },
+      "sylvanaUnitTypes": {
+        "title": "Available Unit Type",
+        "description": "Discover the luxurious 4+1 unit in Sylvana Istanbul, offering a modern and spacious living area perfect for large families. View the floor plan to see how this unit provides both comfort and elegance.",
+        "unitTypeLabel": "Three-Story Townhouse - 4 Bedrooms",
+        "unitTypeDescription": "The 4+1 unit type offers a spacious layout with modern amenities and luxurious living, ideal for large families. Explore the floor plan to see how this expansive unit maximizes comfort and functionality.",
+        "closeButton": "Close"
+      },
+      "ourOffers": "Our Offers",
+      "offersDescription": "Select the best offers tailored for you. Please fill out the form to request more information or contact our team.",
+      "offerRequest": {
+        "title": "Request an Offer",
+        "nameLabel": "Name",
+        "emailLabel": "Email",
+        "phoneLabel": "Phone",
+        "clientMessageLabel": "Your Message",
+        "clientMessagePlaceholder": "Type your message here...",
+        "marketingMessagesText": "I want to receive marketing messages about updates and special offers.",
+        "humanCheckbox": "I'm not a robot",
+        "privacyPolicy": "I accept the Privacy Policy",
+        "submitButton": "Submit",
+        "termsWarning": "Please accept the Privacy Policy",
+        "robotWarning": "Please check the 'I'm not a robot' box",
+        "authWarning": "Please complete the verification process",
+        "clientMessageWarning": "Please enter your message",
+        "submitError": "An error occurred while submitting your offer request",
+        "submitSuccess": "Your offer request was successfully submitted",
+        "authSuccess": "Successfully verified with {method}",
+        "authIncomplete": "Verification incomplete",
+        "authError": "{method} verification error",
+        "googleAuth": "Verify with Google",
+        "twitterAuth": "Verify with Twitter",
+        "yahooAuth": "Verify with Yahoo",
+        "facebookAuth": "Verify with Facebook"
+      },
+      "offer": {
+        "altText": "Offer",
+        "discountRate": "Discount Rate",
+        "downPayment": "Down Payment",
+        "installmentPeriod": "Installment Period",
+        "months": "Months",
+        "selectOfferButton": "Select Offer"
+      },
+      "thankYou": {
+        "title": "Thank You for Reaching Out to Reportage Turkey!",
+        "message": "Thank you for contacting us. Our team will get back to you as soon as possible.",
+        "journey": "Your journey to success starts here!",
+        "backToHome": "Back to Home",
+        "exploreprojeler": "Explore Our Projects"
+      },
+      "header": {
+        "title": "Create Something Great Together!",
+        "subtitle": "Ready to work with us? Whether it’s a bold new project or a creative challenge, we’re excited to help bring it to life.",
+        "message": "Leave us a message, and let’s make something amazing together!"
+      },
+      
+        "contactpage": {
+          "header": {
+            "title": "Contact Us",
+            "subtitle": "We're here to assist you",
+            "message": "Feel free to reach out to us with any questions or comments.",
+            "termsOfUse": "Terms of Use"
+          },
+          "form": {
+            "emailError": "Please enter a valid email address.",
+            "phoneInvalid": "Invalid phone number. Please enter a valid number.",
+            "emailInvalid": "Invalid email address. Please enter a valid email.",
+            "contactTitle": "Get in Touch",
+            "name": "Name",
+            "namePlaceholder": "Enter your name",
+            "email": "Email",
+            "emailPlaceholder": "Enter your email address",
+            "phone": "Phone Number",
+            "phonePlaceholder": "Enter your phone number",
+            "selectProject": "Select Project",
+            "selectProjectPlaceholder": "Choose a project",
+            "afraPark": "Afra Park",
+            "sylvanaIstanbul": "Sylvana Istanbul",
+            "arabianranches": "Arabian Ranches",
+            "unitType": "Unit Type",
+            "selectUnitType": "Select unit type",
+            "messageLabel": "Message",
+            "messagePlaceholder": "Write your message here...",
+            "languagePreference": "Language Preference",
+            "english": "English",
+            "turkish": "Turkish",
+            "arabic": "Arabic",
+            "appointment": "I want to schedule an appointment",
+            "appointmentLabel": "Select Date and Time for Appointment",
+            "appointmentPlaceholder": "Choose date and time",
+            "marketingConsent": "I agree to receive marketing communications about updates and special offers.",
+            "privacyPolicy": "I accept the Privacy Policy",
+            "privacyPolicyLink": "Privacy Policy",
+            "privacyPolicyError": "You must accept the Privacy Policy.",
+            "recaptcha": "Please complete the reCAPTCHA.",
+            "recaptchaError": "Please complete the reCAPTCHA.",
+            "languageError": "Please select at least one language preference.",
+            "phoneError": "Please enter a valid phone number.",
+            "noAppointment": "No appointment scheduled",
+            "submit": "Submit",
+            "submitError": "An error occurred while submitting the form. Please try again."
+          },
+          "footer": {
+            "completion": "Thank You!",
+            "description": "Your request has been received. We will get back to you shortly.",
+            "journey": "Start your journey with us."
+          }
+        },
+        "termsOfUse": {
+          "title": "Terms of Use",
+          "introductionTitle": "Introduction",
+          "introductionContent": "By accessing and using this website, you agree to the terms set forth herein. Please read these terms carefully, as your access to and use of the site is subject to these conditions.",
+          "privacySummaryTitle": "Privacy Policy Summary",
+          "privacySummaryContent": "The personal data we collect via our website is protected under the Personal Data Protection Law No. 6698...",
+          "websiteUsageTitle": "Website Usage",
+          "websiteUsageContent": "You may use our website for lawful purposes only. The following are prohibited:",
+          "websiteUsageList": {
+            "item1": "Preventing or harming other users' access to the site",
+            "item2": "Attempting to bypass security measures or disrupt site functionality",
+            "item3": "Providing misleading or false information"
+          },
+          "websiteUsageContent2": "By using our site, you agree to adhere to the above rules...",
+          "dataUsageTitle": "Use of Collected Data",
+          "dataUsageContent": "Your personal data may be used for the following purposes:",
+          "dataUsageList": {
+            "item1": "Improving our services and enhancing the user experience",
+            "item2": "Enhancing security and site performance",
+            "item3": "Conducting commercial activities and providing better service to you"
+          },
+          "dataUsageContent2": "We prioritize the privacy of your data...",
+          "disclaimerTitle": "Disclaimer",
+          "disclaimerContent": "Information, offers, and prices provided on our website may change at any time...",
+          "privacySecurityTitle": "Privacy and Data Security",
+          "privacySecurityContent": "We take all technical and administrative measures to protect and secure your data...",
+          "rightToChangeTitle": "Right to Change",
+          "rightToChangeContent": "The terms of use and privacy policy of our website may be updated from time to time to comply with applicable legal regulations...",
+          "contactTitle": "Contact",
+          "contactContent": "Feel free to contact us with any questions or feedback..."
+        },
+      
+      
+        "privacy_policy": {
+          "title": "Privacy Policy",
+          "sections": [
+            {
+              "title": "Preface",
+              "content": "Under the Personal Data Protection Law, REPORTAGE TURKEY REAL ESTATE DEVELOPMENT INVESTMENT SALES MARKETING TRADE JOINT STOCK COMPANY (hereinafter referred to as 'REPORTAGE' or 'Company') values the protection of your personal data and/or special categories of personal data. We show utmost care in storing all personal and/or sensitive personal data related to you that is transmitted to our company through various channels."
+            },
+            {
+              "title": "1. DEFINITIONS",
+              "content": "Data Controller: Refers to REPORTAGE TURKEY REAL ESTATE DEVELOPMENT INVESTMENT SALES MARKETING TRADE JOINT STOCK COMPANY, responsible for determining the purposes and means of processing personal data and establishing and managing the data recording system.\n\nData Subject - Related Person: Refers to the real person whose personal data is processed.\n\nCompany: Refers to REPORTAGE TURKEY REAL ESTATE DEVELOPMENT INVESTMENT SALES MARKETING TRADE JOINT STOCK COMPANY in accordance with this policy.\n\nLaw: Refers to the Personal Data Protection Law No. 6698.\n\nPersonal Data: Refers to any information relating to an identified or identifiable real person.\n\nSensitive Personal Data: Refers to data regarding individuals' race, ethnic origin, political opinion, philosophical beliefs, religion, sect or other beliefs, appearance, association, foundation or union membership, health, sexual life, criminal record, and security measures, as well as biometric and genetic data.\n\nBoard: Refers to the Personal Data Protection Board.\n\nPolicy: Refers to this 'Privacy Policy.'\n\nPersonal Data Processing: Refers to any operation performed on data such as obtaining, recording, storing, maintaining, changing, rearranging, disclosing, transferring, taking over, making available, classifying, or preventing the use of personal data in whole or in part through automated or non-automated means.\n\nExplicit Consent: Refers to consent that is based on being informed about a specific subject and is declared freely.\n\nDestruction: Refers to making personal data inaccessible, irretrievable, and non-reusable by anyone.\n\nDeletion: Refers to making personal data inaccessible and non-reusable for relevant users.\n\nAnonymization: Refers to making personal data incapable of being associated with an identified or identifiable person even if matched with other data.\n\nData: Refers to personal data and sensitive personal data collectively."
+            },
+            {
+              "title": "2. PURPOSE OF THE PRIVACY POLICY",
+              "content": "Our fundamental principle is to protect personal data and ensure compliance with the law. REPORTAGE has kept all personal and/or sensitive personal data obtained from you confidential and has not shared it with third parties. Accordingly, our company has always shown the necessary sensitivity to the protection of personal data and/or sensitive personal data. In line with the Personal Data Protection Law No. 6698 (hereinafter referred to as 'Law' or 'KVKK'), our internal regulations have been updated, and technical and administrative measures have been taken. In the ongoing process, REPORTAGE undertakes to comply with all obligations imposed by the law."
+            },
+            {
+              "title": "3. SCOPE OF THE PRIVACY POLICY",
+              "content": "This Privacy Policy has been prepared in compliance with the Personal Data Protection Law No. 6698. Your personal data and/or sensitive personal data are processed with your consent or within the scope of legal compliance. Such data is used for:\n\n- Ensuring the security of the company,\n- Providing you with complete services,\n- Conducting our commercial activities,\n- Resolving your issues quickly,\n- Enhancing our quality.\n\nSome personal data and/or sensitive personal data provided by you are depersonalized and anonymized as prescribed by the Law. Data used for statistical purposes is not covered by the Law or our policy. REPORTAGE reserves the right to amend this policy to protect personal data within the scope of legal compliance."
+            },
+            {
+              "title": "4. BASIC PRINCIPLES REGARDING THE PROCESSING OF PERSONAL DATA AND/OR SENSITIVE PERSONAL DATA",
+              "content": "Our basic principles regarding the processing of personal data and/or sensitive personal data are as follows. These principles will be valid for data processed by REPORTAGE based on explicit consent or within the scope of legal compliance.\n\n- Legality: REPORTAGE questions the source and legality of personal and/or sensitive personal data collected from individuals and entities. Legal acquisition of data is essential for REPORTAGE.\n\n- Compliance with Fairness: REPORTAGE ensures that the personal and/or sensitive personal data it collects from various sources complies with the rules of fairness.\n\n- Relevance, Proportionality, and Limitation to the Purpose of Processing: REPORTAGE uses the personal and/or sensitive personal data collected to the extent necessary, proportionate, and in line with the purpose of the service.\n\n- Accuracy: REPORTAGE ensures that the personal and/or sensitive personal data it collects is accurate, though it is not legally obligated to verify the accuracy of the data provided by clients or contacts.\n\n- Timeliness: REPORTAGE updates personal and/or sensitive personal data as needed or upon notification of changes.\n\n- Specific and Legitimate Purpose: REPORTAGE processes personal data and/or sensitive personal data within the specific purposes outlined by the relevant data subject’s consent or legal exceptions.\n\n- Retention for Required Duration: REPORTAGE retains personal and/or sensitive personal data for the legally required or purpose-specific durations. Once these purposes expire, the data is anonymized, destroyed, or deleted."
+            },
+            {
+              "title": "5. DELETION, DESTRUCTION, AND ANONYMIZATION OF PERSONAL DATA",
+              "content": "Your personal and/or sensitive personal data will be deleted, destroyed, or anonymized upon expiration of statutory limitation and retention periods, completion of judicial processes, or when other requirements end. Deletion, destruction, and anonymization are carried out upon request or spontaneously by REPORTAGE."
+            },
+            {
+              "title": "6. MINIMIZATION PRINCIPLE",
+              "content": "The minimization principle, also known as the principle of maximal efficiency, is essential. Personal data and/or sensitive personal data collected through various means are transferred to our system only to the extent necessary. Excessive data not aligned with the purpose is not recorded or is deleted, destroyed, or anonymized."
+            },
+            {
+              "title": "7. DATA CONFIDENTIALITY AND SECURITY",
+              "content": "REPORTAGE values the confidentiality of your personal and/or sensitive personal data. Necessary technical and administrative measures are taken to prevent unauthorized access and protect data confidentiality. Third parties that process data are also required to comply with data protection standards."
+            },
+            {
+              "title": "8. DATA ACCURACY",
+              "content": "The principle of accuracy is upheld. However, REPORTAGE is not responsible for verifying the accuracy of data provided by clients or other contacts."
+            }
+          ]
+        },
+        "project_architectural_designs": {
+          "title": "Project Architectural Designs",
+          "subtitle": "Discover the impressive architectural designs of the Afra Park, Sylvana Istanbul, and Arabian Ranches projects."
+        },
+        "filter_section": {
+          "title": "Project Architectural Designs",
+          "subtitle": "Discover the impressive architectural designs of the Afra Park, Sylvana Istanbul, and Arabian Ranches projects."
+        },
+        "filter": {
+          "interior_designs": "Interior Designs",
+          "exterior_designs": "Exterior Designs",
+          "all_designs": "All Designs"
+        },
+        "afra_park": {
+          "title": "Afra Park Istanbul Bahçeşehir"
+        },
+        "sylvana_istanbul": {
+          "title": "Sylvana Istanbul Bahçeşehir"
+        },
+        "arabian_ranches": {
+          "title": "Arabian Ranches"
+        },
+        "filter_hero_title": {
+          "title": "Welcome to Our Projects",
+          "subtitle": "Discover excellence and innovation in architectural design."
+        },
+        "afra_title": {
+          "title": "Afra Project"
+        },
+        "sylvana_title": {
+          "title": "Sylvana Istanbul Project"
+        },
+        "arabian_title": {
+          "title": "Arabian Ranches Project"
+        },
+        "home": {
+          "title": "Real Estate in Istanbul - Luxury Villas in Bahçeşehir",
+          "description": "Discover luxury villas and real estate investment opportunities in prime locations like Sylvana Istanbul, Afra Park in Bahçeşehir, and Arabian Ranches."
+        },
+        
+          "whatsappMessage": "Hello, I would like more information about the project."
+
+}

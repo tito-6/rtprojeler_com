@@ -1,0 +1,1321 @@
+﻿{
+  "contact": {
+    "title": "Bizimle İletişime Geçin",
+    "name": "Adınız",
+    "namePlaceholder": "Adınızı giriniz",
+    "email": "E-posta",
+    "emailPlaceholder": "E-posta adresinizi giriniz",
+    "phone": "Telefon Numarası",
+    "phonePlaceholder": "+90",
+    "project": "Hangi proje ile ilgileniyorsunuz?",
+    "projectPlaceholder": "Bir proje seçin",
+    "unitType": "Tercih Edilen Ünite Tipi",
+    "unitTypePlaceholder": "Bir ünite tipi seçin",
+    "message": "Mesajınız",
+    "messagePlaceholder": "Soru veya yorumunuzu yazınız",
+    "languageSelect": "Tercih ettiğiniz dilleri seçin:",
+    "english": "İngilizce",
+    "turkish": "Türkçe",
+    "arabic": "Arapça",
+    "appointment": "Danışmanlık randevusu almak istiyorum (isteğe bağlı)",
+    "appointmentDate": "Randevu Tarihini ve Saatini Seçin",
+    "selectDate": "Tarih ve Saat Seçin",
+    "acceptMarketing": "Pazarlama mesajlarını almayı kabul ediyorum (isteğe bağlı)",
+    "privacyPolicy": "Gizlilik Politikasını kabul ediyorum",
+    "submit": "Mesaj Gönder",
+    "phoneError": "Lütfen geçerli bir telefon numarası giriniz.",
+    "languageError": "Lütfen en az bir dil seçiniz.",
+    "submissionError": "Form gönderilirken bir hata oluştu. Lütfen tekrar deneyin.",
+    "noAppointment": "Randevu Yok",
+    "other": "Diğer"
+  },
+  "contact.arabianranches":"Arabian Ranches",
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "questions": [
+      {
+        "question": "Afra Park Bahçeşehir'de hangi tip konutlar mevcut?",
+        "answer": "Afra Park Bahçeşehir, 177 birimden oluşmaktadır; 49 adet iki yatak odalı, 28 adet üç yatak odalı, 79 adet hizmetli odalı üç yatak odalı ve 21 adet dört yatak odalı konut sunmaktadır. Projede ayrıca hizmetli odalı 2 adet dört yatak odalı villa bulunmaktadır."
+      },
+      {
+        "question": "Afra Park Bahçeşehir'in toplam arsa alanı nedir?",
+        "answer": "Afra Park, toplam 24.976,71 metrekarelik bir arsa üzerine inşa edilmiştir ve sakinlerine geniş yaşam, açık hava aktiviteleri ve sosyal alanlar sunmaktadır."
+      },
+      {
+        "question": "Afra Park'ta sunulan temel sosyal olanaklar nelerdir?",
+        "answer": "Afra Park, özel otopark, geniş yüzme havuzu, çocuk havuzu, barbekü alanları, oyun alanları, çok amaçlı saha, açık hava satranç ve masa tenisi alanları, evcil hayvan alanı, bisiklet yolları, gölgelikli oturma alanları, spor salonu, buhar ve sauna odaları ile toplantı odaları gibi geniş bir sosyal olanak yelpazesi sunmaktadır."
+      },
+      {
+        "question": "Afra Park'ta sakinler için hangi otopark seçenekleri mevcut?",
+        "answer": "Afra Park Bahçeşehir'deki her bir birim için özel otopark alanı bulunmaktadır. Ayrıca topluluk içerisinde ziyaretçi otoparkları da mevcuttur."
+      },
+      {
+        "question": "Afra Park Bahçeşehir, İstanbul'daki önemli noktalara ne kadar uzaklıkta?",
+        "answer": "Afra Park, Millet Bahçesi'ne 4 dakika, Bahçeşehir Tren İstasyonu'na 10 dakika, Akbatı AVM'ye 10 dakika ve İstanbul Havalimanı'na 40 dakika mesafede bulunmaktadır."
+      },
+      {
+        "question": "Afra Park'ta mülk sahibi olmak Türk vatandaşlığı için yatırım şartlarını sağlıyor mu?",
+        "answer": "Afra Park Bahçeşehir'de en az 400.000 $ değerinde mülk satın alarak yatırımcılar Türk vatandaşlığına hak kazanabilir. Bu, yatırımcılara ve ailelerine Türk vatandaşlığı edinme ve beraberindeki avantajlardan yararlanma imkanı sağlar."
+      },
+      {
+        "question": "Afra Park Bahçeşehir'de hangi açık alanlar mevcut?",
+        "answer": "Proje, geniş yeşil alanlar ve peyzaj düzenlemeleriyle tasarlanmıştır. Sakinler, birim planlarına göre özel balkon, teras, ön bahçe ve arka bahçelerden faydalanabilir. Açık alanlar, barbekü alanları, oyun alanları ve gölgelikli oturma alanları gibi sosyal olanaklarla dinlenme ve sosyalleşme için tasarlanmıştır."
+      },
+      {
+        "question": "Afra Park'ta çocuklar için eğlence alanları mevcut mu?",
+        "answer": "Evet, Afra Park'ta çocuklar için yüzme havuzu, oyun alanları ve açık hava aktiviteleri için geniş alanlar gibi çeşitli eğlence alanları bulunmaktadır. Proje, aileler için güvenli ve eğlenceli bir ortam sağlamak üzere tasarlanmıştır."
+      },
+      {
+        "question": "Afra Park veya Sylvana İstanbul'daki birimimi özelleştirebilir miyim?",
+        "answer": "Evet, her iki projede de iç mekan özelleştirme seçenekleri sunulmaktadır. Zemin döşemeleri, mutfak tasarımları ve banyo aksesuarları gibi detayları seçebilirsiniz. Ekibimiz, mevcut özelleştirme paketleri hakkında daha fazla bilgi sağlayabilir."
+      },
+      {
+        "question": "Afra Park Bahçeşehir'de bir sosyal merkez veya kulüp var mı?",
+        "answer": "Afra Park, spor salonu, buhar odaları, sauna odaları ve toplantı odaları ile donatılmış bir sosyal merkeze sahiptir. Bu olanaklar, sakinlere konforlu ve lüks bir yaşam deneyimi sunmak için tasarlanmıştır."
+      },
+      {
+        "question": "Afra Park ve Sylvana İstanbul projelerini ziyaret veya tur düzenlemek için nasıl randevu alabilirim?",
+        "answer": "Web sitemizdeki iletişim formu veya telefon aracılığıyla satış ekibimizle iletişime geçerek ziyaret veya tur için randevu alabilirsiniz. Randevu saatleri 08:00 - 20:00 arasında esneklik göstermektedir. Aşağıdaki formu doldurarak ekibimizin sizinle iletişime geçmesini sağlayabilirsiniz."
+      },
+      {
+        "question": "Afra Park ve Sylvana İstanbul projelerindeki birimlerin yerleşim planları nasıldır?",
+        "answer": "Her iki projedeki birimler, geniş yaşam alanları, ferah yatak odaları ve balkonlar ile teraslar gibi açık alanlarla tasarlanmıştır. Yerleşim planı, aile yaşamına uygun, mahremiyet, lüks ve işlevsellik sağlayacak şekilde optimize edilmiştir."
+      },
+      {
+        "question": "Afra Park Bahçeşehir'i çevre dostu bir proje yapan nedir?",
+        "answer": "Afra Park, geniş peyzaj düzenlemeleri, gölgelikli alanlar ve bisiklet yolları gibi çevre dostu politikalarla tasarlanmıştır. Proje, temiz ve yeşil bir ortam vurgusu yaparak Reportage Türkiye’nin sürdürülebilirlik taahhüdü ile uyum sağlamaktadır."
+      },
+      {
+        "question": "Afra Park'a yakın eğitim kurumları mevcut mu?",
+        "answer": "Evet, Afra Park'ın yakınında Bilfen Okulları ve Istanbul Leader Russian School gibi saygın okullar bulunmaktadır (her ikisi de 10 dakikalık mesafede). Ayrıca, Beykent Üniversitesi ve İstanbul Üniversitesi’nin Büyükçekmece Kampüsü de yakındadır."
+      }
+    ]
+  },
+  "about": {
+    "title": "Reportage Hakkında",
+    "description": "2014 yılından bu yana, Reportage Properties küresel gayrimenkul geliştirme sektöründe önemli bir oyuncu olarak, Avrupa merkezli yatırımları ve dört kıtada uluslararası ortaklıkları ile faaliyet göstermektedir. Yenilikçi, lüks ve modern konut projeleri ile tanınan Reportage Properties, sektördeki standartları belirlemeye devam etmektedir.",
+    "expertiseTitle": "Küresel Gayrimenkul Geliştirme Uzmanı",
+    "expertiseDescription": "2014 yılından bu yana, Reportage Properties İtalya, ABD, Birleşik Krallık, Fransa, Arnavutluk, Rusya, Pakistan, Hindistan, Uganda, Fas, Mısır, Ruanda, Kenya, Irak, BAE ve Suudi Arabistan gibi ülkelerde Avrupa merkezli yatırımlar ve uluslararası ortaklıklarla gayrimenkul geliştirme sektöründe faaliyet göstermektedir. Yenilikçi, lüks ve modern konut projeleriyle tanınan Reportage Properties, küresel gayrimenkul geliştirme alanında önde gelen markalardan biri olarak kabul edilmektedir.",
+    "luxuryTitle": "Uluslararası standartlarda lüks konut projeleri.",
+    "partnershipsTitle": "Gayrimenkul sektöründe güçlü ortaklıklar ve uluslararası işbirlikleri.",
+    "innovativeTitle": "Yenilikçi ve uygun fiyatlı konut çözümleri sunuyoruz."
+  },
+  "hero": {
+    "logoAlt": "Reportage Logosu",
+    "title": "Reportage Türkiye",
+    "description": "2014 yılından beri birçok kıtada faaliyet gösteren Reportage Properties, lüks konut projeleriyle tanınmakta ve sektördeki en güvenilir markalardan biri olarak kabul edilmektedir.",
+    "moreInfo": "Daha Fazla Bilgi",
+    "whoWeAre": "Biz Kimiz",
+    "aboutTitle": "Reportage Hakkında",
+    "reportageTurkey": "Reportage Türkiye",
+    "watchVideo": "Tanıtım videosunu izleyin",
+    "globalExpertTitle": "Uluslararası Piyasada Gayrimenkul Geliştirme Uzmanı",
+    "globalExpertDescription": "2014 yılından bu yana, Reportage Properties İtalya, ABD, Birleşik Krallık, Fransa, Arnavutluk, Rusya, Pakistan, Hindistan, Uganda, Fas, Mısır, Ruanda, Kenya, Irak, BAE ve Suudi Arabistan gibi ülkelerde Avrupa merkezli yatırımlar ve uluslararası ortaklıklarla faaliyet göstermekte, lüks ve modern konut projeleriyle sektörde lider bir marka olarak öne çıkmaktadır."
+  },
+  "projelerPage": {
+    "pageTitle": "Lüks Villalar ve Konutlar",
+    "pageDescription": "Reportage Türkiye tarafından geliştirilen İstanbul ve Bakü'deki lüks villaları ve konutları keşfedin.",
+    "heroTitle": "Projelerimiz",
+    "heroSubtitle": "İstanbul ve Azerbaycan'daki lüks projelerimizi keşfedin.",
+    "sylvana": {
+      "title": "Sylvana İstanbul - Bahçeşehir",
+      "description": "Sylvana İstanbul, Bahçeşehir'in kalbinde modern lüks yaşam sunuyor...",
+      "virtualTourTitle": "Sylvana İstanbul Sanal Tur",
+      "seeProjectButton": "Sylvana İstanbul Projesini Gör",
+      "moreInfo": "Daha Fazla Bilgi"
+    },
+    "afraPark": {
+      "title": "Afra Park - Bahçeşehir",
+      "description": "Afra Park, Bahçeşehir'de lüks aile yaşamı için geniş villalar sunar...",
+      "virtualTourTitle": "4+1 Ev - Tip A Sanal Tur",
+      "seeProjectButton": "Afra Park Projesini Gör",
+      "moreInfo": "Daha Fazla Bilgi"
+    },
+    "arabianRanches": {
+      "title": "Arabian Ranches - Azerbaycan",
+      "description": "Arabian Ranches, Hazar Denizi kıyısında Doğu'nun zarafeti ve modern lüksü bir araya getiriyor...",
+      "virtualTourTitle": "Arabian Ranches Sanal Tur",
+      "seeProjectButton": "Arabian Ranches Projesini Gör",
+      "moreInfo": "Daha Fazla Bilgi"
+    }
+  },
+  "community": {
+    "title": "Topluluğumuz",
+    "locations": [
+      {
+        "flagCode": "TR",
+        "name": "Türkiye",
+        "description": "İstanbul'un kalbinde, modern konut projeleri ve daha fazlası."
+      },
+      {
+        "flagCode": "AE",
+        "name": "Abu Dabi",
+        "description": "Özel etkinlikler ve lüks konut projeleri."
+      },
+      {
+        "flagCode": "AE",
+        "name": "Dubai",
+        "description": "Dubai'deki üst düzey lüks konut projeleri."
+      },
+      {
+        "flagCode": "EG",
+        "name": "Kahire",
+        "description": "Modern altyapı, lüks mülkler ve kentsel gelişim."
+      },
+      {
+        "flagCode": "MA",
+        "name": "Fas",
+        "description": "Modern tasarımlarla Fas'ta lüks konut seçenekleri."
+      },
+      {
+        "flagCode": "SA",
+        "name": "Suudi Arabistan",
+        "description": "Modern ve lüks yaşam alanları."
+      },
+      {
+        "flagCode": "RU",
+        "name": "Rusya",
+        "description": "Rusya genelinde yenilikçi gayrimenkul projeleri."
+      },
+      {
+        "flagCode": "PK",
+        "name": "Pakistan",
+        "description": "Canlı ve modern konut projeleri."
+      },
+      {
+        "flagCode": "UG",
+        "name": "Uganda",
+        "description": "Uganda'da genişleyen gayrimenkul fırsatları."
+      },
+      {
+        "flagCode": "RW",
+        "name": "Ruanda",
+        "description": "Ruanda'da yenilikçi konut projeleri."
+      }
+    ]
+  },
+  
+  "arabianRanches": {
+    "title": "Arabian Ranches",
+    "description": "RMS Capital Investment tarafından geliştirilen Arabian Çiftlikleri, Hazar Denizi yakınlarındaki prestijli Sea Breeze bölgesinde bulunan seçkin bir konut kompleksidir. Bu proje, Doğu mimarisinin zarafetini sahil yaşamıyla harmanlayarak, lüks ve huzurun benzersiz bir kombinasyonunu sunmaktadır.",
+    "details": "Arabian Çiftlikleri, Azerbaycan'ın küresel sahnedeki artan önemini temsil etmektedir. Bu konut kompleksi, uluslararası yatırımcıları Azerbaycan'ın büyüyen gayrimenkul sektörünün bir parçası olmaya davet etmektedir.",
+    "moreInfo": "Arabian Çiftlikleri Hakkında Daha Fazla Bilgi"
+  },
+  "hero_title": {
+    "title": "Türkiye'nin Önde Gelen Gayrimenkul Projeleri",
+    "subtitle": "Modern yaşamın kalbinde yer alan projelerimizle tanışın.",
+    "explore_designs": "Projelerimizin Mimari Tasarımları",
+    "afra_park": "Afra Park İstanbul Bahçeşehir",
+    "sylvana_istanbul": "Sylvana İstanbul Bahçeşehir",
+    "interior_designs": "İç Mekan Tasarımları",
+    "exterior_designs": "Dış Mekan Tasarımları",
+    "show_all": "Tümünü Göster",
+    "explore_description": "Afra Park İstanbul Bahçeşehir ve Sylvana İstanbul Bahçeşehir projelerinin çarpıcı mimari tasarımlarını keşfedin. Modern lüks yaşamı tanımlayan iç ve dış mekan tasarımlarını inceleyin.",
+    "contact_us": "Bizimle İletişime Geçin"
+  },
+  "projeler": {
+    "title": "Projelerimiz",
+    "pageTitle": "Lüks Villalar ve Konutlar",
+    "pageDescription": "Reportage Türkiye tarafından geliştirilen İstanbul ve Bakü'deki lüks villaları ve konutları keşfedin.",
+    "sylvana": {
+      "title": "Sylvana İstanbul - Bahçeşehir",
+      "description": "Sylvana İstanbul, Bahçeşehir'in kalbinde modern lüks yaşam sunuyor...",
+      "virtualTourTitle": "Sylvana İstanbul Sanal Tur",
+      "seeProjectButton": "Sylvana İstanbul Projesini Gör",
+      "moreInfo": "Daha Fazla Bilgi"
+    },
+    "afraPark": {
+      "title": "Afra Park - Bahçeşehir",
+      "description": "Afra Park, Bahçeşehir'de lüks aile yaşamı için geniş villalar sunar...",
+      "virtualTourTitle": "4+1 Kasaba Evi - Tip A Sanal Tur",
+      "seeProjectButton": "Afra Park Projesini Gör",
+      "moreInfo": "Daha Fazla Bilgi"
+    },
+    "arabianRanches": {
+      "title": "Arabian Ranches - Azerbaycan",
+      "description": "Arabian Ranches, Hazar Denizi kıyısında Doğu zarafeti ve modern lüksü bir araya getiriyor...",
+      "virtualTourTitle": "Arabian Ranches Sanal Tur",
+      "seeProjectButton": "Arabian Ranches Projesini Gör"
+    }
+  },
+  "afraDocuments": {
+    "title": "Afra Park Proje Dökümanları",
+    "description": "Aşağıda, Afra Park projesi ile ilgili gerekli tüm materyalleri bulabilirsiniz; katalog, broşür ve detaylı birim tipleri tablosu dahil.",
+    "catalog": "Katalog",
+    "infoSheet": "Bilgi Formu",
+    "unitTypes": "Birim Tipleri Tablosu",
+    "brochure": "Broşür",
+    "viewDocument": "Dökümana Göz At"
+  },
+  "sylvanaDocuments": {
+    "title": "Sylvana İstanbul Proje Dökümanları",
+    "description": "Aşağıda Sylvana İstanbul projesiyle ilgili katalog, broşür ve detaylı birim tipleri sayfası gibi gerekli tüm materyalleri bulabilirsiniz.",
+    "catalog": "Katalog",
+    "infoSheet": "Bilgi Sayfası",
+    "unitTypes": "Birim Tipleri Sayfası",
+    "brochure": "Broşür",
+    "viewDocument": "Dökümana Göz At"
+  },
+  "sylvanaRenderImages": {
+    "exteriorTitle": "Sylvana İstanbul Projesi Dış Mekanlar",
+    "exteriorDescription": "İtalyan tasarımı ve estetik güzellik her alanda hissediliyor; Avrupa ve uluslararası standartlara uygun yeşil alanlar sağlanıyor.",
+    "interiorTitle": "Sylvana İstanbul Projesi İç Mekanlar",
+    "interiorDescription": "Sylvana villaları, şık zevkleri karşılamak ve mahremiyeti korumak için 4 ana yatak odası ve kapalı mutfak ile tasarlanmıştır.",
+    "expandedViewAlt": "Genişletilmiş Görünüm",
+    "gridView": "Izgara Görünümü",
+    "sliderView": "Kaydırma Görünümü",
+    "modernDesign": "Modern Tasarım",
+    "openSpaces": "Açık Alanlar",
+    "scenicView": "Manzaralı Görünüm",
+    "mainBedrooms": "4 Ana Yatak Odası",
+    "closedKitchen": "Kapalı Mutfak",
+    "luxuryBathrooms": "Lüks Banyolar",
+    "elegantFinishes": "Zarif Bitişler"
+  },
+  "afraRenderImages": {
+    "exteriorTitle": "Afra Park Projesi Dış Mekanlar",
+    "exteriorDescription": "İtalyan tasarımı ve yüksek kaliteli cephelerle her alanda estetik detaylara sahip ustalıkla yapılmış mimari tasarım.",
+    "interiorTitle": "Afra Park Projesi İç Mekanlar",
+    "interiorDescription": "Afra Park konutları, zarafet ve lüks için tasarlanmış yüksek kaliteli iç mekanlara sahiptir.",
+    "expandedViewAlt": "Genişletilmiş Görünüm",
+    "gridView": "Izgara Görünüm",
+    "sliderView": "Kaydırıcı Görünüm",
+    "modernDesign": "Modern Tasarım",
+    "openSpaces": "Açık Alanlar",
+    "scenicView": "Manzara",
+    "spaciousBedrooms": "Geniş Yatak Odaları",
+    "modernKitchen": "Modern Mutfak",
+    "luxuryBathrooms": "Lüks Banyolar",
+    "artisticFinishes": "Sanatsal Bitişler",
+    "thumbnailAlt": "Küçük Resim"
+  },
+  "arabianRanchesDocuments": {
+    "title": "Arabian Ranches Proje Dökümanları",
+    "description": "Aşağıda, Arabian Ranches projesine ait gerekli tüm dökümanları bulabilirsiniz. Bu dökümanlar, master plan, katalog, kat planları ve sunumu içermektedir.",
+    "masterPlan": "Master Plan",
+    "catalog": "Katalog",
+    "floorPlans": "Kat Planları",
+    "presentation": "Sea Breeze Sunumu",
+    "viewDocument": "Belgeyi Görüntüle"
+  },
+  "arabianRanchesRenderImages": {
+    "galleryTitle": "Arabian Ranches Görsel Galerisi",
+    "expandedViewAlt": "Genişletilmiş Görünüm",
+    "gridView": "Izgara Görünüm",
+    "sliderView": "Kaydırıcı Görünüm",
+    "imageAlt": "Görsel",
+    "thumbnailAlt": "Küçük Görsel"
+  },
+  "ArabianRanchesPage": {
+    "title": "Arabian Ranches - Azerbaycan | Sea Breeze Lüks Yaşam",
+    "metaDescription": "Arabian Ranches, Hazar Denizi yakınlarında Doğu'nun zarafeti ve modern lüksü bir araya getiriyor. Sakin bir ortamda townhouse i keşfedin.",
+    "metaKeywords": "Arabian Ranches, lüks yaşam, Sea Breeze, Azerbaycan gayrimenkul, townhouses, daireler, RMS Capital Yatırım",
+    "ogTitle": "Arabian Ranches - Sea Breeze Lüks Yaşam",
+    "ogDescription": "Arabian Ranches'in zarafetini keşfedin, Hazar Denizi yakınlarında lüks townhouse  sunan birinci sınıf bir konut kompleksi.",
+    "heroTitle": "Arabian Ranches",
+    "heroSubtitle": "Doğu mirasından ilham alan lüks yaşam, prestijli Sea Breeze bölgesinde yer almaktadır.",
+    "aboutTitle": "Arabian Ranches",
+    "aboutLocation": "Azerbaycan - Sea Breeze",
+    "aboutDescription": "Doğu mirası ve modern lüksün huzurlu bir birleşimi olan Arabian Ranches, Hazar Denizi'nin yanında rahat yaşam için tasarlanmış seçkin townhouse  sunar. Plaja sadece birkaç adım mesafede bulunan bu VIP konum, doğanın güzelliğine erişimle eşsiz bir yaşam tarzı sunar.",
+    "virtualToursTitle": "Sanal Turlar",
+    "virtualToursSubtitle": "Arabian Ranches sanal turlarımızı keşfedin"
+  },
+  "ArabianRanchesLocationFeatures": {
+    "title": "Arabian Ranches'a Yakın Öne Çıkan Lokasyonlar",
+    "description": "Arabian Ranches, Bakü, Azerbaycan'da Hazar Denizi yakınında lüks townhouselar sunmaktadır. Bu özel konum, prestijli okullar, hastaneler, alışveriş merkezleri ve rekreasyon alanları ile çevrilidir.",
+    "mapTitle": "Arabian Ranches Konumu",
+    "locations": {
+      "bakuBoulevard": "Bakü Bulvarı",
+      "bakuInternationalSchool": "Bakü Uluslararası Okulu",
+      "europeAzerbaijanSchool": "Avrupa Azerbaycan Okulu",
+      "ganjlikMall": "Ganjlik Alışveriş Merkezi",
+      "heydarAliyevCenter": "Haydar Aliyev Merkezi",
+      "mall28": "28 Alışveriş Merkezi",
+      "oilWorkersHospital": "Petrol İşçileri Merkez Hastanesi",
+      "bakuStateUniversity": "Bakü Devlet Üniversitesi",
+      "adaUniversity": "ADA Üniversitesi",
+      "parkBoulevardMall": "Park Bulvar Alışveriş Merkezi",
+      "bakuOlympicStadium": "Bakü Olimpiyat Stadı",
+      "absheronNationalPark": "Abşeron Milli Parkı",
+      "dalgaBeachResort": "Dalga Plajı Aquapark Resort",
+      "heydarAliyevAirport": "Haydar Aliyev Uluslararası Havalimanı"
+    },
+    "times": {
+      "15min": "15 Dak",
+      "12min": "12 Dak",
+      "18min": "18 Dak",
+      "20min": "20 Dak",
+      "25min": "25 Dak",
+      "22min": "22 Dak",
+      "17min": "17 Dak",
+      "30min": "30 Dak",
+      "40min": "40 Dak",
+      "35min": "35 Dak"
+    }
+  },
+  "gallery": {
+    "title": "Arabian Ranches Image Gallery",
+    "sliderView": "Slider View",
+    "gridView": "Grid View"
+  },
+  "ArabianRanchesSocialAmenities": {
+    "title": "Arabian Ranches Sosyal Olanaklar",
+    "description": "Arabian Ranches, rahatlama, eğlence ve spor olanaklarını bir araya getiren lüks sosyal alanlar sunar. Prestijli Sea Breeze bölgesinde yer alan bu projede, Orta Doğu tasarımının zarafetini modern tesislerle deneyimleyebilirsiniz.",
+    "closeButton": "Kapat",
+    "icons": {
+      "swimming": "Yüzme",
+      "parking": "Otopark",
+      "fitness": "Fitness",
+      "nature": "Doğa",
+      "sport": "Spor",
+      "petArea": "Evcil Hayvan Alanı",
+      "chess": "Satranç",
+      "bbq": "Mangal"
+    },
+    "amenities": {
+      "swimmingPool": {
+        "label": "Yüzme Havuzu",
+        "description": "Arabian Ranches, Caspian Denizi manzaralı lüks bir yüzme havuzu sunar. Burada sakinler rahatlayıp keyifli vakit geçirebilir."
+      },
+      "bbq": {
+        "label": "Mangal Alanları",
+        "description": "Sosyal buluşmalar için geniş mangal alanlarının tadını çıkarın, deniz esintisine yakın açık havada yemek için ideal."
+      },
+      "parking": {
+        "label": "Otopark Alanı",
+        "description": "Sakinler ve misafirler için güvenli otopark tesisleri, rahatlık ve huzur sağlar."
+      },
+      "kidsPlay": {
+        "label": "Çocuk Oyun Alanı",
+        "description": "Çocukların güvenli bir ortamda eğlenmesi ve keyifli vakit geçirmesi için tasarlanmış özel bir oyun alanı."
+      },
+      "chess": {
+        "label": "Dev Satranç Alanı",
+        "description": "Sakinlerin eğlenceli ve zihin geliştirici oyunların tadını çıkarabileceği bir açık hava dev satranç seti."
+      },
+      "gym": {
+        "label": "Spor Salonu",
+        "description": "Sakinlerin sağlığını ve zindeliğini korumak için tam donanımlı bir spor merkezi."
+      },
+      "petArea": {
+        "label": "Evcil Hayvan Alanı",
+        "description": "Evcil hayvanlar için oyun ve egzersiz yapabilecekleri özel bir alan sunan evcil hayvan dostu bir ortam."
+      },
+      "seating": {
+        "label": "Oturma Alanları",
+        "description": "Çevredeki güzelliklerin tadını çıkarabileceğiniz manzaralı oturma alanları."
+      },
+      "tennis": {
+        "label": "Tenis Kortları",
+        "description": "Sakinlerin manzaralı bir ortamda dostane maçların keyfini çıkarabileceği profesyonel tenis kortları."
+      }
+    }
+  },
+  "SylvanaPage": {
+    "title": "Sylvana İstanbul - Bahçeşehir | Modern 4+1 Triplex Villalar",
+    "metaDescription": "Sylvana İstanbul, Bahçeşehir'de modern triplex 4+1 villalar sunmaktadır. Aile yaşantısı ve yatırım fırsatları için idealdir.",
+    "keywords": "triplex villa, Sylvana İstanbul, müstakil villa, 4+1 villa, Bahçeşehir villa, satılık villa, villa İstanbul, Bahçeşehir satılık villa, modern villa",
+    "ogTitle": "Sylvana İstanbul - 4+1 Modern Triplex Villalar",
+    "ogDescription": "Bahçeşehir'de yer alan Sylvana İstanbul'da lüks 4+1 triplex villaları keşfedin. Yatırımcılar ve aile yaşantısı için ideal.",
+    "heroTitle": "Sylvana İstanbul",
+    "heroSubtitle": "Bahçeşehir'in kalbinde yer alan lüks 4+1 villalar.",
+    "aboutTitle": "Sylvana İstanbul",
+    "aboutLocation": "İstanbul - Bahçeşehir",
+    "aboutDescription": "Bahçeşehir'de modern ve lüks bir yaşam deneyimi, geniş 4+1 triplex villalar.",
+    "virtualToursTitle": "Sanal Turlar",
+    "virtualToursSubtitle": "Sylvana İstanbul sanal turlarımızı keşfedin"
+  },
+  "SylvanaAmenities": {
+    "title": "Sosyal Olanaklar",
+    "description": "Sylvana İstanbul, sakinlerine konfor, eğlence ve aile yaşantısını bir arada sunan lüks olanaklar sağlar. Peyzaj bahçeleri, barbekü alanları ve evcil hayvan dostu bölgelerle modern bir yaşam tarzının tadını çıkarın.",
+    "landscapeGarden": "Peyzaj Bahçesi",
+    "landscapeGardenDesc": "Sylvana İstanbul, doğanın güzelliğini ve huzurunu yaşamanız için tasarlanmış peyzaj bahçelerine sahiptir.",
+    "bbqAreas": "Barbekü Alanları",
+    "bbqAreasDesc": "Aile ve arkadaşlarınızla açık havada yemek keyfi için geniş barbekü alanları sunar.",
+    "parkingArea": "Otopark Alanı",
+    "parkingAreaDesc": "Sakinler ve misafirler için güvenli ve kolay erişim sağlayan otopark alanları.",
+    "kidsPlayArea": "Çocuk Oyun Alanı",
+    "kidsPlayAreaDesc": "Çocuklar için güvenli ve eğlenceli bir oyun alanı sunar.",
+    "chessArea": "Büyük Satranç Alanı",
+    "chessAreaDesc": "Her yaştan sakine hitap eden açık hava dev satranç alanı, eğlenceli ve entelektüel bir meydan okuma sağlar.",
+    "seatingAreas": "Oturma Alanları",
+    "seatingAreasDesc": "Dinlenmek, okumak veya komşularla sohbet etmek için çeşitli oturma alanları sunar.",
+    "petFriendlyAreas": "Evcil Hayvan Dostu Alanlar",
+    "petFriendlyAreasDesc": "Evcil hayvanlarınızın doğanın tadını çıkarabileceği özel alanlar sunar.",
+    "gym": "Spor Salonu",
+    "gymDesc": "Son teknoloji fitness ekipmanları ile donatılmış spor salonu, sağlıklı ve aktif bir yaşam için idealdir.",
+    "closeButton": "Kapat"
+  },
+  "ArabianRanchesAvailability": {
+    "title": "Arabian Ranches Mevcut Birimler",
+    "totalUnits": "Toplam Birim",
+    "soldOutUnits": "Satılan Birimler",
+    "availableUnits": "Mevcut Birimler",
+    "total": "Toplam",
+    "sold": "Satıldı",
+    "available": "Mevcut"
+  },
+  "SylvanaLocation": {
+    "title": "Sylvana İstanbul'a Yakın Öne Çıkan Lokasyonlar",
+    "description": "Sylvana İstanbul, Bahçeşehir'in kalbinde lüks townhouselar sunarak doğanın güzelliğini modern aile yaşamıyla birleştirir. Bu özel konum, yüksek kaliteli okullar, sağlık tesisleri, alışveriş merkezleri ve eğlence alanları gibi dünya standartlarında olanaklarla çevrilidir. Modern olanaklar ve huzurlu bir ortam arayan aileler için ideal olan Sylvana İstanbul, hızla büyüyen İstanbul emlak pazarında mükemmel bir yatırım fırsatı sunar.",
+    "mapTitle": "Sylvana İstanbul Konumu",
+    "features": {
+      "bahcesehirPark": "Bahçeşehir Gölet Parkı",
+      "bilfenSchool": "Bilfen Okulu",
+      "leaderRussianSchool": "İstanbul Lider Rus Okulu",
+      "bahcesehirFitness": "Bahçeşehir Fitness Merkezi",
+      "bahcesehirTrainStation": "Bahçeşehir Tren İstasyonu",
+      "prestigeMallPark": "Prestige Mall Park",
+      "istinyeHospital": "İstinye Hastanesi",
+      "istanbulUniversity": "İstanbul Üniversitesi",
+      "ataturkOlympicStadium": "Atatürk Olimpiyat Stadı",
+      "aquaClubDolphin": "Aqua Club Dolphin",
+      "istanbulAirport": "İstanbul Havalimanı"
+    },
+    "times": {
+      "10min": "10 Dak.",
+      "11min": "11 Dak.",
+      "15min": "15 Dak.",
+      "17min": "17 Dak.",
+      "25min": "25 Dak.",
+      "30min": "30 Dak."
+    }
+  },
+  "SylvanaAvailability": {
+    "title": "Sylvana İstanbul Mevcut Durum",
+    "totalUnits": "Toplam Üniteler",
+    "soldUnits": "Satılan Üniteler",
+    "availableUnits": "Mevcut Üniteler",
+    "total": "Toplam: 244",
+    "sold": "Satılan: 160",
+    "available": "Mevcut: 84"
+  },
+  "AfraPage": {
+    "title": "Afra Park İstanbul - Bahçeşehir",
+    "metaDescription": "Bahçeşehir'deki modern Afra Park projelerini keşfedin.",
+    "keywords": "Afra Park, Bahçeşehir, konut projeleri, gayrimenkul, İstanbul",
+    "ogTitle": "Afra Park İstanbul - Bahçeşehir",
+    "ogDescription": "Bahçeşehir'deki modern Afra Park ile çeşitli villalar  sunuyoruz.",
+    "heroTitle": "Afra Park Projesine Hoş Geldiniz",
+    "heroSubtitle": "Bahçeşehir'in kalbinde lüks villalar ",
+    "aboutTitle": "Afra Park Hakkında",
+    "aboutLocation": "Afra Park'ın Konumu",
+    "aboutDescription": "Afra Park, doğanın güzelliği ile modern yaşam tarzını bir araya getirerek sakinlerine lüks bir yaşam deneyimi sunuyor.",
+    "virtualToursTitle": "Sanal Turlar",
+    "virtualToursSubtitle": "Projelerimizin sanal turlarını keşfedin.",
+    "closeButton": "Kapat"
+
+  },
+  "AfraVirtualTours": {
+    "typeA": "2 + 1 TOWNHOUSE - TİP A",
+    "typeB": "2 + 1 TOWNHOUSE - TİP B",
+    "typeC": "2 + 1 TOWNHOUSE - TİP C",
+    "typeWithMaid": "3 + 1 TOWNHOUSE (YARDIMCI İLE) - TİP A",
+    "typeB3": "3 + 1 TOWNHOUSE - TİP B",
+    "typeC3": "3 + 1 TOWNHOUSE - TİP C",
+    "typeA3_5": "3.5 + 1 TOWNHOUSE - TİP A",
+    "typeD3_5": "3.5 + 1 TOWNHOUSE - TİP D",
+    "typeA4": "4 + 1 TOWNHOUSE - TİP A",
+    "typeB4": "4 + 1 TOWNHOUSE - TİP B",
+    "typeC4_5": "4.5 + 1 TOWNHOUSE - TİP C"
+  },
+  "locationFeatures": {
+        "title": "Afra Park’a Yakın Önde Gelen Lokasyonları Keşfedin",
+        "description": "Afra Park, Bahçeşehir, İstanbul'un kalbinde lüks şehir evleri sunarak doğanın güzelliğini modern aile yaşamı ile birleştirir. Bu önde gelen lokasyon, en iyi okullar, sağlık tesisleri, alışveriş merkezleri ve rekreasyon alanları gibi dünya çapında olanaklarla çevrilidir.",
+        "features": {
+            "park": "Bahçeşehir Gölet Parkı",
+            "bilfenSchool": "Bilfen Okulu",
+            "leaderRussianSchool": "İstanbul Lider Rus Okulu",
+            "fitnessCenter": "Bahçeşehir Fitness Merkezi",
+            "trainStation": "Bahçeşehir Tren İstasyonu",
+            "mallPark": "Prestige Mall Park",
+            "istinyeHospital": "İstinye Hastanesi",
+            "istanbulUniversity": "İstanbul Üniversitesi Büyükçekmece Kampüsü",
+            "beykentUniversity": "Beykent Üniversitesi",
+            "mallOfIstanbul": "Mall of İstanbul",
+            "olympicStadium": "Atatürk Olimpiyat Stadı",
+            "naturePark": "Samlar Doğa Parkı",
+            "aquaClub": "Aqua Club Dolphin",
+            "istanbulAirport": "İstanbul Havalimanı"
+        },
+        "times": {
+            "9min": "9 Dak.",
+            "10min": "10 Dak.",
+            "11min": "11 Dak.",
+            "15min": "15 Dak.",
+            "17min": "17 Dak.",
+            "18min": "18 Dak.",
+            "25min": "25 Dak.",
+            "30min": "30 Dak.",
+            "40min": "40 Dak."
+        }
+    },
+    "blogPage": {
+    "title": "Blog & Haberler",
+    "pageDescription": "İstanbul ve Türkiye gayrimenkul pazarına dair en son haberleri ve trendleri keşfedin.",
+    "keywords": "İstanbul, gayrimenkul, yatırım, Türkiye",
+    "popularTopics": "Popüler Blog Konuları",
+    "latestNews": "En Son Gayrimenkul Haberleri",
+    "istanbulInvestment": {
+      "title": "İstanbul'un Gayrimenkul Pazarına Yatırım Yapmak",
+      "description": "İstanbul'un neden yatırım merkezi haline geldiğini keşfedin."
+    },
+    "reportageTurkey": {
+      "title": "Reportage Türkiye: İstanbul'da Lüksü Yeniden Tanımlamak",
+      "description": "Reportage Türkiye'nin lüks yaşam standartlarını nasıl yeniden tanımladığını keşfedin."
+    },
+    "benefitsTurkeyInvestment": {
+      "title": "Türk Gayrimenkulüne Yatırım Yapmanın Faydaları",
+      "description": "Vatandaşlık fırsatlarından geri dönüş oranlarına, Türkiye'ye yatırım yapmanın avantajları."
+    },
+    "afraParkBahcesehir": {
+      "title": "Afra Park Bahçeşehir: Doğayla İç İçe Bir Vaha",
+      "description": "Afra Park Bahçeşehir'de kentsel yaşam ve doğanın eşsiz uyumunu keşfedin."
+    },
+    "sylvanaIstanbul": {
+      "title": "Sylvana İstanbul: Modern Yaşam İçin Yeni Bir Vizyon",
+      "description": "Sylvana İstanbul projesi ve geleceğe hazır olanakları hakkında bilgi edinin."
+    },
+    "turkeyRealEstateGrowth": {
+      "title": "Türkiye'de Gayrimenkul Büyümesi",
+      "description": "Türkiye'nin gayrimenkul pazarının nasıl genişlediğini ve küresel yatırımcıları nasıl çektiğini öğrenin."
+    },
+    "istanbulInvestmentParadise": {
+      "title": "İstanbul Neden Bir Yatırım Cenneti?",
+      "description": "İstanbul'u gayrimenkul yatırımcıları için cazip kılan unsurları keşfedin."
+    },
+    "reportageFutureVision": {
+      "title": "Reportage Türkiye'nin Gelecek Vizyonu",
+      "description": "Reportage Türkiye'nin gelecekteki projeleri ve vizyonu hakkında bilgi edinin."
+    },
+    "realEstateForecast2024": {
+      "title": "2024'te Gayrimenkul Yatırım Öngörüleri",
+      "description": "Gelecek yıl gayrimenkul yatırımları için önemli öngörüler."
+    },
+    "sustainableLivingIstanbul": {
+      "title": "İstanbul'da Sürdürülebilir Yaşam: Yeni Bir Trend",
+      "description": "Türkiye'deki yeni gayrimenkul projelerinde sürdürülebilir yaşam trendinin nasıl şekillendiğini öğrenin."
+    }
+  },
+  "common": {
+    "readMore": "Daha Fazla Oku",
+    "backToHome": "Ana Sayfaya Dön",
+    "loading": "Yükleniyor..."
+  },
+  "investmentInsights": {
+    "heading": "2024 Yatırım İçgörüleri: İstanbul Gayrimenkul Pazarında Öne Çıkan Trendler",
+    "mainImageAlt": "2024 Yatırım İçgörüleri",
+    "introduction": "İstanbul, Avrupa ve Asya’yı birleştiren bir iş ve kültür merkezi olarak büyümeye devam ederken, yatırımcılar İstanbul’un gayrimenkul pazarına artan ilgi gösteriyor.",
+    "whyInvestTitle": "Neden İstanbul'un Gayrimenkul Pazarına Yatırım Yapmalısınız?",
+    "whyInvestText": "İstanbul’un gayrimenkul sektörü son yıllarda önemli bir büyüme gösterdi. Başlıca avantajlar:",
+    "advantages": {
+      "location": { "title": "Stratejik Konum", "description": "İstanbul’un konumu, küresel ticaret ve iş dünyası için ideal bir merkezdir." },
+      "economy": { "title": "Büyüyen Ekonomi", "description": "Türkiye'nin ekonomik büyümesiyle birlikte İstanbul'da mülk fiyatları sürekli olarak değer kazanıyor." },
+      "incentives": { "title": "Yatırım Teşvikleri", "description": "Nitelikli gayrimenkul yatırımı yapan yabancı yatırımcılar vatandaşlık hakkına sahip oluyor." },
+      "urbanDemand": { "title": "Kentsel Yaşam Talebi", "description": "İstanbul’un nüfusu büyümeye devam ediyor, bu da konut ve ticari gayrimenkul talebini artırıyor." }
+    },
+    "trendsTitle": "2024'te Öne Çıkan Yatırım Trendleri",
+    "trends": {
+      "luxuryResidential": { "title": "Lüks Konut Projeleri", "description": "İstanbul’un Bebek ve Nişantaşı gibi bölgeleri, lüks yaşam talebinde olan yatırımcıları çekiyor." },
+      "urbanExpansion": { "title": "Kentsel Genişleme Alanları", "description": "Bahçeşehir ve Beylikdüzü gibi gelişen bölgeler, uygun yatırım fırsatları sunuyor." },
+      "commercialRealEstate": { "title": "Ticari Gayrimenkul", "description": "İş merkezleri, İstanbul’a artan kurumsal ofis ve girişimleriyle yüksek talep görüyor." },
+      "highROIRentals": { "title": "Yüksek Getirili Kiralık Mülkler", "description": "Kısa dönem kiralık daireler, turistler ve expat’lar arasında yüksek talep görüyor." },
+      "greenprojeler": { "title": "Sürdürülebilir Yeşil Projeler", "description": "Çevre dostu projeler, sürdürülebilirlik arayan yatırımcıları cezbetmektedir." },
+      "infrastructure": { "title": "Altyapı Gelişmeleri", "description": "İstanbul’un yeni havalimanları, metro genişletmeleri çevresindeki mülk değerlerini artırıyor." }
+    },
+    "considerationsTitle": "Yatırımcılar İçin Anahtar Dikkat Edilecekler",
+    "considerationsText": "İstanbul gayrimenkul pazarı cazip fırsatlar sunsa da, yatırımcıların piyasa dalgalanmalarına dikkat etmesi gerekmektedir.",
+    "share": {
+      "twitter": "X'te Paylaş",
+      "facebook": "Facebook'ta Paylaş",
+      "linkedin": "LinkedIn'de Paylaş"
+    },
+    "shareText": "İstanbul’un Gayrimenkul Pazarında 2024 Yatırım Trendlerini Keşfedin!"
+  },
+  "afraPark": {
+    "title": "Afra Park Bahçeşehir: İstanbul'un Yeşil Alanında Lüks Yaşam",
+    "mainImageAlt": "Afra Park Bahçeşehir",
+    "description": "İstanbul'un Bahçeşehir bölgesinin kalbinde yer alan Afra Park Bahçeşehir, eşsiz bir yaşam tarzı sunan prestijli bir konut projesidir.",
+    "whyChoose": "Neden Afra Park Bahçeşehir'i Seçmelisiniz?",
+    "whyChooseText": "Afra Park Bahçeşehir, doğa ve lüksün benzersiz uyumunu sunmaktadır...",
+    "features": {
+      "greenSpaces": "Yeşil Alanlar",
+      "greenSpacesDescription": "Dinlenme ve aile aktiviteleri için ideal, güzel bahçeler ve parklarla çevrili.",
+      "privateAmenities": "Özel Olanaklar",
+      "privateAmenitiesDescription": "Yüzme havuzları, spor salonları ve çocuk oyun alanları gibi lüks olanaklar sunmaktadır.",
+      "security": "7/24 Güvenlik",
+      "securityDescription": "Tüm sakinler için güvenli bir yaşam ortamı sağlamak amacıyla üst düzey güvenlik hizmetleri sunmaktadır."
+    },
+    "investmentPotentialTitle": "Yatırım Potansiyeli:",
+    "investmentPotentialText": "Afra Park Bahçeşehir, hızla gelişen bir bölgede konumlanmıştır ve bu da onu cazip bir yatırım fırsatı yapmaktadır...",
+    "communityImageAlt": "Bahçeşehir Topluluğu",
+    "lifestyleTitle": "Yaşam Tarzı ve Topluluk",
+    "lifestyleText": "Bahçeşehir bölgesi, aile dostu topluluğu, tanınmış okulları ve geniş yeşil alanları ile bilinmektedir...",
+    "nearbyAttractionsTitle": "Yakındaki Önemli Noktalar ve Erişilebilirlik",
+    "nearbyAttractionsText": "Afra Park Bahçeşehir, ana yollara kolay erişim sağlamakta ve İstanbul şehir merkezine iyi bir bağlantı sunmaktadır...",
+    "resourcesTitle": "Yatırım Bilgileri İçin Güvenilir Kaynaklar",
+    "resources": {
+      "propertyTurkey": "Property Turkey",
+      "propertyTurkeyDescription": "Türkiye gayrimenkul pazarı ve önde gelen yatırım bölgeleri hakkında bilgiler.",
+      "investTurkey": "Invest in Turkey",
+      "investTurkeyDescription": "Resmi yatırım bilgileri ve pazar verileri.",
+      "turkeyHomes": "Turkey Homes",
+      "turkeyHomesDescription": "Türkiye'deki yatırımcılar için rehberler ve kaynaklar."
+    },
+    "share": {
+      "twitter": "X'te Paylaş",
+      "facebook": "Facebook'ta Paylaş",
+      "linkedin": "LinkedIn'de Paylaş"
+    },
+    "shareText": "İstanbul'da Afra Park Bahçeşehir'in lüks yaşamını keşfedin!"
+  },
+  "investing": {
+    "title": "İstanbul Gayrimenkul Pazarında Yatırım",
+    "mainImageAlt": "İstanbul Gayrimenkul",
+    "description": "İstanbul’un gayrimenkul pazarı, eşsiz coğrafi konumu, dinamik ekonomisi ve çeşitli gayrimenkul fırsatları ile yatırımcılar için oldukça cazip bir yerdir...",
+    "whyInvestTitle": "Neden İstanbul'a Yatırım Yapmalısınız?",
+    "whyInvestText": "İstanbul, Avrupa ve Asya'nın kesişim noktasında yer alan, kültürel ve ekonomik bir merkezdir...",
+    "investInTurkeyInfoTitle": "Invest in Turkey'den Bilgiler",
+    "investInTurkeyInfoText1": "Invest in Turkey platformuna göre, Türkiye ekonomisi olağanüstü bir direnç göstermiş olup...",
+    "investInTurkeyInfoText2": "Türk hükümeti ayrıca yabancı mülk alıcılarına vergi teşvikleri ve yasal destekler sunmakta olup...",
+    "keyAreasTitle": "Yatırım Yapılacak Ana Bölgeler",
+    "bosphorus": "Boğaz Sahil Şeridi",
+    "bosphorusDesc": "Muhteşem manzaralı lüks mülkler ve yüksek yatırım getirisi.",
+    "bahcesehirBeylikduzu": "Bahçeşehir ve Beylikdüzü",
+    "bahcesehirBeylikduzuDesc": "Uygun fiyatlı ve aile dostu alanlar, güçlü büyüme potansiyeli ile öne çıkıyor.",
+    "cityCenter": "Şehir Merkezi",
+    "cityCenterDesc": "Nişantaşı ve Taksim, yüksek kira getirisi sunarak genç profesyoneller ve turistleri çekmektedir.",
+    "secondaryImageAlt": "İstanbul Yatırım Potansiyeli",
+    "trendsTitle": "İstanbul Gayrimenkul Pazarındaki Trendler",
+    "trendsText": "İstanbul emlak piyasası, kentsel, banliyö ve lüks mülklerde güçlü talep ile son yıllarda istikrarlı bir değer artışı gösteriyor...",
+    "resourcesTitle": "Yatırımcılar İçin Kaynaklar",
+    "resources": {
+      "propertyTurkey": "Property Turkey",
+      "propertyTurkeyDescription": "Türkiye’deki gayrimenkul yatırımı, popüler lokasyonlar ve güncel piyasa bilgileri için rehberler.",
+      "investTurkey": "Invest in Turkey",
+      "investTurkeyDescription": "Türk hükümetinden yatırım fırsatları ve ekonomik veri konularında resmi bilgiler.",
+      "turkeyHomes": "Turkey Homes",
+      "turkeyHomesDescription": "Türkiye'de mülkler ve karlı gayrimenkul yatırımları hakkında uzman tavsiyeleri."
+    },
+    "share": {
+      "twitter": "X'te Paylaş",
+      "facebook": "Facebook'ta Paylaş",
+      "linkedin": "LinkedIn'de Paylaş"
+    },
+    "shareText": "İstanbul gayrimenkul yatırımı üzerine bu bilgilendirici makaleye göz atın!"
+  },
+  "whyInvestIstanbul": {
+    "title": "İstanbul’da Yatırım: Küresel Bir Yatırım Merkezi",
+    "mainImageAlt": "Neden İstanbul'a Yatırım Yapmalı?",
+    "description": "İki kıtayı birleştiren İstanbul, dünyanın en cazip yatırım destinasyonlarından biri haline geldi...",
+    "reasonsTitle": "İstanbul’a Yatırım Yapmak İçin Önde Gelen Nedenler",
+    "reasons": {
+      "strategicLocation": "Stratejik Konum",
+      "strategicLocationDesc": "Avrupa ve Asya'nın kesişme noktasında yer alan İstanbul, hem Doğu hem de Batı pazarlarına erişim sağlar ve küresel iş için idealdir.",
+      "growingEconomy": "Büyüyen Ekonomi",
+      "growingEconomyDesc": "İstanbul’un ekonomisi, gayrimenkul, turizm ve finans sektörlerinin büyük katkılarıyla bölgede en hızlı büyüyen ekonomilerden biridir.",
+      "culturalAttractions": "Kültürel ve Tarihi Çekicilik",
+      "culturalAttractionsDesc": "Ayasofya ve Boğaziçi gibi simge yapılarla İstanbul, milyonlarca turisti kendine çeker, bu da turizm ve perakende yatırımlar için sürekli bir talep yaratır.",
+      "realEstateMarket": "Güçlü Gayrimenkul Pazarı",
+      "realEstateMarketDesc": "İstanbul'un gayrimenkul pazarı, prime lokasyonlarda lüks konutlardan ticari alanlara kadar geniş seçeneklerle yüksek getiri sunar.",
+      "investmentIncentives": "Yatırım Teşvikleri",
+      "investmentIncentivesDesc": "Türk hükümeti, yabancı yatırımcılara vergi avantajları ve yatırım yoluyla vatandaşlık gibi çeşitli teşvikler sunmaktadır.",
+      "globalConnectivity": "Küresel Bağlantı",
+      "globalConnectivityDesc": "Dünyanın en büyük havaalanlarından biri olan İstanbul Havalimanı, İstanbul'u 300'den fazla destinasyona bağlar, iş ve turizmi destekler."
+    },
+    "realEstateInfoTitle": "Gayrimenkul Yatırım Bilgileri",
+    "realEstateInfoDesc": "İstanbul’un gayrimenkul sektörü hızla genişliyor; hem konut hem de ticari mülklere olan talep artıyor.",
+    "secondaryImageAlt": "İstanbul Gayrimenkul Yatırımı",
+    "sourcesTitle": "Yatırımcılar İçin Güvenilir Kaynaklar",
+    "sources": {
+      "investTurkey": "Türkiye'de Yatırım",
+      "investTurkeyDesc": "Yatırım fırsatları ve teşviklerle ilgili resmi bilgi.",
+      "propertyTurkey": "Property Turkey",
+      "propertyTurkeyDesc": "İstanbul'da gayrimenkul yatırımı için listeleme ve kaynaklar.",
+      "turkeyHomes": "Turkey Homes",
+      "turkeyHomesDesc": "Türkiye’de gayrimenkul satın alma ve yatırım konusunda uzman tavsiyeleri."
+    },
+    "share": {
+      "twitter": "X'te Paylaş",
+      "facebook": "Facebook'ta Paylaş",
+      "linkedin": "LinkedIn'de Paylaş"
+    },
+    "shareText": "İstanbul'un neden bir yatırım merkezi olduğunu keşfedin!"
+  },
+  "reportageTurkiyeLuxury": {
+    "title": "Reportage Türkiye: İstanbul’da Lüks Gayrimenkul Anlayışını Yeniden Tanımlıyor",
+    "mainImageAlt": "Reportage Türkiye Lüks Gayrimenkul",
+    "intro": "Lüks gayrimenkul alanında öncü isimlerden biri olan Reportage Türkiye, İstanbul’un zengin kültürel mirasını modern yaşamla buluşturarak yepyeni bir lüks konut anlayışı sunuyor. Reportage Türkiye, zarafet, konfor ve yeniliği harmanlayan projeleri ile İstanbul’da üst düzey yaşam standartlarını yeniden tanımlıyor.",
+    "featuresTitle": "Reportage Türkiye’yi Diğerlerinden Ayıran Özellikler",
+    "featuresText": "Reportage Türkiye, kaliteye olan bağlılığı, detaylara verdiği önem ve benzersiz mimari yaklaşımı ile tanınır. Her proje, modern estetik ve kültürel etkiyi yansıtarak sakinlerine zarafet, konfor ve lüksü bir arada sunar.",
+    "projelerTitle": "İstanbul’daki Özel Projelerimiz",
+    "projelerText": "Reportage Türkiye, <strong>Afra Park Bahçeşehir</strong> ve <strong>Sylvana İstanbul</strong> gibi prestijli projelerle İstanbul’da konfor ve lüksü bir arada sunuyor. Bu projeler, geniş yaşam alanları, yüksek kaliteli olanaklar ve İstanbul’un kültürel ve sosyal olanaklarına yakınlıkları ile öne çıkmaktadır.",
+    "secondaryImageAlt": "Reportage Türkiye Yatırım Fırsatı",
+    "lifestyleTitle": "İhtişam ve Kolaylık Dolu Bir Yaşam Tarzı",
+    "lifestyleText": "Reportage Türkiye, sadece lüks konutlar değil, aynı zamanda eksiksiz bir yaşam tarzı sunuyor. Modern spor salonları, Boğaz manzaralı teraslar, yemyeşil bahçeler ve özel yüzme havuzları gibi olanaklarla her konut sakinlerine huzur sunmaktadır.",
+    "investmentTitle": "İstanbul’da Gayrimenkul Yatırım Fırsatları",
+    "investmentText": "İstanbul gayrimenkul piyasası dünya genelinden yatırımcıların ilgisini çekmeye devam ediyor. Reportage Türkiye’yi tercih ederek sadece bir mülke değil, aynı zamanda özel ve zarif bir yaşam tarzına yatırım yapmış olursunuz.",
+    "exploreMoreTitle": "Daha Fazlasını Keşfedin ve Lüks Devrimine Katılın",
+    "exploreMoreText": "Projelerimiz hakkında daha fazla bilgi almak ve İstanbul’da lüks konut anlayışını yeniden tanımlayan fırsatları keşfetmek için",
+    "investTurkey": "Invest in Turkey",
+    "share": {
+      "twitter": "X'te Paylaş",
+      "facebook": "Facebook'ta Paylaş",
+      "linkedin": "LinkedIn'de Paylaş"
+    },
+    "shareText": "İstanbul'da Reportage Türkiye'nin sunduğu lüks gayrimenkul seçeneklerini keşfedin!"
+  },
+  "reportageTurkiyeVision": {
+    "title": "Reportage Türkiye'nin Vizyonu: Türkiye'de Gayrimenkulün Geleceğini Şekillendiriyor",
+    "mainImageAlt": "Reportage Türkiye Vizyonu",
+    "intro": "Reportage Türkiye olarak vizyonumuz, Türkiye'de inovatif, sürdürülebilir ve topluma odaklanan projeler yaratarak gayrimenkul sektörünü yeniden tanımlamaktır...",
+    "missionTitle": "Vizyon ve Misyonumuz",
+    "vision": "Vizyonumuz",
+    "visionDesc": "Türkiye'de kalite, tasarım ve müşteri deneyiminde yeni standartlar belirleyerek gayrimenkul sektöründe öncü bir güç haline gelmek.",
+    "mission": "Misyonumuz",
+    "missionDesc": "Yüksek kaliteli projeler sunarak toplumun gelişimine katkıda bulunmak.",
+    "valuesTitle": "Temel Değerlerimiz",
+    "innovation": "İnovasyon",
+    "innovationDesc": "Modern topluluklar için yenilikçi çözümler.",
+    "integrity": "Dürüstlük",
+    "integrityDesc": "Şeffaflık ve dürüstlükle güven inşa etmek.",
+    "sustainability": "Sürdürülebilirlik",
+    "sustainabilityDesc": "Çevre dostu çözümler.",
+    "futureGoals": "Gelecek Hedeflerimiz",
+    "futureGoalsText": "Reportage Türkiye olarak yüksek kaliteye adanmış projelerle Türkiye'de ikonik yapılar yaratmayı amaçlıyoruz.",
+    "futureImageAlt": "Reportage Türkiye'nin Geleceği",
+    "moreInfo": "Reportage Türkiye Hakkında Daha Fazla Bilgi Edinin",
+    "officialSite": "Reportage Türkiye Resmi Web Sitesi",
+    "officialSiteDesc": "Projelerimiz hakkında bilgi edinin.",
+    "investTurkey": "Invest in Turkey",
+    "investTurkeyDesc": "Türkiye'deki yatırım fırsatlarını keşfedin.",
+    "propertyTurkey": "Property Turkey",
+    "propertyTurkeyDesc": "Türkiye gayrimenkul yatırımları hakkında bilgi.",
+    "share": {
+      "twitter": "Twitter'da Paylaş",
+      "facebook": "Facebook'ta Paylaş",
+      "linkedin": "LinkedIn'de Paylaş"
+    }
+  },
+  "privacyPolicy" : {
+    "title": "Gizlilik Politikası"
+  },
+  "sustainableLiving": {
+    "title": "İstanbul’da Sürdürülebilir Yaşam",
+    "mainImageAlt": "İstanbul'da Sürdürülebilir Yaşam",
+    "intro": "İstanbul, gelişen bir dünya şehri olarak büyürken, sürdürülebilir yaşam uygulamaları çevreye duyarlı bir yaşam tarzı sağlamak için giderek önem kazanıyor.",
+    "coreElementsTitle": "İstanbul’da Sürdürülebilir Yaşamın Temel Unsurları",
+    "features": {
+      "greenHomes": "Çevre Dostu Evler",
+      "greenHomesDesc": "İstanbul’da enerji verimliliği ve sürdürülebilir malzemelerle inşa edilen yeni konutlar yeşil yaşamı destekliyor.",
+      "renewableEnergy": "Yenilenebilir Enerji",
+      "renewableEnergyDesc": "Güneş ve rüzgar enerjisine yapılan yatırımlarla İstanbul sürdürülebilir enerji kaynaklarına odaklanıyor.",
+      "waterConservation": "Su Tasarrufu",
+      "waterConservationDesc": "Su tasarrufu kampanyalarıyla İstanbul su kaynaklarını koruyor.",
+      "wasteManagement": "Atık Yönetimi",
+      "wasteManagementDesc": "Geri dönüşüm programlarıyla İstanbul döngüsel ekonomi oluşturmayı hedefliyor.",
+      "urbanGreenSpaces": "Kentsel Yeşil Alanlar",
+      "urbanGreenSpacesDesc": "Park ve bahçelerle İstanbul biyolojik çeşitliliği destekliyor.",
+      "smartInfrastructure": "Akıllı Şehir Altyapısı",
+      "smartInfrastructureDesc": "İstanbul, enerji verimliliğini artıran akıllı şehir teknolojilerini benimsiyor."
+    },
+    "benefitsTitle": "Sürdürülebilir Yaşam Neden Önemlidir?",
+    "benefitsText": "Sürdürülebilir yaşam uygulamaları çevreyi korurken, İstanbul’daki yaşam kalitesini de artırmaktadır.",
+    "caseStudyTitle": "Vaka Çalışması: İstanbul’un Yeşil Projeleri",
+    "caseStudyText": "İstanbul'un yeni projeleri kentsel yeşil alanları genişletmeyi ve çevresel sürdürülebilirliği artırmayı amaçlıyor.",
+    "share": {
+      "twitter": "Twitter'da Paylaş",
+      "facebook": "Facebook'ta Paylaş",
+      "linkedin": "LinkedIn'de Paylaş"
+    },
+    "shareText": "İstanbul'da Sürdürülebilir Yaşam Fırsatlarını Keşfedin!"
+  },
+"sylvanaModernLiving": {
+  "title": "Sylvana İstanbul: Türkiye'nin Kalbinde Modern Yaşam",
+  "mainImageAlt": "Sylvana İstanbul Modern Yaşam",
+  "intro": "Sylvana İstanbul, lüks, modern mimari ve doğal güzellikleri İstanbul’un hareketli yaşamıyla buluşturuyor. Şehrin zengin kültürü ve tarihiyle iç içe, bu yaşam alanı konfor ve zarafeti bir araya getiriyor.",
+  "elegantLifestyleTitle": "Şıklık ve Konforla Tanımlanan Bir Yaşam Tarzı",
+  "elegantLifestyleText": "Geniş iç mekanlar ve yemyeşil bahçelerle Sylvana İstanbul, stil, konfor ve huzuru bir arada sunuyor.",
+  "features": {
+    "greenSpaces": "Yeşil Alanlar",
+    "greenSpacesDesc": "Rahatlamak ve açık hava aktiviteleri için güzel yeşil alanlar.",
+    "luxuryInteriors": "Lüks İç Mekanlar",
+    "luxuryInteriorsDesc": "Yüksek kaliteli malzemelerle konforlu ve şık tasarımlar.",
+    "security": "Üst Düzey Güvenlik",
+    "securityDesc": "24 saat güvenlik ve gelişmiş güvenlik sistemleri."
+  },
+  "modernConvenienceTitle": "Modern Konfor",
+  "modernConvenienceText": "Ana yollara ve toplu taşımaya yakınlığı ile Sylvana İstanbul, şehirle bağlantınızı kolaylaştırır.",
+  "communityImageAlt": "Sylvana İstanbul Topluluğu",
+  "whyChooseTitle": "Neden Sylvana İstanbul'u Tercih Etmelisiniz?",
+  "whyChooseText": "Sylvana İstanbul, aileler, profesyoneller ve yatırımcılar için kaliteli bir yaşam alanı sunuyor.",
+  "nearbyLandmarksTitle": "Yakındaki Önemli Yerler ve Erişilebilirlik",
+  "nearbyLandmarksText": "Proje, alışveriş merkezleri, restoranlar, eğitim kurumları ve sağlık tesislerine yakın konumdadır.",
+  "reliableResourcesTitle": "Yatırım İçin Güvenilir Kaynaklar",
+  "resources": {
+    "investTurkey": "Türkiye'de Yatırım",
+    "investTurkeyDesc": "Türkiye’deki yatırım fırsatları hakkında bilgi edinin.",
+    "propertyTurkey": "Property Turkey",
+    "propertyTurkeyDesc": "İstanbul’da gayrimenkul yatırımı hakkında rehberler.",
+    "turkeyHomes": "Turkey Homes",
+    "turkeyHomesDesc": "Türkiye'de mülk satın alma ve yatırım tavsiyeleri."
+  },
+  "share": {
+    "twitter": "Twitter'da Paylaş",
+    "facebook": "Facebook'ta Paylaş",
+    "linkedin": "LinkedIn'de Paylaş"
+  },
+  "shareText": "Sylvana İstanbul'da modern yaşamı keşfedin!"
+},
+"growthRealEstateTurkey": {
+  "title": "Türkiye'de Gayrimenkul Büyümesi: Yatırımcılar İçin Büyüyen Bir Pazar",
+  "mainImageAlt": "Türkiye'de Gayrimenkul Büyümesi",
+  "intro": "Türkiye'nin gayrimenkul pazarı, yerli ve yabancı yatırımcılar için oldukça cazip bir seçenek sunmaktadır. Konumu ve çeşitliliği ile Türkiye, konut ve ticari alanlarda yüksek getiri potansiyeli taşımaktadır.",
+  "keyDriversTitle": "Türkiye'de Gayrimenkul Büyümesinin Ana Etmenleri",
+  "features": {
+    "strategicLocation": "Stratejik Konum",
+    "strategicLocationDesc": "Türkiye, Asya ve Avrupa'nın kesişim noktasında bulunur ve iş ve ticaret için ideal bir merkezdir.",
+    "modernInfrastructure": "Modern Altyapı",
+    "modernInfrastructureDesc": "Türkiye'nin gelişmiş altyapısı, ulaşım ve yaşam standartlarını artırmaktadır.",
+    "highReturnPotential": "Yüksek Getiri Potansiyeli",
+    "highReturnPotentialDesc": "Türkiye'de mülk değerleri artış göstermektedir, yatırımcılar için kârlı fırsatlar sunar.",
+    "qualityEducationHealthcare": "Eğitim ve Sağlık Hizmetleri",
+    "qualityEducationHealthcareDesc": "Türkiye'deki kaliteli eğitim ve sağlık olanakları, uzun vadeli konut alıcıları için değer katmaktadır.",
+    "citizenshipInvestment": "Yatırımla Vatandaşlık",
+    "citizenshipInvestmentDesc": "Yatırımcılara vatandaşlık imkânı sunarak cazip hale gelmiştir.",
+    "spectacularViews": "Muhteşem Manzaralar",
+    "spectacularViewsDesc": "Türkiye'nin manzaraları, yaşam alanlarına doğal güzellik katar."
+  },
+  "investmentOpportunitiesTitle": "Türkiye Genelinde Yatırım Fırsatları",
+  "investmentOpportunitiesText": "Türkiye'nin gayrimenkul pazarı geniş bir yatırım seçeneği sunar.",
+  "locations": {
+    "istanbul": "İstanbul",
+    "istanbulDesc": "Lüks konutlar ve ticari alanlar sunar.",
+    "antalya": "Antalya",
+    "antalyaDesc": "Sahil kenarı tatil mülkleri ile popüler bir bölgedir.",
+    "ankara": "Ankara",
+    "ankaraDesc": "Başkent ve ticari yatırımlar için idealdir."
+  },
+  "supportingImageAlt": "Türkiye'de Gayrimenkul Yatırımları",
+  "resourcesTitle": "Gayrimenkul Yatırımcıları İçin Kaynaklar",
+  "resources": {
+    "investTurkey": "Türkiye'de Yatırım",
+    "investTurkeyDesc": "Yatırım bilgileri ve destek sunmaktadır.",
+    "propertyTurkey": "Property Turkey",
+    "propertyTurkeyDesc": "Gayrimenkul listeleri ve yatırım tavsiyeleri sağlar.",
+    "turkeyHomes": "Turkey Homes",
+    "turkeyHomesDesc": "Yatırımcılar için rehber."
+  },
+  "share": {
+    "twitter": "Twitter'da Paylaş",
+    "facebook": "Facebook'ta Paylaş",
+    "linkedin": "LinkedIn'de Paylaş"
+  },
+  "shareText": "Türkiye'nin büyüyen gayrimenkul pazarını keşfedin!"
+},
+  "share": {
+    "twitter": "Twitter'da Paylaş",
+    "facebook": "Facebook'ta Paylaş",
+    "linkedin": "LinkedIn'de Paylaş"
+  },
+  "shareText": "Türkiye'de büyüyen gayrimenkul pazarını keşfedin!",
+  "realEstateInvestmentTurkey": {
+    "title": "Türkiye’de Gayrimenkul Büyümesi",
+    "mainImageAlt": "Türk Gayrimenkul Büyüme Görseli",
+    "intro": "Türkiye'nin gayrimenkul pazarı, artan emlak talebiyle büyük bir büyüme potansiyeli sunuyor...",
+    "keyDriversTitle": "Büyümenin Temel Etkenleri",
+    "features": {
+      "strategicLocation": "Stratejik Konum",
+      "strategicLocationDesc": "Türkiye, Avrupa ve Asya’yı bağlayan eşsiz konumuyla ticaret ve turizmin merkezi...",
+      "modernInfrastructure": "Modern Altyapı",
+      "modernInfrastructureDesc": "Türkiye, modern altyapıya yaptığı yatırımlarla gayrimenkul büyümesi için cazip...",
+      "highReturnPotential": "Yüksek Getiri Potansiyeli",
+      "highReturnPotentialDesc": "Türkiye'nin yükselen gayrimenkul pazarı, özellikle büyük şehirlerde yüksek...",
+      "qualityEducationHealthcare": "Kaliteli Eğitim ve Sağlık",
+      "qualityEducationHealthcareDesc": "Üst düzey eğitim ve sağlık hizmetlerine erişim...",
+      "citizenshipInvestment": "Yatırım Yoluyla Vatandaşlık",
+      "citizenshipInvestmentDesc": "Uygun yatırımcılar, gayrimenkul yatırımı yoluyla Türk vatandaşlığı...",
+      "spectacularViews": "Etkileyici Manzaralar",
+      "spectacularViewsDesc": "Türkiye, kıyıdan dağlık bölgelere kadar doğal güzellikler sunarak emlaklara..."
+    },
+    "investmentOpportunitiesTitle": "Yatırım Fırsatları",
+    "investmentOpportunitiesText": "Türkiye'de yüksek büyüme potansiyeli taşıyan sektörlerde karlı yatırım fırsatlarını...",
+    "locations": {
+      "istanbul": "İstanbul",
+      "istanbulDesc": "Türkiye’nin gayrimenkul pazarının kalbi olan İstanbul...",
+      "antalya": "Antalya",
+      "antalyaDesc": "Turizm açısından popüler ve kıyı bölgelerinde canlı...",
+      "ankara": "Ankara",
+      "ankaraDesc": "Başkent olarak istikrarlı bir gayrimenkul pazarı ve artan..."
+    },
+    "supportingImageAlt": "Türk Gayrimenkul Destekleyici Görseli",
+    "resourcesTitle": "Yatırımcılar için Kaynaklar",
+    "resources": {
+      "investTurkey": "Türkiye’ye Yatırım",
+      "investTurkeyDesc": "Yatırım fırsatları ve ekonomik veriler hakkında resmi bilgiler...",
+      "propertyTurkey": "Property Turkey",
+      "propertyTurkeyDesc": "Türkiye'de gayrimenkul yatırımı ile ilgili kapsamlı rehberler...",
+      "turkeyHomes": "Turkey Homes",
+      "turkeyHomesDesc": "Türkiye’de mülk satın alma ve karlı yatırımlar hakkında uzman..."
+    }
+  },
+  "afraConstructionUpdateCharts": {
+    "afraParkConstructionProgress": "Afra Park İnşaat İlerlemesi",
+    "realTimeAfraParkProgress": "Gerçek Zamanlı Afra Park İlerlemesi",
+    "constructionProgress": "İnşaat İlerlemesi",
+    "completed": "Tamamlandı"
+  },
+  "sylvanaConstructionUpdateCharts": {
+    "sylvanaConstructionProgress": "Sylvana İnşaat İlerlemesi",
+    "realTimeSylvanaProgress": "Gerçek Zamanlı Sylvana İlerlemesi",
+    "constructionProgress": "İnşaat İlerlemesi",
+    "completed": "Tamamlandı"
+  },
+"arabianRanchesConstructionUpdates": {
+    "constructionProgress": "İnşaat İlerlemesi",
+    "completed": "Çok yakında",
+    "arabianRanchesConstructionProgress": "Arabian Ranches İnşaat İlerlemesi",
+    "realTimeArabianRanchesProgress": "Gerçek Zamanlı Arabian Ranches İlerlemesi"
+  },
+  "constructionUpdates": {
+    "pageTitle": "İnşaat Güncellemeleri",
+    "metaDescription": "Reportage Türkiye projelerinin en son inşaat güncellemelerini takip edin.",
+    "keywords": "Afra Park, Sylvana İstanbul, Arabian Ranches, inşaat güncellemeleri",
+    "introText": "Prestijli gayrimenkul projelerimizin ilerleyişini takip edin.",
+    "motivationalText": "Modern yaşamın geleceğinin nasıl şekillendiğine tanık olun.",
+    "monthlyUpdatesTitle": "Aylık Video Güncellemeleri",
+    "videoTitle1": "Ocak 2024 Güncellemesi",
+    "videoTitle2": "Şubat 2024 Güncellemesi",
+    "videoTitle3": "Mart 2024 Güncellemesi",
+    "sylvanaTitle": "Sylvana İstanbul İnşaat İlerlemesi",
+    "sylvanaDescription": "Sylvana İstanbul projesiyle ilgili en son güncellemeleri keşfedin.",
+    "afraTitle": "Afra Park İnşaat İlerlemesi",
+    "afraDescription": "Afra Park'ın gelişim aşamalarını takip edin.",
+    "arabianTitle": "Arabian Ranches İnşaat İlerlemesi",
+    "arabianDescription": "Arabian Ranches ile ilgili son güncellemeleri inceleyin.",
+    "conclusionTitle": "Kaliteye Bağlılığımız",
+    "conclusionText": "Her projenin en yüksek kalite ve mükemmellik standartlarına uygun olmasını sağlıyoruz.",
+    "conclusionMotivation": "Geleceği inşa ederken daha fazla güncelleme için bizi izlemeye devam edin."
+},
+ "mainLayout": {
+    "brandName": "Reportage Türkiye",
+    "termsOfUseLink": "Kullanım Şartları",
+    "privacyPolicy": "Gizlilik Politikası",
+    "home": "Ana Sayfa",
+    "projeler": "Projeler",
+    "projelerylvana": "Sylvana İstanbul",
+    "projectAfra": "Afra Park",
+    "projectArabian": "Arabian Ranches",
+    "blog": "Blog",
+    "constructionUpdates": "İnşaat Güncellemeleri",
+    "offers": "Kampanyalar",
+    "contactUs": "İletişim",
+    "blogAfraPark": "Afra Park Bahçeşehir",
+    "blogGayrimenkulYatirim2024": "Gayrimenkul Yatırım 2024",
+    "blogIstanbulGayrimenkulYatirim": "İstanbul Gayrimenkul Yatırım",
+    "blogIstanbulYatirimCenneti": "İstanbul Yatırım Cenneti",
+    "blogReportageTurkiyeLuks": "Reportage Türkiye Lüks",
+    "blogReportageTurkiyeVizyon": "Reportage Türkiye Vizyon",
+    "blogSurdurulebilirYasamIstanbul": "Sürdürülebilir Yaşam İstanbul",
+    "blogSylvanaIstanbulModernYasam": "Sylvana İstanbul Modern Yaşam",
+    "blogTurkiyeGayrimenkulBuyumesi": "Türkiye Gayrimenkul Büyümesi",
+    "blogTurkiyeGayrimenkulYatirim": "Türkiye Gayrimenkul Yatırım"
+  },
+  "offers.title": "Fırsatları Kaçırmayın!",
+
+  "footer": {
+    "about": "Hakkımızda",
+    "projects": "Projeler",
+    "legal": "Yasal"
+  },
+  "afraUnitTypes": {
+    "title": "Daire Tipleri",
+    "description": "Aşağıdan bir daire tipi seçin ve görüntüyü ayrıntılı görmek için üzerine tıklayın.",
+    "closeButton": "Kapat",
+    "unitType2A": "2 + 1 Daire - Tip A",
+    "unitType2B": "2 + 1 Daire - Tip B",
+    "unitType2C": "2 + 1 Daire - Tip C",
+    "unitType3AWithMaid": "3 + 1 Daire - Tip A (Hizmetçi Odalı)",
+    "unitType3B": "3 + 1 Daire - Tip B",
+    "unitType4A": "4 + 1 Daire - Tip A",
+    "unitType4B": "4 + 1 Daire - Tip B"
+  },
+  "afraSocialAmenities": {
+  "title": "Sosyal Olanaklar",
+  "description": "Afra Park, Bahçeşehir, İstanbul'da yer alan, modern tesislere ve güzel manzaralara erişim sağlayan, dinlenme, eğlence ve fitness olanaklarıyla dolu bir yaşam alanı sunuyor.",
+  "closeButton": "Kapat",
+  "swimmingPool": "Yüzme Havuzu",
+  "swimmingPoolDescription": "Afra Park, Bahçeşehir'in doğal güzellikleri arasında dinlenmek veya eğlenmek için mükemmel bir yüzme havuzu sunuyor.",
+  "bbqArea": "Barbekü Alanları",
+  "bbqAreaDescription": "Doğayla iç içe geniş barbekü alanları, aile ve arkadaşlarla açık havada yemek yemeniz için ideal.",
+  "parking": "Otopark",
+  "parkingDescription": "Afra Park, sakinler ve misafirler için güvenli otopark alanları sağlar, bu huzurlu İstanbul topluluğunda güvenlik ve kolaylık sunar.",
+  "kidsPlayArea": "Çocuk Oyun Alanı",
+  "kidsPlayAreaDescription": "Çocuklar için eğlenceli ve güvenli bir oyun alanı sunarak, Bahçeşehir'in kalbinde çocukların keyifle vakit geçirebileceği bir ortam sağlar.",
+  "chessArea": "Büyük Satranç Alanı",
+  "chessAreaDescription": "Her yaştan sakinler için eğlenceli ve entelektüel bir meydan okuma sunan benzersiz bir açık hava satranç alanı.",
+  "gym": "Spor Salonu",
+  "gymDescription": "En son egzersiz ekipmanlarıyla donatılmış, sakinlerin sağlık ve zindelik hedeflerine ulaşmalarını sağlayan modern bir spor salonu.",
+  "petArea": "Evcil Hayvan Alanı",
+  "petAreaDescription": "Evcil hayvan sahiplerinin sevimli dostlarıyla eğlenceli zaman geçirebileceği dostane bir alan.",
+  "seatingArea": "Oturma Alanları",
+  "seatingAreaDescription": "Afra Park boyunca birçok oturma alanı bulunur; dinlenmek, okumak veya komşularla sohbet etmek için sessiz alanlar sunar.",
+  "tennisCourt": "Tenis Kortları",
+  "tennisCourtDescription": "Spor tutkunları için dostça maçlar yapabilecekleri profesyonel standartlarda tenis kortları."
+},
+"afraAvailability": {
+  "title": "Afra Park Durumu",
+  "totalUnits": "Toplam Birimler",
+  "soldUnits": "Satılan Birimler",
+  "availableUnits": "Mevcut Birimler"
+},
+"sylvanaUnitTypes": {
+  "title": "Mevcut Birim Tipi",
+  "description": "Sylvana Istanbul'da geniş aileler için modern ve ferah bir yaşam alanı sunan lüks 4+1 birimi keşfedin. Bu birimin hem konfor hem de zarafet sunduğunu görmek için kat planını inceleyin.",
+  "unitTypeLabel": "Üç Katlı Townhouse - 4 Yatak Odası",
+  "unitTypeDescription": "4+1 birim tipi, geniş aileler için modern olanaklar ve lüks bir yerleşim sunarak geniş bir yaşam alanı sağlar. Bu geniş birim tipinin konfor ve işlevselliği nasıl en üst düzeye çıkardığını görmek için kat planını keşfedin.",
+  "closeButton": "Kapat"
+},
+"ourOffers": "Tekliflerimiz",
+  "offersDescription": "Size özel en iyi teklifleri seçin. Daha fazla bilgi istemek veya ekibimizle iletişime geçmek için lütfen formu doldurun.",
+  "offerRequest": {
+    "title": "Teklif İsteği",
+    "nameLabel": "İsim",
+    "emailLabel": "E-posta",
+    "phoneLabel": "Telefon",
+    "clientMessageLabel": "Mesajınız",
+    "clientMessagePlaceholder": "Mesajınızı buraya yazınız...",
+    "marketingMessagesText": "Güncellemeler ve özel tekliflerle ilgili pazarlama mesajlarını almak istiyorum.",
+    "humanCheckbox": "Ben bir robot değilim",
+    "privacyPolicy": "Gizlilik Politikasını kabul ediyorum",
+    "submitButton": "Gönder",
+    "termsWarning": "Lütfen Gizlilik Politikasını kabul edin",
+    "robotWarning": "Lütfen 'Ben bir robot değilim' onay kutusunu işaretleyin",
+    "authWarning": "Lütfen doğrulama sürecini tamamlayın",
+    "clientMessageWarning": "Lütfen mesajınızı girin",
+    "submitError": "Teklif isteği gönderilirken bir hata oluştu",
+    "submitSuccess": "Teklif isteğiniz başarıyla gönderildi",
+    "authSuccess": "{method} ile başarıyla doğrulandınız",
+    "authIncomplete": "Doğrulama tamamlanmadı",
+    "authError": "{method} doğrulama hatası",
+    "googleAuth": "Google ile doğrula",
+    "twitterAuth": "Twitter ile doğrula",
+    "yahooAuth": "Yahoo ile doğrula",
+    "facebookAuth": "Facebook ile doğrula"
+  },
+    "offer": {
+    "altText": "Teklif",
+    "discountRate": "İndirim Oranı",
+    "downPayment": "Peşinat",
+    "installmentPeriod": "Taksit Süresi",
+    "months": "Ay",
+    "selectOfferButton": "Teklifi Seç"
+  },
+  "thankYou": {
+    "title": "Reportage Türkiye'ye Ulaştığınız İçin Teşekkür Ederiz!",
+    "message": "Bizimle iletişime geçtiğiniz için teşekkür ederiz. Ekibimiz en kısa sürede sizinle iletişime geçecektir.",
+    "journey": "Başarı yolculuğunuz burada başlıyor!",
+    "backToHome": "Ana Sayfaya Dön",
+    "exploreprojeler": "Projelerimizi Keşfedin"
+  },
+  "header": {
+    "title": "Birlikte Harika Bir Şey Yaratın!",
+    "subtitle": "Bizimle çalışmaya hazır mısınız? İster cesur yeni bir proje olsun, ister yaratıcı bir meydan okuma, hayata geçirmeye yardımcı olmaktan heyecan duyuyoruz.",
+    "message": "Bize bir mesaj bırakın ve birlikte büyüleyici bir şey yapalım!"
+  },
+  "contactpage.header.title": "Bize Ulaşın",
+  "contactpage.form.emailError": "Lütfen geçerli bir e-posta adresi girin.",
+  "contactpage.form.phoneInvalid": "Telefon numarası geçersiz. Lütfen geçerli bir numara girin.",
+  "contactpage.form.emailInvalid": "E-posta adresi geçersiz. Lütfen geçerli bir e-posta adresi girin.",
+  "contactpage.header.subtitle": "Size yardımcı olmak için buradayız",
+  "contactpage.header.message": "Her türlü soru veya yorum için bizimle iletişime geçmekten çekinmeyin.",
+  "contactpage.header.termsOfUse": "Kullanım Şartları",
+  "contactpage.form.other" : "Diğer",
+  "contactpage.form.contactTitle": "İletişime Geçin",
+  "contactpage.form.name": "İsim",
+  "contactpage.form.namePlaceholder": "İsminizi girin",
+  "contactpage.form.email": "E-posta",
+  "contactpage.form.emailPlaceholder": "E-posta adresinizi girin",
+  "contactpage.form.phone": "Telefon Numarası",
+  "contactpage.form.phonePlaceholder": "Telefon numaranızı girin",
+  "contactpage.form.selectProject": "Proje Seçin",
+  "contactpage.form.selectProjectPlaceholder": "Bir proje seçin",
+  "contactpage.form.afraPark": "Afra Park",
+  "contactpage.form.sylvanaIstanbul": "Sylvana İstanbul",
+  "contactpage.form.arabianranches": "Arabian Ranches",
+  "contactpage.form.unitType": "Birim Türü",
+  "contactpage.form.selectUnitType": "Birim türünü seçin",
+  "contactpage.form.messageLabel": "Mesaj",
+  "contactpage.form.messagePlaceholder": "Mesajınızı buraya yazın...",
+  "contactpage.form.languagePreference": "Dil Tercihi",
+  "contactpage.form.english": "İngilizce",
+  "contactpage.form.turkish": "Türkçe",
+  "contactpage.form.arabic": "Arapça",
+  "contactpage.form.appointment": "Randevu almak istiyorum",
+  "contactpage.form.appointmentLabel": "Randevu Tarihi ve Saatini Seçin",
+  "contactpage.form.appointmentPlaceholder": "Tarih ve saati seçin",
+  "contactpage.form.marketingConsent": "Kampanya, indirim, duyuru ve fırsat iletişimlerini almayı kabul ediyorum.",
+  "contactpage.form.privacyPolicy": "Gizlilik politikasını kabul ediyorum",
+  "contactpage.form.privacyPolicyLink": "Gizlilik Politikası",
+  "contactpage.form.privacyPolicyError": "Gizlilik politikasını kabul etmelisiniz.",
+  "contactpage.form.recaptcha": "Lütfen reCAPTCHA'yı tamamlayın.",
+  "contactpage.form.recaptchaError": "Lütfen reCAPTCHA'yı tamamlayın.",
+  "contactpage.form.languageError": "Lütfen en az bir dil tercihi seçin.",
+  "contactpage.form.phoneError": "Lütfen geçerli bir telefon numarası girin.",
+  "contactpage.form.noAppointment": "Randevu planlanmadı",
+  "contactpage.form.submit": "Gönder",
+  "contactpage.form.submitError": "Form gönderilirken bir hata oluştu. Lütfen tekrar deneyin.",
+
+  "contactpage.footer.completion": "Teşekkür Ederiz!",
+  "contactpage.footer.description": "Talebiniz alındı. Kısa süre içinde size geri döneceğiz.",
+  "contactpage.footer.journey": "Bizimle yolculuğunuza başlayın.",
+  "termsOfUse": {
+    "title": "Kullanım Şartları",
+    "introductionTitle": "Giriş",
+    "introductionContent": "Bu web sitesine erişerek ve kullanarak, burada belirtilen şartları kabul etmiş oluyorsunuz. Lütfen bu şartları dikkatlice okuyun, çünkü siteye erişiminiz ve kullanımınız bu koşullara tabidir.",
+    "privacySummaryTitle": "Gizlilik Politikası Özeti",
+    "privacySummaryContent": "Web sitemiz üzerinden topladığımız kişisel verileriniz, 6698 Sayılı Kişisel Verilerin Korunması Kanunu kapsamında korunmaktadır...",
+    "websiteUsageTitle": "Web Sitesinin Kullanımı",
+    "websiteUsageContent": "Web sitemizi yalnızca yasal amaçlarla kullanabilirsiniz. Aşağıdaki durumlar yasaktır:",
+    "websiteUsageList": {
+      "item1": "Diğer kullanıcıların siteye erişimini engellemek veya zarar vermek",
+      "item2": "Güvenlik önlemlerini aşmaya çalışmak veya sitenin işleyişini bozmak",
+      "item3": "Yanıltıcı veya yanlış bilgi sağlamak"
+    },
+    "websiteUsageContent2": "Web sitemizi kullanarak yukarıdaki kurallara uymayı kabul edersiniz...",
+    "dataUsageTitle": "Toplanan Verilerin Kullanımı",
+    "dataUsageContent": "Kişisel verileriniz, aşağıdaki amaçlarla kullanılabilir:",
+    "dataUsageList": {
+      "item1": "Hizmetlerimizi iyileştirmek ve kullanıcı deneyimini geliştirmek",
+      "item2": "Güvenlik ve site performansını artırmak",
+      "item3": "Ticari faaliyetlerimizi yürütmek ve size daha iyi hizmet sunmak"
+    },
+    "dataUsageContent2": "Verilerinizin gizliliğine önem veriyoruz...",
+    "disclaimerTitle": "Sorumluluk Reddi",
+    "disclaimerContent": "Web sitemizde sunulan bilgi, teklif ve fiyatlar anlık olarak değişebilir...",
+    "privacySecurityTitle": "Gizlilik ve Veri Güvenliği",
+    "privacySecurityContent": "Verilerinizin gizliliğini korumak ve güvenliğini sağlamak için tüm teknik ve idari önlemleri alıyoruz...",
+    "rightToChangeTitle": "Değişiklik Hakkı",
+    "rightToChangeContent": "Web sitemizin kullanım şartları ve gizlilik politikası, yürürlükteki yasal düzenlemelere uyum sağlamak için zaman zaman güncellenebilir...",
+    "contactTitle": "İletişim",
+    "contactContent": "Herhangi bir sorunuz veya geri bildiriminiz için bizimle iletişime geçebilirsiniz..."
+  },
+  "privacy_policy": {
+    "title": "Gizlilik Politikası",
+    "sections": [
+      {
+        "title": "Önsöz",
+        "content": "Kişisel Verilerin Korunması Kanunu kapsamında REPORTAGE TURKEY GAYRİMENKUL GELİŞTİRME YATIRIM SATIŞ PAZARLAMA TİCARET ANONİM ŞİRKETİ (Bundan sonra 'REPORTAGE' veya 'Şirket' olarak anılacaktır.) olarak kişisel verilerinizin ve/veya özel nitelikli kişisel verilerinizin korunmasına önem vermekteyiz. Şirketimize muhtelif yollardan iletilen sizlere ait tüm kişisel verilerin ve/veya özel nitelikli kişisel verilerin saklanması hususunda hassasiyet göstermekteyiz."
+      },
+      {
+        "title": "1. TANIMLAR",
+        "content": "Veri Sorumlusu: Kişisel verilerin işleme amaçlarını ve vasıtalarını belirleyen, veri kayıt sisteminin kurulmasından ve yönetilmesinden sorumlu olan REPORTAGE TURKEY GAYRİMENKUL GELİŞTİRME YATIRIM SATIŞ PAZARLAMA TİCARET ANONİM ŞİRKETİ’ni ifade etmektedir.\n\nVeri Sahibi-İlgili Kişi: Kişisel verisi işlenen gerçek kişiyi ifade etmektedir.\n\nŞirket: İş bu politika uyarınca REPORTAGE TURKEY GAYRİMENKUL GELİŞTİRME YATIRIM SATIŞ PAZARLAMA TİCARET ANONİM ŞİRKETİ İfade edilmektedir.\n\nKanun: 6698 Sayılı Kişisel Verilerin Korunması Kanununu ifade edilmektedir.\n\nKişisel Veri: Kimliği belirli veya belirlenebilir kılan gerçek kişiye ilişkin her türlü bilgi ifade edilmektedir.\n\nÖzel Nitelikli Kişisel Veri: Kişilerin ırkı, etnik kökeni, siyasi düşüncesi, felsefi inancı, dini, mezhebi veya diğer inançları, kılık ve kıyafeti, dernek, vakıf ya da sendika üyeliği, sağlığı, cinsel hayatı, ceza mahkûmiyeti ve güvenlik tedbirleriyle ilgili verileri ile biyometrik ve genetik verileri özel nitelikli kişisel verilerini ifade etmektedir.\n\nKurul: Kişisel Verileri Koruma Kurulunu ifade etmektedir.\n\nPolitika: İşbu 'Gizlilik Politikası' ifade edilmektedir.\n\nKişisel Verilerin İşlenmesi: Kişisel verilerin tamamen veya kısmen otomatik olan ya da herhangi bir veri kayıt sisteminin parçası olmak kaydıyla otomatik olmayan yollarla elde edilmesi, kaydedilmesi, depolanması, muhafaza edilmesi, değiştirilmesi, yeniden düzenlenmesi, açıklanması, aktarılması, devralınması, elde edilebilir hâle getirilmesi, sınıflandırılması ya da kullanılmasının engellenmesi gibi veriler üzerinde gerçekleştirilen her türlü işlem ifade edilmektedir.\n\nAçık Rıza: Belirli bir konuya ilişkin, bilgilendirilmeye dayanan ve özgür iradeyle açıklanan rıza ifade edilmektedir.\n\nYok Etme: Kişisel verilerin hiç kimse tarafından hiçbir şekilde erişilemez, geri getirilemez ve tekrar kullanılamaz hale getirilmesini ifade etmektedir.\n\nSilme: Kişisel verilerin ilgili kullanıcılar için hiçbir şekilde erişilemez ve tekrar kullanılamaz hale getirilmesini ifade etmektedir.\n\nAnonim Hale Getirme: Kişisel verilerin başka verilerle eşleştirilse dahi hiçbir surette kimliği belirli veya belirlenebilir bir gerçek kişiyle ilişkilendirilemeyecek hale getirilmesini ifade etmektedir.\n\nİmha: Kişisel verilerin silinmesi, yok edilmesi veya anonim hale getirilmesini ifade etmektedir.\n\nVeri: Kişisel veriler ve özel nitelikli kişisel veriler birlikte ifade edilmektedir."
+      },
+      {
+        "title": "2. GİZLİLİK POLİTİKASININ AMACI",
+        "content": "Kişisel verilerin korunması ve kanuna uyum sağlanması temel prensibimizdir. REPORTAGE olarak yaptığımız tüm işlerde sizlerden almış olduğumuz kişisel veriler ve/veya özel nitelikli kişisel veriler gizli tutulmuş ve üçüncü kişilerle paylaşılmamıştır. Bu bağlamda şirketimiz daima kişisel verilerin ve/veya özel nitelikli kişisel verilerin korunmasına ilişkin gereken hassasiyeti göstermiştir. Yine 6698 Sayılı Kişisel Verilerin Korunması Kanunu (Bundan sonra 'Kanun' ya da 'KVKK' olarak anılacaktır.) uyarınca şirket içi düzenlemelerimiz yeniden yapılmış olup; teknik ve idari tedbirler alınmıştır. Devam eden süreçte de REPORTAGE olarak kanunun getirdiği tüm yükümlülüklere uymayı kabul, beyan ve taahhüt etmekteyiz."
+      },
+      {
+        "title": "3. GİZLİLİK POLİTİKASININ KAPSAMI",
+        "content": "İşbu Gizlilik Politikamız 6698 Sayılı Kişisel Verilerin Korunması Kanununa uygun olarak hazırlanmıştır. Kişisel verileriniz ve/veya özel nitelikli kişisel verileriniz rızanızla ya da kanuna uygunluk halleri kapsamında işlenmektedir. Söz konusu verileriniz;\n\n- Şirket güvenliğinin sağlanabilmesi,\n- Sizlere eksiksiz hizmet sunulabilmesi,\n- Ticari faaliyetlerimizin yürütülebilmesi,\n- Sorunlarınızın hızlıca çözümlenebilmesi,\n- Kalitemizin artırılabilmesi,\namacıyla kullanılmaktadır.\n\nSizlerden gelen bazı kişisel veriler ve/veya özel nitelikli kişisel veriler Kanunun öngördüğü usullerde kişisellikten çıkarılmakta ve anonim hale getirilmektedir. İstatistik amacıyla kullanılan veriler halihazırda Kanunun düzenlemesine ve politikamızın kapsamın dâhil değildir. İşbu politikamızı REPORTAGE olarak Kanuna uygunluk kapsamında kişisel verileri korumak maksadıyla değiştirme hakkımız haizdir.\n\nGizlilik politikası REPORTAGE’ın çözüm ortaklığı yaptığı gerçek ve tüzel kişilerin, müşterilerinin, çalışanlarının ve diğer tüm kişilerin herhangi bir yoldan elde edilen verilerinin korunmasını amaçlamaktır. Bu bağlamda amaçlanan hedefi gerçekleştirmek amacıyla çeşitli düzenlemeleri ihtiva etmektedir."
+      },
+      {
+        "title": "4. KİŞİSEL VERİLERİN VE/VEYA ÖZEL NİTELİKLİ KİŞİSEL VERİLERİN İŞLENMESİ İLE İLGİLİ TEMEL PRENSİPLER",
+        "content": "Kişisel verilerin ve/veya özel nitelikli kişisel verilerin işlenmesi ile ilgili temel prensiplerimiz aşağıdaki gibidir. Bu bağlamda REPORTAGE’ın açık rızaya dayanarak veya Kanuna uygunluk halleri kapsamında işlediği verilerde işbu ilkeler geçerli olacaktır.\n\n- Hukuka Uygun Olması: REPORTAGE gerçek ve tüzel kişilerden kendisine gelen ve muhtelif yollardan topladığı kişisel verilerin ve/veya özel nitelikli kişisel verilerin kaynağını ve hukuka uygunluğunu sorgulamaktadır. Bu bağlamda verilerin hukuka uygun olarak elde edilmesi REPORTAGE için önem arz etmektedir.\n\n- Dürüstlük Kurallarına Uygun Olması: REPORTAGE gerçek ve tüzel kişilerden kendisine gelen ve muhtelif yollardan topladığı kişisel verilerin ve/veya özel nitelikli kişisel verilerin kaynağını sorgulamaktadır. Bu bağlamda verilerin dürüstlük kuralları çerçevesinde elde edilmesi REPORTAGE için önem arz etmektedir.\n\n- İşlendikleri Amaçla Sınırlı, Ölçülü ve Bağlantılı Olması: REPORTAGE muhtelif yollardan elde ettiği kişisel verileri ve/veya özel nitelikli kişisel verileri işlendikleri amaca uygun, işlenme amacıyla sınırlı, ölçülü ve hizmetin ifasının gerektirdiği ölçüde kullanmaktadır.\n\n- Kişisel Verilerin ve/veya Özel Nitelikli Kişisel Verilerin Doğru Olması: REPORTAGE gerçek ve tüzel kişilerden kendisine gelen ve muhtelif yollardan topladığı kişisel verilerin ve/veya özel nitelikli kişisel verilerin yanlış bilgi içermemesine ve doğru olmasına önem vermektedir. Fakat REPORTAGE müşterilerinin veya temas halinde olduğu gerçek ve tüzel kişilerin beyan ettiği kişisel verilerin ve/veya özel nitelikli kişisel verilerin doğruluğunu araştırmak zorunda değildir. Zira bu husus hukuken ve çalışma prensiplerimiz doğrultusunda mümkün değildir.\n\n- Gerektiğinde Güncel Olması: REPORTAGE muhtelif şekillerde elde ettiği kişisel verilerde ve/veya özel nitelikli kişisel verilerde değişiklik olmuşsa, söz konusu değişikliğin şirkete iletilmesine ve iletildiği takdirde verinin güncellenmesine önem vermektedir.\n\n- Belirli ve Meşru Amaçlar İçin İşlenmesi: REPORTAGE kişisel verileri ve/veya özel nitelikli kişisel verileri veri sahibinin verdiği açık rıza veya kanunen öngörülen istisnalar çerçevesinde açık rıza almaksızın işlemektedir. Her verinin işlenme amacı belirli olup meşru olmayan hiçbir amaç için kişisel veri işleme faaliyeti yürütülmemektedir.\n\n- Kanunda Öngörülen ve/veya İşlendikleri Amaç İçin Gerekli Olacak Süre Kadar Muhafaza Edilmesi: REPORTAGE elde ettiği kişisel verileri ve/veya özel nitelikli kişisel verileri ilgili kanunlarda öngörülen ve/veya işlendikleri amaç için gerekli olan süreler boyunca saklamaktadır. Söz konusu amaçlar son bulduğunda veriyi anonimleştirmekte, yok etmekte veya silmektedir."
+      },
+      {
+        "title": "5. KİŞİSEL VERİLERİN SİLİNMESİ, YOK EDİLMESİ VE ANONİM HALE GETİRİLMESİ",
+        "content": "Kişisel verileriniz ve/veya özel nitelikli kişisel verileriniz Kanunda öngörülen zamanaşımı ve saklama sürelerin dolması, yargı süreçlerinin tamamlanması veya amaca uygun diğer gerekliliklerin son bulması ile silinir, yok edilir veya anonim hale getirilir. Silme, yok etme ve anonim hale getirme işlemleri ilgili veri sahibinin talebi üzerine veya REPORTAGE tarafından re’sen (kendiliğinden) yapılmaktadır."
+      },
+      {
+        "title": "6. CİMRİLİK İLKESİ",
+        "content": "Cimrilik ilkesi diğer adıyla azami tasarruf ilkesidir. Muhtelif yollardan ulaşan kişisel veriler ve/veya özel nitelikli kişisel veriler şirketimizin sistemine aktarılır. Söz konusu ilke uyarınca veriler, gerekli olduğu kadar sisteme işlenmektedir. REPORTAGE tarafından toplanacak veriler amaca uygun olarak belirlenmekte ve değişkenlik göstermektedir. Bu bağlamda veriler amaca uygun olarak toplanmakta ve amaçla paralel olmayan veriler toplanmamaktadır. Amacı dışındaki fazlalık veriler şirket sistemine kaydedilmez, silinir, yok edilir veya anonim hale getirilir. Fakat söz konusu veriler istatistikî amaçla kullanılabilir."
+      },
+      {
+        "title": "7. VERİLERİN GİZLİLİĞİ VE GÜVENLİĞİ",
+        "content": "REPORTAGE olarak kişisel verilerinizin ve/veya özel nitelikli kişisel verilerinizin gizliliğine önem vermekteyiz. Bu bağlamda herhangi bir yoldan Şirketimize ulaşan kişisel verileriniz ve/veya özel nitelikli kişisel verileriniz gizlidir. REPORTAGE ticari faaliyetini yürüttüğü her aşamada söz konusu verilerin gizliliğine riayet etmektedir. Bu bağlamda işbu şirket gizlilik politikasına tam uyum sağlanmaktadır.\n\nMuhtelif yollardan toplanan kişisel verilerin ve/veya özel nitelikli kişisel verilerin yetkisiz kişilerin eline geçmemesi, veri sahibin haklarına zarar gelmemesi-mağdur olmaması ve verilerin korunabilmesi için gerekli teknik ve idari tedbirler alınmaktadır. Ek olarak hukuka uygunluk çerçevesinde kişisel verileri ve/veya özel nitelikli kişisel verileri paylaştığımız üçüncü kişilerden de gerekli olduğu durumlarda veri koruması talep edilmektedir. Yine yazılım programlarımız güncellenmekte ve devamlı olarak yenilenmektedir. Üst düzey koruma sağlanması için teknolojik açıdan gereklilikler yerine getirilmekte ve standartlara uygunluk sağlanmaktadır."
+      },
+      {
+        "title": "8. VERİLERİN GÜNCELLİĞİ",
+        "content": "REPORTAGE bünyesinde güncellik ilkesi esastır. Zira muhtelif şekillerde elde edilen kişisel veriler ve/veya özel nitelikli kişisel veriler gerekli olduğu durumda ya da taleple güncellenebilmektedir. Güncellemeye ilişkin gerekli önlemler de REPORTAGE tarafından alınmaktadır."
+      },
+      {
+        "title": "9. VERİLERİN DOĞRULUĞU",
+        "content": "Beyan edilen kişisel verilerin ve/veya özel nitelikli kişisel verilerin doğruluğu ilkesi REPORTAGE tarafından benimsenmiştir. REPORTAGE müşterilerinin veya temas halinde olduğu gerçek ve tüzel kişilerin beyan ettiği kişisel verilerin ve/veya özel nitelikli kişisel verilerin doğruluğunu araştırmak zorunda değildir. Zira bu husus hukuken ve çalışma prensiplerimiz doğrultusunda mümkün değildir. Bu bağlamda beyan edilen verilerin doğru olduğundan bahisle işlemler yürütülmektedir."
+      },
+      {
+        "title": "10. KİŞİSEL VERİLERİN VE/VEYA ÖZEL NİTELİKLİ KİŞİSEL VERİLERİN İŞLENME AMAÇLARI",
+        "content": "Kişisel verilerin ve/veya özel nitelikli kişisel verilerin işlenmesi REPORTAGE’a ait Aydınlatma Metinlerindeki amaçlar paralelinde gerçekleştirilmektedir. Söz konusu Aydınlatma Metinleri işlenen kişisel veriye ve/veya özel nitelikli veriye göre değişkenlik gösterebilmektedir. Aydınlatma Metinlerindeki farklılığa paralel olarak kişisel verilerin ve/veya özel nitelikli kişisel verilerin işlenme amaçları da değişkenlik gösterebilmektedir."
+      },
+      {
+        "title": "11. SÖZLEŞME İLİŞKİSİ İÇERİSİNDE KİŞİSEL VERİLERİN VE/VEYA ÖZEL NİTELİKLİ KİŞİSEL VERİLERİN TOPLANMASI VE İŞLENMESİ",
+        "content": "Müşteriler veya muhtemel müşterilerle sözleşme ilişkisi kurulmuş ise, sözleşme uyarınca toplanmış olan kişisel veriler açık rıza alınmaksızın REPORTAGE tarafından işlenebilir. Özel nitelikli kişisel verilerin işlenmesi söz konusu olduğu durumda açık rıza ya da Kanun’un 6. Maddesi kapsamındaki hukuki sebeplere dayanılarak veri işlenebilmektedir. Söz konusu veriler mal ve/veya hizmetin ifası, sözleşmenin icrası, ticari faaliyetin yürütümü çerçevesinde kullanılmaktadır. İşbu veriler müşterilerle iletişime geçerek her zaman güncellenebilir."
+      },
+      {
+        "title": "12. OTOMATİK SİSTEMLER VASITASIYLA İŞLENEN KİŞİSEL VERİLER VE/VEYA ÖZEL NİTELİKLİ KİŞİSEL VERİLER",
+        "content": "Otomatik sistemler aracılığıyla kişilerin açık rızası olmaksızın elde edilen bilgilerden edinilen veriler kişilerin aleyhine kullanılamaz. REPORTAGE otomatik sistemler vasıtasıyla işlenen kişisel verilerde ve/veya özel nitelikli kişisel verilerde ilgili mevzuat hükümlerine uygun davranmaktadır."
+      },
+      {
+        "title": "13. REPORTAGE’IN ÇALIŞANLARINA AİT KİŞİSEL VERİLER VE/VEYA ÖZEL NİTELİKLİ KİŞİSEL VERİLER",
+        "content": "HUKUKİ YÜKÜMLÜLÜKLER ÇERÇEVESİNDE YAPILAN İŞLEME: Çalışanlara ait kişisel veriler, verinin işlenmesine ilişkin ilgili Kanunda açıkça hüküm bulunması veya veri sorumlusunun hukuki yükümlülüğünün yerine getirilmesi maksadıyla açık rızası alınmaksızın REPORTAGE tarafından işlenebilir.\n\nİŞ SÖZLEŞMESİ VE İŞ İLİŞKİSİ UYARINCA KİŞİSEL VERİLERİN İŞLENMESİ: Çalışanların kişisel verileri şirketle çalışanların iş ilişkisinin sağlanabilmesi için gerekli olduğu kadar ölçülülük çerçevesinde çalışanların açık rızası alınmaksızın işlenebilmektedir. REPORTAGE her koşulda çalışanlara ait verilerin korunmasını, gizliliğini ve bu hususta gereken tedbirleri alacağını taahhüt etmektedir.\n\nÇALIŞANLARA AİT ÖZEL NİTELİKLİ KİŞİSEL VERİLERİN İŞLENMESİ: 6698 Sayılı Kişisel Verilerin Korunması Kanunu uyarınca özel nitelikli kişisel verilerin işlenmesi için verisi işlenecek kişinin açık rızası ve ek olarak Kurul tarafından öngörülen gerekli önlemlerin alınması gerekmektedir. REPORTAGE 6698 Sayılı Kanun’a ve Kurulun esaslarına uygunluk çerçevesinde özel nitelikli kişisel verileri işlerken gerekli olduğu durumda hem ilgilinin açık rızasını hem de Kurul’un belirlediği gereken önlemleri almaktadır. Ancak özel nitelikli kişisel veriler Kanunda öngörülen istisnai hallerle ilgili kişinin açık rızası olmaksızın sınırlı ve ölçülü olmak koşuluyla işlenebilir.\n\nOTOMATİK SİSTEMLER VASITASIYLA İŞLENEN KİŞİSEL VERİLER: Çalışanların otomatik sistemlerde bazı kişisel verileri işlenebilmektedir. Söz konusu veriler çalışanların performans değerlendirmesinde, istatistiki verilerin tutulmasında, şirket için terfilerde ve puanlamalarda kullanılmaktadır. Çalışanların kendilerine ilişkin ortaya çıkan aleyhe sonuçlara itiraz hakkı bulunmaktadır. İtiraz, şirket içi kurallara ve prosedüre uygun olarak gerçekleştirilmelidir. Söz konusu itiraz şirket içinde değerlendirmeye tabi tutulmaktadır.\n\nKİŞİSEL VERİLERİN ÇALIŞANLARIN YARARINA İŞLENMESİ: Çalışanlara ait kişisel veriler, çalışanın menfaatine ilişkin işlemler için iş sözleşmesinin sağladığı ilişki çerçevesinde açık rıza alınmadan REPORTAGE tarafından işlenebilmektedir. Yine REPORTAGE ile iş ilişkisine ilişkin ihtilaflar içinde, Şirket çalışanlara ait kişisel verileri işleyebilir.\n\nŞİRKET İÇİ TELEKOMÜNİKASYON, İNTERNET VE İLETİŞİM: İşin ifasının daha kolay sağlanabilmesi adına REPORTAGE tarafından şirket içi çalışanlara bilgisayar, telefon, araba, uygulamalar, yazılımlar ve e-posta tahsis edilebilmektedir. REPORTAGE aydınlatma yükümlülükleri kapsamında tahsis ettiği araçlar üzerindeki kişisel verileri kontrol edebilir ve denetleyebilir. Çalışan ise kendisine tahsis edilen araçları özel amaçları için kullanamaz. Sadece işin ifasını sağlamak maksadı ile kullanması zorunludur. Yine çalışan REPORTAGE ile çalışma ilişkisinin başladığı andan itibaren tahsis edilen araçlarda iş ve işin gerekliliği dışında hiçbir veri, bilgi bulundurmayacağını kabul, beyan ve taahhüt etmektedir."
+      },
+      {
+        "title": "14. KİŞİSEL VERİLERİN VE/VEYA ÖZEL NİTELİKLİ KİŞİSEL VERİLERİN YURT İÇİ VE YURT DIŞINA AKTARILMASI",
+        "content": "REPORTAGE, Kişisel Verilerin Korunması Kanununda öngörülen şartlara uygun olarak ve Kurul’un belirlediği esaslar çerçevesinde kanuna uygunluk halleri kapsamında veyahut ilgili kişinin açık rızası ile yurt içi ve yurt dışına veri aktarımı yapabilmektedir. REPORTAGE kişisel verileri ve/veya özel nitelikli kişisel verileri aktarırken 6698 Sayılı Kanun’un 8. ve 9. maddelerine uygun davranmaktadır."
+      },
+      {
+        "title": "15. DENETİM VE İŞLEM GÜVENLİĞİ",
+        "content": "Muhtelif yollardan toplanan kişisel verilerin ve/veya özel nitelikli kişisel verilerin yetkisiz kişilerin eline geçmemesi, veri sahibin haklarına zarar gelmemesi-mağdur olmaması ve verilerin korunabilmesi için gerekli teknik ve idari tedbirler alınmaktadır. Ek olarak hukuka uygunluk çerçevesinde kişisel verileri ve/veya özel nitelikli kişisel verileri paylaştığımız şirketlerden de gerektiği durumda veri koruması talep edilmektedir. Yine yazılım programlarımız güncellenmekte, devamlı olarak yenilenmekte ve geliştirilmektedir. Üst düzey koruma sağlanması için teknolojik açıdan tüm gereklilikler yerine getirilmektedir ve standartlara uygunluk sağlanmaktadır. Tüm bunlara paralel olarak REPORTAGE kişisel verilerin ve/veya özel nitelikli kişisel verilerin korunabilmesi için gereken tüm iç ve dış denetimleri yaptırmaktadır."
+      },
+      {
+        "title": "16. VERİ İHLALLERİNİN BİLDİRİMİ",
+        "content": "Verilerle ilgili herhangi bir ihlal durumu söz konusu olduğunda, REPORTAGE kendisine bildirilen ihlalleri gidermek için derhal üzerine düşeni yapmak için harekete geçer. İlgilinin zararını en aza indirebilmek için gereken tedbirleri alır. İhlallerin bildirimi için şirketimizin internet sitesinde belirtilen usullere göre başvuruda bulunabilirsiniz. Ek olarak kişisel verilerin ve/veya özel nitelikli kişisel verilerin dışarından yetkisiz üçüncü kişilerin eline geçmesi durumunda şirket söz konusu hususu direk Kişisel Verileri Koruma Kurulu’na bildirmektedir."
+      },
+      {
+        "title": "17. BİLGİ TALEP EDEN VERİ SAHİBİ İLGİLİ KİŞİNİN HAKLARI",
+        "content": "6698 Sayılı Kişisel Verilerin Korunması Kanununun 11. maddesinde veri sahibinin hakları hüküm altına alınmıştır. REPORTAGE kanun uyarınca veri işlemeden önce ilgili kişinin aydınlatılmasını ve gerektiği durumda açık rızasının alınmasını, veri işlendikten sonra ilgili kişinin verisi hakkında bilgi talep etme, güncelleme, silme, yok etme ve anonim hale getirme hakkı olduğunu kabul etmektedir.\n\nİlgili kişiler aşağıdaki haklara sahiptir:\n\na) Kişisel veri işlenip işlenmediğini öğrenme,\n\nb) Kişisel verileri işlenmişse buna ilişkin bilgi talep etme,\n\nc) Kişisel verilerin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme,\n\nç) Yurt içinde veya yurt dışında kişisel verilerin aktarıldığı üçüncü kişileri bilme,\n\nd) Kişisel verilerin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme,\n\ne) 'Kişisel verilerin silinmesi, yok edilmesi veya anonim hâle getirilmesi' başlıklı kanunun 7. maddesinde öngörülen şartlar çerçevesinde kişisel verilerin silinmesini veya yok edilmesini isteme,\n\nf) Eksik ya da yanlış işlenmiş verinin düzeltildiğini veya ilgilinin talebi üzerine verinin silindiğini veyahut yok edildiğine ilişkin bilginin kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme,\n\ng) İşlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle kişinin kendisi aleyhine bir sonucun ortaya çıkmasına itiraz etme,\n\nh) Kişisel verilerin kanuna aykırı olarak işlenmesi sebebiyle zarara uğraması hâlinde zararın giderilmesini talep etme.\n\nBaşkası adına yapılan bilgi talebi şirket tarafından cevaplanmayacaktır. Bilgi talebinde bir başkası adına yapılan başvuru yapıldığı REPORTAGE tarafından tespit edilirse; REPORTAGE’ın her türlü dava ve talep hakkı saklıdır. İlgili kişinin REPORTAGE’a ulaştığı tarihten itibaren mümkün olan en kısa sürede ve geç otuz gün içerisinde cevaplanacaktır. REPORTAGE gerekli görürse başvuru yapan ilgili kişiden başka bilgi ve belge talep edebilecektir."
+      }
+    ]
+  },
+  "project_architectural_designs": {
+    "title": "Proje Mimari Tasarımları",
+    "subtitle": "Afra Park, Sylvana İstanbul ve Arabian Ranches projelerinin etkileyici mimari tasarımlarını keşfedin."
+  },
+  "filter_section": {
+    "title": "Proje Mimari Tasarımları",
+    "subtitle": "Afra Park, Sylvana İstanbul ve Arabian Ranches projelerinin etkileyici mimari tasarımlarını keşfedin."
+  },
+  "filter": {
+    "interior_designs": "İç Mekan Tasarımları",
+    "exterior_designs": "Dış Mekan Tasarımları",
+    "all_designs": "Tüm Tasarımlar"
+  },
+  "afra_park": {
+    "title": "Afra Park İstanbul Bahçeşehir"
+  },
+  "sylvana_istanbul": {
+    "title": "Sylvana İstanbul Bahçeşehir"
+  },
+  "arabian_ranches": {
+    "title": "Arabian Ranches"
+  },
+  "filter_hero_title": {
+    "title": "Projelerimize Hoş Geldiniz",
+    "subtitle": "Mimari tasarımda mükemmeliyet ve yeniliği keşfedin."
+  },
+  "afra_title": {
+    "title": "Afra Park Projesi"
+  },
+  "sylvana_title": {
+    "title": "Sylvana İstanbul Projesi"
+  },
+  "arabian_title": {
+    "title": "Arabian Ranches Projesi"
+  },
+  "whatsappMessage": "Merhaba, proje hakkında daha fazla bilgi almak istiyorum.",
+  "home": {
+    "title": "Real Estate in Istanbul - Luxury Villas in Bahçeşehir",
+    "description": "Discover luxury villas and real estate investment opportunities in prime locations like Sylvana Istanbul, Afra Park in Bahçeşehir, and Arabian Ranches."
+  },
+  "hero_description": "Find your dream villa and explore investment opportunities in Istanbul’s prestigious areas like Sylvana Istanbul, Afra Park, and Arabian Ranches."
+}

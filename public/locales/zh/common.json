@@ -1,0 +1,1316 @@
+﻿{
+  "contact": {
+    "title": "联系我们",
+    "name": "您的名字",
+    "namePlaceholder": "请输入您的名字",
+    "email": "电子邮件",
+    "emailPlaceholder": "请输入您的电子邮件地址",
+    "phone": "电话号码",
+    "phonePlaceholder": "+90",
+    "project": "您感兴趣的项目是？",
+    "projectPlaceholder": "请选择一个项目",
+    "unitType": "首选单元类型",
+    "unitTypePlaceholder": "请选择一个单元类型",
+    "message": "您的留言",
+    "messagePlaceholder": "请输入您的问题或评论",
+    "languageSelect": "选择您偏好的语言：",
+    "english": "英语",
+    "turkish": "土耳其语",
+    "arabic": "阿拉伯语",
+    "appointment": "我想预约咨询（可选）",
+    "appointmentDate": "选择预约日期和时间",
+    "selectDate": "选择日期和时间",
+    "acceptMarketing": "我同意接收营销消息（可选）",
+    "privacyPolicy": "我同意隐私政策",
+    "submit": "发送消息",
+    "phoneError": "请输入有效的电话号码。",
+    "languageError": "请选择至少一种语言。",
+    "submissionError": "提交表单时出错。请重试。",
+    "noAppointment": "无预约",
+    "other": "其他"
+  },
+  "contact.arabianranches": "Arabian Ranches",
+  "faq": {
+    "title": "常见问题解答",
+    "questions": [
+      {
+        "question": "Afra Park Bahçeşehir有哪些住宅类型？",
+        "answer": "Afra Park Bahçeşehir由177个单元组成；提供49套两居室、28套三居室、79套带仆人房的三居室和21套四居室。此外，还有2套带仆人房的四居室别墅。"
+      },
+      {
+        "question": "Afra Park Bahçeşehir的总土地面积是多少？",
+        "answer": "Afra Park占地24,976.71平方米，提供宽敞的生活空间、户外活动区和社交区域。"
+      },
+      {
+        "question": "Afra Park有哪些主要的社交设施？",
+        "answer": "Afra Park提供广泛的社交设施，包括专用停车场、大型游泳池、儿童泳池、烧烤区、游乐场、多功能球场、户外国际象棋和乒乓球区、宠物区、自行车道、带顶座椅区、健身房、蒸汽房和桑拿房以及会议室。"
+      },
+      {
+        "question": "Afra Park有哪些停车选择？",
+        "answer": "Afra Park Bahçeşehir的每个单元都配有私人停车位，社区内也有访客停车场。"
+      },
+      {
+        "question": "Afra Park Bahçeşehir距离伊斯坦布尔的主要地点有多远？",
+        "answer": "Afra Park距离Millet公园4分钟，Bahçeşehir火车站10分钟，Akbatı购物中心10分钟，伊斯坦布尔机场40分钟。"
+      },
+      {
+        "question": "在Afra Park购买物业是否符合土耳其国籍投资要求？",
+        "answer": "通过在Afra Park Bahçeşehir购买价值至少400,000美元的物业，投资者可以获得土耳其国籍。这为投资者及其家人提供了获取土耳其公民身份和相关福利的机会。"
+      },
+      {
+        "question": "Afra Park Bahçeşehir有哪些开放空间？",
+        "answer": "项目设计了广泛的绿色区域和景观。居民可根据单元类型享有私人阳台、露台、前后庭院等开放空间。开放空间包括烧烤区、游乐场和带顶座椅区等社交设施，提供休闲和社交场所。"
+      },
+      {
+        "question": "Afra Park是否为儿童提供娱乐区？",
+        "answer": "是的，Afra Park为儿童提供游泳池、游乐场和宽敞的户外活动区。该项目旨在为家庭提供安全和有趣的环境。"
+      },
+      {
+        "question": "我可以定制Afra Park或Sylvana Istanbul的单元吗？",
+        "answer": "是的，两个项目都提供室内定制选项，您可以选择地板、厨房设计和浴室配件等细节。我们的团队可以提供更多关于现有定制套餐的信息。"
+      },
+      {
+        "question": "Afra Park Bahçeşehir是否有社交中心或俱乐部？",
+        "answer": "Afra Park设有社交中心，配有健身房、蒸汽房、桑拿房和会议室，提供舒适和奢华的生活体验。"
+      },
+      {
+        "question": "如何预约参观Afra Park和Sylvana Istanbul项目？",
+        "answer": "您可以通过我们网站上的联系表格或电话与销售团队联系预约参观。预约时间灵活，为08:00 - 20:00。填写以下表格，我们的团队将与您联系。"
+      },
+      {
+        "question": "Afra Park和Sylvana Istanbul项目的单元布局如何？",
+        "answer": "两个项目的单元设计均提供宽敞的生活空间、舒适的卧室和阳台或露台等开放空间。布局优化，以适合家庭生活，注重隐私、奢华和功能性。"
+      },
+      {
+        "question": "是什么使Afra Park Bahçeşehir成为环保项目？",
+        "answer": "Afra Park通过大面积景观设计、带顶区域和自行车道等环保措施进行规划。项目强调清洁和绿色环境，符合Reportage Türkiye的可持续发展承诺。"
+      },
+      {
+        "question": "Afra Park附近有哪些学校？",
+        "answer": "是的，Afra Park附近有知名的Bilfen学校和Istanbul Leader Russian School（两者均距离10分钟）。此外，Beykent大学和伊斯坦布尔大学的Büyükçekmece校区也在附近。"
+      }
+    ]
+  },
+  "about": {
+    "title": "关于Reportage",
+    "description": "自2014年以来，Reportage Properties作为全球房地产开发领域的主要玩家，以欧洲为中心的投资和四大洲的国际合作伙伴关系活跃于市场。以创新、豪华和现代住宅项目闻名，Reportage Properties继续在行业中树立标准。",
+    "expertiseTitle": "全球房地产开发专家",
+    "expertiseDescription": "自2014年以来，Reportage Properties在意大利、美国、英国、法国、阿尔巴尼亚、俄罗斯、巴基斯坦、印度、乌干达、摩洛哥、埃及、卢旺达、肯尼亚、伊拉克、阿联酋和沙特阿拉伯等国家，凭借欧洲中心的投资和国际合作伙伴关系活跃于房地产开发领域。Reportage Properties以创新、豪华和现代住宅项目闻名，被视为全球房地产开发领域的领先品牌之一。",
+    "luxuryTitle": "符合国际标准的豪华住宅项目。",
+    "partnershipsTitle": "房地产行业中的强大合作伙伴关系和国际合作。",
+    "innovativeTitle": "我们提供创新且价格合理的住房解决方案。"
+  },
+  "hero": {
+    "logoAlt": "Reportage标志",
+    "title": "Reportage Türkiye",
+    "description": "自2014年以来，活跃于多大洲的Reportage Properties以豪华住宅项目闻名，是业内最值得信赖的品牌之一。",
+    "moreInfo": "了解更多",
+    "whoWeAre": "我们是谁",
+    "aboutTitle": "关于Reportage",
+    "reportageTurkey": "Reportage Türkiye",
+    "watchVideo": "观看宣传视频",
+    "globalExpertTitle": "国际市场的房地产开发专家",
+    "globalExpertDescription": "自2014年以来，Reportage Properties通过在意大利、美国、英国、法国、阿尔巴尼亚、俄罗斯、巴基斯坦、印度、乌干达、摩洛哥、埃及、卢旺达、肯尼亚、伊拉克、阿联酋和沙特阿拉伯等国家的欧洲投资和国际合作伙伴关系，凭借豪华和现代住宅项目在行业内脱颖而出。"
+  },
+  "projelerPage": {
+    "pageTitle": "豪华别墅和住宅",
+    "pageDescription": "探索由Reportage Türkiye开发的伊斯坦布尔和巴库的豪华别墅和住宅。",
+    "heroTitle": "我们的项目",
+    "heroSubtitle": "探索我们在伊斯坦布尔和阿塞拜疆的豪华项目。",
+    "sylvana": {
+      "title": "Sylvana İstanbul - Bahçeşehir",
+      "description": "Sylvana İstanbul，在Bahçeşehir中心提供现代豪华生活……",
+      "virtualTourTitle": "Sylvana İstanbul虚拟导览",
+      "seeProjectButton": "查看Sylvana İstanbul项目",
+      "moreInfo": "了解更多"
+    },
+    "afraPark": {
+      "title": "Afra Park - Bahçeşehir",
+      "description": "Afra Park在Bahçeşehir为豪华家庭生活提供宽敞别墅……",
+      "virtualTourTitle": "4+1住宅 - A型虚拟导览",
+      "seeProjectButton": "查看Afra Park项目",
+      "moreInfo": "了解更多"
+    },
+    "arabianRanches": {
+      "title": "Arabian Ranches - 阿塞拜疆",
+      "description": "Arabian Ranches，在里海之滨将东方优雅与现代奢华完美结合……",
+      "virtualTourTitle": "Arabian Ranches虚拟导览",
+      "seeProjectButton": "查看Arabian Ranches项目",
+      "moreInfo": "了解更多"
+    }
+  },
+  
+    "community": {
+      "title": "我们的社区",
+      "locations": [
+        {
+          "flagCode": "TR",
+          "name": "土耳其",
+          "description": "位于伊斯坦布尔的中心，现代住宅项目及更多内容。"
+        },
+        {
+          "flagCode": "AE",
+          "name": "阿布扎比",
+          "description": "特别活动和豪华住宅项目。"
+        },
+        {
+          "flagCode": "AE",
+          "name": "迪拜",
+          "description": "迪拜的高端豪华住宅项目。"
+        },
+        {
+          "flagCode": "EG",
+          "name": "开罗",
+          "description": "现代化基础设施、豪华房地产和城市发展。"
+        },
+        {
+          "flagCode": "MA",
+          "name": "摩洛哥",
+          "description": "摩洛哥的现代设计豪华住宅选项。"
+        },
+        {
+          "flagCode": "SA",
+          "name": "沙特阿拉伯",
+          "description": "现代且豪华的居住空间。"
+        },
+        {
+          "flagCode": "RU",
+          "name": "俄罗斯",
+          "description": "在俄罗斯各地的创新房地产项目。"
+        },
+        {
+          "flagCode": "PK",
+          "name": "巴基斯坦",
+          "description": "活力四射的现代住宅项目。"
+        },
+        {
+          "flagCode": "UG",
+          "name": "乌干达",
+          "description": "乌干达扩展中的房地产机会。"
+        },
+        {
+          "flagCode": "RW",
+          "name": "卢旺达",
+          "description": "卢旺达的创新住宅项目。"
+        }
+      ]
+    },
+    
+    "arabianRanches": {
+      "title": "Arabian Ranches",
+      "description": "由RMS Capital Investment开发的Arabian Ranches位于里海附近的Sea Breeze区，是一个高档住宅综合体。该项目将东方建筑的优雅与海滨生活融为一体，呈现出奢华与宁静的独特结合。",
+      "details": "Arabian Ranches代表了阿塞拜疆在全球舞台上日益重要的地位。此住宅综合体邀请国际投资者成为阿塞拜疆快速增长的房地产市场的一部分。",
+      "moreInfo": "了解更多关于Arabian Ranches的信息"
+    },
+    "hero_title": {
+      "title": "土耳其领先的房地产项目",
+      "subtitle": "认识我们位于现代生活中心的项目。",
+      "explore_designs": "探索我们的建筑设计",
+      "afra_park": "Afra Park 伊斯坦布尔 Bahçeşehir",
+      "sylvana_istanbul": "Sylvana Istanbul Bahçeşehir",
+      "interior_designs": "室内设计",
+      "exterior_designs": "外观设计",
+      "show_all": "查看全部",
+      "explore_description": "探索Afra Park 伊斯坦布尔 Bahçeşehir和Sylvana Istanbul Bahçeşehir项目的引人注目的建筑设计。深入了解定义现代奢华生活的内外部设计。",
+      "contact_us": "联系我们"
+    },
+    "projeler": {
+      "title": "我们的项目",
+      "pageTitle": "豪华别墅和住宅",
+      "pageDescription": "探索由Reportage Türkiye开发的位于伊斯坦布尔和巴库的豪华别墅和住宅。",
+      "sylvana": {
+        "title": "Sylvana Istanbul - Bahçeşehir",
+        "description": "Sylvana Istanbul在Bahçeşehir的中心提供现代奢华生活……",
+        "virtualTourTitle": "Sylvana Istanbul虚拟导览",
+        "seeProjectButton": "查看Sylvana Istanbul项目",
+        "moreInfo": "了解更多"
+      },
+      "afraPark": {
+        "title": "Afra Park - Bahçeşehir",
+        "description": "Afra Park在Bahçeşehir为家庭生活提供宽敞豪华的别墅……",
+        "virtualTourTitle": "4+1联排别墅 - A型虚拟导览",
+        "seeProjectButton": "查看Afra Park项目",
+        "moreInfo": "了解更多"
+      },
+      "arabianRanches": {
+        "title": "Arabian Ranches - 阿塞拜疆",
+        "description": "Arabian Ranches，在里海之滨将东方优雅与现代奢华结合……",
+        "virtualTourTitle": "Arabian Ranches虚拟导览",
+        "seeProjectButton": "查看Arabian Ranches项目"
+      }
+    },
+    "afraDocuments": {
+      "title": "Afra Park项目文件",
+      "description": "以下是Afra Park项目的所有相关材料，包括目录、手册和详细单元类型表。",
+      "catalog": "目录",
+      "infoSheet": "信息表",
+      "unitTypes": "单元类型表",
+      "brochure": "手册",
+      "viewDocument": "查看文件"
+    },
+    "sylvanaDocuments": {
+      "title": "Sylvana Istanbul项目文件",
+      "description": "以下是与Sylvana Istanbul项目相关的所有必要材料，包括目录、手册和详细单元类型页面。",
+      "catalog": "目录",
+      "infoSheet": "信息表",
+      "unitTypes": "单元类型页面",
+      "brochure": "手册",
+      "viewDocument": "查看文件"
+    },
+    "sylvanaRenderImages": {
+      "exteriorTitle": "Sylvana Istanbul项目外观",
+      "exteriorDescription": "意大利设计与美学在每个角落都得以体现，提供符合欧洲和国际标准的绿色空间。",
+      "interiorTitle": "Sylvana Istanbul项目室内",
+      "interiorDescription": "Sylvana别墅为高雅的品味设计，包含4个主卧室和封闭式厨房，确保隐私。",
+      "expandedViewAlt": "扩展视图",
+      "gridView": "网格视图",
+      "sliderView": "滑动视图",
+      "modernDesign": "现代设计",
+      "openSpaces": "开放空间",
+      "scenicView": "景观视图",
+      "mainBedrooms": "4个主卧",
+      "closedKitchen": "封闭式厨房",
+      "luxuryBathrooms": "豪华浴室",
+      "elegantFinishes": "优雅装饰"
+    },
+    "afraRenderImages": {
+      "exteriorTitle": "Afra Park项目外观",
+      "exteriorDescription": "精心打造的建筑设计，拥有意大利设计和高质量立面，展现美学细节。",
+      "interiorTitle": "Afra Park项目室内",
+      "interiorDescription": "Afra Park住宅内部设计优雅豪华，采用高品质材料。",
+      "expandedViewAlt": "扩展视图",
+      "gridView": "网格视图",
+      "sliderView": "滑动视图",
+      "modernDesign": "现代设计",
+      "openSpaces": "开放空间",
+      "scenicView": "景观视图",
+      "spaciousBedrooms": "宽敞卧室",
+      "modernKitchen": "现代厨房",
+      "luxuryBathrooms": "豪华浴室",
+      "artisticFinishes": "艺术装饰",
+      "thumbnailAlt": "缩略图"
+    },
+    "arabianRanchesDocuments": {
+      "title": "Arabian Ranches项目文件",
+      "description": "以下是Arabian Ranches项目的所有必要文件，包括总平面图、目录、楼层平面图和Sea Breeze演示。",
+      "masterPlan": "总平面图",
+      "catalog": "目录",
+      "floorPlans": "楼层平面图",
+      "presentation": "Sea Breeze演示",
+      "viewDocument": "查看文件"
+    },
+    "arabianRanchesRenderImages": {
+      "galleryTitle": "Arabian Ranches图像库",
+      "expandedViewAlt": "扩展视图",
+      "gridView": "网格视图",
+      "sliderView": "滑动视图",
+      "imageAlt": "图像",
+      "thumbnailAlt": "缩略图"
+    },
+  "ArabianRanchesPage": {
+  "title": "Arabian Ranches - 阿塞拜疆 | Sea Breeze 豪华生活",
+  "metaDescription": "Arabian Ranches 将东部的优雅与现代奢华相结合，位于哈萨海附近。探索在宁静环境中的联排别墅和公寓。",
+  "metaKeywords": "Arabian Ranches, 豪华生活, Sea Breeze, 阿塞拜疆房地产, 联排别墅, 公寓, RMS Capital 投资",
+  "ogTitle": "Arabian Ranches - Sea Breeze 豪华生活",
+  "ogDescription": "探索 Arabian Ranches 的优雅，提供一流的住宅区，位于哈萨海附近，提供豪华的联排别墅和公寓。",
+  "heroTitle": "Arabian Ranches",
+  "heroSubtitle": "受东部遗产启发的奢华生活，位于著名的 Sea Breeze 区。",
+  "aboutTitle": "Arabian Ranches",
+  "aboutLocation": "阿塞拜疆 - Sea Breeze",
+  "aboutDescription": "Arabian Ranches 是东部遗产与现代奢华的宁静融合，提供精致的联排别墅和公寓，坐落在哈萨海边，距离海滩只有几步之遥，提供与自然亲密接触的独特生活方式。",
+  "virtualToursTitle": "虚拟导览",
+  "virtualToursSubtitle": "探索 Arabian Ranches 虚拟导览"
+},
+"ArabianRanchesLocationFeatures": {
+  "title": "Arabian Ranches 附近的亮点位置",
+  "description": "Arabian Ranches 位于阿塞拜疆巴库，靠近哈萨海，周围有知名学校、医院、购物中心和娱乐区。",
+  "mapTitle": "Arabian Ranches 位置",
+  "locations": {
+    "bakuBoulevard": "巴库大道",
+    "bakuInternationalSchool": "巴库国际学校",
+    "europeAzerbaijanSchool": "欧洲阿塞拜疆学校",
+    "ganjlikMall": "甘吉利克购物中心",
+    "heydarAliyevCenter": "海达尔·阿利耶夫中心",
+    "mall28": "28 购物中心",
+    "oilWorkersHospital": "石油工人中心医院",
+    "bakuStateUniversity": "巴库国立大学",
+    "adaUniversity": "ADA 大学",
+    "parkBoulevardMall": "公园大道购物中心",
+    "bakuOlympicStadium": "巴库奥林匹克体育场",
+    "absheronNationalPark": "阿布谢龙国家公园",
+    "dalgaBeachResort": "达尔加海滩水上乐园度假村",
+    "heydarAliyevAirport": "海达尔·阿利耶夫国际机场"
+  },
+  "times": {
+    "15min": "15分钟",
+    "12min": "12分钟",
+    "18min": "18分钟",
+    "20min": "20分钟",
+    "25min": "25分钟",
+    "22min": "22分钟",
+    "17min": "17分钟",
+    "30min": "30分钟",
+    "40min": "40分钟",
+    "35min": "35分钟"
+  }
+},
+"ArabianRanchesSocialAmenities": {
+  "title": "Arabian Ranches 社区设施",
+  "description": "Arabian Ranches 提供将放松、娱乐和运动设施结合在一起的豪华社交空间。在著名的 Sea Breeze 区域，您可以体验到中东设计的优雅与现代设施的结合。",
+  "closeButton": "关闭",
+  "icons": {
+    "swimming": "游泳",
+    "parking": "停车场",
+    "fitness": "健身",
+    "nature": "自然",
+    "sport": "运动",
+    "petArea": "宠物区",
+    "chess": "象棋",
+    "bbq": "烧烤"
+  },
+  "amenities": {
+    "swimmingPool": {
+      "label": "游泳池",
+      "description": "Arabian Ranches 提供享有哈萨海美景的豪华游泳池，让居民可以在这里放松和娱乐。"
+    },
+    "bbq": {
+      "label": "烧烤区",
+      "description": "享受适合社交聚会的大型烧烤区，理想的户外用餐空间，靠近海风。"
+    },
+    "parking": {
+      "label": "停车区",
+      "description": "为居民和访客提供安全的停车设施，确保便利与舒适。"
+    },
+    "kidsPlay": {
+      "label": "儿童游乐区",
+      "description": "为儿童提供一个安全的娱乐空间，让他们在这里享受快乐的时光。"
+    },
+    "chess": {
+      "label": "大型象棋区",
+      "description": "居民可以享受富有趣味和挑战性的户外象棋游戏，锻炼大脑，提升智力。"
+    },
+    "gym": {
+      "label": "健身房",
+      "description": "提供全套健身设备的健身中心，帮助居民保持健康和活力。"
+    },
+    "petArea": {
+      "label": "宠物区",
+      "description": "为宠物提供一个专用区域，供它们玩耍和锻炼，确保它们的健康和快乐。"
+    },
+    "seating": {
+      "label": "休息区",
+      "description": "在这些休息区放松，享受美丽的景色。"
+    },
+    "tennis": {
+      "label": "网球场",
+      "description": "专业的网球场供居民在风景如画的环境中享受友好的比赛。"
+    }
+  }
+},
+"SylvanaPage": {
+  "title": "Sylvana İstanbul - Bahçeşehir | 现代4+1三层别墅",
+  "metaDescription": "Sylvana İstanbul 提供位于 Bahçeşehir 的现代4+1三层别墅。适合家庭生活和投资机会。",
+  "keywords": "三层别墅, Sylvana İstanbul, 独栋别墅, 4+1别墅, Bahçeşehir别墅, 出售别墅, 伊斯坦布尔别墅, Bahçeşehir出售别墅, 现代别墅",
+  "ogTitle": "Sylvana İstanbul - 4+1现代三层别墅",
+  "ogDescription": "探索位于 Bahçeşehir 的豪华4+1三层别墅，Sylvana İstanbul是投资者和家庭生活的理想选择。",
+  "heroTitle": "Sylvana İstanbul",
+  "heroSubtitle": "位于 Bahçeşehir 中心的豪华4+1别墅。",
+  "aboutTitle": "Sylvana İstanbul",
+  "aboutLocation": "伊斯坦布尔 - Bahçeşehir",
+  "aboutDescription": "在 Bahçeşehir 体验现代奢华生活，宽敞的4+1三层别墅。",
+  "virtualToursTitle": "虚拟导览",
+  "virtualToursSubtitle": "探索 Sylvana İstanbul 虚拟导览"
+},
+"SylvanaAmenities": {
+  "title": "社区设施",
+  "description": "Sylvana İstanbul 为居民提供结合舒适、娱乐和家庭生活的豪华设施。享受风景花园、烧烤区和宠物友好的区域，体验现代生活方式。",
+  "landscapeGarden": "景观花园",
+  "landscapeGardenDesc": "Sylvana İstanbul 拥有精心设计的景观花园，让您享受大自然的美丽与宁静。",
+  "bbqAreas": "烧烤区",
+  "bbqAreasDesc": "提供宽敞的烧烤区域，适合与家人和朋友一起在户外享用美食。",
+  "parkingArea": "停车区",
+  "parkingAreaDesc": "为居民和访客提供安全和方便的停车设施。",
+  "kidsPlayArea": "儿童游乐区",
+  "kidsPlayAreaDesc": "为儿童提供一个安全、富有乐趣的游乐区。",
+  "chessArea": "大型象棋区",
+  "chessAreaDesc": "为各年龄段的居民提供一个开放的象棋区域，进行智力游戏。",
+  "seatingAreas": "休息区",
+  "seatingAreasDesc": "提供多种休息区域，让您放松或与邻居交流。",
+  "petFriendlyAreas": "宠物友好区",
+  "petFriendlyAreasDesc": "为宠物提供专用区域，让它们享受自然的乐趣。",
+  "gym": "健身房",
+  "gymDesc": "配备最先进的健身设备的健身房，是保持健康和活力的理想场所。",
+  "closeButton": "关闭"
+},
+
+  "ArabianRanchesAvailability": {
+    "title": "Arabian Ranches可用单元",
+    "totalUnits": "总单元",
+    "soldOutUnits": "已售单元",
+    "availableUnits": "可用单元",
+    "total": "总计",
+    "sold": "已售",
+    "available": "可用"
+  },
+  "SylvanaLocation": {
+    "title": "Sylvana Istanbul周边推荐地点",
+    "description": "Sylvana Istanbul位于Bahçeşehir的中心，提供结合自然美景与现代家庭生活的豪华联排别墅。这个理想位置周围有世界级的设施，如优质学校、医疗设施、购物中心和娱乐区域。Sylvana Istanbul是寻求现代设施与宁静环境的家庭的理想选择，同时在迅速发展的伊斯坦布尔房地产市场中提供了极佳的投资机会。",
+    "mapTitle": "Sylvana Istanbul位置",
+    "features": {
+      "bahcesehirPark": "Bahçeşehir Gölet 公园",
+      "bilfenSchool": "Bilfen 学校",
+      "leaderRussianSchool": "伊斯坦布尔领导俄语学校",
+      "bahcesehirFitness": "Bahçeşehir 健身中心",
+      "bahcesehirTrainStation": "Bahçeşehir 火车站",
+      "prestigeMallPark": "Prestige 购物中心",
+      "istinyeHospital": "İstinye 医院",
+      "istanbulUniversity": "伊斯坦布尔大学",
+      "ataturkOlympicStadium": "阿塔图尔克奥林匹克体育场",
+      "aquaClubDolphin": "Aqua Club Dolphin",
+      "istanbulAirport": "伊斯坦布尔机场"
+    },
+    "times": {
+      "10min": "10分钟",
+      "11min": "11分钟",
+      "15min": "15分钟",
+      "17min": "17分钟",
+      "25min": "25分钟",
+      "30min": "30分钟"
+    }
+  },
+  "SylvanaAvailability": {
+    "title": "Sylvana Istanbul可用状态",
+    "totalUnits": "总单元数",
+    "soldUnits": "已售单元",
+    "availableUnits": "可用单元",
+    "total": "总计: 244",
+    "sold": "已售: 160",
+    "available": "可用: 84"
+  },
+  "AfraPage": {
+    "title": "Afra Park 伊斯坦布尔 - Bahçeşehir",
+    "metaDescription": "探索位于Bahçeşehir的现代Afra Park项目。",
+    "keywords": "Afra Park, Bahçeşehir, 住宅项目, 房地产, 伊斯坦布尔",
+    "ogTitle": "Afra Park 伊斯坦布尔 - Bahçeşehir",
+    "ogDescription": "通过现代的Afra Park项目，我们在Bahçeşehir提供各种别墅和公寓。",
+    "heroTitle": "欢迎来到Afra Park项目",
+    "heroSubtitle": "Bahçeşehir中心的豪华别墅和公寓",
+    "aboutTitle": "关于Afra Park",
+    "aboutLocation": "Afra Park位置",
+    "aboutDescription": "Afra Park将自然美景与现代生活方式结合，为居民提供奢华的生活体验。",
+    "virtualToursTitle": "虚拟导览",
+    "virtualToursSubtitle": "探索我们项目的虚拟导览。",
+    "closeButton": "关闭"
+  },
+  
+    "AfraVirtualTours": {
+      "typeA": "2 + 1 联排别墅 - A 型",
+      "typeB": "2 + 1 联排别墅 - B 型",
+      "typeC": "2 + 1 联排别墅 - C 型",
+      "typeWithMaid": "3 + 1 联排别墅 (带保姆) - A 型",
+      "typeB3": "3 + 1 联排别墅 - B 型",
+      "typeC3": "3 + 1 联排别墅 - C 型",
+      "typeA3_5": "3.5 + 1 联排别墅 - A 型",
+      "typeD3_5": "3.5 + 1 联排别墅 - D 型",
+      "typeA4": "4 + 1 联排别墅 - A 型",
+      "typeB4": "4 + 1 联排别墅 - B 型",
+      "typeC4_5": "4.5 + 1 联排别墅 - C 型"
+    },
+    "locationFeatures": {
+      "title": "探索靠近Afra Park的主要地点",
+      "description": "Afra Park位于伊斯坦布尔Bahçeşehir的中心，提供现代家庭生活与自然美景的结合。这个优越位置被顶级学校、医疗设施、购物中心和休闲区等全球一流的设施所环绕。",
+      "features": {
+        "park": "Bahçeşehir Gölet 公园",
+        "bilfenSchool": "Bilfen 学校",
+        "leaderRussianSchool": "伊斯坦布尔领导俄语学校",
+        "fitnessCenter": "Bahçeşehir 健身中心",
+        "trainStation": "Bahçeşehir 火车站",
+        "mallPark": "Prestige 商场公园",
+        "istinyeHospital": "İstinye 医院",
+        "istanbulUniversity": "伊斯坦布尔大学 Büyükçekmece 校区",
+        "beykentUniversity": "Beykent 大学",
+        "mallOfIstanbul": "伊斯坦布尔购物中心",
+        "olympicStadium": "阿塔图尔克奥林匹克体育场",
+        "naturePark": "Samlar 自然公园",
+        "aquaClub": "Aqua Club Dolphin",
+        "istanbulAirport": "伊斯坦布尔机场"
+      },
+      "times": {
+        "9min": "9 分钟",
+        "10min": "10 分钟",
+        "11min": "11 分钟",
+        "15min": "15 分钟",
+        "17min": "17 分钟",
+        "18min": "18 分钟",
+        "25min": "25 分钟",
+        "30min": "30 分钟",
+        "40min": "40 分钟"
+      }
+    },
+    "blogPage": {
+      "title": "博客和新闻",
+      "pageDescription": "探索关于伊斯坦布尔和土耳其房地产市场的最新新闻和趋势。",
+      "keywords": "伊斯坦布尔，房地产，投资，土耳其",
+      "popularTopics": "热门博客主题",
+      "latestNews": "最新房地产新闻",
+      "istanbulInvestment": {
+        "title": "投资伊斯坦布尔的房地产市场",
+        "description": "了解为什么伊斯坦布尔成为投资中心。"
+      },
+      "reportageTurkey": {
+        "title": "Reportage Türkiye：重新定义伊斯坦布尔的奢华",
+        "description": "探索Reportage Türkiye如何重新定义奢华生活标准。"
+      },
+      "benefitsTurkeyInvestment": {
+        "title": "投资土耳其房地产的好处",
+        "description": "从公民身份机会到投资回报，了解投资土耳其的优势。"
+      },
+      "afraParkBahcesehir": {
+        "title": "Afra Park Bahçeşehir：与自然融为一体的绿洲",
+        "description": "探索Afra Park Bahçeşehir中城市生活与自然的完美融合。"
+      },
+      "sylvanaIstanbul": {
+        "title": "Sylvana Istanbul：现代生活的新愿景",
+        "description": "了解Sylvana Istanbul项目及其未来设施。"
+      },
+      "turkeyRealEstateGrowth": {
+        "title": "土耳其房地产市场的增长",
+        "description": "了解土耳其的房地产市场如何扩展并吸引全球投资者。"
+      },
+      "istanbulInvestmentParadise": {
+        "title": "为什么伊斯坦布尔是投资天堂？",
+        "description": "探索吸引房地产投资者的伊斯坦布尔的特点。"
+      },
+      "reportageFutureVision": {
+        "title": "Reportage Türkiye的未来愿景",
+        "description": "了解Reportage Türkiye的未来项目和愿景。"
+      },
+      "realEstateForecast2024": {
+        "title": "2024年的房地产投资预测",
+        "description": "未来一年的房地产投资重要预测。"
+      },
+      "sustainableLivingIstanbul": {
+        "title": "伊斯坦布尔的可持续生活：新趋势",
+        "description": "了解可持续生活趋势如何塑造土耳其的新房地产项目。"
+      }
+    },
+    "common": {
+      "readMore": "阅读更多",
+      "backToHome": "返回主页",
+      "loading": "加载中..."
+    },
+    "investmentInsights": {
+      "heading": "2024年投资洞察：伊斯坦布尔房地产市场的关键趋势",
+      "mainImageAlt": "2024年投资洞察",
+      "introduction": "伊斯坦布尔作为连接欧洲与亚洲的商业和文化中心，吸引了越来越多的投资者。",
+      "whyInvestTitle": "为什么要投资伊斯坦布尔的房地产市场？",
+      "whyInvestText": "近年来，伊斯坦布尔的房地产市场显示出显著增长。主要优势包括：",
+      "advantages": {
+        "location": { "title": "战略位置", "description": "伊斯坦布尔的位置使其成为全球贸易和商业的理想中心。" },
+        "economy": { "title": "不断增长的经济", "description": "随着土耳其经济的增长，伊斯坦布尔的房产价格持续增值。" },
+        "incentives": { "title": "投资激励", "description": "合格的房地产投资者可以获得公民身份。" },
+        "urbanDemand": { "title": "城市生活需求", "description": "伊斯坦布尔的人口不断增长，推动了住宅和商业地产的需求。" }
+      },
+      "trendsTitle": "2024年投资趋势",
+      "trends": {
+        "luxuryResidential": { "title": "豪华住宅项目", "description": "伊斯坦布尔的Bebek和Nişantaşı等区域吸引了寻求奢华生活的投资者。" },
+        "urbanExpansion": { "title": "城市扩展区域", "description": "Bahçeşehir和Beylikdüzü等发展地区提供了有吸引力的投资机会。" },
+        "commercialRealEstate": { "title": "商业房地产", "description": "随着企业和办公室需求的增加，商业地产需求高涨。" },
+        "highROIRentals": { "title": "高回报出租物业", "description": "短租公寓在游客和外籍人士中需求旺盛。" },
+        "greenprojeler": { "title": "可持续绿色项目", "description": "环保项目吸引了寻求可持续发展的投资者。" },
+        "infrastructure": { "title": "基础设施发展", "description": "伊斯坦布尔的新机场和地铁扩展带动了周边房产增值。" }
+      },
+      "considerationsTitle": "投资者需关注的关键点",
+      "considerationsText": "尽管伊斯坦布尔房地产市场充满机遇，但投资者应关注市场波动。",
+      "share": {
+        "twitter": "在X上分享",
+        "facebook": "在Facebook上分享",
+        "linkedin": "在LinkedIn上分享"
+      },
+      "shareText": "探索2024年伊斯坦布尔房地产市场的投资趋势！"
+    },
+    "afraPark": {
+      "title": "Afra Park Bahçeşehir：伊斯坦布尔的绿色豪华生活",
+      "mainImageAlt": "Afra Park Bahçeşehir",
+      "description": "位于伊斯坦布尔Bahçeşehir地区中心的Afra Park Bahçeşehir是一个提供独特生活方式的高端住宅项目。",
+      "whyChoose": "为什么选择Afra Park Bahçeşehir？",
+      "whyChooseText": "Afra Park Bahçeşehir提供了自然与奢华的独特融合……",
+      "features": {
+        "greenSpaces": "绿色空间",
+        "greenSpacesDescription": "理想的休憩和家庭活动场所，周围环绕着美丽的花园和公园。",
+        "privateAmenities": "私人设施",
+        "privateAmenitiesDescription": "提供奢华设施，如游泳池、健身房和儿童游乐区。",
+        "security": "24/7 安全",
+        "securityDescription": "提供高级安全服务，为所有居民提供安全的生活环境。"
+      },
+      "investmentPotentialTitle": "投资潜力：",
+      "investmentPotentialText": "Afra Park Bahçeşehir位于一个快速发展的区域，是一个极具吸引力的投资机会……",
+      "communityImageAlt": "Bahçeşehir社区",
+      "lifestyleTitle": "生活方式与社区",
+      "lifestyleText": "Bahçeşehir地区以家庭友好的社区、知名学校和广阔的绿色空间而著称……",
+      "nearbyAttractionsTitle": "附近重要地点及交通便捷性",
+      "nearbyAttractionsText": "Afra Park Bahçeşehir交通便利，轻松连接至伊斯坦布尔市中心……",
+      "resourcesTitle": "投资信息的可靠资源",
+      "resources": {
+        "propertyTurkey": "Property Turkey",
+        "propertyTurkeyDescription": "关于土耳其房地产市场和主要投资地区的信息。",
+        "investTurkey": "Invest in Turkey",
+        "investTurkeyDescription": "官方的投资信息和市场数据。",
+        "turkeyHomes": "Turkey Homes",
+        "turkeyHomesDescription": "为投资者提供在土耳其的指南和资源。"
+      },
+      "share": {
+        "twitter": "在X上分享",
+        "facebook": "在Facebook上分享",
+        "linkedin": "在LinkedIn上分享"
+      },
+      "shareText": "探索伊斯坦布尔Afra Park Bahçeşehir的奢华生活！"
+    },
+    "investing": {
+      "title": "伊斯坦布尔房地产市场投资",
+      "mainImageAlt": "伊斯坦布尔房地产",
+      "description": "伊斯坦布尔的房地产市场因其独特的地理位置、活跃的经济和多样的房地产机会而吸引投资者……",
+      "whyInvestTitle": "为什么要投资伊斯坦布尔？",
+      "whyInvestText": "伊斯坦布尔是一个融合了欧洲和亚洲文化的经济中心……",
+      "investInTurkeyInfoTitle": "来自Invest in Turkey的信息",
+      "investInTurkeyInfoText1": "根据Invest in Turkey平台的数据，土耳其经济表现出色且具有韧性……",
+      "investInTurkeyInfoText2": "土耳其政府还为外国购房者提供税收优惠和法律支持……",
+      "keyAreasTitle": "关键投资区域",
+      "bosphorus": "博斯普鲁斯海峡沿岸",
+      "bosphorusDesc": "享有壮丽景色的豪华物业和高投资回报率。",
+      "bahcesehirBeylikduzu": "Bahçeşehir和Beylikdüzü",
+      "bahcesehirBeylikduzuDesc": "价格合理、家庭友好，具有强劲的增长潜力。",
+      "cityCenter": "市中心",
+      "cityCenterDesc": "Nişantaşı和Taksim吸引年轻专业人士和游客，提供高租金回报。",
+      "secondaryImageAlt": "伊斯坦布尔投资潜力",
+      "trendsTitle": "伊斯坦布尔房地产市场趋势",
+      "trendsText": "伊斯坦布尔房地产市场在过去几年中呈现出持续的价值增长，需求旺盛……",
+      "resourcesTitle": "投资者的资源",
+      "resources": {
+        "propertyTurkey": "Property Turkey",
+        "propertyTurkeyDescription": "关于土耳其的房地产投资、热门位置和最新市场信息的指南。",
+        "investTurkey": "Invest in Turkey",
+        "investTurkeyDescription": "有关投资机会和经济数据的官方信息。",
+        "turkeyHomes": "Turkey Homes",
+        "turkeyHomesDescription": "关于在土耳其购买和投资房产的专业建议。"
+      },
+      "share": {
+        "twitter": "在X上分享",
+        "facebook": "在Facebook上分享",
+        "linkedin": "在LinkedIn上分享"
+      },
+      "shareText": "阅读这篇关于伊斯坦布尔房地产投资的详尽文章！"
+    },
+    "whyInvestIstanbul": {
+      "title": "在伊斯坦布尔投资：全球投资中心",
+      "mainImageAlt": "为什么要投资伊斯坦布尔？",
+      "description": "连接两大洲的伊斯坦布尔已成为全球最具吸引力的投资目的地之一……",
+      "reasonsTitle": "在伊斯坦布尔投资的主要原因",
+      "reasons": {
+        "strategicLocation": "战略位置",
+        "strategicLocationDesc": "伊斯坦布尔位于欧洲和亚洲的交汇点，为全球商业提供了理想的连接。",
+        "growingEconomy": "快速增长的经济",
+        "growingEconomyDesc": "由于房地产、旅游和金融业的强劲增长，伊斯坦布尔的经济在该地区增长最快。",
+        "culturalAttractions": "文化和历史吸引力",
+        "culturalAttractionsDesc": "拥有圣索菲亚大教堂和博斯普鲁斯等地标的伊斯坦布尔吸引了数百万游客，刺激了旅游和零售投资需求。",
+        "realEstateMarket": "强劲的房地产市场",
+        "realEstateMarketDesc": "伊斯坦布尔的房地产市场提供从豪华住宅到商业区的多样化选择，带来高回报。",
+        "investmentIncentives": "投资激励",
+        "investmentIncentivesDesc": "土耳其政府为外国投资者提供税收优惠和通过投资获得公民身份等激励措施。",
+        "globalConnectivity": "全球连接",
+        "globalConnectivityDesc": "伊斯坦布尔机场是全球最大的机场之一，连接300多个目的地，支持商业和旅游。"
+      },
+      "realEstateInfoTitle": "房地产投资信息",
+      "realEstateInfoDesc": "伊斯坦布尔的房地产行业迅速扩展，对住宅和商业物业的需求不断增长。",
+      "secondaryImageAlt": "伊斯坦布尔房地产投资",
+      "sourcesTitle": "投资者的可靠资源",
+      "sources": {
+        "investTurkey": "在土耳其投资",
+        "investTurkeyDesc": "有关投资机会和激励措施的官方信息。",
+        "propertyTurkey": "Property Turkey",
+        "propertyTurkeyDesc": "伊斯坦布尔的房地产投资清单和资源。",
+        "turkeyHomes": "Turkey Homes",
+        "turkeyHomesDesc": "关于在土耳其购买和投资房产的专家建议。"
+      },
+      "share": {
+        "twitter": "在X上分享",
+        "facebook": "在Facebook上分享",
+        "linkedin": "在LinkedIn上分享"
+      },
+      "shareText": "了解为什么伊斯坦布尔是一个投资中心！"
+},
+
+  "reportageTurkiyeLuxury": {
+    "title": "Reportage Türkiye：重新定义伊斯坦布尔的奢华房地产",
+    "mainImageAlt": "Reportage Türkiye奢华房地产",
+    "intro": "作为奢华房地产的领先者之一，Reportage Türkiye将伊斯坦布尔丰富的文化遗产与现代生活相结合，呈现出全新的奢华住宅理念。Reportage Türkiye通过融合优雅、舒适和创新的项目，在伊斯坦布尔重新定义高端生活标准。",
+    "featuresTitle": "Reportage Türkiye的独特之处",
+    "featuresText": "Reportage Türkiye因其对品质的承诺、细节的关注和独特的建筑风格而闻名。每个项目都融合了现代美学和文化影响，为居民提供优雅、舒适和奢华的体验。",
+    "projelerTitle": "我们在伊斯坦布尔的精选项目",
+    "projelerText": "Reportage Türkiye通过<em>Afra Park Bahçeşehir</em>和<em>Sylvana Istanbul</em>等知名项目在伊斯坦布尔提供舒适与奢华。这些项目因其宽敞的生活空间、高品质的设施和靠近伊斯坦布尔文化和社交设施而备受关注。",
+    "secondaryImageAlt": "Reportage Türkiye投资机会",
+    "lifestyleTitle": "充满奢华与便利的生活方式",
+    "lifestyleText": "Reportage Türkiye不仅提供奢华住宅，还提供完整的生活方式。每个住宅都有现代化的健身房、博斯普鲁斯海峡景观露台、绿意盎然的花园和私人游泳池，为居民带来宁静的生活体验。",
+    "investmentTitle": "伊斯坦布尔的房地产投资机会",
+    "investmentText": "伊斯坦布尔房地产市场继续吸引全球投资者。选择Reportage Türkiye，不仅是在投资房产，更是在投资一个独特优雅的生活方式。",
+    "exploreMoreTitle": "探索更多并加入奢华革命",
+    "exploreMoreText": "了解更多关于我们项目的信息，探索重新定义伊斯坦布尔奢华住宅的机会",
+    "investTurkey": "在土耳其投资",
+    "share": {
+      "twitter": "在X上分享",
+      "facebook": "在Facebook上分享",
+      "linkedin": "在LinkedIn上分享"
+    },
+    "shareText": "探索Reportage Türkiye在伊斯坦布尔提供的奢华房地产！"
+  },
+  "reportageTurkiyeVision": {
+    "title": "Reportage Türkiye的愿景：塑造土耳其房地产的未来",
+    "mainImageAlt": "Reportage Türkiye愿景",
+    "intro": "作为Reportage Türkiye，我们的愿景是通过创造创新、可持续且以社区为中心的项目来重新定义土耳其的房地产行业……",
+    "missionTitle": "我们的愿景与使命",
+    "vision": "愿景",
+    "visionDesc": "在土耳其房地产行业树立新的质量、设计和客户体验标准，成为行业的领导者。",
+    "mission": "使命",
+    "missionDesc": "通过提供高质量的项目为社会发展做出贡献。",
+    "valuesTitle": "我们的核心价值观",
+    "innovation": "创新",
+    "innovationDesc": "为现代社区提供创新解决方案。",
+    "integrity": "诚信",
+    "integrityDesc": "通过透明和诚信建立信任。",
+    "sustainability": "可持续性",
+    "sustainabilityDesc": "提供环保解决方案。",
+    "futureGoals": "我们的未来目标",
+    "futureGoalsText": "作为Reportage Türkiye，我们致力于在土耳其创造标志性建筑，以实现卓越的品质。",
+    "futureImageAlt": "Reportage Türkiye的未来",
+    "moreInfo": "了解更多关于Reportage Türkiye的信息",
+    "officialSite": "Reportage Türkiye官方网站",
+    "officialSiteDesc": "了解我们的项目。",
+    "investTurkey": "在土耳其投资",
+    "investTurkeyDesc": "探索土耳其的投资机会。",
+    "propertyTurkey": "Property Turkey",
+    "propertyTurkeyDesc": "关于土耳其房地产投资的信息。",
+    "share": {
+      "twitter": "在X上分享",
+      "facebook": "在Facebook上分享",
+      "linkedin": "在LinkedIn上分享"
+    }
+  },
+  "privacyPolicy": {
+    "title": "隐私政策"
+  },
+  "sustainableLiving": {
+    "title": "伊斯坦布尔的可持续生活",
+    "mainImageAlt": "伊斯坦布尔的可持续生活",
+    "intro": "随着伊斯坦布尔作为一个全球城市的发展，可持续生活实践在提供环保的生活方式方面变得愈发重要。",
+    "coreElementsTitle": "伊斯坦布尔可持续生活的核心要素",
+    "features": {
+      "greenHomes": "环保住宅",
+      "greenHomesDesc": "在伊斯坦布尔，采用节能和可持续材料建造的新住宅支持绿色生活。",
+      "renewableEnergy": "可再生能源",
+      "renewableEnergyDesc": "通过对太阳能和风能的投资，伊斯坦布尔专注于可持续能源资源。",
+      "waterConservation": "节水",
+      "waterConservationDesc": "通过节水活动，伊斯坦布尔保护其水资源。",
+      "wasteManagement": "废物管理",
+      "wasteManagementDesc": "通过回收计划，伊斯坦布尔致力于建立循环经济。",
+      "urbanGreenSpaces": "城市绿地",
+      "urbanGreenSpacesDesc": "通过公园和花园支持伊斯坦布尔的生物多样性。",
+      "smartInfrastructure": "智慧城市基础设施",
+      "smartInfrastructureDesc": "伊斯坦布尔采用智能城市技术，提高能源效率。"
+    },
+    "benefitsTitle": "为什么可持续生活很重要？",
+    "benefitsText": "可持续生活实践不仅保护环境，还提高了伊斯坦布尔的生活质量。",
+    "caseStudyTitle": "案例研究：伊斯坦布尔的绿色项目",
+    "caseStudyText": "伊斯坦布尔的新项目旨在扩大城市绿地并提升环境可持续性。",
+    "share": {
+      "twitter": "在X上分享",
+      "facebook": "在Facebook上分享",
+      "linkedin": "在LinkedIn上分享"
+    },
+    "shareText": "探索伊斯坦布尔的可持续生活机会！"
+  },
+  "sylvanaModernLiving": {
+    "title": "Sylvana Istanbul：土耳其心脏地带的现代生活",
+    "mainImageAlt": "Sylvana Istanbul现代生活",
+    "intro": "Sylvana Istanbul将奢华、现代建筑与自然美景融入伊斯坦布尔充满活力的生活之中。这一生活空间紧邻丰富的文化与历史，集舒适与优雅于一体。",
+    "elegantLifestyleTitle": "优雅与舒适并存的生活方式",
+    "elegantLifestyleText": "Sylvana Istanbul拥有宽敞的室内空间和绿意盎然的花园，提供风格、舒适和宁静。",
+    "features": {
+      "greenSpaces": "绿色空间",
+      "greenSpacesDesc": "适合放松和户外活动的美丽绿地。",
+      "luxuryInteriors": "豪华内饰",
+      "luxuryInteriorsDesc": "高品质材料打造的舒适且时尚的设计。",
+      "security": "高级安全",
+      "securityDesc": "24小时安全保护和先进的安全系统。"
+    },
+    "modernConvenienceTitle": "现代便利",
+    "modernConvenienceText": "Sylvana Istanbul靠近主要道路和公共交通，便于通往城市各处。",
+    "communityImageAlt": "Sylvana Istanbul社区",
+    "whyChooseTitle": "为什么选择Sylvana Istanbul？",
+    "whyChooseText": "Sylvana Istanbul为家庭、专业人士和投资者提供了高质量的生活空间。",
+    "nearbyLandmarksTitle": "附近的地标与便利设施",
+    "nearbyLandmarksText": "项目靠近购物中心、餐馆、教育机构和医疗设施。",
+    "reliableResourcesTitle": "可靠的投资资源",
+    "resources": {
+      "investTurkey": "在土耳其投资",
+      "investTurkeyDesc": "了解土耳其的投资机会。",
+      "propertyTurkey": "Property Turkey",
+      "propertyTurkeyDesc": "关于伊斯坦布尔房地产投资的指南。",
+      "turkeyHomes": "Turkey Homes",
+      "turkeyHomesDesc": "关于在土耳其购房和投资的建议。"
+    },
+    "share": {
+      "twitter": "在X上分享",
+      "facebook": "在Facebook上分享",
+      "linkedin": "在LinkedIn上分享"
+    },
+    "shareText": "在Sylvana Istanbul探索现代生活！"
+  },
+  "growthRealEstateTurkey": {
+    "title": "土耳其房地产增长：投资者的成长型市场",
+    "mainImageAlt": "土耳其房地产增长",
+    "intro": "土耳其的房地产市场因其位置和多样性而具有吸引力，为国内外投资者提供了高回报的潜力。",
+    "keyDriversTitle": "土耳其房地产增长的关键因素",
+    "features": {
+      "strategicLocation": "战略位置",
+      "strategicLocationDesc": "土耳其位于亚欧交界，是商业和贸易的理想中心。",
+      "modernInfrastructure": "现代基础设施",
+      "modernInfrastructureDesc": "土耳其的现代化基础设施提高了交通和生活水平。",
+      "highReturnPotential": "高回报潜力",
+      "highReturnPotentialDesc": "土耳其的房产价值不断攀升，为投资者提供有利机会。",
+      "qualityEducationHealthcare": "优质教育和医疗",
+      "qualityEducationHealthcareDesc": "土耳其的优质教育和医疗设施增加了长期购房者的价值。",
+      "citizenshipInvestment": "投资入籍",
+      "citizenshipInvestmentDesc": "通过提供公民身份吸引投资者。",
+      "spectacularViews": "壮丽景观",
+      "spectacularViewsDesc": "土耳其的自然风光为居住空间增添了美景。"
+    },
+    "investmentOpportunitiesTitle": "土耳其的投资机会",
+    "investmentOpportunitiesText": "土耳其房地产市场提供了广泛的投资选择。",
+    "locations": {
+      "istanbul": "伊斯坦布尔",
+      "istanbulDesc": "提供豪华住宅和商业空间。",
+      "antalya": "安塔利亚",
+      "antalyaDesc": "以海滨度假房产而闻名的热门地区。",
+      "ankara": "安卡拉",
+      "ankaraDesc": "作为首都，是商业投资的理想之地。"
+    },
+    "supportingImageAlt": "土耳其房地产投资",
+    "resourcesTitle": "投资者的资源",
+    "resources": {
+      "investTurkey": "在土耳其投资",
+      "investTurkeyDesc": "提供关于投资信息和支持的官方资源。",
+      "propertyTurkey": "Property Turkey",
+      "propertyTurkeyDesc": "房地产列表和投资建议。",
+      "turkeyHomes": "Turkey Homes",
+      "turkeyHomesDesc": "为投资者提供指南。"
+    },
+    "share": {
+      "twitter": "在X上分享",
+      "facebook": "在Facebook上分享",
+      "linkedin": "在LinkedIn上分享"
+    },
+    "shareText": "探索土耳其的增长型房地产市场！"
+  },
+  "realEstateInvestmentTurkey": {
+    "title": "土耳其的房地产增长",
+    "mainImageAlt": "土耳其房地产增长图片",
+    "intro": "土耳其的房地产市场伴随着需求的增长，展现出巨大增长潜力……",
+    "keyDriversTitle": "增长的主要因素",
+    "features": {
+      "strategicLocation": "战略位置",
+      "strategicLocationDesc": "土耳其位于亚欧连接点，是旅游和贸易的中心……",
+      "modernInfrastructure": "现代基础设施",
+      "modernInfrastructureDesc": "土耳其的基础设施投资为房地产增长提供了吸引力……",
+      "highReturnPotential": "高回报潜力",
+      "highReturnPotentialDesc": "土耳其的房地产市场，尤其是在主要城市，提供高回报机会……",
+      "qualityEducationHealthcare": "优质教育与医疗",
+      "qualityEducationHealthcareDesc": "拥有优质的教育和医疗设施……",
+      "citizenshipInvestment": "投资入籍",
+      "citizenshipInvestmentDesc": "符合条件的投资者可以通过房地产投资获得土耳其国籍……",
+      "spectacularViews": "壮观的景观",
+      "spectacularViewsDesc": "土耳其从海岸到山区的自然美景为房地产增添了价值……"
+    },
+    "investmentOpportunitiesTitle": "投资机会",
+    "investmentOpportunitiesText": "土耳其的高增长潜力部门提供了盈利的投资机会……",
+    "locations": {
+      "istanbul": "伊斯坦布尔",
+      "istanbulDesc": "作为土耳其房地产市场的核心……",
+      "antalya": "安塔利亚",
+      "antalyaDesc": "以其沿海和度假胜地而闻名……",
+      "ankara": "安卡拉",
+      "ankaraDesc": "作为首都，是一个稳定增长的房地产市场……"
+    },
+    "supportingImageAlt": "土耳其房地产支持图片",
+    "resourcesTitle": "投资者资源",
+    "resources": {
+      "investTurkey": "在土耳其投资",
+      "investTurkeyDesc": "关于投资机会和经济数据的官方信息……",
+      "propertyTurkey": "Property Turkey",
+      "propertyTurkeyDesc": "关于土耳其房地产投资的指南……",
+      "turkeyHomes": "Turkey Homes",
+      "turkeyHomesDesc": "关于在土耳其购房和投资的专业建议……"
+    }
+  },
+  
+    "afraConstructionUpdateCharts": {
+      "afraParkConstructionProgress": "Afra Park Construction Progress",
+      "realTimeAfraParkProgress": "Real-Time Afra Park Progress",
+      "constructionProgress": "Construction Progress",
+      "completed": "Completed"
+    },
+    "sylvanaConstructionUpdateCharts": {
+      "sylvanaConstructionProgress": "Sylvana Construction Progress",
+      "realTimeSylvanaProgress": "Real-Time Sylvana Progress",
+      "constructionProgress": "Construction Progress",
+      "completed": "Completed"
+    },
+    "arabianRanchesConstructionUpdates": {
+      "constructionProgress": "Construction Progress",
+      "completed": "Coming Soon",
+      "arabianRanchesConstructionProgress": "Arabian Ranches Construction Progress",
+      "realTimeArabianRanchesProgress": "Real-Time Arabian Ranches Progress"
+    },
+    "constructionUpdates": {
+      "pageTitle": "Construction Updates",
+      "metaDescription": "Follow the latest construction updates for Reportage Turkey projects.",
+      "keywords": "Afra Park, Sylvana Istanbul, Arabian Ranches, construction updates",
+      "introText": "Follow the progress of our prestigious real estate projects.",
+      "motivationalText": "Witness how the future of modern living is being shaped.",
+      "monthlyUpdatesTitle": "Monthly Video Updates",
+      "videoTitle1": "January 2024 Update",
+      "videoTitle2": "February 2024 Update",
+      "videoTitle3": "March 2024 Update",
+      "sylvanaTitle": "Sylvana Istanbul Construction Progress",
+      "sylvanaDescription": "Discover the latest updates on the Sylvana Istanbul project.",
+      "afraTitle": "Afra Park Construction Progress",
+      "afraDescription": "Follow the development stages of Afra Park.",
+      "arabianTitle": "Arabian Ranches Construction Progress",
+      "arabianDescription": "Review the latest updates on Arabian Ranches.",
+      "conclusionTitle": "Our Commitment to Quality",
+      "conclusionText": "We ensure that each project meets the highest standards of quality and excellence.",
+      "conclusionMotivation": "Keep following us for more updates as we build the future."
+    },
+    
+      "mainLayout": {
+        "brandName": "Reportage Türkiye",
+        "termsOfUseLink": "使用条款",
+        "privacyPolicy": "隐私政策",
+        "home": "首页",
+        "projeler": "项目",
+        "projelerylvana": "Sylvana Istanbul",
+        "projectAfra": "Afra Park",
+        "projectArabian": "Arabian Ranches",
+        "blog": "博客",
+        "constructionUpdates": "施工更新",
+        "offers": "优惠",
+        "contactUs": "联系我们",
+        "blogAfraPark": "Afra Park Bahçeşehir",
+        "blogGayrimenkulYatirim2024": "房地产投资2024",
+        "blogIstanbulGayrimenkulYatirim": "伊斯坦布尔房地产投资",
+        "blogIstanbulYatirimCenneti": "伊斯坦布尔投资天堂",
+        "blogReportageTurkiyeLuks": "Reportage Türkiye 奢华",
+        "blogReportageTurkiyeVizyon": "Reportage Türkiye 愿景",
+        "blogSurdurulebilirYasamIstanbul": "可持续生活伊斯坦布尔",
+        "blogSylvanaIstanbulModernYasam": "Sylvana Istanbul现代生活",
+        "blogTurkiyeGayrimenkulBuyumesi": "土耳其房地产增长",
+        "blogTurkiyeGayrimenkulYatirim": "土耳其房地产投资"
+      },
+      "offers.title": "不要错过机会！",
+    
+      "footer": {
+        "about": "关于我们",
+        "projects": "项目",
+        "legal": "法律"
+      },
+      "afraUnitTypes": {
+        "title": "公寓类型",
+        "description": "从下方选择一个公寓类型并点击图片查看详细信息。",
+        "closeButton": "关闭",
+        "unitType2A": "2 + 1 公寓 - 类型A",
+        "unitType2B": "2 + 1 公寓 - 类型B",
+        "unitType2C": "2 + 1 公寓 - 类型C",
+        "unitType3AWithMaid": "3 + 1 公寓 - 类型A（含保姆房）",
+        "unitType3B": "3 + 1 公寓 - 类型B",
+        "unitType4A": "4 + 1 公寓 - 类型A",
+        "unitType4B": "4 + 1 公寓 - 类型B"
+      },
+      "afraSocialAmenities": {
+        "title": "社交设施",
+        "description": "Afra Park位于伊斯坦布尔 Bahçeşehir，提供现代设施和美丽的景观，充满休闲、娱乐和健身的生活环境。",
+        "closeButton": "关闭",
+        "swimmingPool": "游泳池",
+        "swimmingPoolDescription": "Afra Park在 Bahçeşehir 的自然美景中提供了完美的游泳池，供您放松和娱乐。",
+        "bbqArea": "烧烤区",
+        "bbqAreaDescription": "宽敞的户外烧烤区，让您在自然中享受家庭和朋友的聚餐时光。",
+        "parking": "停车场",
+        "parkingDescription": "Afra Park为居民和访客提供安全的停车区域，在这个宁静的伊斯坦布尔社区内带来便利与安全。",
+        "kidsPlayArea": "儿童游乐区",
+        "kidsPlayAreaDescription": "为孩子们提供一个充满乐趣且安全的游戏区域，让孩子们在 Bahçeşehir 的中心快乐玩耍。",
+        "chessArea": "大型国际象棋区",
+        "chessAreaDescription": "为各个年龄段的居民提供一个有趣且富有挑战性的户外国际象棋区域。",
+        "gym": "健身房",
+        "gymDescription": "配备最新的运动设备，为居民实现健康和健身目标的现代健身房。",
+        "petArea": "宠物区",
+        "petAreaDescription": "宠物爱好者与他们的宠物共度欢乐时光的友好区域。",
+        "seatingArea": "休息区",
+        "seatingAreaDescription": "Afra Park内设有多个休息区域，为您提供放松、阅读或与邻居交流的安静空间。",
+        "tennisCourt": "网球场",
+        "tennisCourtDescription": "为运动爱好者提供按照专业标准建造的网球场，适合友好的比赛。"
+      },
+      "afraAvailability": {
+        "title": "Afra Park状态",
+        "totalUnits": "总单元",
+        "soldUnits": "已售单元",
+        "availableUnits": "可用单元"
+      },
+      "sylvanaUnitTypes": {
+        "title": "可用单元类型",
+        "description": "探索 Sylvana Istanbul为大家庭提供的现代而宽敞的生活空间，奢华的4+1单元，查看其平面图以了解其舒适与优雅。",
+        "unitTypeLabel": "三层联排别墅 - 4卧室",
+        "unitTypeDescription": "4+1单元类型提供现代化设施和奢华的布局，为大家庭提供宽敞的生活空间。查看平面图以了解这个宽敞单元的舒适和功能。",
+        "closeButton": "关闭"
+      },
+      "ourOffers": "我们的优惠",
+      "offersDescription": "选择适合您的最佳优惠。请填写表单以获取更多信息或与我们的团队联系。",
+      "offerRequest": {
+        "title": "请求优惠",
+        "nameLabel": "姓名",
+        "emailLabel": "电子邮箱",
+        "phoneLabel": "电话",
+        "clientMessageLabel": "您的信息",
+        "clientMessagePlaceholder": "在此输入您的信息...",
+        "marketingMessagesText": "我希望接收关于更新和特别优惠的营销信息。",
+        "humanCheckbox": "我不是机器人",
+        "privacyPolicy": "我同意隐私政策",
+        "submitButton": "提交",
+        "termsWarning": "请接受隐私政策",
+        "robotWarning": "请勾选“我不是机器人”复选框",
+        "authWarning": "请完成验证过程",
+        "clientMessageWarning": "请输入您的信息",
+        "submitError": "发送优惠请求时出错",
+        "submitSuccess": "您的优惠请求已成功发送",
+        "authSuccess": "您已通过{method}成功验证",
+        "authIncomplete": "验证未完成",
+        "authError": "{method}验证错误",
+        "googleAuth": "通过Google验证",
+        "twitterAuth": "通过Twitter验证",
+        "yahooAuth": "通过Yahoo验证",
+        "facebookAuth": "通过Facebook验证"
+      },
+      "offer": {
+        "altText": "优惠",
+        "discountRate": "折扣率",
+        "downPayment": "首付款",
+        "installmentPeriod": "分期时间",
+        "months": "月",
+        "selectOfferButton": "选择优惠"
+      },
+      "thankYou": {
+        "title": "感谢您联系Reportage Türkiye！",
+        "message": "感谢您的联系。我们的团队将尽快与您联系。",
+        "journey": "您的成功之旅从这里开始！",
+        "backToHome": "返回首页",
+        "exploreprojeler": "探索我们的项目"
+      },
+      "header": {
+        "title": "一起创造美好！",
+        "subtitle": "准备好与我们合作了吗？无论是大胆的新项目还是创造性的挑战，我们都很高兴帮助实现。",
+        "message": "给我们留言，让我们一起做些令人惊叹的事情！"
+      },
+      "contactpage.header.title": "联系我们",
+      "contactpage.form.emailError": "请输入有效的电子邮件地址。",
+      "contactpage.form.phoneInvalid": "电话号码无效。请输入有效号码。",
+      "contactpage.form.emailInvalid": "电子邮件地址无效。请输入有效的电子邮件地址。",
+      "contactpage.header.subtitle": "我们随时为您提供帮助",
+      "contactpage.header.message": "对于任何问题或评论，请随时与我们联系。",
+      "contactpage.header.termsOfUse": "使用条款",
+      "contactpage.form.other": "其他",
+      "contactpage.form.contactTitle": "保持联系",
+      "contactpage.form.name": "姓名",
+      "contactpage.form.namePlaceholder": "输入您的姓名",
+      "contactpage.form.email": "电子邮箱",
+      "contactpage.form.emailPlaceholder": "输入您的电子邮箱",
+      "contactpage.form.phone": "电话号码",
+      "contactpage.form.phonePlaceholder": "输入您的电话号码",
+      "contactpage.form.selectProject": "选择项目",
+      "contactpage.form.selectProjectPlaceholder": "选择一个项目",
+      "contactpage.form.afraPark": "Afra Park",
+      "contactpage.form.sylvanaIstanbul": "Sylvana Istanbul",
+      "contactpage.form.arabianranches": "Arabian Ranches",
+      "contactpage.form.unitType": "单元类型",
+      "contactpage.form.selectUnitType": "选择单元类型",
+      "contactpage.form.messageLabel": "消息",
+      "contactpage.form.messagePlaceholder": "在此输入您的信息...",
+      "contactpage.form.languagePreference": "语言偏好",
+      "contactpage.form.english": "英语",
+      "contactpage.form.turkish": "土耳其语",
+      "contactpage.form.arabic": "阿拉伯语",
+      "contactpage.form.appointment": "我想预约",
+      "contactpage.form.appointmentLabel": "选择日期和时间",
+      "contactpage.form.appointmentPlaceholder": "选择日期和时间",
+      "contactpage.form.marketingConsent": "我同意接收促销、折扣、通知和优惠信息。",
+      "contactpage.form.privacyPolicy": "我同意隐私政策",
+      "contactpage.form.privacyPolicyLink": "隐私政策",
+      "contactpage.form.privacyPolicyError": "您必须同意隐私政策。",
+      "contactpage.form.recaptcha": "请完成reCAPTCHA。",
+      "contactpage.form.recaptchaError": "请完成reCAPTCHA。",
+      "contactpage.form.languageError": "请选择至少一个语言偏好。",
+      "contactpage.form.phoneError": "请输入有效的电话号码。",
+      "contactpage.form.noAppointment": "未安排预约",
+      "contactpage.form.submit": "提交",
+      "contactpage.form.submitError": "提交表单时发生错误。请再试一次。",
+        "contactpage.footer.completion": "感谢您！",
+        "contactpage.footer.description": "您的请求已收到。我们将尽快与您联系。",
+        "contactpage.footer.journey": "开启与我们的旅程。",
+        "termsOfUse": {
+          "title": "使用条款",
+          "introductionTitle": "简介",
+          "introductionContent": "通过访问和使用本网站，您表示接受这些条款。请仔细阅读这些条款，因为您对本网站的访问和使用需遵守这些条款。",
+          "privacySummaryTitle": "隐私政策摘要",
+          "privacySummaryContent": "我们通过本网站收集的您的个人数据受土耳其第6698号《个人数据保护法》保护…",
+          "websiteUsageTitle": "网站使用",
+          "websiteUsageContent": "您仅可将我们的网站用于合法目的。以下行为是被禁止的：",
+          "websiteUsageList": {
+            "item1": "阻止或损害其他用户访问本网站",
+            "item2": "试图绕过安全措施或干扰网站的正常运行",
+            "item3": "提供误导或虚假的信息"
+          },
+          "websiteUsageContent2": "使用我们的网站即表示您同意遵守以上规则…",
+          "dataUsageTitle": "收集数据的使用",
+          "dataUsageContent": "您的个人数据可能会用于以下目的：",
+          "dataUsageList": {
+            "item1": "改善我们的服务和提升用户体验",
+            "item2": "提高安全性和网站性能",
+            "item3": "开展商业活动，为您提供更好的服务"
+          },
+          "dataUsageContent2": "我们重视您的数据隐私…",
+    "disclaimerTitle": "免责声明",
+    "disclaimerContent": "本网站提供的信息、优惠和价格可能随时更改…",
+    "privacySecurityTitle": "隐私与数据安全",
+    "privacySecurityContent": "我们采取所有技术和行政措施来保护和确保您的数据安全…",
+    "rightToChangeTitle": "变更权利",
+    "rightToChangeContent": "为符合现行法律法规，我们的使用条款和隐私政策可能会不时更新…",
+    "contactTitle": "联系",
+    "contactContent": "如果您有任何疑问或反馈，请随时与我们联系…"
+  },
+
+    "privacy_policy": {
+      "title": "隐私政策",
+      "sections": [
+        {
+          "title": "前言",
+          "content": "根据个人数据保护法，REPORTAGE TURKEY房地产开发投资销售营销贸易有限公司（以下简称“REPORTAGE”或“公司”）非常重视您的个人数据和/或敏感个人数据的保护。我们在存储通过各种渠道传递给我们公司的所有个人数据和/或敏感个人数据方面非常谨慎。"
+        },
+        {
+          "title": "1. 定义",
+          "content": "数据控制者：指确定处理个人数据的目的和手段，并负责数据登记系统的建立和管理的实体，即REPORTAGE TURKEY房地产开发投资销售营销贸易有限公司。\n\n数据主体：指个人数据被处理的自然人。\n\n公司：根据本政策指的是REPORTAGE TURKEY房地产开发投资销售营销贸易有限公司。\n\n法律：指个人数据保护法第6698号。\n\n个人数据：指与已识别或可识别的自然人相关的任何信息。\n\n特殊类别的个人数据：与个人的种族、民族、政治意见、哲学信仰、宗教、教派或其他信仰、外貌、是否为协会、基金会或工会会员、健康、性生活、刑事定罪和安全措施等数据，以及生物特征和基因数据。\n\n委员会：指个人数据保护委员会。"
+        },
+        {
+          "title": "2. 隐私政策的目的",
+          "content": "个人数据的保护和遵守法律是我们的基本原则。作为REPORTAGE，我们在所有业务中收集的个人数据和/或敏感个人数据都被严格保密，并且未与第三方共享。在此背景下，我们公司始终注重个人数据和/或敏感个人数据的保护。此外，依据6698号个人数据保护法（以下简称“法律”或“KVKK”）的要求，我们已进行公司内部的重新安排，并采取了技术和行政措施。我们承诺，REPORTAGE将继续遵守法律所要求的所有义务。"
+        },
+        {
+          "title": "3. 隐私政策的范围",
+          "content": "本隐私政策是根据个人数据保护法第6698号编写的。您的个人数据和/或敏感个人数据是基于您的同意或法律规定的情况而被处理的。您的数据将用于：\n\n- 确保公司的安全，\n- 为您提供完整的服务，\n- 执行我们的商业活动，\n- 快速解决您的问题，\n- 提高我们的质量。\n\n我们将遵循法律规定，在必要时匿名化处理一些个人数据和/或敏感个人数据。用于统计目的的数据目前不在法律规定和本政策的范围内。我们保留在法律规定的框架内修改本政策的权利。\n\n本政策旨在保护REPORTAGE与其合作伙伴、客户、员工以及所有通过任何方式收集到的个人数据。为实现这一目标，本政策包含了相关的规定。"
+        },
+        {
+          "title": "4. 处理个人数据和/或敏感个人数据的基本原则",
+          "content": "我们处理个人数据和/或敏感个人数据时遵循以下基本原则。这些原则适用于REPORTAGE根据明确同意或法律规定的情况处理的数据：\n\n- 符合法律：REPORTAGE确保所收集的个人数据和/或敏感个人数据的来源和合法性。\n\n- 遵守诚实原则：REPORTAGE确保从真实和合法的渠道收集个人数据和/或敏感个人数据。\n\n- 仅限于目的，适度且相关：REPORTAGE仅为特定目的收集和使用个人数据，确保数据使用不超过必要范围。\n\n- 数据的准确性：REPORTAGE注重收集的个人数据和/或敏感个人数据的准确性，但不会主动验证客户或联系人的个人数据的准确性。\n\n- 必要时更新：REPORTAGE确保个人数据和/或敏感个人数据发生变化时能及时更新。\n\n- 为了合法目的而处理：REPORTAGE处理个人数据和/或敏感个人数据时，确保数据使用符合合法的目的，不会用于非法的用途。\n\n- 按照法律规定保存数据：REPORTAGE按照法律要求保存个人数据和/或敏感个人数据，在完成目的后会对其进行匿名化、删除或销毁处理。"
+        },
+        {
+          "title": "5. 个人数据和/或敏感个人数据的删除、销毁和匿名化",
+          "content": "当个人数据和/或敏感个人数据达到法律规定的保存期限或其他合规要求，或者处理目的已经完成时，这些数据将被删除、销毁或匿名化。数据删除、销毁或匿名化的操作可以应数据主体的要求进行，也可以由REPORTAGE自行执行。"
+        },
+        {
+          "title": "6. 节俭原则",
+          "content": "节俭原则，也称为最大节省原则。通过各种途径收集到的个人数据和/或敏感个人数据将被传送到公司系统。在该原则下，数据将根据需要收集，并且只有符合目的的数据才会被处理。REPORTAGE不会收集任何与目的无关的额外数据，非必要的数据将被删除、销毁或匿名化。然而，某些数据可以用于统计目的。"
+        },
+        {
+          "title": "7. 数据的保密性和安全性",
+          "content": "REPORTAGE非常重视个人数据和/或敏感个人数据的保密性。为此，所有通过任何途径收集的个人数据和/或敏感个人数据都将被保密。REPORTAGE在其商业活动的各个环节都确保遵守数据保密政策。\n\nREPORTAGE采取必要的技术和管理措施，以防止个人数据和/或敏感个人数据被未经授权的人员访问，同时保护数据主体的权益不受侵害。此外，在法律框架内，REPORTAGE还会要求必要时与我们共享数据的第三方采取相应的保护措施。我们的软件程序也在不断更新，以确保符合最新的技术标准，保障数据的安全性。"
+        },
+        {
+          "title": "8. 数据的更新",
+          "content": "在REPORTAGE中，更新原则是基础。收集的个人数据和/或敏感个人数据将在必要时或根据请求进行更新。更新时，REPORTAGE将采取必要的措施。"
+        },
+        {
+          "title": "9. 数据的准确性",
+          "content": "REPORTAGE接受客户或联系人提供的个人数据和/或敏感个人数据的准确性声明，但不要求对数据的准确性进行验证。该过程在法律上不可行，并且不符合我们的工作原则。我们按照声明的数据进行操作。"
+        },
+        {
+          "title": "10. 个人数据和/或敏感个人数据的处理目的",
+          "content": "个人数据和/或敏感个人数据的处理是根据REPORTAGE提供的说明文件的目的进行的。具体处理目的根据所处理的个人数据和/或敏感个人数据的不同而有所不同。"
+        },
+        {
+          "title": "11. 在合同关系中收集和处理个人数据和/或敏感个人数据",
+          "content": "如果与客户或潜在客户建立了合同关系，根据合同规定收集的个人数据可以在没有明确同意的情况下由REPORTAGE处理。对于敏感个人数据的处理，必须基于明确同意或法律第6条中的法律原因。该数据用于履行合同、提供服务和开展商业活动。"
+        },
+        {
+          "title": "12. 通过自动系统处理个人数据和/或敏感个人数据",
+          "content": "通过自动系统收集的个人数据和/或敏感个人数据不得用于不利于个人的目的。REPORTAGE遵循相关法律规定，确保通过自动系统处理的个人数据和/或敏感个人数据符合相关法规要求。"
+        },
+        {
+          "title": "13. REPORTAGE员工的个人数据和/或敏感个人数据",
+          "content": "根据法律要求处理：员工的个人数据在相关法律明确规定的情况下，可以在不征得明确同意的情况下由REPORTAGE处理。对于敏感个人数据的处理，需要征得员工的同意，或者根据法律第6条的法律原因处理。"
+        },
+        {
+          "title": "14. 个人数据和/或敏感个人数据的国内和国外传输",
+          "content": "REPORTAGE可以根据个人数据保护法和委员会的规定，在得到个人的明确同意或法律允许的情况下，将个人数据和/或敏感个人数据传输到国内外。"
+        },
+        {
+          "title": "15. 审计和操作安全",
+          "content": "REPORTAGE已采取必要的技术和行政措施，确保通过各种途径收集的个人数据和/或敏感个人数据不被未经授权的人员访问，确保数据主体的权益不受侵害。"
+        },
+        {
+          "title": "16. 数据泄露的报告",
+          "content": "如发生数据泄露，REPORTAGE将立即采取措施修复泄露情况，减少数据主体的损害。"
+        },
+        {
+          "title": "17. 请求信息的权利",
+          "content": "根据6698号个人数据保护法第11条，数据主体享有知情权、访问权、修正权、删除权、销毁权等权利。"
+        }
+      ]
+},
+
+  "project_architectural_designs": {
+    "title": "项目建筑设计",
+    "subtitle": "探索Afra Park、Sylvana İstanbul和Arabian Ranches项目的令人印象深刻的建筑设计。"
+  },
+  "filter_section": {
+    "title": "项目建筑设计",
+    "subtitle": "探索Afra Park、Sylvana İstanbul和Arabian Ranches项目的令人印象深刻的建筑设计。"
+  },
+  "filter": {
+    "interior_designs": "室内设计",
+    "exterior_designs": "外部设计",
+    "all_designs": "所有设计"
+  },
+  "afra_park": {
+    "title": "Afra Park İstanbul Bahçeşehir"
+  },
+  "sylvana_istanbul": {
+    "title": "Sylvana İstanbul Bahçeşehir"
+  },
+  "arabian_ranches": {
+    "title": "Arabian Ranches"
+  },
+  "filter_hero_title": {
+    "title": "欢迎来到我们的项目",
+    "subtitle": "探索建筑设计中的卓越与创新。"
+  },
+  "afra_title": {
+    "title": "Afra项目"
+  },
+  "sylvana_title": {
+    "title": "Sylvana İstanbul项目"
+  },
+  "arabian_title": {
+    "title": "Arabian Ranches项目"
+  },
+  "home": {
+    "title": "伊斯坦布尔房地产 - Bahçeşehir的豪华别墅",
+    "description": "探索位于伊斯坦布尔如Sylvana İstanbul、Afra Park Bahçeşehir和Arabian Ranches等黄金地段的豪华别墅和房地产投资机会。"
+  },
+  "whatsappMessage": "你好，我想了解更多关于这个项目的信息。",
+  "hero_description": "找到您的梦想别墅，并探索位于伊斯坦布尔Prestige地区（如Sylvana İstanbul、Afra Park和Arabian Ranches）的投资机会。"
+}

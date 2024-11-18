@@ -1,0 +1,1330 @@
+﻿{
+  "contact": {
+    "title": "Neem Contact Met Ons Op",
+    "name": "Uw Naam",
+    "namePlaceholder": "Voer uw naam in",
+    "email": "E-mailadres",
+    "emailPlaceholder": "Voer uw e-mailadres in",
+    "phone": "Telefoonnummer",
+    "phonePlaceholder": "+31",
+    "project": "Met welk project bent u geïnteresseerd?",
+    "projectPlaceholder": "Selecteer een project",
+    "unitType": "Gewenst Type Eenheid",
+    "unitTypePlaceholder": "Selecteer een eenheidstype",
+    "message": "Uw Bericht",
+    "messagePlaceholder": "Voer uw vraag of opmerking in",
+    "languageSelect": "Selecteer uw voorkeurstalen:",
+    "english": "Engels",
+    "turkish": "Turks",
+    "arabic": "Arabisch",
+    "appointment": "Ik wil een consultafspraak maken (optioneel)",
+    "appointmentDate": "Kies een Datum en Tijd voor de Afspraak",
+    "selectDate": "Selecteer Datum en Tijd",
+    "acceptMarketing": "Ik ga akkoord met het ontvangen van marketingberichten (optioneel)",
+    "privacyPolicy": "Ik ga akkoord met het Privacybeleid",
+    "submit": "Bericht Verzenden",
+    "phoneError": "Voer alstublieft een geldig telefoonnummer in.",
+    "languageError": "Selecteer minstens één taal.",
+    "submissionError": "Er is een fout opgetreden bij het verzenden van het formulier. Probeer het alstublieft opnieuw.",
+    "noAppointment": "Geen Afspraak",
+    "other": "Anders"
+  },
+    "faq": {
+      "title": "Veelgestelde Vragen",
+      "questions": [
+        {
+          "question": "Welke soorten woningen zijn er beschikbaar in Afra Park Bahçeşehir?",
+          "answer": "Afra Park Bahçeşehir bestaat uit 177 eenheden; het biedt 49 tweeslaapkamerwoningen, 28 drierslaapkamerwoningen, 79 drierslaapkamerwoningen met personeelskamer en 21 vierslaapkamerwoningen. Daarnaast zijn er in het project 2 vierslaapkamer villa's met personeelskamer beschikbaar."
+        },
+        {
+          "question": "Wat is de totale oppervlakte van Afra Park Bahçeşehir?",
+          "answer": "Afra Park is gebouwd op een perceel van in totaal 24.976,71 vierkante meter en biedt zijn bewoners ruime leefruimtes, buitenactiviteiten en sociale voorzieningen."
+        },
+        {
+          "question": "Welke basisvoorzieningen worden aangeboden in Afra Park?",
+          "answer": "Afra Park biedt een breed scala aan voorzieningen zoals een privéparkeerplaats, een groot zwembad, kinderzwembad, barbecueplekken, speelruimtes, een multifunctioneel veld, buitenschaak- en tafeltennisruimtes, een huisdierenzone, fietspaden, overdekte zitgedeeltes, een sportschool, stoom- en saunaruimtes en vergaderruimtes."
+        },
+        {
+          "question": "Welke parkeermogelijkheden zijn er voor bewoners in Afra Park?",
+          "answer": "Elke eenheid in Afra Park Bahçeşehir heeft een eigen parkeerplaats. Daarnaast zijn er bezoekersparkeerplaatsen binnen de gemeenschap."
+        },
+        {
+          "question": "Hoe ver is Afra Park Bahçeşehir van belangrijke locaties in Istanbul?",
+          "answer": "Afra Park ligt op 4 minuten van Millet Park, 10 minuten van het Bahçeşehir treinstation, 10 minuten van Akbatı Shopping Mall en 40 minuten van de luchthaven van Istanbul."
+        },
+        {
+          "question": "Voldoet eigendom in Afra Park aan de investeringsvereisten voor Turks staatsburgerschap?",
+          "answer": "Investeerders kunnen door het kopen van een eigendom in Afra Park Bahçeşehir ter waarde van minstens $400.000 in aanmerking komen voor het Turkse staatsburgerschap, wat voordelen biedt voor investeerders en hun families."
+        },
+        {
+          "question": "Welke buitenruimtes zijn er beschikbaar in Afra Park Bahçeşehir?",
+          "answer": "Het project is ontworpen met ruime groene gebieden en landschapsarchitectuur. Bewoners kunnen genieten van privébalkons, terrassen, voortuinen en achtertuinen, afhankelijk van de plattegrond van de eenheid. Buitenruimtes zijn ontworpen voor ontspanning en sociale interactie, met voorzieningen zoals barbecueplekken, speelplaatsen en overdekte zitgedeeltes."
+        },
+        {
+          "question": "Zijn er recreatiegebieden voor kinderen in Afra Park?",
+          "answer": "Ja, Afra Park biedt verschillende recreatiegebieden voor kinderen, waaronder een kinderzwembad, speelruimtes en ruime gebieden voor buitenactiviteiten. Het project is ontworpen om een veilige en plezierige omgeving voor gezinnen te bieden."
+        },
+        {
+          "question": "Kan ik mijn eenheid in Afra Park of Sylvana Istanbul personaliseren?",
+          "answer": "Ja, beide projecten bieden opties voor interieurpersonalisatie. U kunt details zoals vloerafwerkingen, keukenontwerpen en badkameraccessoires kiezen. Ons team kan meer informatie verstrekken over de beschikbare personalisatiepakketten."
+        },
+        {
+          "question": "Is er een sociale club of centrum in Afra Park Bahçeşehir?",
+          "answer": "Afra Park heeft een sociaal centrum dat is uitgerust met een sportschool, stoomruimtes, saunaruimtes en vergaderruimtes. Deze voorzieningen zijn ontworpen om bewoners een comfortabel en luxe woonervaring te bieden."
+        },
+        {
+          "question": "Hoe kan ik een afspraak maken voor een bezoek of tour naar de Afra Park en Sylvana Istanbul projecten?",
+          "answer": "U kunt een afspraak maken door contact op te nemen met ons verkoopteam via het contactformulier op onze website of telefonisch. Afspraken zijn mogelijk tussen 08:00 en 20:00 uur. Vul onderstaand formulier in om ons team contact met u te laten opnemen."
+        },
+        {
+          "question": "Hoe zijn de plattegronden van de eenheden in de Afra Park en Sylvana Istanbul projecten?",
+          "answer": "De eenheden in beide projecten zijn ontworpen met ruime woonruimtes, grote slaapkamers, balkons en terrassen. De plattegrond is geoptimaliseerd om privacy, luxe en functionaliteit te bieden voor gezinswoningen."
+        },
+        {
+          "question": "Wat maakt Afra Park Bahçeşehir een milieuvriendelijk project?",
+          "answer": "Afra Park is ontworpen met milieuvriendelijke functies zoals uitgebreide landschapsarchitectuur, overdekte gebieden en fietspaden. Het project past bij de duurzaamheidsbelofte van Reportage Türkiye en legt de nadruk op een schone en groene omgeving."
+        },
+        {
+          "question": "Zijn er onderwijsinstellingen in de buurt van Afra Park?",
+          "answer": "Ja, er zijn gerenommeerde scholen in de buurt van Afra Park, zoals Bilfen Schools en Istanbul Leader Russian School (beide op 10 minuten afstand). Ook Beykent University en Istanbul University’s Büyükçekmece Campus zijn nabijgelegen."
+        }
+      ]
+    },
+    "about": {
+      "title": "Over Reportage",
+      "description": "Sinds 2014 is Reportage Properties een belangrijke speler in de wereldwijde vastgoedontwikkelingssector, met investeringen in Europa en internationale samenwerkingen op vier continenten. Reportage Properties, bekend om zijn innovatieve, luxe en moderne woonprojecten, blijft de normen in de sector bepalen.",
+      "expertiseTitle": "Deskundige in Wereldwijde Vastgoedontwikkeling",
+      "expertiseDescription": "Sinds 2014 is Reportage Properties actief in de vastgoedontwikkeling met investeringen in Europa en samenwerkingen in landen zoals Italië, de VS, het Verenigd Koninkrijk, Frankrijk, Albanië, Rusland, Pakistan, India, Oeganda, Marokko, Egypte, Rwanda, Kenia, Irak, de VAE en Saoedi-Arabië. Reportage Properties wordt erkend als een toonaangevend merk in de wereldwijde vastgoedontwikkeling, bekend om zijn innovatieve, luxe en moderne woonprojecten.",
+      "luxuryTitle": "Luxe woonprojecten volgens internationale standaarden.",
+      "partnershipsTitle": "Sterke partnerschappen en internationale samenwerkingen in de vastgoedsector.",
+      "innovativeTitle": "Wij bieden innovatieve en betaalbare woonoplossingen."
+    },
+    
+      "hero": {
+        "logoAlt": "Reportage Logo",
+        "title": "Reportage Türkiye",
+        "description": "Sinds 2014 is Reportage Properties actief op meerdere continenten en staat het bekend om zijn luxe woningprojecten. Het wordt beschouwd als een van de meest betrouwbare merken in de sector.",
+        "moreInfo": "Meer Informatie",
+        "whoWeAre": "Wie Wij Zijn",
+        "aboutTitle": "Over Reportage",
+        "reportageTurkey": "Reportage Türkiye",
+        "watchVideo": "Bekijk de introductievideo",
+        "globalExpertTitle": "Expert in Vastgoedontwikkeling op de Internationale Markt",
+        "globalExpertDescription": "Sinds 2014 is Reportage Properties actief met Europees gecentreerde investeringen en internationale samenwerkingen in landen zoals Italië, de VS, het Verenigd Koninkrijk, Frankrijk, Albanië, Rusland, Pakistan, India, Oeganda, Marokko, Egypte, Rwanda, Kenia, Irak, de VAE en Saoedi-Arabië. Het merk staat bekend als leider in de sector dankzij zijn luxe en moderne woningprojecten."
+      },
+      "projelerPage": {
+        "pageTitle": "Luxe Villa's en Woningen",
+        "pageDescription": "Ontdek de luxe villa's en woningen in Istanbul en Bakoe, ontwikkeld door Reportage Türkiye.",
+        "heroTitle": "Onze Projecten",
+        "heroSubtitle": "Ontdek onze luxe projecten in Istanbul en Azerbeidzjan.",
+        "sylvana": {
+          "title": "Sylvana Istanbul - Bahçeşehir",
+          "description": "Sylvana Istanbul biedt modern luxe leven in het hart van Bahçeşehir...",
+          "virtualTourTitle": "Virtuele Tour Sylvana Istanbul",
+          "seeProjectButton": "Bekijk Sylvana Istanbul Project",
+          "moreInfo": "Meer Informatie"
+        },
+        "afraPark": {
+          "title": "Afra Park - Bahçeşehir",
+          "description": "Afra Park biedt ruime villa's voor luxe gezinsleven in Bahçeşehir...",
+          "virtualTourTitle": "Virtuele Tour 4+1 Huis - Type A",
+          "seeProjectButton": "Bekijk Afra Park Project",
+          "moreInfo": "Meer Informatie"
+        },
+        "arabianRanches": {
+          "title": "Arabian Ranches - Azerbeidzjan",
+          "description": "Arabian Ranches brengt de elegantie van het Oosten en moderne luxe samen aan de Kaspische Zee...",
+          "virtualTourTitle": "Virtuele Tour Arabian Ranches",
+          "seeProjectButton": "Bekijk Arabian Ranches Project",
+          "moreInfo": "Meer Informatie"
+        }
+      },
+        "community": {
+          "title": "Onze Gemeenschap",
+          "locations": [
+            {
+              "flagCode": "TR",
+              "name": "Turkije",
+              "description": "In het hart van Istanbul, met moderne woonprojecten en meer."
+            },
+            {
+              "flagCode": "AE",
+              "name": "Abu Dhabi",
+              "description": "Exclusieve evenementen en luxe woonprojecten."
+            },
+            {
+              "flagCode": "AE",
+              "name": "Dubai",
+              "description": "Hoogwaardige luxe woonprojecten in Dubai."
+            },
+            {
+              "flagCode": "EG",
+              "name": "Caïro",
+              "description": "Moderne infrastructuur, luxe eigendommen en stedelijke ontwikkeling."
+            },
+            {
+              "flagCode": "MA",
+              "name": "Marokko",
+              "description": "Luxe woonopties in Marokko met moderne ontwerpen."
+            },
+            {
+              "flagCode": "SA",
+              "name": "Saoedi-Arabië",
+              "description": "Moderne en luxe woonruimtes."
+            },
+            {
+              "flagCode": "RU",
+              "name": "Rusland",
+              "description": "Innovatieve vastgoedprojecten in heel Rusland."
+            },
+            {
+              "flagCode": "PK",
+              "name": "Pakistan",
+              "description": "Levendige en moderne woonprojecten."
+            },
+            {
+              "flagCode": "UG",
+              "name": "Oeganda",
+              "description": "Uitbreidende vastgoedmogelijkheden in Oeganda."
+            },
+            {
+              "flagCode": "RW",
+              "name": "Rwanda",
+              "description": "Innovatieve woonprojecten in Rwanda."
+            }
+          ]
+        },
+        
+          "arabianRanches": {
+            "title": "Arabian Ranches",
+            "description": "Ontwikkeld door RMS Capital Investment, is Arabian Ranches een exclusief residentieel complex in het prestigieuze Sea Breeze-gebied nabij de Kaspische Zee. Dit project combineert de elegantie van Oosterse architectuur met een strandleven en biedt een unieke combinatie van luxe en rust.",
+            "details": "Arabian Ranches vertegenwoordigt de groeiende internationale relevantie van Azerbeidzjan. Dit wooncomplex nodigt internationale investeerders uit om deel uit te maken van de groeiende vastgoedsector in Azerbeidzjan.",
+            "moreInfo": "Meer Informatie Over Arabian Ranches"
+          },
+          "hero_title": {
+            "title": "Turkije's Toonaangevende Vastgoedprojecten",
+            "subtitle": "Ontdek onze projecten in het hart van het moderne leven.",
+            "explore_designs": "Architectonische Ontwerpen van Onze Projecten",
+            "afra_park": "Afra Park Istanbul Bahçeşehir",
+            "sylvana_istanbul": "Sylvana Istanbul Bahçeşehir",
+            "interior_designs": "Interieurontwerpen",
+            "exterior_designs": "Exterieurontwerpen",
+            "show_all": "Alles Weergeven",
+            "explore_description": "Ontdek de indrukwekkende architecturale ontwerpen van Afra Park Istanbul Bahçeşehir en Sylvana Istanbul Bahçeşehir. Verken interieur- en exterieurontwerpen die modern luxe leven definiëren.",
+            "contact_us": "Neem Contact Met Ons Op"
+          },
+          "projeler": {
+            "title": "Onze Projecten",
+            "pageTitle": "Luxe Villa's en Woningen",
+            "pageDescription": "Ontdek de luxe villa's en woningen in Istanbul en Bakoe, ontwikkeld door Reportage Türkiye.",
+            "sylvana": {
+              "title": "Sylvana Istanbul - Bahçeşehir",
+              "description": "Sylvana Istanbul biedt modern luxe leven in het hart van Bahçeşehir...",
+              "virtualTourTitle": "Virtuele Tour Sylvana Istanbul",
+              "seeProjectButton": "Bekijk Sylvana Istanbul Project",
+              "moreInfo": "Meer Informatie"
+            },
+            "afraPark": {
+              "title": "Afra Park - Bahçeşehir",
+              "description": "Afra Park biedt ruime villa's voor luxe gezinsleven in Bahçeşehir...",
+              "virtualTourTitle": "Virtuele Tour 4+1 Townhouse - Type A",
+              "seeProjectButton": "Bekijk Afra Park Project",
+              "moreInfo": "Meer Informatie"
+            },
+            "arabianRanches": {
+              "title": "Arabian Ranches - Azerbeidzjan",
+              "description": "Arabian Ranches brengt de elegantie van het Oosten en moderne luxe samen aan de Kaspische Zee...",
+              "virtualTourTitle": "Virtuele Tour Arabian Ranches",
+              "seeProjectButton": "Bekijk Arabian Ranches Project"
+            }
+          },
+          "afraDocuments": {
+            "title": "Documenten van Afra Park Project",
+            "description": "Hieronder vindt u alle benodigde materialen met betrekking tot het Afra Park project; inclusief catalogus, brochure en tabel met gedetailleerde eenheidstypen.",
+            "catalog": "Catalogus",
+            "infoSheet": "Informatieblad",
+            "unitTypes": "Tabel met Eenheidstypen",
+            "brochure": "Brochure",
+            "viewDocument": "Bekijk Document"
+          },
+          "sylvanaDocuments": {
+            "title": "Documenten van Sylvana Istanbul Project",
+            "description": "Hieronder vindt u alle benodigde materialen met betrekking tot het Sylvana Istanbul project, zoals catalogus, brochure en pagina met gedetailleerde eenheidstypen.",
+            "catalog": "Catalogus",
+            "infoSheet": "Informatiesheet",
+            "unitTypes": "Pagina met Eenheidstypen",
+            "brochure": "Brochure",
+            "viewDocument": "Bekijk Document"
+          },
+          "sylvanaRenderImages": {
+            "exteriorTitle": "Exterieur van Sylvana Istanbul Project",
+            "exteriorDescription": "Italiaans ontwerp en esthetische schoonheid zijn overal voelbaar; groene ruimten voldoen aan Europese en internationale standaarden.",
+            "interiorTitle": "Interieur van Sylvana Istanbul Project",
+            "interiorDescription": "De Sylvana villa's zijn ontworpen met vier hoofdslaapkamers en een gesloten keuken om aan stijlvolle voorkeuren en privacy te voldoen.",
+            "expandedViewAlt": "Uitgebreide Weergave",
+            "gridView": "Rasterweergave",
+            "sliderView": "Schuifweergave",
+            "modernDesign": "Modern Ontwerp",
+            "openSpaces": "Open Ruimten",
+            "scenicView": "Prachtig Uitzicht",
+            "mainBedrooms": "4 Hoofdslaapkamers",
+            "closedKitchen": "Gesloten Keuken",
+            "luxuryBathrooms": "Luxe Badkamers",
+            "elegantFinishes": "Elegante Afwerking"
+          },
+          "afraRenderImages": {
+            "exteriorTitle": "Exterieur van Afra Park Project",
+            "exteriorDescription": "Italiaans ontwerp met hoogwaardige gevels en esthetische details in architectuur van topkwaliteit.",
+            "interiorTitle": "Interieur van Afra Park Project",
+            "interiorDescription": "Afra Park woningen zijn voorzien van hoogwaardige interieurs die zijn ontworpen voor elegantie en luxe.",
+            "expandedViewAlt": "Uitgebreide Weergave",
+            "gridView": "Rasterweergave",
+            "sliderView": "Schuifweergave",
+            "modernDesign": "Modern Ontwerp",
+            "openSpaces": "Open Ruimten",
+            "scenicView": "Uitzicht",
+            "spaciousBedrooms": "Ruime Slaapkamers",
+            "modernKitchen": "Moderne Keuken",
+            "luxuryBathrooms": "Luxe Badkamers",
+            "artisticFinishes": "Artistieke Afwerking",
+            "thumbnailAlt": "Miniatuurafbeelding"
+          },
+          
+            "arabianRanchesDocuments": {
+              "title": "Documenten van het Arabian Ranches Project",
+              "description": "Hieronder vindt u alle benodigde documenten voor het Arabian Ranches project. Deze documenten omvatten de masterplan, catalogus, vloerplannen en presentatie.",
+              "masterPlan": "Masterplan",
+              "catalog": "Catalogus",
+              "floorPlans": "Vloerplannen",
+              "presentation": "Sea Breeze Presentatie",
+              "viewDocument": "Bekijk Document"
+            },
+            "arabianRanchesRenderImages": {
+              "galleryTitle": "Afbeeldingengalerij van Arabian Ranches",
+              "expandedViewAlt": "Uitgebreide Weergave",
+              "gridView": "Rasterweergave",
+              "sliderView": "Schuifweergave",
+              "imageAlt": "Afbeelding",
+              "thumbnailAlt": "Miniatuurafbeelding"
+            },
+            "ArabianRanchesPage": {
+              "title": "Arabian Ranches - Azerbeidzjan | Sea Breeze Luxe Leven",
+              "metaDescription": "Arabian Ranches combineert de elegantie van het Oosten met moderne luxe nabij de Kaspische Zee. Ontdek rustige townhouses en appartementen.",
+              "metaKeywords": "Arabian Ranches, luxe leven, Sea Breeze, vastgoed Azerbeidzjan, townhouses, appartementen, RMS Capital Investment",
+              "ogTitle": "Arabian Ranches - Sea Breeze Luxe Leven",
+              "ogDescription": "Ontdek de elegantie van Arabian Ranches, een exclusief wooncomplex met luxe townhouses en appartementen nabij de Kaspische Zee.",
+              "heroTitle": "Arabian Ranches",
+              "heroSubtitle": "Luxe wonen geïnspireerd door het Oosterse erfgoed, gelegen in het prestigieuze Sea Breeze-gebied.",
+              "aboutTitle": "Arabian Ranches",
+              "aboutLocation": "Azerbeidzjan - Sea Breeze",
+              "aboutDescription": "Arabian Ranches biedt een rustige combinatie van Oosters erfgoed en moderne luxe, met exclusieve townhouses en appartementen nabij de Kaspische Zee. Deze VIP-locatie biedt een unieke levensstijl met directe toegang tot de schoonheid van de natuur, op slechts enkele stappen van het strand.",
+              "virtualToursTitle": "Virtuele Rondleidingen",
+              "virtualToursSubtitle": "Verken onze virtuele rondleidingen door Arabian Ranches"
+            },
+            "ArabianRanchesLocationFeatures": {
+              "title": "Belangrijke Locaties in de Buurt van Arabian Ranches",
+              "description": "Arabian Ranches biedt luxe townhouses in Bakoe, Azerbeidzjan, nabij de Kaspische Zee. Deze exclusieve locatie wordt omringd door prestigieuze scholen, ziekenhuizen, winkelcentra en recreatiegebieden.",
+              "mapTitle": "Locatie van Arabian Ranches",
+              "locations": {
+                "bakuBoulevard": "Boulevard van Bakoe",
+                "bakuInternationalSchool": "Internationale School van Bakoe",
+                "europeAzerbaijanSchool": "Europese School van Azerbeidzjan",
+                "ganjlikMall": "Ganjlik Winkelcentrum",
+                "heydarAliyevCenter": "Heydar Aliyev Centrum",
+                "mall28": "Winkelcentrum 28",
+                "oilWorkersHospital": "Centraal Ziekenhuis voor Oliearbeiders",
+                "bakuStateUniversity": "Staatsuniversiteit van Bakoe",
+                "adaUniversity": "ADA Universiteit",
+                "parkBoulevardMall": "Park Boulevard Winkelcentrum",
+                "bakuOlympicStadium": "Olympisch Stadion van Bakoe",
+                "absheronNationalPark": "Nationaal Park Abşeron",
+                "dalgaBeachResort": "Dalga Strand Aquapark Resort",
+                "heydarAliyevAirport": "Heydar Aliyev Internationale Luchthaven"
+              },
+              "times": {
+                "15min": "15 Min",
+                "12min": "12 Min",
+                "18min": "18 Min",
+                "20min": "20 Min",
+                "25min": "25 Min",
+                "22min": "22 Min",
+                "17min": "17 Min",
+                "30min": "30 Min",
+                "40min": "40 Min",
+                "35min": "35 Min"
+              }
+},
+
+  "ArabianRanchesSocialAmenities": {
+    "title": "Sociale Voorzieningen van Arabian Ranches",
+    "description": "Arabian Ranches biedt luxe sociale ruimtes die ontspanning, amusement en sportfaciliteiten combineren. In het prestigieuze Sea Breeze-gebied kunt u de elegantie van Midden-Oosterse architectuur ervaren in combinatie met moderne voorzieningen.",
+    "closeButton": "Sluiten",
+    "icons": {
+      "swimming": "Zwemmen",
+      "parking": "Parkeren",
+      "fitness": "Fitness",
+      "nature": "Natuur",
+      "sport": "Sport",
+      "petArea": "Huisdiergebied",
+      "chess": "Schaak",
+      "bbq": "BBQ"
+    },
+    "amenities": {
+      "swimmingPool": {
+        "label": "Zwembad",
+        "description": "Arabian Ranches biedt een luxe zwembad met uitzicht op de Kaspische Zee, waar bewoners kunnen ontspannen en genieten."
+      },
+      "bbq": {
+        "label": "BBQ-ruimtes",
+        "description": "Geniet van ruime BBQ-ruimtes voor sociale bijeenkomsten, ideaal voor maaltijden in de buitenlucht dicht bij de zeebries."
+      },
+      "parking": {
+        "label": "Parkeerplaats",
+        "description": "Veilige parkeervoorzieningen voor bewoners en gasten, voor comfort en gemoedsrust."
+      },
+      "kidsPlay": {
+        "label": "Speeltuin",
+        "description": "Een speciaal ontworpen speelruimte waar kinderen veilig kunnen spelen en plezier kunnen maken."
+      },
+      "chess": {
+        "label": "Groot Schaakbord",
+        "description": "Een buitenschaakbord waar bewoners kunnen genieten van leuke en uitdagende spelletjes."
+      },
+      "gym": {
+        "label": "Fitnessruimte",
+        "description": "Een volledig uitgeruste fitnessruimte voor bewoners om hun gezondheid en welzijn te behouden."
+      },
+      "petArea": {
+        "label": "Huisdiergebied",
+        "description": "Een huisdiervriendelijke omgeving met een speciale ruimte waar huisdieren kunnen spelen en bewegen."
+      },
+      "seating": {
+        "label": "Zitgedeeltes",
+        "description": "Zitgedeeltes met uitzicht, waar u kunt genieten van de omringende schoonheid."
+      },
+      "tennis": {
+        "label": "Tennisbanen",
+        "description": "Professionele tennisbanen waar bewoners kunnen genieten van vriendschappelijke wedstrijden in een mooie omgeving."
+      }
+    }
+  },
+  
+    "SylvanaPage": {
+      "title": "Sylvana Istanbul - Bahçeşehir | Moderne 4+1 Triplex Villa's",
+      "metaDescription": "Sylvana Istanbul biedt moderne 4+1 triplex villa's in Bahçeşehir. Ideaal voor gezinsleven en investeringsmogelijkheden.",
+      "keywords": "triplex villa, Sylvana Istanbul, vrijstaande villa, 4+1 villa, Bahçeşehir villa, te koop villa, villa Istanbul, Bahçeşehir te koop villa, moderne villa",
+      "ogTitle": "Sylvana Istanbul - 4+1 Moderne Triplex Villa's",
+      "ogDescription": "Ontdek de luxe 4+1 triplex villa's van Sylvana Istanbul in Bahçeşehir. Ideaal voor investeerders en gezinsleven.",
+      "heroTitle": "Sylvana Istanbul",
+      "heroSubtitle": "Luxe 4+1 villa's in het hart van Bahçeşehir.",
+      "aboutTitle": "Over Sylvana Istanbul",
+      "aboutLocation": "Istanbul - Bahçeşehir",
+      "aboutDescription": "Een moderne en luxe woonervaring in Bahçeşehir, met ruime 4+1 triplex villa's.",
+      "virtualToursTitle": "Virtuele Rondleidingen",
+      "virtualToursSubtitle": "Verken onze virtuele rondleidingen van Sylvana Istanbul"
+    },
+    "SylvanaAmenities": {
+      "title": "Voorzieningen",
+      "description": "Sylvana Istanbul biedt luxe voorzieningen die comfort, vermaak en gezinsleven samenbrengen. Geniet van moderne woonstijlen met landschapsontworpen tuinen, barbecuegebieden en huisdiervriendelijke ruimtes.",
+      "landscapeGarden": "Landschapstuin",
+      "landscapeGardenDesc": "Sylvana Istanbul beschikt over landschapstuinen, ontworpen om de schoonheid en rust van de natuur te ervaren.",
+      "bbqAreas": "BBQ-ruimtes",
+      "bbqAreasDesc": "Biedt ruime barbecueplaatsen voor maaltijden in de buitenlucht met familie en vrienden.",
+      "parkingArea": "Parkeerplaats",
+      "parkingAreaDesc": "Beveiligde en gemakkelijk toegankelijke parkeerplaatsen voor bewoners en gasten.",
+      "kidsPlayArea": "Speeltuin voor Kinderen",
+      "kidsPlayAreaDesc": "Een veilige en leuke speelruimte voor kinderen.",
+      "chessArea": "Groot Schaakbord",
+      "chessAreaDesc": "Een groot schaakbord voor bewoners van alle leeftijden voor een leuke en intellectuele uitdaging.",
+      "seatingAreas": "Zitruimtes",
+      "seatingAreasDesc": "Verschillende zitplaatsen om te ontspannen, lezen of te praten met buren.",
+      "petFriendlyAreas": "Huisdiervriendelijke Zones",
+      "petFriendlyAreasDesc": "Biedt speciale ruimtes waar huisdieren van de natuur kunnen genieten.",
+      "gym": "Fitnessruimte",
+      "gymDesc": "Een fitnessruimte uitgerust met moderne apparatuur voor een gezonde en actieve levensstijl.",
+      "closeButton": "Sluiten"
+    },
+    "ArabianRanchesAvailability": {
+      "title": "Beschikbare Units bij Arabian Ranches",
+      "totalUnits": "Totale Eenheden",
+      "soldOutUnits": "Verkochte Eenheden",
+      "availableUnits": "Beschikbare Eenheden",
+      "total": "Totaal",
+      "sold": "Verkocht",
+      "available": "Beschikbaar"
+    },
+    "SylvanaLocation": {
+      "title": "Opvallende Locaties Nabij Sylvana Istanbul",
+      "description": "Sylvana Istanbul biedt luxe townhouses in het hart van Bahçeşehir, en combineert de schoonheid van de natuur met modern gezinsleven. Deze exclusieve locatie is omgeven door wereldklasse faciliteiten zoals scholen van hoge kwaliteit, gezondheidsinstellingen, winkelcentra en recreatiegebieden. Perfect voor gezinnen die op zoek zijn naar moderne voorzieningen en een rustige omgeving. Sylvana Istanbul biedt een uitstekende investeringsmogelijkheid in de snelgroeiende vastgoedmarkt van Istanbul.",
+      "mapTitle": "Locatie van Sylvana Istanbul",
+      "features": {
+        "bahcesehirPark": "Bahçeşehir Gölet Park",
+        "bilfenSchool": "Bilfen School",
+        "leaderRussianSchool": "Istanbul Leader Russische School",
+        "bahcesehirFitness": "Bahçeşehir Fitnesscentrum",
+        "bahcesehirTrainStation": "Bahçeşehir Treinstation",
+        "prestigeMallPark": "Prestige Mall Park",
+        "istinyeHospital": "İstinye Ziekenhuis",
+        "istanbulUniversity": "Universiteit van Istanbul",
+        "ataturkOlympicStadium": "Atatürk Olympisch Stadion",
+        "aquaClubDolphin": "Aqua Club Dolphin",
+        "istanbulAirport": "Istanbul Luchthaven"
+      },
+      "times": {
+        "10min": "10 Min.",
+        "11min": "11 Min.",
+        "15min": "15 Min.",
+        "17min": "17 Min.",
+        "25min": "25 Min.",
+        "30min": "30 Min."
+      }
+},
+
+  "SylvanaAvailability": {
+    "title": "Beschikbaarheid van Sylvana Istanbul",
+    "totalUnits": "Totaal Eenheden",
+    "soldUnits": "Verkochte Eenheden",
+    "availableUnits": "Beschikbare Eenheden",
+    "total": "Totaal: 244",
+    "sold": "Verkocht: 160",
+    "available": "Beschikbaar: 84"
+  },
+  "AfraPage": {
+    "title": "Afra Park Istanbul - Bahçeşehir",
+    "metaDescription": "Ontdek de moderne Afra Park-projecten in Bahçeşehir.",
+    "keywords": "Afra Park, Bahçeşehir, residentiële projecten, vastgoed, Istanbul",
+    "ogTitle": "Afra Park Istanbul - Bahçeşehir",
+    "ogDescription": "Wij bieden diverse villa's en appartementen met het moderne Afra Park in Bahçeşehir.",
+    "heroTitle": "Welkom bij het Afra Park Project",
+    "heroSubtitle": "Luxe villa's en appartementen in het hart van Bahçeşehir",
+    "aboutTitle": "Over Afra Park",
+    "aboutLocation": "Locatie van Afra Park",
+    "aboutDescription": "Afra Park combineert de schoonheid van de natuur met een moderne levensstijl en biedt bewoners een luxe woonervaring.",
+    "virtualToursTitle": "Virtuele Rondleidingen",
+    "virtualToursSubtitle": "Verken onze virtuele rondleidingen van het project.",
+    "closeButton": "Sluiten"
+  },
+  "AfraVirtualTours": {
+    "typeA": "2 + 1 TOWNHOUSE - TYPE A",
+    "typeB": "2 + 1 TOWNHOUSE - TYPE B",
+    "typeC": "2 + 1 TOWNHOUSE - TYPE C",
+    "typeWithMaid": "3 + 1 TOWNHOUSE (MET DIENSTMEISJE) - TYPE A",
+    "typeB3": "3 + 1 TOWNHOUSE - TYPE B",
+    "typeC3": "3 + 1 TOWNHOUSE - TYPE C",
+    "typeA3_5": "3.5 + 1 TOWNHOUSE - TYPE A",
+    "typeD3_5": "3.5 + 1 TOWNHOUSE - TYPE D",
+    "typeA4": "4 + 1 TOWNHOUSE - TYPE A",
+    "typeB4": "4 + 1 TOWNHOUSE - TYPE B",
+    "typeC4_5": "4.5 + 1 TOWNHOUSE - TYPE C"
+  },
+  "locationFeatures": {
+    "title": "Ontdek Belangrijke Locaties Dichtbij Afra Park",
+    "description": "Afra Park biedt luxe stadswoningen in het hart van Bahçeşehir, Istanbul, waar de schoonheid van de natuur en modern gezinsleven samenkomen. Deze uitstekende locatie wordt omringd door wereldklasse faciliteiten zoals de beste scholen, medische voorzieningen, winkelcentra en recreatiegebieden.",
+    "features": {
+      "park": "Bahçeşehir Gölet Park",
+      "bilfenSchool": "Bilfen School",
+      "leaderRussianSchool": "Istanbul Leader Russische School",
+      "fitnessCenter": "Bahçeşehir Fitnesscentrum",
+      "trainStation": "Bahçeşehir Treinstation",
+      "mallPark": "Prestige Mall Park",
+      "istinyeHospital": "Istinye Ziekenhuis",
+      "istanbulUniversity": "Universiteit van Istanbul Campus Büyükçekmece",
+      "beykentUniversity": "Beykent Universiteit",
+      "mallOfIstanbul": "Mall of Istanbul",
+      "olympicStadium": "Atatürk Olympisch Stadion",
+      "naturePark": "Samlar Natuurpark",
+      "aquaClub": "Aqua Club Dolphin",
+      "istanbulAirport": "Istanbul Luchthaven"
+    },
+    "times": {
+      "9min": "9 Min.",
+      "10min": "10 Min.",
+      "11min": "11 Min.",
+      "15min": "15 Min.",
+      "17min": "17 Min.",
+      "18min": "18 Min.",
+      "25min": "25 Min.",
+      "30min": "30 Min.",
+      "40min": "40 Min."
+    }
+},
+
+  "blogPage": {
+    "title": "Blog & Nieuws",
+    "pageDescription": "Ontdek het laatste nieuws en trends in de vastgoedmarkt van Istanbul en Turkije.",
+    "keywords": "Istanbul, vastgoed, investering, Turkije",
+    "popularTopics": "Populaire Blogonderwerpen",
+    "latestNews": "Laatste Vastgoednieuws",
+    "istanbulInvestment": {
+      "title": "Investeren in de Vastgoedmarkt van Istanbul",
+      "description": "Ontdek waarom Istanbul een investeringshub is geworden."
+    },
+    "reportageTurkey": {
+      "title": "Reportage Türkiye: Luxe Opnieuw Definiëren in Istanbul",
+      "description": "Ontdek hoe Reportage Türkiye de standaard van luxe herdefinieert."
+    },
+    "benefitsTurkeyInvestment": {
+      "title": "Voordelen van Investeren in Turkse Vastgoed",
+      "description": "Van burgerschapsopties tot rendementen, de voordelen van investeren in Turkije."
+    },
+    "afraParkBahcesehir": {
+      "title": "Afra Park Bahçeşehir: Een Oase Dichtbij de Natuur",
+      "description": "Ontdek de unieke harmonie tussen stadsleven en natuur in Afra Park Bahçeşehir."
+    },
+    "sylvanaIstanbul": {
+      "title": "Sylvana Istanbul: Een Nieuwe Visie voor Modern Wonen",
+      "description": "Leer meer over het Sylvana Istanbul project en de toekomstbestendige faciliteiten."
+    },
+    "turkeyRealEstateGrowth": {
+      "title": "Groei van Vastgoed in Turkije",
+      "description": "Ontdek hoe de vastgoedmarkt van Turkije zich uitbreidt en internationale investeerders aantrekt."
+    },
+    "istanbulInvestmentParadise": {
+      "title": "Waarom Istanbul een Investeringsparadijs Is",
+      "description": "Ontdek wat Istanbul aantrekkelijk maakt voor vastgoedinvesteerders."
+    },
+    "reportageFutureVision": {
+      "title": "De Toekomstvisie van Reportage Türkiye",
+      "description": "Lees meer over de toekomstige projecten en visie van Reportage Türkiye."
+    },
+    "realEstateForecast2024": {
+      "title": "Vastgoedvoorspellingen voor 2024",
+      "description": "Belangrijke inzichten voor vastgoedinvesteringen in het komende jaar."
+    },
+    "sustainableLivingIstanbul": {
+      "title": "Duurzaam Leven in Istanbul: Een Nieuwe Trend",
+      "description": "Leer hoe duurzame levensstijlen vorm krijgen in nieuwe vastgoedprojecten in Turkije."
+    }
+  },
+  "common": {
+    "readMore": "Lees Meer",
+    "backToHome": "Terug naar Startpagina",
+    "loading": "Laden..."
+  },
+  "investmentInsights": {
+    "heading": "2024 Investeringsinzichten: Opkomende Trends in de Vastgoedmarkt van Istanbul",
+    "mainImageAlt": "2024 Investeringsinzichten",
+    "introduction": "Terwijl Istanbul blijft groeien als een zakelijk en cultureel centrum dat Europa en Azië verbindt, tonen investeerders steeds meer interesse in de vastgoedmarkt van Istanbul.",
+    "whyInvestTitle": "Waarom Investeren in de Vastgoedmarkt van Istanbul?",
+    "whyInvestText": "De vastgoedsector in Istanbul heeft de afgelopen jaren aanzienlijke groei doorgemaakt. Belangrijkste voordelen:",
+    "advantages": {
+      "location": { "title": "Strategische Locatie", "description": "Istanbul's locatie maakt het tot een ideaal centrum voor mondiale handel en zaken." },
+      "economy": { "title": "Groeide Economie", "description": "Met de economische groei van Turkije blijven vastgoedprijzen in Istanbul stijgen." },
+      "incentives": { "title": "Investeringsstimulansen", "description": "Buitenlandse investeerders met gekwalificeerde vastgoedinvesteringen krijgen burgerschapsrechten." },
+      "urbanDemand": { "title": "Vraag naar Stedelijk Leven", "description": "De bevolking van Istanbul blijft groeien, wat de vraag naar residentieel en commercieel vastgoed verhoogt." }
+    },
+    "trendsTitle": "Opkomende Investeringsrichtingen voor 2024",
+    "trends": {
+      "luxuryResidential": { "title": "Luxe Woningprojecten", "description": "Gebieden zoals Bebek en Nişantaşı trekken investeerders aan met een vraag naar luxe." },
+      "urbanExpansion": { "title": "Stedelijke Uitbreidingsgebieden", "description": "Opkomende wijken zoals Bahçeşehir en Beylikdüzü bieden aantrekkelijke investeringsmogelijkheden." },
+      "commercialRealEstate": { "title": "Commercieel Vastgoed", "description": "Bedrijfscentra trekken grote vraag voor kantoorruimtes en ondernemingen in Istanbul." },
+      "highROIRentals": { "title": "Hoogrenderende Verhuurwoningen", "description": "Korte-termijn verhuur is populair bij toeristen en expats." },
+      "greenprojeler": { "title": "Duurzame Groene Projecten", "description": "Milieuvriendelijke projecten trekken investeerders aan die op zoek zijn naar duurzaamheid." },
+      "infrastructure": { "title": "Infrastructuurontwikkeling", "description": "Nieuwe luchthavens en metro-uitbreidingen verhogen de vastgoedwaarde rondom Istanbul." }
+    },
+    "considerationsTitle": "Belangrijke Overwegingen voor Investeerders",
+    "considerationsText": "Hoewel de vastgoedmarkt in Istanbul aantrekkelijke kansen biedt, moeten investeerders rekening houden met marktfluctuaties.",
+    "share": {
+      "twitter": "Delen op X",
+      "facebook": "Delen op Facebook",
+      "linkedin": "Delen op LinkedIn"
+    },
+    "shareText": "Ontdek Investeringsinzichten en Trends voor de Vastgoedmarkt van Istanbul in 2024!"
+},
+
+  "afraPark": {
+    "title": "Afra Park Bahçeşehir: Luxe Wonen in het Groene Hart van Istanbul",
+    "mainImageAlt": "Afra Park Bahçeşehir",
+    "description": "Afra Park Bahçeşehir, gelegen in het hart van Bahçeşehir, Istanbul, is een prestigieus woningproject dat een unieke levensstijl biedt.",
+    "whyChoose": "Waarom Kiezen voor Afra Park Bahçeşehir?",
+    "whyChooseText": "Afra Park Bahçeşehir biedt een unieke harmonie van natuur en luxe...",
+    "features": {
+      "greenSpaces": "Groene Ruimtes",
+      "greenSpacesDescription": "Omgeven door prachtige tuinen en parken, ideaal voor ontspanning en familieactiviteiten.",
+      "privateAmenities": "Privévoorzieningen",
+      "privateAmenitiesDescription": "Biedt luxe voorzieningen zoals zwembaden, fitnessruimtes en speeltuinen voor kinderen.",
+      "security": "24/7 Beveiliging",
+      "securityDescription": "Biedt hoogstaande beveiligingsdiensten voor een veilige leefomgeving voor alle bewoners."
+    },
+    "investmentPotentialTitle": "Investeringspotentieel:",
+    "investmentPotentialText": "Afra Park Bahçeşehir ligt in een snel ontwikkelend gebied en biedt daarmee een aantrekkelijke investeringskans...",
+    "communityImageAlt": "Gemeenschap van Bahçeşehir",
+    "lifestyleTitle": "Levensstijl en Gemeenschap",
+    "lifestyleText": "De regio Bahçeşehir staat bekend om zijn gezinsvriendelijke gemeenschap, gerenommeerde scholen en uitgestrekte groene gebieden...",
+    "nearbyAttractionsTitle": "Belangrijke Nabijgelegen Locaties en Bereikbaarheid",
+    "nearbyAttractionsText": "Afra Park Bahçeşehir biedt gemakkelijke toegang tot hoofdwegen en goede verbindingen met het stadscentrum van Istanbul...",
+    "resourcesTitle": "Betrouwbare Bronnen voor Investeringsinformatie",
+    "resources": {
+      "propertyTurkey": "Property Turkey",
+      "propertyTurkeyDescription": "Informatie over de vastgoedmarkt in Turkije en belangrijke investeringslocaties.",
+      "investTurkey": "Invest in Turkey",
+      "investTurkeyDescription": "Officiële investeringsinformatie en marktgegevens.",
+      "turkeyHomes": "Turkey Homes",
+      "turkeyHomesDescription": "Gidsen en bronnen voor investeerders in Turkije."
+    },
+    "share": {
+      "twitter": "Delen op X",
+      "facebook": "Delen op Facebook",
+      "linkedin": "Delen op LinkedIn"
+    },
+    "shareText": "Ontdek het luxe leven bij Afra Park Bahçeşehir in Istanbul!"
+  },
+  "investing": {
+    "title": "Investeren in de Vastgoedmarkt van Istanbul",
+    "mainImageAlt": "Vastgoed in Istanbul",
+    "description": "De vastgoedmarkt van Istanbul is een aantrekkelijke locatie voor investeerders dankzij de unieke geografische ligging, dynamische economie en diverse vastgoedmogelijkheden...",
+    "whyInvestTitle": "Waarom Investeren in Istanbul?",
+    "whyInvestText": "Istanbul, gelegen op het kruispunt van Europa en Azië, is een cultureel en economisch centrum...",
+    "investInTurkeyInfoTitle": "Informatie van Invest in Turkey",
+    "investInTurkeyInfoText1": "Volgens Invest in Turkey heeft de Turkse economie een buitengewone veerkracht getoond...",
+    "investInTurkeyInfoText2": "De Turkse overheid biedt ook belastingvoordelen en juridische ondersteuning aan buitenlandse vastgoedkopers...",
+    "keyAreasTitle": "Belangrijkste Investeringsgebieden",
+    "bosphorus": "Bosporus Kustlijn",
+    "bosphorusDesc": "Luxe eigendommen met een prachtig uitzicht en een hoog rendement op investering.",
+    "bahcesehirBeylikduzu": "Bahçeşehir en Beylikdüzü",
+    "bahcesehirBeylikduzuDesc": "Betaalbare, gezinsvriendelijke gebieden met een groot groeipotentieel.",
+    "cityCenter": "Stadscentrum",
+    "cityCenterDesc": "Gebieden zoals Nişantaşı en Taksim bieden een hoge huurwinst en trekken jonge professionals en toeristen aan.",
+    "secondaryImageAlt": "Investeringspotentieel van Istanbul",
+    "trendsTitle": "Trends in de Vastgoedmarkt van Istanbul",
+    "trendsText": "De vastgoedmarkt van Istanbul heeft de afgelopen jaren een stabiele waardestijging laten zien door de sterke vraag naar stedelijke, voorstedelijke en luxe eigendommen...",
+    "resourcesTitle": "Bronnen voor Investeerders",
+    "resources": {
+      "propertyTurkey": "Property Turkey",
+      "propertyTurkeyDescription": "Gidsen voor vastgoedbeleggingen, populaire locaties en actuele marktinformatie in Turkije.",
+      "investTurkey": "Invest in Turkey",
+      "investTurkeyDescription": "Officiële informatie over investeringskansen en economische gegevens van de Turkse overheid.",
+      "turkeyHomes": "Turkey Homes",
+      "turkeyHomesDescription": "Deskundig advies over vastgoed in Turkije en rendabele investeringen."
+    },
+    "share": {
+      "twitter": "Delen op X",
+      "facebook": "Delen op Facebook",
+      "linkedin": "Delen op LinkedIn"
+    },
+    "shareText": "Bekijk dit informatieve artikel over investeren in vastgoed in Istanbul!"
+},
+
+  "whyInvestIstanbul": {
+    "title": "Investeren in Istanbul: Een Wereldwijde Investeringshub",
+    "mainImageAlt": "Waarom Investeren in Istanbul?",
+    "description": "Istanbul, de stad die Europa en Azië verbindt, is een van de aantrekkelijkste investeringsbestemmingen ter wereld geworden...",
+    "reasonsTitle": "Belangrijkste Redenen om in Istanbul te Investeren",
+    "reasons": {
+      "strategicLocation": "Strategische Locatie",
+      "strategicLocationDesc": "Istanbul ligt op het kruispunt van Europa en Azië, biedt toegang tot zowel Oost- als Westmarkten en is ideaal voor internationale handel.",
+      "growingEconomy": "Groeiende Economie",
+      "growingEconomyDesc": "De economie van Istanbul groeit snel, mede dankzij de vastgoed-, toerisme- en financiële sectoren, en is een van de snelst groeiende economieën in de regio.",
+      "culturalAttractions": "Culturele en Historische Attracties",
+      "culturalAttractionsDesc": "Met iconische locaties zoals de Hagia Sophia en de Bosporus trekt Istanbul miljoenen toeristen, wat zorgt voor een constante vraag naar toerisme en retailinvesteringen.",
+      "realEstateMarket": "Sterke Vastgoedmarkt",
+      "realEstateMarketDesc": "De vastgoedmarkt van Istanbul biedt een breed scala aan hoog renderende opties, van luxe woningen in toplocaties tot commerciële ruimtes.",
+      "investmentIncentives": "Investeringsstimulansen",
+      "investmentIncentivesDesc": "De Turkse overheid biedt buitenlandse investeerders verschillende voordelen, zoals belastingvoordelen en de mogelijkheid om staatsburgerschap te verkrijgen door middel van investeringen.",
+      "globalConnectivity": "Wereldwijde Verbinding",
+      "globalConnectivityDesc": "Met een van de grootste luchthavens ter wereld, verbindt de luchthaven van Istanbul de stad met meer dan 300 bestemmingen en ondersteunt zo handel en toerisme."
+    },
+    "realEstateInfoTitle": "Vastgoed Investeringsinformatie",
+    "realEstateInfoDesc": "De vastgoedsector in Istanbul groeit snel; de vraag naar zowel residentiële als commerciële panden neemt toe.",
+    "secondaryImageAlt": "Vastgoedinvesteringen in Istanbul",
+    "sourcesTitle": "Betrouwbare Bronnen voor Investeerders",
+    "sources": {
+      "investTurkey": "Investeren in Turkije",
+      "investTurkeyDesc": "Officiële informatie over investeringsmogelijkheden en stimuleringsmaatregelen.",
+      "propertyTurkey": "Property Turkey",
+      "propertyTurkeyDesc": "Lijst met vastgoedopties en bronnen voor investeringen in Istanbul.",
+      "turkeyHomes": "Turkey Homes",
+      "turkeyHomesDesc": "Deskundig advies over het kopen van vastgoed en investeringen in Turkije."
+    },
+    "share": {
+      "twitter": "Delen op X",
+      "facebook": "Delen op Facebook",
+      "linkedin": "Delen op LinkedIn"
+    },
+    "shareText": "Ontdek waarom Istanbul een investeringshub is!"
+  },
+  "reportageTurkiyeLuxury": {
+    "title": "Reportage Türkiye: Herdefinieert Luxe Vastgoed in Istanbul",
+    "mainImageAlt": "Reportage Türkiye Luxe Vastgoed",
+    "intro": "Reportage Türkiye, een toonaangevende naam in luxe vastgoed, biedt een nieuwe benadering van luxe wonen door de rijke culturele erfenis van Istanbul te combineren met moderne levensstijl. Met projecten die elegantie, comfort en innovatie samenbrengen, herdefinieert Reportage Türkiye de normen voor luxe wonen in Istanbul.",
+    "featuresTitle": "Unieke Kenmerken van Reportage Türkiye",
+    "featuresText": "Reportage Türkiye staat bekend om zijn toewijding aan kwaliteit, oog voor detail en unieke architectonische benadering. Elk project weerspiegelt moderne esthetiek en culturele invloed en biedt bewoners elegantie, comfort en luxe.",
+    "projelerTitle": "Onze Exclusieve Projecten in Istanbul",
+    "projelerText": "Reportage Türkiye biedt prestigieuze projecten zoals <strong>Afra Park Bahçeşehir</strong> en <strong>Sylvana Istanbul</strong> in Istanbul, waar comfort en luxe samenkomen. Deze projecten zijn bekend om hun ruime woonruimtes, hoogwaardige voorzieningen en nabijheid tot culturele en sociale hotspots in Istanbul.",
+    "secondaryImageAlt": "Investering in Reportage Türkiye",
+    "lifestyleTitle": "Een Levensstijl van Glorie en Gemak",
+    "lifestyleText": "Reportage Türkiye biedt niet alleen luxe woningen, maar ook een volledige levensstijl. Met voorzieningen zoals moderne fitnessruimtes, terrassen met uitzicht op de Bosporus, groene tuinen en privézwembaden biedt elk verblijf rust en comfort.",
+    "investmentTitle": "Vastgoed Investeringsmogelijkheden in Istanbul",
+    "investmentText": "De vastgoedmarkt van Istanbul blijft investeerders van over de hele wereld aantrekken. Door te kiezen voor Reportage Türkiye investeert u niet alleen in een woning, maar ook in een exclusieve en elegante levensstijl.",
+    "exploreMoreTitle": "Ontdek Meer en Word Deel van de Luxe Revolutie",
+    "exploreMoreText": "Voor meer informatie over onze projecten en om de unieke kansen in luxe vastgoed in Istanbul te verkennen,",
+    "investTurkey": "Invest in Turkey",
+    "share": {
+      "twitter": "Delen op X",
+      "facebook": "Delen op Facebook",
+      "linkedin": "Delen op LinkedIn"
+    },
+    "shareText": "Ontdek de luxe vastgoedopties van Reportage Türkiye in Istanbul!"
+  },
+  "reportageTurkiyeVision": {
+    "title": "De Visie van Reportage Türkiye: De Toekomst van Vastgoed in Turkije Vormgeven",
+    "mainImageAlt": "Visie van Reportage Türkiye",
+    "intro": "Bij Reportage Türkiye is onze visie om de vastgoedsector in Turkije te herdefiniëren door innovatieve, duurzame en op de gemeenschap gerichte projecten te ontwikkelen...",
+    "missionTitle": "Onze Visie en Missie",
+    "vision": "Onze Visie",
+    "visionDesc": "Een toonaangevende kracht worden in de vastgoedsector in Turkije door nieuwe standaarden te stellen in kwaliteit, ontwerp en klantbeleving.",
+    "mission": "Onze Missie",
+    "missionDesc": "Bijdragen aan de ontwikkeling van de gemeenschap door hoogwaardige projecten aan te bieden.",
+    "valuesTitle": "Onze Kernwaarden",
+    "innovation": "Innovatie",
+    "innovationDesc": "Innovatieve oplossingen voor moderne gemeenschappen.",
+    "integrity": "Integriteit",
+    "integrityDesc": "Vertrouwen opbouwen met transparantie en eerlijkheid.",
+    "sustainability": "Duurzaamheid",
+    "sustainabilityDesc": "Milieuvriendelijke oplossingen.",
+    "futureGoals": "Onze Toekomstige Doelen",
+    "futureGoalsText": "Met toewijding aan hoge kwaliteit streeft Reportage Türkiye naar het creëren van iconische gebouwen in Turkije.",
+    "futureImageAlt": "De Toekomst van Reportage Türkiye",
+    "moreInfo": "Meer Informatie Over Reportage Türkiye",
+    "officialSite": "Officiële Website van Reportage Türkiye",
+    "officialSiteDesc": "Leer meer over onze projecten.",
+    "investTurkey": "Invest in Turkey",
+    "investTurkeyDesc": "Ontdek investeringsmogelijkheden in Turkije.",
+    "propertyTurkey": "Property Turkey",
+    "propertyTurkeyDesc": "Informatie over vastgoedinvesteringen in Turkije.",
+    "share": {
+      "twitter": "Delen op Twitter",
+      "facebook": "Delen op Facebook",
+      "linkedin": "Delen op LinkedIn"
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacybeleid"
+  },
+  "sustainableLiving": {
+    "title": "Duurzaam Wonen in Istanbul",
+    "mainImageAlt": "Duurzaam Wonen in Istanbul",
+    "intro": "Naarmate Istanbul zich verder ontwikkelt als een wereldstad, worden duurzame levensstijlpraktijken steeds belangrijker om een milieuvriendelijke manier van leven te bevorderen.",
+    "coreElementsTitle": "Kerncomponenten van Duurzaam Wonen in Istanbul",
+    "features": {
+      "greenHomes": "Milieuvriendelijke Woningen",
+      "greenHomesDesc": "Nieuwe woningen in Istanbul die zijn gebouwd met energie-efficiëntie en duurzame materialen ondersteunen een groene levensstijl.",
+      "renewableEnergy": "Hernieuwbare Energie",
+      "renewableEnergyDesc": "Met investeringen in zonne- en windenergie richt Istanbul zich op duurzame energiebronnen.",
+      "waterConservation": "Waterbesparing",
+      "waterConservationDesc": "Campagnes voor waterbesparing helpen de waterbronnen van Istanbul te beschermen.",
+      "wasteManagement": "Afvalbeheer",
+      "wasteManagementDesc": "Recyclingprogramma's streven ernaar een circulaire economie te creëren in Istanbul.",
+      "urbanGreenSpaces": "Stedelijke Groene Ruimtes",
+      "urbanGreenSpacesDesc": "Parken en tuinen ondersteunen de biodiversiteit in Istanbul.",
+      "smartInfrastructure": "Slimme Stadsinfrastructuur",
+      "smartInfrastructureDesc": "Istanbul omarmt slimme stadstechnologieën die energie-efficiëntie verhogen."
+    },
+    "benefitsTitle": "Waarom is Duurzaam Wonen Belangrijk?",
+    "benefitsText": "Duurzame woonpraktijken verbeteren de levenskwaliteit in Istanbul en beschermen het milieu.",
+    "caseStudyTitle": "Case Study: Groene Projecten van Istanbul",
+    "caseStudyText": "De nieuwe projecten in Istanbul richten zich op het uitbreiden van stedelijke groene ruimtes en het verhogen van milieu-duurzaamheid.",
+    "share": {
+      "twitter": "Delen op Twitter",
+      "facebook": "Delen op Facebook",
+      "linkedin": "Delen op LinkedIn"
+    },
+    "shareText": "Ontdek Duurzaam Wonen in Istanbul!"
+  },
+  
+    "sylvanaModernLiving": {
+      "title": "Sylvana Istanbul: Modern Leven in het Hart van Turkije",
+      "mainImageAlt": "Sylvana Istanbul Modern Leven",
+      "intro": "Sylvana Istanbul brengt luxe, moderne architectuur en natuurlijke schoonheid samen met het levendige leven van Istanbul. Geïnspireerd door de rijke cultuur en geschiedenis van de stad, biedt deze woonruimte comfort en elegantie.",
+      "elegantLifestyleTitle": "Een Levensstijl Gedefinieerd door Elegantie en Comfort",
+      "elegantLifestyleText": "Met ruime interieurs en groene tuinen biedt Sylvana Istanbul stijl, comfort en rust in één.",
+      "features": {
+        "greenSpaces": "Groene Ruimtes",
+        "greenSpacesDesc": "Mooie groene ruimtes om te ontspannen en buitenactiviteiten te ondernemen.",
+        "luxuryInteriors": "Luxe Interieurs",
+        "luxuryInteriorsDesc": "Comfortabele en stijlvolle ontwerpen met hoogwaardige materialen.",
+        "security": "Geavanceerde Beveiliging",
+        "securityDesc": "24-uurs beveiliging en geavanceerde beveiligingssystemen."
+      },
+      "modernConvenienceTitle": "Moderne Gemakken",
+      "modernConvenienceText": "Sylvana Istanbul biedt gemakkelijke toegang tot hoofdwegen en openbaar vervoer, wat uw verbinding met de stad vereenvoudigt.",
+      "communityImageAlt": "Sylvana Istanbul Gemeenschap",
+      "whyChooseTitle": "Waarom Kiezen voor Sylvana Istanbul?",
+      "whyChooseText": "Sylvana Istanbul biedt een hoogwaardige woonomgeving voor gezinnen, professionals en investeerders.",
+      "nearbyLandmarksTitle": "Nabijgelegen Belangrijke Locaties en Bereikbaarheid",
+      "nearbyLandmarksText": "Het project bevindt zich dicht bij winkelcentra, restaurants, onderwijsinstellingen en gezondheidsfaciliteiten.",
+      "reliableResourcesTitle": "Betrouwbare Bronnen voor Investeringen",
+      "resources": {
+        "investTurkey": "Investeren in Turkije",
+        "investTurkeyDesc": "Ontdek informatie over investeringsmogelijkheden in Turkije.",
+        "propertyTurkey": "Property Turkey",
+        "propertyTurkeyDesc": "Gidsen voor vastgoedinvesteringen in Istanbul.",
+        "turkeyHomes": "Turkey Homes",
+        "turkeyHomesDesc": "Advies over het kopen van onroerend goed en investeren in Turkije."
+      },
+      "share": {
+        "twitter": "Delen op Twitter",
+        "facebook": "Delen op Facebook",
+        "linkedin": "Delen op LinkedIn"
+      },
+      "shareText": "Ontdek modern leven in Sylvana Istanbul!"
+    },
+    "growthRealEstateTurkey": {
+      "title": "Groei in de Turkse Vastgoedmarkt: Een Groeiende Markt voor Investeerders",
+      "mainImageAlt": "Groei van de Vastgoedmarkt in Turkije",
+      "intro": "De Turkse vastgoedmarkt is een aantrekkelijke optie voor zowel binnenlandse als buitenlandse investeerders. Dankzij de ligging en diversiteit biedt Turkije een groot rendementspotentieel op zowel residentieel als commercieel vastgoed.",
+      "keyDriversTitle": "Belangrijkste Drijfveren van Vastgoedgroei in Turkije",
+      "features": {
+        "strategicLocation": "Strategische Locatie",
+        "strategicLocationDesc": "Turkije ligt op het kruispunt van Azië en Europa en is een ideaal centrum voor handel en zaken.",
+        "modernInfrastructure": "Moderne Infrastructuur",
+        "modernInfrastructureDesc": "De geavanceerde infrastructuur van Turkije verbetert transport en levensstandaard.",
+        "highReturnPotential": "Hoog Rendement Potentieel",
+        "highReturnPotentialDesc": "De vastgoedwaarden in Turkije stijgen, wat winstgevende kansen biedt voor investeerders.",
+        "qualityEducationHealthcare": "Kwaliteitsonderwijs en Gezondheidszorg",
+        "qualityEducationHealthcareDesc": "De hoogwaardige onderwijs- en gezondheidsvoorzieningen in Turkije dragen waarde bij voor langetermijnkopers.",
+        "citizenshipInvestment": "Investeren voor Staatsburgerschap",
+        "citizenshipInvestmentDesc": "Turkije biedt staatsburgerschap aan investeerders, wat het aantrekkelijk maakt.",
+        "spectacularViews": "Adembenemende Uitzichten",
+        "spectacularViewsDesc": "De prachtige landschappen van Turkije dragen bij aan de natuurlijke schoonheid van woonomgevingen."
+      },
+      "investmentOpportunitiesTitle": "Investeringskansen door Heel Turkije",
+      "investmentOpportunitiesText": "De Turkse vastgoedmarkt biedt een breed scala aan investeringsopties.",
+      "locations": {
+        "istanbul": "Istanbul",
+        "istanbulDesc": "Biedt luxe woningen en commerciële ruimtes.",
+        "antalya": "Antalya",
+        "antalyaDesc": "Populair voor vakantiewoningen aan zee.",
+        "ankara": "Ankara",
+        "ankaraDesc": "Ideaal voor zakelijke investeringen als hoofdstad."
+      },
+      "supportingImageAlt": "Vastgoedinvesteringen in Turkije",
+      "resourcesTitle": "Bronnen voor Vastgoedinvesteerders",
+      "resources": {
+        "investTurkey": "Investeren in Turkije",
+        "investTurkeyDesc": "Biedt investeringsinformatie en ondersteuning.",
+        "propertyTurkey": "Property Turkey",
+        "propertyTurkeyDesc": "Vastgoedlijsten en investeringsadvies.",
+        "turkeyHomes": "Turkey Homes",
+        "turkeyHomesDesc": "Gids voor investeerders."
+      },
+      "share": {
+        "twitter": "Delen op Twitter",
+        "facebook": "Delen op Facebook",
+        "linkedin": "Delen op LinkedIn"
+      },
+      "shareText": "Ontdek de groeiende vastgoedmarkt in Turkije!"
+},
+
+  "share": {
+    "twitter": "Delen op Twitter",
+    "facebook": "Delen op Facebook",
+    "linkedin": "Delen op LinkedIn"
+  },
+  "shareText": "Ontdek de groeiende vastgoedmarkt in Turkije!",
+  "realEstateInvestmentTurkey": {
+    "title": "Vastgoedgroei in Turkije",
+    "mainImageAlt": "Groei in de Turkse Vastgoedmarkt",
+    "intro": "De vastgoedmarkt in Turkije biedt enorme groeikansen dankzij de stijgende vraag naar onroerend goed...",
+    "keyDriversTitle": "Belangrijkste Groei Drijfveren",
+    "features": {
+      "strategicLocation": "Strategische Locatie",
+      "strategicLocationDesc": "Turkije verbindt Europa en Azië en is een belangrijk centrum voor handel en toerisme...",
+      "modernInfrastructure": "Moderne Infrastructuur",
+      "modernInfrastructureDesc": "Met investeringen in moderne infrastructuur is Turkije aantrekkelijk voor vastgoedontwikkeling...",
+      "highReturnPotential": "Hoog Rendement Potentieel",
+      "highReturnPotentialDesc": "De Turkse vastgoedmarkt biedt hoge opbrengsten, vooral in grote steden...",
+      "qualityEducationHealthcare": "Kwaliteitsonderwijs en Gezondheidszorg",
+      "qualityEducationHealthcareDesc": "Toegang tot eersteklas onderwijs en gezondheidszorg...",
+      "citizenshipInvestment": "Investeren voor Staatsburgerschap",
+      "citizenshipInvestmentDesc": "Gekwalificeerde investeerders kunnen door vastgoedinvesteringen Turks staatsburgerschap verkrijgen...",
+      "spectacularViews": "Prachtige Uitzichten",
+      "spectacularViewsDesc": "Van kustgebieden tot bergen, Turkije biedt natuurlijke schoonheid voor vastgoed."
+    },
+    "investmentOpportunitiesTitle": "Investeringsmogelijkheden",
+    "investmentOpportunitiesText": "Ontdek winstgevende investeringskansen in snelgroeiende sectoren in Turkije...",
+    "locations": {
+      "istanbul": "Istanbul",
+      "istanbulDesc": "Het hart van de vastgoedmarkt in Turkije...",
+      "antalya": "Antalya",
+      "antalyaDesc": "Populair voor toerisme en levendige kustgebieden...",
+      "ankara": "Ankara",
+      "ankaraDesc": "Als hoofdstad een stabiele vastgoedmarkt met groeiende vraag..."
+    },
+    "supportingImageAlt": "Ondersteunende Afbeelding Vastgoed in Turkije",
+    "resourcesTitle": "Bronnen voor Investeerders",
+    "resources": {
+      "investTurkey": "Investeren in Turkije",
+      "investTurkeyDesc": "Officiële informatie over investeringsmogelijkheden en economische data...",
+      "propertyTurkey": "Property Turkey",
+      "propertyTurkeyDesc": "Uitgebreide gidsen over investeren in vastgoed in Turkije...",
+      "turkeyHomes": "Turkey Homes",
+      "turkeyHomesDesc": "Deskundig advies over het kopen van onroerend goed en winstgevende investeringen in Turkije..."
+    }
+  },
+  "afraConstructionUpdateCharts": {
+    "afraParkConstructionProgress": "Afra Park Bouwvoortgang",
+    "realTimeAfraParkProgress": "Reële Tijd Afra Park Voortgang",
+    "constructionProgress": "Bouwvoortgang",
+    "completed": "Voltooid"
+  },
+  "sylvanaConstructionUpdateCharts": {
+    "sylvanaConstructionProgress": "Sylvana Bouwvoortgang",
+    "realTimeSylvanaProgress": "Reële Tijd Sylvana Voortgang",
+    "constructionProgress": "Bouwvoortgang",
+    "completed": "Voltooid"
+  },
+  "arabianRanchesConstructionUpdates": {
+    "constructionProgress": "Bouwvoortgang",
+    "completed": "Binnenkort beschikbaar",
+    "arabianRanchesConstructionProgress": "Arabian Ranches Bouwvoortgang",
+    "realTimeArabianRanchesProgress": "Reële Tijd Arabian Ranches Voortgang"
+  },
+  "constructionUpdates": {
+    "pageTitle": "Bouwupdates",
+    "metaDescription": "Volg de laatste bouwupdates van de Reportage Türkiye projecten.",
+    "keywords": "Afra Park, Sylvana Istanbul, Arabian Ranches, bouwupdates",
+    "introText": "Blijf op de hoogte van de voortgang van onze prestigieuze vastgoedprojecten.",
+    "motivationalText": "Wees getuige van hoe de toekomst van modern leven wordt gevormd.",
+    "monthlyUpdatesTitle": "Maandelijkse Video-updates",
+    "videoTitle1": "Januari 2024 Update",
+    "videoTitle2": "Februari 2024 Update",
+    "videoTitle3": "Maart 2024 Update",
+    "sylvanaTitle": "Sylvana Istanbul Bouwvoortgang",
+    "sylvanaDescription": "Ontdek de laatste updates over het Sylvana Istanbul project.",
+    "afraTitle": "Afra Park Bouwvoortgang",
+    "afraDescription": "Volg de ontwikkelingsfasen van Afra Park.",
+    "arabianTitle": "Arabian Ranches Bouwvoortgang",
+    "arabianDescription": "Bekijk de laatste updates over Arabian Ranches.",
+    "conclusionTitle": "Onze Toewijding aan Kwaliteit",
+    "conclusionText": "We zorgen ervoor dat elk project voldoet aan de hoogste kwaliteits- en perfectienormen.",
+    "conclusionMotivation": "Blijf ons volgen voor meer updates terwijl we de toekomst opbouwen."
+  },
+  "mainLayout": {
+    "brandName": "Reportage Türkiye",
+    "termsOfUseLink": "Gebruiksvoorwaarden",
+    "privacyPolicy": "Privacybeleid",
+    "home": "Home",
+    "projeler": "Projecten",
+    "projectSylvana": "Sylvana Istanbul",
+    "projectAfra": "Afra Park",
+    "projectArabian": "Arabian Ranches",
+    "blog": "Blog",
+    "constructionUpdates": "Bouwupdates",
+    "offers": "Aanbiedingen",
+    "contactUs": "Contact",
+    "blogAfraPark": "Afra Park Bahçeşehir",
+    "blogRealEstateInvestment2024": "Vastgoedinvestering 2024",
+    "blogIstanbulRealEstateInvestment": "Istanbul Vastgoedinvestering",
+    "blogIstanbulInvestmentParadise": "Istanbul Investeringsparadijs",
+    "blogReportageTurkeyLuxury": "Reportage Türkiye Luxe",
+    "blogReportageTurkeyVision": "Reportage Türkiye Visie",
+    "blogSustainableLivingIstanbul": "Duurzaam Leven in Istanbul",
+    "blogSylvanaIstanbulModernLife": "Sylvana Istanbul Modern Leven",
+    "blogTurkeyRealEstateGrowth": "Groei in de Turkse Vastgoedmarkt",
+    "blogTurkeyRealEstateInvestment": "Vastgoedinvesteringen in Turkije"
+  },
+  "offers": {
+    "title": "Mis geen Enkele Kans!"
+  },
+  "footer": {
+    "about": "Over Ons",
+    "projects": "Projecten",
+    "legal": "Juridisch"
+  },
+  "afraUnitTypes": {
+    "title": "Appartementtypen",
+    "description": "Selecteer een appartementtype hieronder en klik op de afbeelding voor een gedetailleerde weergave.",
+    "closeButton": "Sluiten",
+    "unitType2A": "2 + 1 Appartement - Type A",
+    "unitType2B": "2 + 1 Appartement - Type B",
+    "unitType2C": "2 + 1 Appartement - Type C",
+    "unitType3AWithMaid": "3 + 1 Appartement - Type A (Met Bediende)",
+    "unitType3B": "3 + 1 Appartement - Type B",
+    "unitType4A": "4 + 1 Appartement - Type A",
+    "unitType4B": "4 + 1 Appartement - Type B"
+  },
+  
+    "afraSocialAmenities": {
+      "title": "Sociale Voorzieningen",
+      "description": "Afra Park, gelegen in Bahçeşehir, Istanbul, biedt een woonomgeving vol moderne voorzieningen en prachtige uitzichten, met ontspannings-, recreatie- en fitnessfaciliteiten.",
+      "closeButton": "Sluiten",
+      "swimmingPool": "Zwembad",
+      "swimmingPoolDescription": "Afra Park biedt een luxe zwembad, perfect voor ontspanning of plezier, te midden van de natuurlijke schoonheid van Bahçeşehir.",
+      "bbqArea": "BBQ-ruimtes",
+      "bbqAreaDescription": "Ruime BBQ-ruimtes om buiten te dineren, ideaal voor familie en vrienden, omgeven door natuur.",
+      "parking": "Parkeergelegenheid",
+      "parkingDescription": "Afra Park biedt veilige parkeerfaciliteiten voor bewoners en gasten, voor gemak en veiligheid in deze rustige gemeenschap.",
+      "kidsPlayArea": "Speeltuin voor Kinderen",
+      "kidsPlayAreaDescription": "Een leuke en veilige speeltuin voor kinderen, waar ze met plezier kunnen spelen in het hart van Bahçeşehir.",
+      "chessArea": "Groot Schaakbord",
+      "chessAreaDescription": "Een unieke buitenruimte met een groot schaakbord, die intellectuele uitdaging en vermaak biedt voor alle leeftijden.",
+      "gym": "Fitnessruimte",
+      "gymDescription": "Een moderne fitnessruimte uitgerust met de nieuwste apparatuur om bewoners te helpen hun gezondheids- en fitnessdoelen te bereiken.",
+      "petArea": "Huisdiervriendelijk Gebied",
+      "petAreaDescription": "Een vriendelijk gebied waar huisdierbezitters plezierige tijd kunnen doorbrengen met hun trouwe metgezellen.",
+      "seatingArea": "Zitgedeeltes",
+      "seatingAreaDescription": "Afra Park biedt diverse zitgedeeltes, ideaal om te ontspannen, te lezen of een gesprek te voeren met buren.",
+      "tennisCourt": "Tennisbanen",
+      "tennisCourtDescription": "Professionele tennisbanen waar sportliefhebbers vriendschappelijke wedstrijden kunnen spelen."
+    },
+    "afraAvailability": {
+      "title": "Afra Park Beschikbaarheid",
+      "totalUnits": "Totale Eenheden",
+      "soldUnits": "Verkochte Eenheden",
+      "availableUnits": "Beschikbare Eenheden"
+    },
+    "sylvanaUnitTypes": {
+      "title": "Beschikbare Unit Type",
+      "description": "Ontdek de luxe 4+1 unit in Sylvana Istanbul, een moderne en ruime leefruimte voor grote gezinnen. Bekijk de plattegrond om het comfort en de elegantie van deze unit te ervaren.",
+      "unitTypeLabel": "Drie Verdiepingen Townhouse - 4 Slaapkamers",
+      "unitTypeDescription": "De 4+1 unit biedt moderne voorzieningen en luxe leefruimte, ideaal voor grote gezinnen. Bekijk de plattegrond om te zien hoe comfort en functionaliteit worden gemaximaliseerd in deze royale unit.",
+      "closeButton": "Sluiten"
+    },
+    "ourOffers": "Onze Aanbiedingen",
+    "offersDescription": "Kies uit de beste aanbiedingen speciaal voor u. Vul het formulier in voor meer informatie of om contact op te nemen met ons team.",
+    "offerRequest": {
+      "title": "Aanbiedingsverzoek",
+      "nameLabel": "Naam",
+      "emailLabel": "E-mail",
+      "phoneLabel": "Telefoon",
+      "clientMessageLabel": "Uw Bericht",
+      "clientMessagePlaceholder": "Schrijf uw bericht hier...",
+      "marketingMessagesText": "Ik wil marketingberichten ontvangen over updates en speciale aanbiedingen.",
+      "humanCheckbox": "Ik ben geen robot",
+      "privacyPolicy": "Ik accepteer het privacybeleid",
+      "submitButton": "Verzenden",
+      "termsWarning": "Accepteer het privacybeleid a.u.b.",
+      "robotWarning": "Vink a.u.b. het vakje 'Ik ben geen robot' aan",
+      "authWarning": "Voltooi de verificatie a.u.b.",
+      "clientMessageWarning": "Voer uw bericht in a.u.b.",
+      "submitError": "Er is een fout opgetreden bij het verzenden van het verzoek",
+      "submitSuccess": "Uw aanvraag is succesvol verzonden",
+      "authSuccess": "Succesvol geverifieerd met {method}",
+      "authIncomplete": "Verificatie niet voltooid",
+      "authError": "Verificatiefout met {method}",
+      "googleAuth": "Verifieer met Google",
+      "twitterAuth": "Verifieer met Twitter",
+      "yahooAuth": "Verifieer met Yahoo",
+      "facebookAuth": "Verifieer met Facebook"
+},
+
+  "offer": {
+    "altText": "Aanbieding",
+    "discountRate": "Kortingspercentage",
+    "downPayment": "Aanbetaling",
+    "installmentPeriod": "Termijnperiode",
+    "months": "Maanden",
+    "selectOfferButton": "Selecteer Aanbieding"
+  },
+  "thankYou": {
+    "title": "Bedankt dat u Reportage Türkiye heeft bereikt!",
+    "message": "Bedankt voor het contact met ons. Ons team zal zo spoedig mogelijk contact met u opnemen.",
+    "journey": "Uw succesvolle reis begint hier!",
+    "backToHome": "Terug naar Home",
+    "exploreprojeler": "Ontdek Onze Projecten"
+  },
+  "header": {
+    "title": "Creëer Samen Iets Geweldigs!",
+    "subtitle": "Bent u klaar om met ons samen te werken? Of het nu gaat om een gedurfd nieuw project of een creatieve uitdaging, we staan klaar om u te helpen het tot leven te brengen.",
+    "message": "Laat ons een bericht achter en laten we samen iets boeiends maken!"
+  },
+  "contactpage.header.title": "Neem Contact Op",
+  "contactpage.form.emailError": "Voer een geldig e-mailadres in.",
+  "contactpage.form.phoneInvalid": "Ongeldig telefoonnummer. Voer een geldig nummer in.",
+  "contactpage.form.emailInvalid": "Ongeldig e-mailadres. Voer een geldig e-mailadres in.",
+  "contactpage.header.subtitle": "We zijn hier om u te helpen",
+  "contactpage.header.message": "Aarzel niet om contact met ons op te nemen voor vragen of opmerkingen.",
+  "contactpage.header.termsOfUse": "Gebruiksvoorwaarden",
+  "contactpage.form.other": "Overige",
+  "contactpage.form.contactTitle": "Neem Contact Op",
+  "contactpage.form.name": "Naam",
+  "contactpage.form.namePlaceholder": "Voer uw naam in",
+  "contactpage.form.email": "E-mail",
+  "contactpage.form.emailPlaceholder": "Voer uw e-mailadres in",
+  "contactpage.form.phone": "Telefoonnummer",
+  "contactpage.form.phonePlaceholder": "Voer uw telefoonnummer in",
+  "contactpage.form.selectProject": "Selecteer Project",
+  "contactpage.form.selectProjectPlaceholder": "Selecteer een project",
+  "contactpage.form.afraPark": "Afra Park",
+  "contactpage.form.sylvanaIstanbul": "Sylvana Istanbul",
+  "contactpage.form.arabianranches": "Arabian Ranches",
+  "contactpage.form.unitType": "Eenheidstype",
+  "contactpage.form.selectUnitType": "Selecteer eenheidstype",
+  "contactpage.form.messageLabel": "Bericht",
+  "contactpage.form.messagePlaceholder": "Schrijf hier uw bericht...",
+  "contactpage.form.languagePreference": "Voorkeurstaal",
+  "contactpage.form.english": "Engels",
+  "contactpage.form.turkish": "Turks",
+  "contactpage.form.arabic": "Arabisch",
+  "contactpage.form.appointment": "Ik wil een afspraak maken",
+  "contactpage.form.appointmentLabel": "Kies Afspraak Datum en Tijd",
+  "contactpage.form.appointmentPlaceholder": "Selecteer datum en tijd",
+  "contactpage.form.marketingConsent": "Ik stem ermee in om communicatie over promoties, kortingen, aankondigingen en aanbiedingen te ontvangen.",
+  "contactpage.form.privacyPolicy": "Ik accepteer het privacybeleid",
+  "contactpage.form.privacyPolicyLink": "Privacybeleid",
+  "contactpage.form.privacyPolicyError": "U moet akkoord gaan met het privacybeleid.",
+  "contactpage.form.recaptcha": "Voltooi alstublieft de reCAPTCHA.",
+  "contactpage.form.recaptchaError": "Voltooi alstublieft de reCAPTCHA.",
+  "contactpage.form.languageError": "Selecteer ten minste één voorkeurstaal.",
+  "contactpage.form.phoneError": "Voer een geldig telefoonnummer in.",
+  "contactpage.form.noAppointment": "Geen afspraak gepland",
+  "contactpage.form.submit": "Verstuur",
+  "contactpage.form.submitError": "Er is een fout opgetreden bij het versturen van het formulier. Probeer het opnieuw.",
+
+  "contactpage.footer.completion": "Bedankt!",
+  "contactpage.footer.description": "Uw verzoek is ontvangen. We zullen binnenkort contact met u opnemen.",
+  "contactpage.footer.journey": "Begin uw reis met ons.",
+  "termsOfUse": {
+    "title": "Gebruiksvoorwaarden",
+    "introductionTitle": "Inleiding",
+    "introductionContent": "Door deze website te bezoeken en te gebruiken, accepteert u de voorwaarden die hierin zijn uiteengezet. Lees deze voorwaarden zorgvuldig door, aangezien uw toegang en gebruik van de site onderworpen zijn aan deze voorwaarden.",
+    "privacySummaryTitle": "Privacybeleid Samenvatting",
+    "privacySummaryContent": "De persoonlijke gegevens die we via onze website verzamelen, worden beschermd in overeenstemming met de Wet Bescherming Persoonsgegevens (Wet AVG)...",
+    "websiteUsageTitle": "Gebruik van de Website",
+    "websiteUsageContent": "U mag onze website alleen voor legale doeleinden gebruiken. De volgende acties zijn verboden:",
+    "websiteUsageList": {
+      "item1": "De toegang van andere gebruikers tot de site belemmeren of beschadigen",
+      "item2": "Pogingen om beveiligingsmaatregelen te omzeilen of de werking van de site te verstoren",
+      "item3": "Het verstrekken van misleidende of onjuiste informatie"
+    },
+    "websiteUsageContent2": "Door onze website te gebruiken, stemt u ermee in zich aan bovenstaande regels te houden...",
+    "dataUsageTitle": "Gebruik van Verzamelde Gegevens",
+    "dataUsageContent": "Uw persoonlijke gegevens kunnen voor de volgende doeleinden worden gebruikt:",
+    "dataUsageList": {
+      "item1": "Onze diensten verbeteren en de gebruikerservaring verbeteren",
+      "item2": "De veiligheid en prestaties van de site verbeteren",
+      "item3": "Onze commerciële activiteiten uitvoeren en u beter van dienst zijn"
+    },
+    "dataUsageContent2": "We hechten waarde aan de privacy van uw gegevens...",
+    "disclaimerTitle": "Vrijwaring",
+    "disclaimerContent": "De op onze website gepresenteerde informatie, aanbiedingen en prijzen kunnen op elk moment worden gewijzigd...",
+    "privacySecurityTitle": "Privacy en Gegevensbeveiliging",
+    "privacySecurityContent": "We nemen alle technische en administratieve maatregelen om de privacy en veiligheid van uw gegevens te waarborgen...",
+    "rightToChangeTitle": "Recht op Wijziging",
+    "rightToChangeContent": "De gebruiksvoorwaarden en het privacybeleid van onze website kunnen periodiek worden bijgewerkt om aan de geldende wet- en regelgeving te voldoen...",
+    "contactTitle": "Contact",
+    "contactContent": "Neem gerust contact met ons op voor vragen of feedback..."
+},
+
+  "privacy_policy": {
+    "title": "Privacybeleid",
+    "sections": [
+      {
+        "title": "Voorwoord",
+        "content": "In het kader van de Wet op de Bescherming van Persoonsgegevens hechten wij, REPORTAGE TURKEY VASTGOEDONTWIKKELING INVESTERING VERKOOP MARKETING HANDEL AANDELENVENNOOTSCHAP (hierna aangeduid als 'REPORTAGE' of 'het Bedrijf'), groot belang aan de bescherming van uw persoonlijke en/of bijzondere persoonsgegevens. Wij tonen uiterste zorgvuldigheid bij het bewaren van alle persoonlijke en/of bijzondere gegevens die ons via verschillende kanalen zijn verstrekt."
+      },
+      {
+        "title": "1. DEFINITIES",
+        "content": "Verantwoordelijke voor gegevensverwerking: Dit verwijst naar REPORTAGE TURKEY VASTGOEDONTWIKKELING INVESTERING VERKOOP MARKETING HANDEL AANDELENVENNOOTSCHAP, die de doeleinden en middelen voor de verwerking van persoonsgegevens vaststelt en verantwoordelijk is voor het opzetten en beheren van het gegevensregistratiesysteem.\n\nBetrokkene: De natuurlijke persoon wiens persoonsgegevens worden verwerkt.\n\nBedrijf: Dit verwijst naar REPORTAGE TURKEY VASTGOEDONTWIKKELING INVESTERING VERKOOP MARKETING HANDEL AANDELENVENNOOTSCHAP onder dit beleid.\n\nWet: De Wet Bescherming Persoonsgegevens nr. 6698.\n\nPersoonsgegevens: Alle informatie betreffende een geïdentificeerde of identificeerbare natuurlijke persoon.\n\nBijzondere Persoonsgegevens: Gegevens over iemands ras, etnische afkomst, politieke opvattingen, geloofsovertuiging, religie, kleding, lidmaatschappen, gezondheid, seksuele leven, strafblad, beveiligingsmaatregelen, biometrische en genetische gegevens.\n\nAutoriteit: De Autoriteit voor de Bescherming van Persoonsgegevens.\n\nBeleid: Dit 'Privacybeleid'.\n\nVerwerking van Persoonsgegevens: Elke handeling met betrekking tot persoonsgegevens, zoals het verkrijgen, opslaan, behouden, wijzigen, verstrekken, overdragen, blokkeren of vernietigen.\n\nToestemming: De vrijwillige en geïnformeerde toestemming van de betrokkene voor een bepaalde zaak.\n\nVerwijdering: Het permanent ontoegankelijk en onbruikbaar maken van persoonsgegevens.\n\nAnonimisering: Het permanent ontoegankelijk maken van persoonsgegevens zodat deze niet kunnen worden gekoppeld aan een identificeerbare persoon.\n\nVernietiging: Het verwijderen, vernietigen of anonimiseren van persoonsgegevens.\n\nGegevens: Persoonsgegevens en bijzondere persoonsgegevens."
+      },
+      {
+        "title": "2. DOEL VAN HET PRIVACYBELEID",
+        "content": "Het beschermen van persoonsgegevens en voldoen aan de wet is een van onze kernprincipes. REPORTAGE heeft altijd zorg gedragen voor de bescherming en vertrouwelijkheid van persoonsgegevens die wij verzamelen en delen deze niet met derden. Om aan de Wet Bescherming Persoonsgegevens (hierna 'Wet' of 'KVKK') te voldoen, hebben we onze interne regelgeving aangepast en technische en administratieve maatregelen genomen. Wij verbinden ons ertoe te blijven voldoen aan alle wettelijke verplichtingen."
+      },
+      {
+        "title": "3. TOEPASSINGSGEBIED VAN HET PRIVACYBELEID",
+        "content": "Dit Privacybeleid is opgesteld in overeenstemming met de Wet Bescherming Persoonsgegevens nr. 6698. Uw persoonsgegevens worden verwerkt op basis van uw toestemming of wettelijke grondslagen en worden gebruikt om:\n\n- De beveiliging te waarborgen,\n- U volledige service te bieden,\n- Onze bedrijfsactiviteiten te bevorderen,\n- Problemen snel op te lossen,\n- Onze kwaliteit te verbeteren.\n\nPersoonsgegevens worden in sommige gevallen geanonimiseerd volgens de voorschriften van de wet. Anonieme gegevens voor statistische doeleinden vallen buiten het toepassingsgebied van dit beleid. REPORTAGE behoudt zich het recht voor om dit beleid te wijzigen om te blijven voldoen aan de wetgeving inzake gegevensbescherming."
+      },
+      {
+        "title": "4. BASISPRINCIPES VOOR DE VERWERKING VAN PERSOONSGEGEVENS",
+        "content": "Onze basisprincipes voor de verwerking van persoonsgegevens zijn:\n\n- Rechtmatigheid: Wij verzamelen gegevens op een wijze die in overeenstemming is met de wet.\n\n- Eerlijkheid: Wij verkrijgen gegevens op een eerlijke en transparante wijze.\n\n- Doelbinding: Wij gebruiken gegevens uitsluitend voor het beoogde doel.\n\n- Juistheid: Wij streven ernaar dat de gegevens die wij verwerken correct zijn.\n\n- Tijdigheid: Gegevens worden indien nodig geactualiseerd.\n\n- Legitimate doeleinden: Wij verwerken gegevens voor duidelijke en legitieme doeleinden.\n\n- Opslagduur: Gegevens worden bewaard voor de tijd die wettelijk is toegestaan of die noodzakelijk is voor het doel waarvoor zij zijn verzameld."
+      },
+      {
+        "title": "5. VERWIJDEREN, VERNIEUWEN EN ANONIMISEREN VAN PERSOONSGEGEVENS",
+        "content": "Persoonsgegevens worden verwijderd, vernietigd of geanonimiseerd nadat de bewaarperiode is verstreken of indien het doel waarvoor ze zijn verzameld, is vervallen."
+      },
+      {
+        "title": "6. PRINCIPE VAN GEGEVENSBEHEER",
+        "content": "Dit principe, ook wel bekend als het principe van maximale besparing, houdt in dat wij alleen die gegevens verzamelen die strikt noodzakelijk zijn voor het doel. Gegevens die niet relevant zijn voor het doel, worden verwijderd of geanonimiseerd."
+      },
+      {
+        "title": "7. VERTROUWELIJKHEID EN VEILIGHEID VAN GEGEVENS",
+        "content": "Wij nemen maatregelen om de vertrouwelijkheid en veiligheid van persoonsgegevens te waarborgen, ongeacht de manier waarop deze zijn verkregen."
+      },
+      {
+        "title": "8. ACTUALITEIT VAN GEGEVENS",
+        "content": "Wij streven ernaar dat gegevens actueel zijn en nemen waar nodig maatregelen om updates uit te voeren."
+      },
+      {
+        "title": "9. JUISTHEID VAN GEGEVENS",
+        "content": "Wij verwerken gegevens op basis van de veronderstelling dat deze correct zijn."
+      },
+      {
+        "title": "10. DOELEN VAN DE VERWERKING VAN PERSOONSGEGEVENS",
+        "content": "Persoonsgegevens worden verwerkt volgens de doeleinden uiteengezet in onze verklaringen over gegevensverwerking."
+      },
+      {
+        "title": "11. GEGEVENSVERWERKING IN HET KADER VAN CONTRACTEN",
+        "content": "Indien er een contractuele relatie bestaat, kan REPORTAGE persoonsgegevens verwerken zonder uitdrukkelijke toestemming, binnen de wettelijke kaders."
+      },
+      {
+        "title": "12. GEGEVENSVERWERKING DOOR AUTOMATISCHE SYSTEMEN",
+        "content": "Persoonsgegevens verzameld via automatische systemen worden niet gebruikt om nadelige resultaten voor betrokkenen te veroorzaken."
+      },
+      {
+        "title": "13. GEGEVENS VAN WERKNEMERS",
+        "content": "Wij verwerken gegevens van werknemers binnen de wettelijke kaders om aan wettelijke verplichtingen te voldoen en hun welzijn en veiligheid te waarborgen."
+      },
+      {
+        "title": "14. OVERDRACHT VAN GEGEVENS BINNEN EN BUITEN TURKIJE",
+        "content": "REPORTAGE kan persoonsgegevens overdragen in overeenstemming met de Wet Bescherming Persoonsgegevens en met toestemming van de betrokkene, indien vereist."
+      },
+      {
+        "title": "15. TOEZICHT EN OPERATIONELE VEILIGHEID",
+        "content": "Wij treffen de nodige maatregelen om gegevens te beschermen en voeren regelmatige interne en externe controles uit."
+      },
+      {
+        "title": "16. MELDING VAN GEGEVENSLEKKEN",
+        "content": "In geval van een gegevenslek onderneemt REPORTAGE onmiddellijk actie en informeert de Autoriteit voor de Bescherming van Persoonsgegevens wanneer dit wettelijk verplicht is."
+      },
+      {
+        "title": "17. RECHTEN VAN DE BETROKKENE",
+        "content": "Betrokkenen hebben het recht om informatie op te vragen, hun gegevens te corrigeren, te verwijderen, en bezwaar te maken tegen verwerkingen die op hen nadelig kunnen zijn. Aanvragen van derden worden niet behandeld."
+      }
+    ]
+},
+
+  "project_architectural_designs": {
+    "title": "Project Architecturale Ontwerpen",
+    "subtitle": "Ontdek de indrukwekkende architecturale ontwerpen van de projecten Afra Park, Sylvana Istanbul en Arabian Ranches."
+  },
+  "filter_section": {
+    "title": "Project Architecturale Ontwerpen",
+    "subtitle": "Ontdek de indrukwekkende architecturale ontwerpen van de projecten Afra Park, Sylvana Istanbul en Arabian Ranches."
+  },
+  "filter": {
+    "interior_designs": "Interieurontwerpen",
+    "exterior_designs": "Exterieurontwerpen",
+    "all_designs": "Alle Ontwerpen"
+  },
+  "afra_park": {
+    "title": "Afra Park Istanbul Bahçeşehir"
+  },
+  "sylvana_istanbul": {
+    "title": "Sylvana Istanbul Bahçeşehir"
+  },
+  "arabian_ranches": {
+    "title": "Arabian Ranches"
+  },
+  "filter_hero_title": {
+    "title": "Welkom bij Onze Projecten",
+    "subtitle": "Ontdek perfectie en innovatie in architectonisch ontwerp."
+  },
+  "afra_title": {
+    "title": "Afra Project"
+  },
+  "sylvana_title": {
+    "title": "Sylvana Istanbul Project"
+  },
+  "arabian_title": {
+    "title": "Arabian Ranches Project"
+  },
+  "whatsappMessage": "Hallo, ik wil graag meer informatie over het project.",
+  "home": {
+    "title": "Vastgoed in Istanbul - Luxe Villa's in Bahçeşehir",
+    "description": "Ontdek luxe villa's en investeringsmogelijkheden in vastgoed op toplocaties zoals Sylvana Istanbul, Afra Park in Bahçeşehir en Arabian Ranches."
+  },
+  
+  "hero_description": "Vind uw droomvilla en verken investeringsmogelijkheden in prestigieuze gebieden van Istanbul zoals Sylvana Istanbul, Afra Park en Arabian Ranches."
+}
