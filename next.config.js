@@ -6,7 +6,7 @@ module.exports = {
   },
   reactStrictMode: true,
   images: {
-    domains: ['45.9.191.119'], // Add your Strapi server hostname here
+    domains: [''], // Add your Strapi server hostname here
   },
   webpack(config, { isServer }) {
     if (!isServer) {
