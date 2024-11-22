@@ -1,28 +1,11 @@
 import nodemailer from "nodemailer";
-import pool from "@/lib/dbConnect";
-import fetch from "node-fetch";
 
-// Validate environment variables
-const requiredEnvVars = [
-  'NEXT_PUBLIC_RECAPTCHA_SECRET_KEY',
-  'EMAIL_USER',
-  'EMAIL_PASS',
-  'RECEIVER_EMAIL'
-];
+let submissions = {}; // In-memory submission store
 
-requiredEnvVars.forEach((varName) => {
-  if (!process.env[varName]) {
-    throw new Error(`Missing environment variable: ${varName}`);
-  }
-});
-
-let submissions = {}; // In-memory submission store for demonstration
-
-// Default export handler function
 export default async function handler(req, res) {
   if (req.method !== "POST") {
     res.setHeader("Allow", ["POST"]);
-    return res.status(405).end(`Method ${req.method} Not Allowed`);
+    return res.status(405).json({ message: "Method not allowed" });
   }
 
   try {
@@ -36,7 +19,6 @@ export default async function handler(req, res) {
       appointmentDate,
       acceptMarketing,
       languages,
-      recaptchaToken,
       fingerprint,
     } = req.body;
 
@@ -45,47 +27,11 @@ export default async function handler(req, res) {
     }
 
     const today = new Date().toISOString().split("T")[0];
-
     if (submissions[fingerprint]?.date === today) {
       return res.status(400).json({ message: "You have already submitted the form today." });
     }
 
-    if (recaptchaToken) {
-      const secretKey = process.env.NEXT_PUBLIC_RECAPTCHA_SECRET_KEY;
-      const recaptchaUrl = "https://www.google.com/recaptcha/api/siteverify";
-      const verifyCaptchaResponse = await fetch(recaptchaUrl, {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: `secret=${secretKey}&response=${recaptchaToken}`,
-      });
-
-      const recaptchaResult = await verifyCaptchaResponse.json();
-      if (!recaptchaResult.success) {
-        return res.status(400).json({ message: "Failed reCAPTCHA validation" });
-      }
-    }
-
     submissions[fingerprint] = { date: today };
-
-    const query = `
-      INSERT INTO contact_requests (name, email, phone, project, unitType, message, appointmentDate, languages, acceptMarketing, fingerprint)
-      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-    `;
-    const values = [
-      name,
-      email,
-      phone,
-      project || null,
-      unitType || null,
-      message || null,
-      appointmentDate || null,
-      JSON.stringify(languages),
-      acceptMarketing ? 1 : 0,
-      fingerprint || null,
-    ];
-
-    const [result] = await pool.execute(query, values);
-    console.log("Contact request saved to MySQL successfully, ID:", result.insertId);
 
     const transporter = nodemailer.createTransport({
       service: "gmail",
@@ -100,25 +46,23 @@ export default async function handler(req, res) {
       to: process.env.RECEIVER_EMAIL,
       subject: `New Inquiry from ${name}`,
       text: `
-        You have received a new message from ${name}.
-        Phone: ${phone}
-        Project Interested In: ${project}
-        Preferred Unit Type: ${unitType}
-        Message: ${message}
-        Appointment: ${appointmentDate || "No appointment requested"}
-        Marketing Consent: ${acceptMarketing ? "Yes" : "No"}
-        Languages Selected: ${languages.join(", ")}
+You have received a new message from ${name}.
+Phone: ${phone}
+Project Interested In: ${project || "N/A"}
+Preferred Unit Type: ${unitType || "N/A"}
+Message: ${message || "No message provided"}
+Appointment: ${appointmentDate || "No appointment requested"}
+Marketing Consent: ${acceptMarketing ? "Yes" : "No"}
+Languages Selected: ${languages ? languages.join(", ") : "N/A"}
+Fingerprint: ${fingerprint || "N/A"}
       `,
     };
 
     await transporter.sendMail(mailOptions);
 
-    return res.status(200).json({ message: "Email sent and data saved successfully!" });
+    return res.status(200).json({ message: "Email sent successfully!" });
   } catch (error) {
-    console.error("Error in contact API:", error);
-    return res.status(500).json({
-      message: "Failed to process contact request",
-      error: error.message,
-    });
+    console.error("Error in API:", error);
+    return res.status(500).json({ message: "Failed to process contact request" });
   }
 }

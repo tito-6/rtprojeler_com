@@ -1,7 +1,7 @@
-"use client"; // Ensures it's treated as a client-side component
+// pages/bize-ulasin.js
+"use client";
 
 import { useEffect, useState, useRef } from "react";
-import { useTranslation } from "next-i18next";
 import FingerprintJS from "@fingerprintjs/fingerprintjs";
 import Lottie from "lottie-react";
 import PhoneInput from "react-phone-input-2";
@@ -10,6 +10,9 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import moment from "moment";
 import ReCAPTCHA from "react-google-recaptcha";
+import { FaSmile, FaCheckCircle } from "react-icons/fa";
+import { useTranslation } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { parsePhoneNumberFromString } from "libphonenumber-js"; // Importing from libphonenumber-js
 
 export default function Contact() {
@@ -32,7 +35,7 @@ export default function Contact() {
   });
   const [acceptMarketing, setAcceptMarketing] = useState(false);
 
-  // Extended warnings state to include email and phone warnings
+  // Extended warnings state to include email
   const [warnings, setWarnings] = useState({
     phone: "",
     email: "",
@@ -45,7 +48,7 @@ export default function Contact() {
   const recaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
   const recaptchaRef = useRef(null);
 
-  // Additional state for email validation
+  // Additional states for email validation
   const [isEmailValid, setIsEmailValid] = useState(false);
 
   useEffect(() => {
@@ -58,7 +61,6 @@ export default function Contact() {
         console.error("FingerprintJS error:", error);
       }
     };
-
     fetchFingerprint();
   }, []);
 
@@ -109,6 +111,13 @@ export default function Contact() {
     }));
   };
 
+  // Handler for ReCAPTCHA
+  const handleRecaptcha = (token) => {
+    setRecaptchaValue(token);
+    // After obtaining the token, proceed to submit the form
+    submitForm(token);
+  };
+
   // Function to validate phone number using libphonenumber-js
   const validatePhoneNumber = (value, countryCode) => {
     setPhone(value);
@@ -150,11 +159,10 @@ export default function Contact() {
       ...prevData,
       email: value,
     }));
-    const isValid = validateEmailFormat(value);
-    setIsEmailValid(isValid);
+    setIsEmailValid(validateEmailFormat(value));
 
     // Update warnings based on validation
-    if (isValid) {
+    if (validateEmailFormat(value)) {
       setWarnings((prevWarnings) => ({
         ...prevWarnings,
         email: "",
@@ -165,13 +173,6 @@ export default function Contact() {
         email: t("contactpage.form.emailInvalid"),
       }));
     }
-  };
-
-  // Handler for ReCAPTCHA
-  const handleRecaptcha = (token) => {
-    setRecaptchaValue(token);
-    // After obtaining the token, proceed to submit the form
-    submitForm(token);
   };
 
   // Handler for form submission
@@ -203,7 +204,7 @@ export default function Contact() {
     if (!isEmailValid) {
       setWarnings((prevWarnings) => ({
         ...prevWarnings,
-        email: t("contact.emailInvalid"),
+        email: t("contactpage.form.emailInvalid"),
       }));
       hasError = true;
     }
@@ -212,7 +213,7 @@ export default function Contact() {
     if (languages.length === 0) {
       setWarnings((prevWarnings) => ({
         ...prevWarnings,
-        language: t("contact.languageError"),
+        language: t("contactpage.form.languageError"),
       }));
       hasError = true;
     }
@@ -221,7 +222,7 @@ export default function Contact() {
     if (!formData.privacyPolicy) {
       setWarnings((prevWarnings) => ({
         ...prevWarnings,
-        privacyPolicy: t("contact.privacyPolicyError"),
+        privacyPolicy: t("contactpage.form.privacyPolicyError"),
       }));
       hasError = true;
     }
@@ -232,6 +233,7 @@ export default function Contact() {
     if (recaptchaRef.current) {
       recaptchaRef.current.execute();
     }
+    // Removed the "ReCAPTCHA not available." alert as per your request
   };
 
   // Function to handle form submission after ReCAPTCHA verification
@@ -239,7 +241,7 @@ export default function Contact() {
     if (!isPhoneValid || !isEmailValid) {
       setWarnings((prevWarnings) => ({
         ...prevWarnings,
-        formSubmit: t("contact.submitError"),
+        formSubmit: t("contactpage.form.submitError"),
       }));
       return;
     }
@@ -247,7 +249,7 @@ export default function Contact() {
     if (!token) {
       setWarnings((prevWarnings) => ({
         ...prevWarnings,
-        recaptcha: t("contact.recaptchaError"),
+        recaptcha: t("contactpage.form.recaptchaError"),
       }));
       return;
     }
@@ -255,7 +257,7 @@ export default function Contact() {
     if (languages.length === 0) {
       setWarnings((prevWarnings) => ({
         ...prevWarnings,
-        language: t("contact.languageError"),
+        language: t("contactpage.form.languageError"),
       }));
       return;
     }
@@ -263,14 +265,14 @@ export default function Contact() {
     if (!formData.privacyPolicy) {
       setWarnings((prevWarnings) => ({
         ...prevWarnings,
-        privacyPolicy: t("contact.privacyPolicyError"),
+        privacyPolicy: t("contactpage.form.privacyPolicyError"),
       }));
       return;
     }
 
     const appointmentFormatted = appointmentDate
       ? moment(appointmentDate).format("MMMM Do YYYY, h:mm a")
-      : t("contact.noAppointment");
+      : t("contactpage.form.noAppointment");
 
     const leadDetails = {
       name: formData.name,
@@ -287,7 +289,7 @@ export default function Contact() {
     };
 
     try {
-      const response = await fetch("/api/contact", {
+      const response = await fetch("/api/bize-ulasin", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(leadDetails),
@@ -299,21 +301,37 @@ export default function Contact() {
         const errorData = await response.json();
         setWarnings((prevWarnings) => ({
           ...prevWarnings,
-          formSubmit: errorData.message || t("contact.submitError"),
+          formSubmit: errorData.message || t("contactpage.form.submitError"),
         }));
       }
     } catch (error) {
       console.error("Form submission error:", error);
       setWarnings((prevWarnings) => ({
         ...prevWarnings,
-        formSubmit: t("contact.submitError"),
+        formSubmit: t("contactpage.form.submitError"),
       }));
     }
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-between">
-      <div className="container mx-auto py-12 flex flex-col justify-center items-center">
+    <div className="min-h-screen flex flex-col justify-between relative z-10">
+      {/* Header Section */}
+      <header
+        className="w-full h-[75vh] bg-cover bg-center flex flex-col justify-center items-center relative z-10"
+        style={{ backgroundImage: "url('/assets/images/contact-bottom-graphic.webp')" }}
+      >
+        <div className="bg-black bg-opacity-50 w-full h-full absolute top-0 left-0 z-0"></div>
+        <div className="z-10 relative text-center">
+          <h1 className="text-5xl font-bold text-white mb-4">
+            {t("contactpage.header.title")}
+          </h1>
+          <p className="text-lg text-gray-200">{t("contactpage.header.subtitle")}</p>
+          <p className="text-lg text-gray-200 mt-2">{t("contactpage.header.message")}</p>
+        </div>
+      </header>
+
+      {/* Contact Form Section */}
+      <div className="container mx-auto py-12 px-4 lg:px-0 flex flex-col justify-center items-center relative z-20">
         <div className="w-full max-w-3xl bg-white dark:bg-gray-700 p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out">
           <div className="w-full flex justify-center mb-6">
             {animationData ? (
@@ -330,51 +348,54 @@ export default function Contact() {
           </div>
 
           <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-200 mb-6 text-center">
-            {t("contact.title")}
+            {t("contactpage.form.contactTitle")}
           </h2>
 
           <form onSubmit={handleFormSubmit} className="relative">
-            {/* Name Field */}
-            <div className="mb-4">
-              <label
-                htmlFor="name"
-                className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300"
-              >
-                {t("contact.name")}
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                placeholder={t("contact.namePlaceholder")}
-                required
-                className="w-full p-2 border border-gray-300 rounded-md dark:bg-gray-600 dark:text-gray-300"
-              />
-            </div>
+            {/* Name and Email Fields */}
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+              {/* Name Field */}
+              <div className="mb-4">
+                <label
+                  htmlFor="name"
+                  className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300"
+                >
+                  {t("contactpage.form.name")}
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  placeholder={t("contactpage.form.namePlaceholder")}
+                  required
+                  className="w-full p-2 border border-gray-300 rounded-md dark:bg-gray-600 dark:text-gray-300"
+                />
+              </div>
 
-            {/* Email Field */}
-            <div className="mb-4">
-              <label
-                htmlFor="email"
-                className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300"
-              >
-                {t("contact.email")}
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                value={formData.email}
-                onChange={handleEmailChange} // Updated handler
-                placeholder={t("contact.emailPlaceholder")}
-                required
-                className="w-full p-2 border border-gray-300 rounded-md dark:bg-gray-600 dark:text-gray-300"
-              />
-              {warnings.email && (
-                <p className="text-red-500 text-sm mt-1">{warnings.email}</p>
-              )}
+              {/* Email Field */}
+              <div className="mb-4">
+                <label
+                  htmlFor="email"
+                  className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300"
+                >
+                  {t("contactpage.form.email")}
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleEmailChange} // Updated handler
+                  placeholder={t("contactpage.form.emailPlaceholder")}
+                  required
+                  className="w-full p-2 border border-gray-300 rounded-md dark:bg-gray-600 dark:text-gray-300"
+                />
+                {warnings.email && (
+                  <p className="text-red-500 text-sm mt-1">{warnings.email}</p>
+                )}
+              </div>
             </div>
 
             {/* Phone Field */}
@@ -383,17 +404,15 @@ export default function Contact() {
                 htmlFor="phone"
                 className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300"
               >
-                {t("contact.phone")}
+                {t("contactpage.form.phone")}
               </label>
               <PhoneInput
                 country={"tr"}
                 value={phone}
-                onChange={(value, country) =>
-                  validatePhoneNumber(value, country.countryCode)
-                } // Updated handler
+                onChange={(value, country) => validatePhoneNumber(value, country.countryCode)} // Updated handler
                 inputClass="w-full p-2 border border-gray-300 rounded-md dark:bg-gray-600 dark:text-gray-300"
                 enableSearch={true}
-                placeholder={t("contact.phonePlaceholder")}
+                placeholder={t("contactpage.form.phonePlaceholder")}
                 required
               />
               {warnings.phone && (
@@ -407,7 +426,7 @@ export default function Contact() {
                 htmlFor="project"
                 className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300"
               >
-                {t("contact.project")}
+                {t("contactpage.form.selectProject")}
               </label>
               <select
                 id="project"
@@ -417,13 +436,11 @@ export default function Contact() {
                 className="w-full p-2 border border-gray-300 rounded-md dark:bg-gray-600 dark:text-gray-300"
                 required
               >
-                <option value="">{t("contact.projectPlaceholder")}</option>
-                <option value="Afra Park">Afra Park</option>
-                <option value="Sylvana Istanbul">Sylvana Istanbul</option>
-                <option value="Arabian Ranches">
-                  {t("contact.arabianranches")}
-                </option>
-                <option value="Other">{t("contact.other")}</option>
+                <option value="">{t("contactpage.form.selectProjectPlaceholder")}</option>
+                <option value="Afra Park">{t("contactpage.form.afraPark")}</option>
+                <option value="Sylvana Istanbul">{t("contactpage.form.sylvanaIstanbul")}</option>
+                <option value="Arabian Ranches">{t("contactpage.form.arabianranches")}</option>
+                <option value="Other">{t("contactpage.form.other")}</option>
               </select>
             </div>
 
@@ -433,7 +450,7 @@ export default function Contact() {
                 htmlFor="unitType"
                 className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300"
               >
-                {t("contact.unitType")}
+                {t("contactpage.form.unitType")}
               </label>
               <select
                 id="unitType"
@@ -443,12 +460,12 @@ export default function Contact() {
                 className="w-full p-2 border border-gray-300 rounded-md dark:bg-gray-600 dark:text-gray-300"
                 required
               >
-                <option value="">{t("contact.unitTypePlaceholder")}</option>
+                <option value="">{t("contactpage.form.selectUnitType")}</option>
                 <option value="2+1">2+1</option>
                 <option value="3+1">3+1</option>
                 <option value="3.5+1">3.5+1</option>
                 <option value="4+1">4+1</option>
-                <option value="Other">{t("contact.other")}</option>
+                <option value="Other">{t("contactpage.form.other")}</option>
               </select>
             </div>
 
@@ -458,14 +475,14 @@ export default function Contact() {
                 htmlFor="message"
                 className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300"
               >
-                {t("contact.message")}
+                {t("contactpage.form.messageLabel")}
               </label>
               <textarea
                 id="message"
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
-                placeholder={t("contact.messagePlaceholder")}
+                placeholder={t("contactpage.form.messagePlaceholder")}
                 rows="5"
                 required
                 className="w-full p-2 border border-gray-300 rounded-md dark:bg-gray-600 dark:text-gray-300"
@@ -473,60 +490,50 @@ export default function Contact() {
             </div>
 
             {/* Language Preference */}
-<div className="mb-4">
-  <label className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300">
-    {t("contact.languageSelect")}
-  </label>
-  <div className="flex space-x-4">
-    {/* Turkish Language Button - First Option */}
-    <button
-      type="button"
-      onClick={() => handleLanguageChange("Turkish")}
-      className={`px-4 py-2 rounded-md ${
-        languages.includes("Turkish")
-          ? "bg-blue-600 text-white"
-          : "bg-gray-300 dark:bg-gray-500 text-gray-700 dark:text-gray-300"
-      }`}
-      aria-pressed={languages.includes("Turkish")}
-      aria-label={t("contact.turkish")}
-    >
-      🇹🇷 {t("contact.turkish")}
-    </button>
+            <div className="mb-4">
+              <label className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300">
+                {t("contactpage.form.languagePreference")}
+              </label>
+              <div className="flex space-x-4">
+                <button
+                  type="button"
+                  onClick={() => handleLanguageChange("English")}
+                  className={`px-3 py-2 rounded-md ${
+                    languages.includes("English")
+                      ? "bg-blue-600 text-white"
+                      : "bg-gray-300 dark:bg-gray-500 text-gray-700 dark:text-gray-300"
+                  }`}
+                >
+                  🇬🇧 {t("contactpage.form.english")}
+                </button>
+                <button
+                  type="button"
+                  onClick={() => handleLanguageChange("Turkish")}
+                  className={`px-3 py-2 rounded-md ${
+                    languages.includes("Turkish")
+                      ? "bg-blue-600 text-white"
+                      : "bg-gray-300 dark:bg-gray-500 text-gray-700 dark:text-gray-300"
+                  }`}
+                >
+                  🇹🇷 {t("contactpage.form.turkish")}
+                </button>
+                <button
+                  type="button"
+                  onClick={() => handleLanguageChange("Arabic")}
+                  className={`px-3 py-2 rounded-md ${
+                    languages.includes("Arabic")
+                      ? "bg-blue-600 text-white"
+                      : "bg-gray-300 dark:bg-gray-500 text-gray-700 dark:text-gray-300"
+                  }`}
+                >
+                  🇦🇪 {t("contactpage.form.arabic")}
+                </button>
+              </div>
+              {warnings.language && (
+                <p className="text-red-500 text-sm mt-1">{warnings.language}</p>
+              )}
+            </div>
 
-    {/* English Language Button */}
-    <button
-      type="button"
-      onClick={() => handleLanguageChange("English")}
-      className={`px-4 py-2 rounded-md ${
-        languages.includes("English")
-          ? "bg-blue-600 text-white"
-          : "bg-gray-300 dark:bg-gray-500 text-gray-700 dark:text-gray-300"
-      }`}
-      aria-pressed={languages.includes("English")}
-      aria-label={t("contact.english")}
-    >
-      🇬🇧 {t("contact.english")}
-    </button>
-
-    {/* Arabic Language Button with Palestine Flag */}
-    <button
-      type="button"
-      onClick={() => handleLanguageChange("Arabic")}
-      className={`px-4 py-2 rounded-md ${
-        languages.includes("Arabic")
-          ? "bg-blue-600 text-white"
-          : "bg-gray-300 dark:bg-gray-500 text-gray-700 dark:text-gray-300"
-      }`}
-      aria-pressed={languages.includes("Arabic")}
-      aria-label={t("contact.arabic")}
-    >
-      🇵🇸 {t("contact.arabic")}
-    </button>
-  </div>
-  {warnings.language && (
-    <p className="text-red-500 text-sm mt-1">{warnings.language}</p>
-  )}
-</div>
             {/* Appointment Checkbox */}
             <div className="mb-4">
               <label className="inline-flex items-center">
@@ -538,19 +545,19 @@ export default function Contact() {
                   className="form-checkbox h-5 w-5 text-blue-600"
                 />
                 <span className="ml-2 text-gray-700 dark:text-gray-300">
-                  {t("contact.appointment")}
+                  {t("contactpage.form.appointment")}
                 </span>
               </label>
             </div>
 
             {/* Appointment Date Picker */}
             {isBooking && (
-              <div className="mb-4">
+              <div className="mb-4 relative z-20">
                 <label
                   htmlFor="appointment"
                   className="block mb-2 text-lg font-semibold text-gray-700 dark:text-gray-300"
                 >
-                  {t("contact.appointmentDate")}
+                  {t("contactpage.form.appointmentLabel")}
                 </label>
                 <DatePicker
                   selected={appointmentDate}
@@ -560,11 +567,18 @@ export default function Contact() {
                   timeIntervals={60}
                   minDate={new Date()}
                   maxDate={moment().add(2, "months").toDate()}
-                  minTime={moment().set("hour", 9).set("minute", 0).toDate()}
+                  minTime={
+                    appointmentDate &&
+                    moment(appointmentDate).isSame(moment(), "day")
+                      ? moment().isAfter(moment().set("hour", 9).set("minute", 0))
+                        ? moment().toDate()
+                        : moment().set("hour", 9).set("minute", 0).toDate()
+                      : moment().set("hour", 9).set("minute", 0).toDate()
+                  }
                   maxTime={moment().set("hour", 20).set("minute", 0).toDate()}
                   dateFormat="MMMM d, yyyy h:mm aa"
                   className="w-full p-2 border border-gray-300 rounded-md dark:bg-gray-600 dark:text-gray-300"
-                  placeholderText={t("contact.selectDate")}
+                  placeholderText={t("contactpage.form.appointmentPlaceholder")}
                   required
                 />
                 {appointmentDate && (
@@ -585,11 +599,18 @@ export default function Contact() {
                   className="form-checkbox h-5 w-5 text-blue-600"
                 />
                 <span className="ml-2 text-gray-700 dark:text-gray-300">
-                  {t("contact.acceptMarketing")}
+                  {t("contactpage.form.marketingConsent")}{" "}
+                  <a
+                    href="/kullanim-sartlari"
+                    className="text-blue-500 underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {t("termsOfUse.title")}
+                  </a>
                 </span>
               </label>
             </div>
-
             {/* Privacy Policy Checkbox */}
             <div className="mb-4">
               <label className="inline-flex items-center">
@@ -602,16 +623,21 @@ export default function Contact() {
                   required
                 />
                 <span className="ml-2 text-gray-700 dark:text-gray-300">
-                  {t("contact.privacyPolicy")}
+                  {t("contactpage.form.privacyPolicy")}{" "}
+                  <a
+                    href="/gizlilik-politikasi"
+                    className="text-blue-500 underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {t("mainLayout.privacyPolicy")}
+                  </a>
                 </span>
               </label>
               {warnings.privacyPolicy && (
-                <p className="text-red-500 text-sm mt-1">
-                  {warnings.privacyPolicy}
-                </p>
+                <p className="text-red-500 text-sm mt-1">{warnings.privacyPolicy}</p>
               )}
             </div>
-
             {/* Invisible ReCAPTCHA */}
             {recaptchaSiteKey && (
               <div className="hidden">
@@ -623,6 +649,7 @@ export default function Contact() {
                 />
               </div>
             )}
+            {/* ReCAPTCHA Warning */}
             {warnings.recaptcha && (
               <p className="text-red-500 text-sm mt-1">{warnings.recaptcha}</p>
             )}
@@ -637,11 +664,40 @@ export default function Contact() {
               type="submit"
               className="w-full bg-blue-600 text-white py-3 px-6 rounded-md hover:bg-blue-500 transition duration-300"
             >
-              {t("contact.submit")}
+              {t("contactpage.form.submit")}
             </button>
           </form>
+        </div>
+      </div>
+
+      {/* Footer Section */}
+      <div
+        className="relative w-full h-96 bg-cover bg-center flex flex-col justify-center items-center z-10"
+        style={{
+          backgroundImage: "url('/assets/images/contact-bottom-graphic.webp')",
+        }}
+      >
+        <div className="absolute inset-0 bg-black bg-opacity-60 z-20"></div>
+
+        <div className="relative z-30 flex flex-col items-center p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out">
+          <FaSmile className="text-yellow-300 text-4xl mb-4" />
+          <h2 className="text-3xl font-bold text-white mb-2">
+            {t("contactpage.footer.completion")}
+          </h2>
+          <p className="text-lg text-gray-200 text-center mb-4">
+            {t("contactpage.footer.description")}
+          </p>
+          <FaCheckCircle className="text-green-400 text-4xl mb-2" />
+          <p className="text-white italic">{t("contactpage.footer.journey")}</p>
         </div>
       </div>
     </div>
   );
 }
+
+// Server-side translations for i18next
+export const getStaticProps = async ({ locale }) => ({
+  props: {
+    ...(await serverSideTranslations(locale, ["common"])),
+  },
+});

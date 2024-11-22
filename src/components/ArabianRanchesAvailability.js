@@ -1,156 +1,99 @@
-"use client";
-
-import React, { useEffect, useState } from "react";
+// src/components/ArabianRanchesAvailability.jsx
+import React from "react";
 import ReactApexChart from "react-apexcharts";
-import { useTranslation } from "next-i18next";
-import axios from "axios";
 
-const ArabianRanchesAvailability = () => {
-  const { t } = useTranslation("common");
+class ArabianRanchesAvailability extends React.Component {
+  constructor(props) {
+    super(props);
 
-  const [data, setData] = useState({
-    totalUnits: 0,
-    soldUnits: 0,
-    availableUnits: 0,
-  });
-  const [series, setSeries] = useState([0, 0, 0]);
+    // Set total units and breakdown for the project
+    const totalUnits = 452; // Total units: 80 Townhouses + 372 Apartments
+    const soldUnits = 0; // Placeholder for sold units, update as needed
+    const availableUnits = totalUnits - soldUnits;
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.get(
-          `${process.env.NEXT_PUBLIC_API_URL}/api/arabian-ranches-availabilities`
-        );
-
-        console.log("Fetched Data:", response.data);
-
-        if (response?.data?.data?.length > 0) {
-          // Access the first element in the data array directly
-          const fetchedData = response.data.data[0];
-
-          if (
-            fetchedData &&
-            typeof fetchedData.totalUnits === "number" &&
-            typeof fetchedData.soldUnits === "number"
-          ) {
-            const availableUnits = fetchedData.totalUnits - fetchedData.soldUnits;
-
-            // Update the state with fetched data
-            setData({
-              totalUnits: fetchedData.totalUnits,
-              soldUnits: fetchedData.soldUnits,
-              availableUnits,
-            });
-
-            // Set the series to update the chart
-            setSeries([
-              fetchedData.totalUnits, // Total Units
-              fetchedData.soldUnits, // Sold Units
-              availableUnits, // Available Units
-            ]);
-          } else {
-            console.error("Attributes missing or invalid in fetchedData:", fetchedData);
-          }
-        } else {
-          console.error("Unexpected response structure or no data available");
-        }
-      } catch (error) {
-        console.error("Error fetching availability data from Strapi:", error);
-      }
-    };
-
-    fetchData();
-  }, []);
-
-  const options = {
-    chart: {
-      height: 390,
-      type: "radialBar",
-    },
-    plotOptions: {
-      radialBar: {
-        offsetY: 0,
-        startAngle: 0,
-        endAngle: 270,
-        hollow: {
-          margin: 5,
-          size: "30%",
-          background: "transparent",
+    this.state = {
+      series: [
+        (totalUnits / totalUnits) * 100,
+        (soldUnits / totalUnits) * 100,
+        (availableUnits / totalUnits) * 100,
+      ], // Percentages: Total, Sold, Available
+      options: {
+        chart: {
+          height: 390,
+          type: "radialBar",
         },
-        dataLabels: {
-          name: {
-            show: false,
-          },
-          value: {
-            show: true,
-            formatter: function (val) {
-              return Math.round(val);
+        plotOptions: {
+          radialBar: {
+            offsetY: 0,
+            startAngle: 0,
+            endAngle: 270,
+            hollow: {
+              margin: 5,
+              size: "30%",
+              background: "transparent",
+            },
+            dataLabels: {
+              name: {
+                show: false,
+              },
+              value: {
+                show: false,
+              },
+            },
+            barLabels: {
+              enabled: true,
+              useSeriesColors: true,
+              offsetX: -8,
+              fontSize: "16px",
+              formatter: function (seriesName, opts) {
+                const rawValues = [
+                  `Total: ${totalUnits}`,
+                  `Sold: ${soldUnits}`,
+                  `Available: ${availableUnits}`,
+                ];
+                if (seriesName === "Total Units") {
+                  return `${seriesName}: ${rawValues[opts.seriesIndex]}`; // No percentage for total
+                }
+                const percentage =
+                  opts.w.globals.series[opts.seriesIndex].toFixed(2); // Show fractional percentage
+                return `${seriesName}: ${percentage}% (${rawValues[opts.seriesIndex]})`; // Display percentage and raw values with percentage symbol
+              },
             },
           },
         },
-      },
-    },
-    colors: ["#1ab7ea", "#FF4560", "#00E396"],
-    labels: [
-      t("ArabianRanchesAvailability.totalUnits"),
-      t("ArabianRanchesAvailability.soldOutUnits"),
-      t("ArabianRanchesAvailability.availableUnits"),
-    ],
-    legend: {
-      show: true,
-      position: "left",
-      horizontalAlign: "center",
-      floating: false,
-      fontSize: "16px",
-      markers: {
-        width: 12,
-        height: 12,
-        radius: 12,
-      },
-      labels: {
-        colors: ["#1ab7ea", "#FF4560", "#00E396"],
-        useSeriesColors: true,
-      },
-      formatter: (seriesName, opts) => {
-        const values = [
-          data.totalUnits,
-          data.soldUnits,
-          data.availableUnits,
-        ];
-        return `${seriesName}: ${values[opts.seriesIndex]}`;
-      },
-    },
-    responsive: [
-      {
-        breakpoint: 480,
-        options: {
-          legend: {
-            show: true,
-            position: "bottom",
+        colors: ["#1ab7ea", "#FF4560", "#00E396"], // Blue, red, green for Total, Sold, Available
+        labels: ["Total Units", "Sold Out Units", "Available Units"], // Custom labels
+        responsive: [
+          {
+            breakpoint: 480,
+            options: {
+              legend: {
+                show: false,
+              },
+            },
           },
-          chart: {
-            height: 300,
-          },
-        },
+        ],
       },
-    ],
-  };
+    };
+  }
 
-  return (
-    <div className="p-6 dark:bg-gray-900 bg-white rounded-lg shadow-md">
-      <h2 className="text-center text-3xl font-bold mb-6 dark:text-white text-gray-900">
-        {t("ArabianRanchesAvailability.title")}
-      </h2>
-      <div id="chart">
-        <ReactApexChart
-          options={options}
-          series={series}
-          type="radialBar"
-          height={390}
-        />
+  render() {
+    return (
+      <div className="p-6 dark:bg-gray-900 bg-white rounded-lg shadow-md">
+        <h2 className="text-center text-3xl font-bold mb-6 dark:text-white text-gray-900">
+          Arabian Ranches Availability
+        </h2>
+        <div id="chart">
+          <ReactApexChart
+            options={this.state.options}
+            series={this.state.series}
+            type="radialBar"
+            height={390}
+          />
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default ArabianRanchesAvailability;

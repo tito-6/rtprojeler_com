@@ -1,6 +1,8 @@
+// src/components/OfferRequestForm.js
+
 "use client"; // Ensures it's treated as a client-side component
 
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { useRouter } from "next/router";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
@@ -17,7 +19,6 @@ import Link from "next/link";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { parsePhoneNumberFromString } from "libphonenumber-js"; // Importing from libphonenumber-js
-import ReCAPTCHA from "react-google-recaptcha";
 
 export default function OfferRequestForm({ selectedOffer }) {
   const { t } = useTranslation("common");
@@ -48,9 +49,6 @@ export default function OfferRequestForm({ selectedOffer }) {
   });
 
   const [isHumanCheckboxChecked, setIsHumanCheckboxChecked] = useState(false);
-
-  const recaptchaRef = useRef(null);
-  const recaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
 
   // Email validation using regex
   const validateEmail = (email) => {
@@ -141,8 +139,7 @@ export default function OfferRequestForm({ selectedOffer }) {
     event.preventDefault();
 
     // Reset form submission warnings
-    setWarnings((prevWarnings) => ({
-      ...prevWarnings,
+    setWarnings({
       privacyPolicy: "",
       robot: "",
       auth: "",
@@ -150,7 +147,7 @@ export default function OfferRequestForm({ selectedOffer }) {
       email: "",
       phone: "",
       formSubmit: "",
-    }));
+    });
 
     let hasError = false;
 
@@ -210,31 +207,14 @@ export default function OfferRequestForm({ selectedOffer }) {
 
     if (hasError) return;
 
-    // Proceed with ReCAPTCHA verification
-    if (recaptchaRef.current) {
-      recaptchaRef.current.execute();
-    }
-  };
-
-  // Function to handle form submission after ReCAPTCHA verification
-  const submitForm = async (token) => {
-    // Additional validation before submission
-    if (!validateEmail(formData.email) || !validatePhone(formData.phone)) {
-      setWarnings((prevWarnings) => ({
-        ...prevWarnings,
-        formSubmit: t("offerRequest.submitError"),
-      }));
-      return;
-    }
-
+    // Prepare data for submission
     const leadDetails = {
       name: formData.name,
       email: formData.email,
       phone: `+${formData.phone}`,
       marketingMessages: formData.marketingMessages,
-      offerDetails: selectedOffer,
+      offerDetails: selectedOffer, // Include selected offer details
       clientMessage: formData.clientMessage,
-      recaptchaToken: token,
       authMethod,
     };
 
@@ -435,19 +415,6 @@ export default function OfferRequestForm({ selectedOffer }) {
         )}
         {warnings.auth && <p className="text-red-500 text-sm mt-2">{warnings.auth}</p>}
 
-        {/* ReCAPTCHA */}
-        {recaptchaSiteKey && (
-          <div className="hidden">
-            <ReCAPTCHA
-              sitekey={recaptchaSiteKey}
-              onChange={submitForm}
-              size="invisible"
-              ref={recaptchaRef}
-            />
-          </div>
-        )}
-        {warnings.formSubmit && <p className="text-red-500 text-sm mb-4">{warnings.formSubmit}</p>}
-
         {/* Submit Button */}
         <button
           type="submit"
@@ -455,6 +422,9 @@ export default function OfferRequestForm({ selectedOffer }) {
         >
           {t("offerRequest.submitButton")}
         </button>
+
+        {/* Form Submission Warning */}
+        {warnings.formSubmit && <p className="text-red-500 text-sm mb-4">{warnings.formSubmit}</p>}
       </form>
     </div>
   );

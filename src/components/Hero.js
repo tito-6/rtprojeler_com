@@ -8,6 +8,18 @@ const Hero = () => {
 
   return (
     <>
+    {/* Video Section */}
+    <section className="relative w-full h-screen bg-black" aria-labelledby="video-section">
+        <iframe
+          className="absolute top-0 left-0 w-full h-full object-cover"
+          src="https://www.youtube.com/embed/SkN3VUhMKL4?autoplay=1&mute=1&loop=1&controls=0&modestbranding=1&rel=0&playlist=SkN3VUhMKL4"
+          frameBorder="0"
+          allow="autoplay; encrypted-media"
+          allowFullScreen
+        ></iframe>
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      </section>
       {/* SEO-optimized meta tags */}
       <Head>
         <title>{t('hero.title')}</title>

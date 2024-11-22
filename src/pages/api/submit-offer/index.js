@@ -1,95 +1,99 @@
-// src/pages/api/submit-offer/index.js
-import pool from "@/lib/dbConnect";
+// /pages/api/submit-offer/index.js
+
 import nodemailer from "nodemailer";
-import fetch from "node-fetch";
+
+// Ensure the API can parse JSON
+export const config = {
+  api: {
+    bodyParser: true,
+  },
+};
 
 export default async function handler(req, res) {
-  if (req.method !== "POST") {
-    return res.status(405).json({ message: "Method not allowed" });
-  }
-
-  try {
-    // Extract data from req.body
-    const {
-      name,
-      email,
-      phone,
-      marketingMessages,
-      fingerprint,
-      clientMessage,
-    } = req.body;
-
-    // Adjust the INSERT statement to remove clientMessage
-    const query = `
-      INSERT INTO leads (name, email, phone, fingerprint)
-      VALUES (?, ?, ?, ?)
-    `;
-    const values = [
-      name || null,
-      email || null,
-      phone || null,
-      fingerprint || null,
-    ];
-
-    const [result] = await pool.execute(query, values);
-    console.log("Lead saved to MySQL successfully, ID:", result.insertId);
-
-    // Send lead to Strapi CMS
-    const strapiPayload = {
-      data: {
+  if (req.method === "POST") {
+    try {
+      const {
         name,
         email,
         phone,
-        acceptMarketing: marketingMessages,
-        fingerprint,
-      },
-    };
+        marketingMessages,
+        offerDetails,
+        clientMessage,
+        appointmentDate, // If applicable
+        recaptchaToken,
+        authMethod,
+      } = req.body;
 
-    console.log("Sending data to Strapi:", strapiPayload);
+      // Validate required fields
+      if (!name || !email || !phone || !clientMessage) {
+        return res.status(400).json({
+          message: "Name, email, phone, and client message are required fields.",
+        });
+      }
 
-    const strapiResponse = await fetch(`${process.env.STRAPI_API_URL}/api/leads`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "Authorization": `Bearer ${process.env.STRAPI_API_TOKEN}`,
-      },
-      body: JSON.stringify(strapiPayload),
-    });
+      // Optional: Verify reCAPTCHA if token is provided
+      if (recaptchaToken) {
+        const secretKey = process.env.RECAPTCHA_SECRET_KEY;
+        const recaptchaUrl = `https://www.google.com/recaptcha/api/siteverify`;
+        const params = new URLSearchParams();
+        params.append("secret", secretKey);
+        params.append("response", recaptchaToken);
 
-    const strapiResult = await strapiResponse.json();
+        const verifyCaptchaResponse = await fetch(recaptchaUrl, {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: params.toString(),
+        });
 
-    if (!strapiResponse.ok) {
-      console.error("Failed to send lead to Strapi:", strapiResult);
-    } else {
-      console.log("Lead created in Strapi successfully");
-    }
+        const recaptchaResult = await verifyCaptchaResponse.json();
+        if (!recaptchaResult.success) {
+          console.warn("reCAPTCHA validation failed:", recaptchaResult);
+          // Proceed without blocking submission, but log the failed verification
+        }
+      }
 
-    // Send email notification using nodemailer
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
-      },
-    });
+      // Set up Nodemailer for email transport
+      const transporter = nodemailer.createTransport({
+        service: "gmail",
+        auth: {
+          user: process.env.EMAIL_USER, // Your Gmail address
+          pass: process.env.EMAIL_PASS, // Your Gmail password or App Password
+        },
+      });
 
-    await transporter.sendMail({
-      from: process.env.EMAIL_USER,
-      to: process.env.RECEIVER_EMAIL,
-      subject: `New Offer Request from ${name}`,
-      text: `Name: ${name}
+      // Email options to send to multiple recipients
+      const mailOptions = {
+        from: process.env.EMAIL_USER,
+        to: `${process.env.RECEIVER_EMAIL}, reportage.turkiye.elgi@gmail.com`, // Add more recipients as needed
+        subject: `New Offer Request from ${name}`,
+        text: `
+You have received a new offer request from ${name}.
+
 Email: ${email}
 Phone: ${phone}
+Offer Details: ${offerDetails || "Not specified"}
 Marketing Messages: ${marketingMessages ? "Yes" : "No"}
-Client Message: ${clientMessage || "No message provided"}
-Fingerprint: ${fingerprint}`,
-    });
+Client Message: ${clientMessage}
+Appointment Date: ${appointmentDate ? appointmentDate : "No appointment requested"}
+Authentication Method: ${authMethod || "N/A"}
+Recaptcha Token: ${recaptchaToken || "N/A"}
+        `,
+      };
 
-    return res.status(200).json({ message: "Offer submitted successfully." });
-  } catch (error) {
-    console.error("Error in submit-offer API:", error);
-    return res.status(500).json({
-      message: `Failed to process offer request: ${error.message}`,
-    });
+      // Send the email using Nodemailer
+      const info = await transporter.sendMail(mailOptions);
+      console.log("Email sent:", info.messageId);
+
+      return res.status(200).json({ message: "Offer submitted successfully!" });
+    } catch (error) {
+      console.error("Error in submit-offer API:", error);
+      return res.status(500).json({
+        message: "Failed to process offer request",
+        error: error.message,
+      });
+    }
+  } else {
+    res.setHeader("Allow", ["POST"]);
+    res.status(405).end(`Method ${req.method} Not Allowed`);
   }
 }

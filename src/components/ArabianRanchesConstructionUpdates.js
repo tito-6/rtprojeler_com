@@ -1,66 +1,22 @@
 "use client";
 
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import dynamic from "next/dynamic";
 import { useTranslation } from "next-i18next";
-import axios from "axios";
 
 const ReactApexChart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
 const ArabianRanchesConstructionUpdates = () => {
   const { t } = useTranslation("common");
 
+  // Static progress percentage
+  const staticProgressPercentage = 0; // Set progress to 0%
   const projelertartDate = useMemo(() => new Date("2024-11-01").getTime(), []);
-  const projectEndDate = useMemo(() => new Date("2026-12-31").getTime(), []);
-  const totalMonths = 24;
-
-  const [radialChartData, setRadialChartData] = useState([0]);
-  const [realTimeChartData, setRealTimeChartData] = useState([
+  const [radialChartData] = useState([staticProgressPercentage]); // Static radial chart data
+  const [realTimeChartData] = useState([
     { x: projelertartDate, y: 0 },
+    { x: Date.now(), y: staticProgressPercentage }, // Static progress point
   ]);
-
-  // Fetch construction progress data from Strapi
-  useEffect(() => {
-    const fetchConstructionProgress = async () => {
-      try {
-        const response = await axios.get(
-          `${process.env.NEXT_PUBLIC_API_URL}/api/arabian-ranches-construction-updates`
-        );
-
-        if (response?.data?.data?.length > 0) {
-          const fetchedData = response.data.data[0];
-
-          if (fetchedData && typeof fetchedData.progressPercentage === "number") {
-            const progressPercentage = fetchedData.progressPercentage;
-
-            // Update the chart data with fetched progress percentage
-            setRadialChartData([progressPercentage]);
-
-            // Update real-time chart data
-            const now = Date.now();
-            setRealTimeChartData((prevData) => [
-              ...prevData,
-              { x: now, y: progressPercentage },
-            ]);
-          } else {
-            console.error("Attributes missing or invalid in fetchedData:", fetchedData);
-          }
-        } else {
-          console.error("Unexpected response structure or no data available");
-        }
-      } catch (error) {
-        console.error("Error fetching construction progress data from Strapi:", error);
-      }
-    };
-
-    // Set interval to fetch data every few seconds
-    const interval = setInterval(() => {
-      fetchConstructionProgress();
-    }, 3000);
-
-    // Clear interval on unmount
-    return () => clearInterval(interval);
-  }, []);
 
   const radialOptions = useMemo(
     () => ({

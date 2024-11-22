@@ -1,66 +1,25 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import ReactApexChart from "react-apexcharts";
 import { useTranslation } from "next-i18next";
-import axios from "axios";
 
 const AfraAvailability = () => {
   const { t } = useTranslation("common");
 
-  const [data, setData] = useState({
-    totalUnits: 0,
-    soldUnits: 0,
-    availableUnits: 0,
-  });
-  const [series, setSeries] = useState([0, 0, 0]);
+  // Static data values - Update these values directly as needed
+  const data = {
+    totalUnits: 177,      // Example: 100 total units
+    soldUnits: 30,        // Example: 30 units sold
+    availableUnits: 70,   // Calculated as totalUnits - soldUnits
+  };
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.get(
-          `${process.env.NEXT_PUBLIC_API_URL}/api/afra-availabilities`
-        );
-
-        console.log("Fetched Data:", response.data);
-
-        if (response?.data?.data?.length > 0) {
-          // Access the first element in the data array directly
-          const fetchedData = response.data.data[0];
-
-          if (
-            fetchedData &&
-            typeof fetchedData.totalUnits === "number" &&
-            typeof fetchedData.soldUnits === "number"
-          ) {
-            const availableUnits = fetchedData.totalUnits - fetchedData.soldUnits;
-
-            // Update the state with fetched data
-            setData({
-              totalUnits: fetchedData.totalUnits,
-              soldUnits: fetchedData.soldUnits,
-              availableUnits,
-            });
-
-            // Set the series to update the chart
-            setSeries([
-              fetchedData.totalUnits, // Total Units
-              fetchedData.soldUnits, // Sold Units
-              availableUnits, // Available Units
-            ]);
-          } else {
-            console.error("Attributes missing or invalid in fetchedData:", fetchedData);
-          }
-        } else {
-          console.error("Unexpected response structure or no data available");
-        }
-      } catch (error) {
-        console.error("Error fetching availability data from Strapi:", error);
-      }
-    };
-
-    fetchData();
-  }, []);
+  // Series corresponding to data
+  const series = [
+    data.totalUnits,      // Total Units
+    data.soldUnits,       // Sold Units
+    data.availableUnits,  // Available Units
+  ];
 
   const options = {
     chart: {
