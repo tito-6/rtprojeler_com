@@ -1,4 +1,3 @@
-// pages/bize-ulasin.js
 "use client";
 
 import { useEffect, useState, useRef } from "react";
@@ -13,7 +12,14 @@ import ReCAPTCHA from "react-google-recaptcha";
 import { FaSmile, FaCheckCircle } from "react-icons/fa";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import { parsePhoneNumberFromString } from "libphonenumber-js"; // Importing from libphonenumber-js
+import { parsePhoneNumberFromString } from "libphonenumber-js";
+
+// Helper function to read cookies (for fbc and fbp)
+const getCookie = (name) => {
+  if (typeof document === "undefined") return null;
+  const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+  return match ? match[2] : null;
+};
 
 export default function Contact() {
   const { t } = useTranslation("common");
@@ -35,7 +41,7 @@ export default function Contact() {
   });
   const [acceptMarketing, setAcceptMarketing] = useState(false);
 
-  // Extended warnings state to include email
+  // Warnings state for form validation errors
   const [warnings, setWarnings] = useState({
     phone: "",
     email: "",
@@ -47,10 +53,9 @@ export default function Contact() {
 
   const recaptchaSiteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
   const recaptchaRef = useRef(null);
-
-  // Additional states for email validation
   const [isEmailValid, setIsEmailValid] = useState(false);
 
+  // Load FingerprintJS for visitor ID
   useEffect(() => {
     const fetchFingerprint = async () => {
       try {
@@ -64,6 +69,7 @@ export default function Contact() {
     fetchFingerprint();
   }, []);
 
+  // Load Lottie animation data
   useEffect(() => {
     const fetchAnimation = async () => {
       try {
@@ -77,109 +83,78 @@ export default function Contact() {
     fetchAnimation();
   }, []);
 
-  // Handler for input changes
+  // Handle input changes
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
     setFormData((prevData) => ({
       ...prevData,
       [name]: type === "checkbox" ? checked : value,
     }));
-
     if (name === "appointment") {
       setIsBooking(checked);
     }
-
-    // Clear specific warnings when user modifies the corresponding field
     setWarnings((prevWarnings) => ({
       ...prevWarnings,
       [name]: "",
     }));
   };
 
-  // Handler for language selection
+  // Handle language selection
   const handleLanguageChange = (language) => {
     setLanguages((prevLanguages) =>
       prevLanguages.includes(language)
         ? prevLanguages.filter((lang) => lang !== language)
         : [...prevLanguages, language]
     );
-
-    // Clear language warning when languages are selected/deselected
     setWarnings((prevWarnings) => ({
       ...prevWarnings,
       language: "",
     }));
   };
 
-  // Handler for ReCAPTCHA
+  // Handle ReCAPTCHA token
   const handleRecaptcha = (token) => {
     setRecaptchaValue(token);
-    // After obtaining the token, proceed to submit the form
     submitForm(token);
   };
 
-  // Function to validate phone number using libphonenumber-js
+  // Validate phone number using libphonenumber-js
   const validatePhoneNumber = (value, countryCode) => {
     setPhone(value);
-
-    // Remove any non-digit characters
     const cleanedPhone = `+${value.replace(/\D/g, "")}`;
-
-    // Use the detected or selected country code
     const phoneNumberObj = parsePhoneNumberFromString(cleanedPhone, countryCode);
     const valid = phoneNumberObj ? phoneNumberObj.isValid() : false;
-
     setIsPhoneValid(valid);
-
-    // Update warnings based on validation
-    if (valid) {
-      setWarnings((prevWarnings) => ({
-        ...prevWarnings,
-        phone: "",
-      }));
-    } else {
-      setWarnings((prevWarnings) => ({
-        ...prevWarnings,
-        phone: t("contactpage.form.phoneInvalid"),
-      }));
-    }
+    setWarnings((prevWarnings) => ({
+      ...prevWarnings,
+      phone: valid ? "" : t("contactpage.form.phoneInvalid"),
+    }));
   };
 
-  // Function to validate email format using regex
+  // Validate email format
   const validateEmailFormat = (email) => {
-    // Simple regex for email validation
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(email);
   };
 
-  // Handler for email input changes
+  // Handle email input changes
   const handleEmailChange = (e) => {
     const { value } = e.target;
     setFormData((prevData) => ({
       ...prevData,
       email: value,
     }));
-    setIsEmailValid(validateEmailFormat(value));
-
-    // Update warnings based on validation
-    if (validateEmailFormat(value)) {
-      setWarnings((prevWarnings) => ({
-        ...prevWarnings,
-        email: "",
-      }));
-    } else {
-      setWarnings((prevWarnings) => ({
-        ...prevWarnings,
-        email: t("contactpage.form.emailInvalid"),
-      }));
-    }
+    const valid = validateEmailFormat(value);
+    setIsEmailValid(valid);
+    setWarnings((prevWarnings) => ({
+      ...prevWarnings,
+      email: valid ? "" : t("contactpage.form.emailInvalid"),
+    }));
   };
 
-  // Handler for form submission
+  // Form submission handler
   const handleFormSubmit = async (event) => {
     event.preventDefault();
-
-    // Reset form warnings
     setWarnings({
       phone: "",
       email: "",
@@ -188,10 +163,7 @@ export default function Contact() {
       privacyPolicy: "",
       formSubmit: "",
     });
-
     let hasError = false;
-
-    // Validate phone
     if (!isPhoneValid) {
       setWarnings((prevWarnings) => ({
         ...prevWarnings,
@@ -199,8 +171,6 @@ export default function Contact() {
       }));
       hasError = true;
     }
-
-    // Validate email
     if (!isEmailValid) {
       setWarnings((prevWarnings) => ({
         ...prevWarnings,
@@ -208,8 +178,6 @@ export default function Contact() {
       }));
       hasError = true;
     }
-
-    // Validate language preference
     if (languages.length === 0) {
       setWarnings((prevWarnings) => ({
         ...prevWarnings,
@@ -217,8 +185,6 @@ export default function Contact() {
       }));
       hasError = true;
     }
-
-    // Validate privacy policy acceptance
     if (!formData.privacyPolicy) {
       setWarnings((prevWarnings) => ({
         ...prevWarnings,
@@ -226,17 +192,13 @@ export default function Contact() {
       }));
       hasError = true;
     }
-
     if (hasError) return;
-
-    // Proceed with ReCAPTCHA verification
     if (recaptchaRef.current) {
       recaptchaRef.current.execute();
     }
-    // Removed the "ReCAPTCHA not available." alert as per your request
   };
 
-  // Function to handle form submission after ReCAPTCHA verification
+  // Submit the form data after ReCAPTCHA verification
   const submitForm = async (token) => {
     if (!isPhoneValid || !isEmailValid) {
       setWarnings((prevWarnings) => ({
@@ -245,7 +207,6 @@ export default function Contact() {
       }));
       return;
     }
-
     if (!token) {
       setWarnings((prevWarnings) => ({
         ...prevWarnings,
@@ -253,7 +214,6 @@ export default function Contact() {
       }));
       return;
     }
-
     if (languages.length === 0) {
       setWarnings((prevWarnings) => ({
         ...prevWarnings,
@@ -261,7 +221,6 @@ export default function Contact() {
       }));
       return;
     }
-
     if (!formData.privacyPolicy) {
       setWarnings((prevWarnings) => ({
         ...prevWarnings,
@@ -274,6 +233,7 @@ export default function Contact() {
       ? moment(appointmentDate).format("MMMM Do YYYY, h:mm a")
       : t("contactpage.form.noAppointment");
 
+    // Build lead details for your contact API
     const leadDetails = {
       name: formData.name,
       email: formData.email,
@@ -285,10 +245,11 @@ export default function Contact() {
       languages,
       acceptMarketing,
       recaptchaToken: token,
-      fingerprint,
+      fingerprint
     };
 
     try {
+      // 1. Submit contact form data
       const response = await fetch("/api/bize-ulasin", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -296,6 +257,35 @@ export default function Contact() {
       });
 
       if (response.ok) {
+        // 2. Trigger the Conversions API event after successful form submission
+        const conversionPayload = {
+          eventName: "Lead",
+          eventTime: Math.floor(Date.now() / 1000),
+          userData: {
+            email: formData.email,
+            phone,
+            // Pass fbc and fbp from cookies if available
+            fbc: getCookie("fbc"),
+            fbp: getCookie("fbp")
+          },
+          customData: {
+            project: formData.project,
+            unitType: formData.unitType
+          },
+          eventSourceUrl: window.location.href,
+          testEventCode: "TEST38507"
+        };
+
+        const convResponse = await fetch("/api/conversions", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(conversionPayload),
+        });
+
+        const convResult = await convResponse.json();
+        console.log("Conversions API response:", convResult);
+
+        // Redirect after success
         window.location.href = "/thank-you";
       } else {
         const errorData = await response.json();
@@ -335,11 +325,7 @@ export default function Contact() {
         <div className="w-full max-w-3xl bg-white dark:bg-gray-700 p-8 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out">
           <div className="w-full flex justify-center mb-6">
             {animationData ? (
-              <Lottie
-                animationData={animationData}
-                loop={true}
-                className="w-full max-w-md"
-              />
+              <Lottie animationData={animationData} loop={true} className="w-full max-w-md" />
             ) : (
               <div className="flex justify-center items-center h-64">
                 <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-blue-500"></div>
@@ -354,12 +340,8 @@ export default function Contact() {
           <form onSubmit={handleFormSubmit} className="relative">
             {/* Name and Email Fields */}
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-              {/* Name Field */}
               <div className="mb-4">
-                <label
-                  htmlFor="name"
-                  className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300"
-                >
+                <label htmlFor="name" className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300">
                   {t("contactpage.form.name")}
                 </label>
                 <input
@@ -373,13 +355,8 @@ export default function Contact() {
                   className="w-full p-2 border border-gray-300 rounded-md dark:bg-gray-600 dark:text-gray-300"
                 />
               </div>
-
-              {/* Email Field */}
               <div className="mb-4">
-                <label
-                  htmlFor="email"
-                  className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300"
-                >
+                <label htmlFor="email" className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300">
                   {t("contactpage.form.email")}
                 </label>
                 <input
@@ -387,45 +364,35 @@ export default function Contact() {
                   id="email"
                   name="email"
                   value={formData.email}
-                  onChange={handleEmailChange} // Updated handler
+                  onChange={handleEmailChange}
                   placeholder={t("contactpage.form.emailPlaceholder")}
                   required
                   className="w-full p-2 border border-gray-300 rounded-md dark:bg-gray-600 dark:text-gray-300"
                 />
-                {warnings.email && (
-                  <p className="text-red-500 text-sm mt-1">{warnings.email}</p>
-                )}
+                {warnings.email && <p className="text-red-500 text-sm mt-1">{warnings.email}</p>}
               </div>
             </div>
 
             {/* Phone Field */}
             <div className="mb-4">
-              <label
-                htmlFor="phone"
-                className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300"
-              >
+              <label htmlFor="phone" className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300">
                 {t("contactpage.form.phone")}
               </label>
               <PhoneInput
                 country={"tr"}
                 value={phone}
-                onChange={(value, country) => validatePhoneNumber(value, country.countryCode)} // Updated handler
+                onChange={(value, country) => validatePhoneNumber(value, country.countryCode)}
                 inputClass="w-full p-2 border border-gray-300 rounded-md dark:bg-gray-600 dark:text-gray-300"
                 enableSearch={true}
                 placeholder={t("contactpage.form.phonePlaceholder")}
                 required
               />
-              {warnings.phone && (
-                <p className="text-red-500 text-sm mt-1">{warnings.phone}</p>
-              )}
+              {warnings.phone && <p className="text-red-500 text-sm mt-1">{warnings.phone}</p>}
             </div>
 
             {/* Project Selection */}
             <div className="mb-4">
-              <label
-                htmlFor="project"
-                className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300"
-              >
+              <label htmlFor="project" className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300">
                 {t("contactpage.form.selectProject")}
               </label>
               <select
@@ -446,10 +413,7 @@ export default function Contact() {
 
             {/* Unit Type Selection */}
             <div className="mb-4">
-              <label
-                htmlFor="unitType"
-                className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300"
-              >
+              <label htmlFor="unitType" className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300">
                 {t("contactpage.form.unitType")}
               </label>
               <select
@@ -471,10 +435,7 @@ export default function Contact() {
 
             {/* Message Field */}
             <div className="mb-4">
-              <label
-                htmlFor="message"
-                className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300"
-              >
+              <label htmlFor="message" className="block text-lg font-semibold mb-2 text-gray-700 dark:text-gray-300">
                 {t("contactpage.form.messageLabel")}
               </label>
               <textarea
@@ -529,9 +490,7 @@ export default function Contact() {
                   🇦🇪 {t("contactpage.form.arabic")}
                 </button>
               </div>
-              {warnings.language && (
-                <p className="text-red-500 text-sm mt-1">{warnings.language}</p>
-              )}
+              {warnings.language && <p className="text-red-500 text-sm mt-1">{warnings.language}</p>}
             </div>
 
             {/* Appointment Checkbox */}
@@ -553,10 +512,7 @@ export default function Contact() {
             {/* Appointment Date Picker */}
             {isBooking && (
               <div className="mb-4 relative z-20">
-                <label
-                  htmlFor="appointment"
-                  className="block mb-2 text-lg font-semibold text-gray-700 dark:text-gray-300"
-                >
+                <label htmlFor="appointment" className="block mb-2 text-lg font-semibold text-gray-700 dark:text-gray-300">
                   {t("contactpage.form.appointmentLabel")}
                 </label>
                 <DatePicker
@@ -611,6 +567,7 @@ export default function Contact() {
                 </span>
               </label>
             </div>
+
             {/* Privacy Policy Checkbox */}
             <div className="mb-4">
               <label className="inline-flex items-center">
@@ -634,10 +591,9 @@ export default function Contact() {
                   </a>
                 </span>
               </label>
-              {warnings.privacyPolicy && (
-                <p className="text-red-500 text-sm mt-1">{warnings.privacyPolicy}</p>
-              )}
+              {warnings.privacyPolicy && <p className="text-red-500 text-sm mt-1">{warnings.privacyPolicy}</p>}
             </div>
+
             {/* Invisible ReCAPTCHA */}
             {recaptchaSiteKey && (
               <div className="hidden">
@@ -649,15 +605,8 @@ export default function Contact() {
                 />
               </div>
             )}
-            {/* ReCAPTCHA Warning */}
-            {warnings.recaptcha && (
-              <p className="text-red-500 text-sm mt-1">{warnings.recaptcha}</p>
-            )}
-
-            {/* Form Submission Warning */}
-            {warnings.formSubmit && (
-              <p className="text-red-500 text-sm mb-4">{warnings.formSubmit}</p>
-            )}
+            {warnings.recaptcha && <p className="text-red-500 text-sm mt-1">{warnings.recaptcha}</p>}
+            {warnings.formSubmit && <p className="text-red-500 text-sm mb-4">{warnings.formSubmit}</p>}
 
             {/* Submit Button */}
             <button
@@ -673,12 +622,9 @@ export default function Contact() {
       {/* Footer Section */}
       <div
         className="relative w-full h-96 bg-cover bg-center flex flex-col justify-center items-center z-10"
-        style={{
-          backgroundImage: "url('/assets/images/contact-bottom-graphic.webp')",
-        }}
+        style={{ backgroundImage: "url('/assets/images/contact-bottom-graphic.webp')" }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-60 z-20"></div>
-
         <div className="relative z-30 flex flex-col items-center p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out">
           <FaSmile className="text-yellow-300 text-4xl mb-4" />
           <h2 className="text-3xl font-bold text-white mb-2">

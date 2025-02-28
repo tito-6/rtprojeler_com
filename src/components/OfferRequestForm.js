@@ -6,6 +6,7 @@ import React, { useState } from "react";
 import { useRouter } from "next/router";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
+/* 
 import { FaGoogle, FaTwitter, FaFacebook, FaYahoo } from "react-icons/fa";
 import {
   auth,
@@ -15,9 +16,9 @@ import {
   yahooProvider,
 } from "@/lib/firebase";
 import { signInWithPopup } from "firebase/auth";
+*/
 import Link from "next/link";
 import { useTranslation } from "next-i18next";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { parsePhoneNumberFromString } from "libphonenumber-js"; // Importing from libphonenumber-js
 
 export default function OfferRequestForm({ selectedOffer }) {
@@ -33,22 +34,26 @@ export default function OfferRequestForm({ selectedOffer }) {
     privacyPolicy: false,
   });
 
+  /* 
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [isAuthInProgress, setIsAuthInProgress] = useState(false);
   const [authMethod, setAuthMethod] = useState("");
+  */
 
   // Unified warnings state
   const [warnings, setWarnings] = useState({
     privacyPolicy: "",
-    robot: "",
-    auth: "",
+    /* robot: "", */
+    /* auth: "", */
     clientMessage: "",
     email: "",
     phone: "",
     formSubmit: "",
   });
 
+  /* 
   const [isHumanCheckboxChecked, setIsHumanCheckboxChecked] = useState(false);
+  */
 
   // Email validation using regex
   const validateEmail = (email) => {
@@ -111,6 +116,7 @@ export default function OfferRequestForm({ selectedOffer }) {
     }
   };
 
+  /* 
   const handleAuth = async (provider, method) => {
     if (isAuthInProgress) return;
     setIsAuthInProgress(true);
@@ -134,6 +140,7 @@ export default function OfferRequestForm({ selectedOffer }) {
       setIsAuthInProgress(false);
     }
   };
+  */
 
   const handleFormSubmit = async (event) => {
     event.preventDefault();
@@ -141,8 +148,8 @@ export default function OfferRequestForm({ selectedOffer }) {
     // Reset form submission warnings
     setWarnings({
       privacyPolicy: "",
-      robot: "",
-      auth: "",
+      /* robot: "", */
+      /* auth: "", */
       clientMessage: "",
       email: "",
       phone: "",
@@ -160,6 +167,7 @@ export default function OfferRequestForm({ selectedOffer }) {
       hasError = true;
     }
 
+    /* 
     // Validate human checkbox
     if (!isHumanCheckboxChecked) {
       setWarnings((prevWarnings) => ({
@@ -177,6 +185,7 @@ export default function OfferRequestForm({ selectedOffer }) {
       }));
       hasError = true;
     }
+    */
 
     // Validate client message
     if (!formData.clientMessage) {
@@ -215,7 +224,7 @@ export default function OfferRequestForm({ selectedOffer }) {
       marketingMessages: formData.marketingMessages,
       offerDetails: selectedOffer, // Include selected offer details
       clientMessage: formData.clientMessage,
-      authMethod,
+      /* authMethod, */
     };
 
     try {
@@ -242,8 +251,12 @@ export default function OfferRequestForm({ selectedOffer }) {
         marketingMessages: false,
         privacyPolicy: false,
       });
+      /* 
       setIsAuthenticated(false);
+      */
+      /* 
       setIsHumanCheckboxChecked(false);
+      */
       router.push("/thank-you");
     } catch (error) {
       console.error("Form submission error:", error);
@@ -296,9 +309,16 @@ export default function OfferRequestForm({ selectedOffer }) {
             country="tr"
             value={formData.phone}
             onChange={handlePhoneChange} // Updated handler
-            inputStyle={{ width: "100%" }}
+            inputStyle={{
+              width: "100%",
+              color: "green", // Phone number text color
+              backgroundColor: "transparent", // Ensures it works well with both dark and light mode
+            }}
             enableSearch={true}
             required
+            containerStyle={{
+              borderColor: "green", // Border color for phone input
+            }}
           />
           {warnings.phone && <p className="text-red-500 text-sm">{warnings.phone}</p>}
         </div>
@@ -332,6 +352,7 @@ export default function OfferRequestForm({ selectedOffer }) {
         </div>
 
         {/* Human Verification Checkbox */}
+        {/*
         <div>
           <label className="inline-flex items-center">
             <input
@@ -350,6 +371,7 @@ export default function OfferRequestForm({ selectedOffer }) {
           </label>
           {warnings.robot && <p className="text-red-500 text-sm">{warnings.robot}</p>}
         </div>
+        */}
 
         {/* Privacy Policy Checkbox */}
         <div>
@@ -377,6 +399,7 @@ export default function OfferRequestForm({ selectedOffer }) {
         </div>
 
         {/* Social Authentication Buttons */}
+        {/*
         {isHumanCheckboxChecked && !isAuthenticated && (
           <div className="space-y-4 mt-4">
             <button
@@ -414,6 +437,7 @@ export default function OfferRequestForm({ selectedOffer }) {
           </div>
         )}
         {warnings.auth && <p className="text-red-500 text-sm mt-2">{warnings.auth}</p>}
+        */}
 
         {/* Submit Button */}
         <button

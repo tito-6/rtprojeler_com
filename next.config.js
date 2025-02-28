@@ -6,13 +6,13 @@ module.exports = {
   },
   reactStrictMode: true,
   images: {
-    domains: [''], // Add your Strapi server hostname here
+    domains: [''], 
   },
   webpack(config, { isServer }) {
     if (!isServer) {
       config.resolve.fallback = { 
         fs: false,
-        path: require.resolve('path-browserify') // Ensure path fallback is configured
+        path: require.resolve('path-browserify') 
       };
     }
     return config;

@@ -10,7 +10,7 @@ const SylvanaConstructionUpdateCharts = () => {
   const { t } = useTranslation("common");
 
   // Static progress percentage
-  const staticProgressPercentage = 29; // Set progress to 29%
+  const staticProgressPercentage = 41; // Set progress to 29%
   const projelertartDate = useMemo(() => new Date("2024-01-01").getTime(), []);
   const [radialChartData] = useState([staticProgressPercentage]); // Static radial chart data
   const [realTimeChartData] = useState([

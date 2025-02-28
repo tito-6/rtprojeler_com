@@ -135,18 +135,7 @@ const projelerPage = () => {
         <div className="py-6">
           <ArabianRanchesDocuments />
           <ArabianRanchesRenderImages />
-          <div className="text-center my-12">
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-              {t("projelerPage.arabianRanches.virtualTourTitle")}
-            </h3>
-            <iframe
-              className="w-full h-96 rounded-lg shadow-lg"
-              src="https://example.com/arabian-ranches-virtual-tour"
-              allowFullScreen
-              frameBorder="0"
-              title={t("projelerPage.arabianRanches.virtualTourTitle")}
-            ></iframe>
-          </div>
+          
         </div>
         <div className="text-center mt-6">
           <Link href="/projeler/arabian-ranches">

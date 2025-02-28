@@ -44,10 +44,10 @@ const ConstructionsUpdatePage = () => {
 
       if (locale === "ar") {
         // Arabic video
-        embedUrl = "https://www.youtube.com/embed/k909cKRPxg4";
+        embedUrl = "https://www.youtube.com/embed/dMyroYcQteM";
       } else {
         // Turkish video for all other languages
-        embedUrl = "https://www.youtube.com/embed/g56UVBKC5uU";
+        embedUrl = "https://www.youtube.com/embed/ACBQ-Xu55rs";
       }
 
       const fetchedVideos = [
